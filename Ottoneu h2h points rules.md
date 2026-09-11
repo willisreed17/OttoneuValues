@@ -15,10 +15,18 @@ This doc focuses on the **head-to-head points** format (FGPts or SABR points, H2
 
 ## Roster construction
 
+> ⚠️ **Per-league settings to pull before pricing a league.** The tool is an
+> engine for any Ottoneu points league, so anything in this list is an input
+> (`data/league.csv`), never a constant: number of teams, salary cap, roster
+> max, scoring system (FGPts/SABR), format (H2H vs season-long), **catcher
+> slots**, **whether the seasonal position games cap applies**, the weekly GS
+> cap, and the arbitration method and budget. Recorded values for the sample
+> league (1297) are marked inline below.
+
 - 40-man roster maximum, made up of an active roster and reserve spots.
 - 22 spots must be MLB players capable of filling the starting lineup; 18 additional reserve spots can hold major or minor leaguers.
 - Standard lineup (non-H2H): 1 C, 1 1B, 1 2B, 1 3B, 1 SS, 5 OF, 1 middle infield (2B/SS), 1 utility, 5 SP, 5 RP.
-- H2H regular season lineup: same as above, but **no fixed SP slots** — pitcher usage is governed by a "Per Week GS Cap" league setting instead (commonly ~14 starts/week; confirm per-league).
+- H2H regular season lineup: same as above, but **no fixed SP slots** — pitcher usage is governed by a weekly games-started cap of **10**, the same in every Ottoneu H2H points league (confirmed by the league owner 2026-09-10 — a rule, not a setting).
 - Playoff lineup: only 1 C slot, and either 2 SP slots or a customizable weekly GS cap.
 - Positional eligibility: a hitter qualifies at a position with 10+ MLB games there (current or prior year), OR 5+ MLB starts there, OR 20+ minor league games there. Pitchers qualify as SP with 5+ starts, as RP with 5+ relief appearances.
 - Two-way players occupy one roster spot and can be started as a hitter and a pitcher separately.
@@ -26,8 +34,21 @@ This doc focuses on the **head-to-head points** format (FGPts or SABR points, H2
 
 ### H2H-specific roster mechanics
 
-- Only **one catcher slot** in the lineup (vs. the two-catcher requirement in season-long formats) — this is deliberate, to stop teams from stacking catchers in favorable weekly matchups.
-- **No weekly cap on offensive games played**, but the standard **seasonal** games cap still applies per position player (see caps below) — you can still run out of eligible games before the season/playoffs end if you're not careful.
+- ⚠️ **Catcher slots are a LEAGUE SETTING — pull it per league, don't assume.**
+  H2H is commonly one catcher slot (vs. a two-catcher requirement in some
+  season-long formats), to stop teams stacking catchers in favourable weekly
+  matchups. But the 22-starter arithmetic on line 18 only closes with **one**
+  C (1+1+1+1+1+5+1+1+5+5 = 22), so the two-catcher claim and the standard
+  lineup above cannot both be right in general. Doubling C depth moves catcher
+  values more than any other lineup change, so this is not a detail.
+  **League 1297: 1 catcher slot.**
+- ⚠️ **The seasonal games cap is a LEAGUE SETTING — pull it per league.** There
+  is no weekly cap on offensive games played in H2H. Whether the *seasonal*
+  per-position-player cap applies is league-dependent, and the bullet under
+  "Games/innings caps" below says H2H has none — the two statements in this doc
+  contradicted each other until 2026-09-09. It matters: under a binding cap,
+  production above it is worth nothing, which compresses elite hitters and lifts
+  high-rate part-timers. **League 1297: no position cap.**
 - **No IP cap in H2H** (season-long formats have a 1,500 IP soft cap; H2H doesn't).
 - **Two-starts-per-day limit** for starting pitchers, specifically to prevent stacking a single dominant SP into extra starts.
 - SP lineup slots only accrue stats if the pitcher actually starts that day; RP slots only accrue stats when the pitcher appears out of the bullpen.
@@ -37,7 +58,9 @@ This doc focuses on the **head-to-head points** format (FGPts or SABR points, H2
 - Without playoffs: 162 games/position player (810 for OF, i.e., 5 OF slots x 162), 1,500 IP max for all pitchers (soft cap — stats still count the day the team crosses the limit), 1,250 IP minimum for Classic 4x4 (else 0 pitching points).
 - With playoffs: 135 games/position player (675 for OF), 1,250 IP max, 1,040 IP minimum for Classic 4x4.
 - Games caps are a **hard cap** (with a doubleheader exception); IP caps are a **soft cap**.
-- H2H/playoffs: no positional or IP caps; only the optional weekly SP GS cap applies.
+- H2H/playoffs: commonly no positional or IP caps, only the optional weekly SP
+  GS cap — but ⚠️ **confirm per league** (see the H2H roster mechanics above).
+  **League 1297: no position cap, 1 catcher slot.**
 
 ## Salary cap
 

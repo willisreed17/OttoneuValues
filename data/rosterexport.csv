@@ -1,0 +1,521 @@
+TeamID,"Team Name","ottoneu ID","FG MajorLeagueID","FG MinorLeagueID",Name,"MLB Team",Position(s),Salary
+8906,"Providence Grays",21052,18525,sa829000,"Dylan Cease",TOR,SP,$32
+8906,"Providence Grays",18466,13613,sa597026,"Ketel Marte",ARI,2B,$29
+8906,"Providence Grays",5680,5361,sa390291,"Freddie Freeman",LAD,1B,$27
+8906,"Providence Grays",18113,12768,sa455516,"Sonny Gray",BOS,SP,$26
+8906,"Providence Grays",14393,10603,sa392121,"Chris Sale",ATL,SP,$25
+8906,"Providence Grays",18236,14374,sa597835,"Tyler Glasnow",LAD,SP,$23
+8906,"Providence Grays",23767,19612,sa917949,"Bo Bichette",NYM,SS/3B,$21
+8906,"Providence Grays",33685,24617,sa3006786,"Jarren Duran",BOS,OF,$20
+8906,"Providence Grays",14294,10954,sa548447,"Jacob DeGrom",TEX,SP,$19
+8906,"Providence Grays",38736,27498,sa3015059,"Spencer Strider",ATL,SP,$15
+8906,"Providence Grays",35196,21390,sa3007584,"Joe Ryan","MIN ST",SP,$14
+8906,"Providence Grays",23831,20036,sa920275,"Isaac Paredes",HOU,1B/3B,$11
+8906,"Providence Grays",18407,15986,sa736655,"Willy Adames",SFG,SS,$9
+8906,"Providence Grays",38388,27467,sa3014489,"Tyler Soderstrom",ATH,1B/OF,$7
+8906,"Providence Grays",18465,15440,sa621603,"Matthew Boyd",CHC,SP,$6
+8906,"Providence Grays",18124,12856,sa526414,"George Springer",TOR,OF,$6
+8906,"Providence Grays",37480,26151,sa1115829,"Kyle Stowers",MIA,1B/OF,$5
+8906,"Providence Grays",18160,14162,sa657850,"Carlos Correa",HOU,SS/3B,$5
+8906,"Providence Grays",23833,19918,sa3002838,"Daulton Varsho",HOU,OF,$4
+8906,"Providence Grays",33612,24492,sa3008130,"Grayson Rodriguez",LAA,SP,$4
+8906,"Providence Grays",37942,26389,sa3011680,"DJ Herz",WSN,SP/RP,$4
+8906,"Providence Grays",23701,12447,sa599698,"Seth Lugo",KCR,SP,$3
+8906,"Providence Grays",35367,22543,sa3007839,"Taj Bradley",MIN,SP,$3
+8906,"Providence Grays",40854,30109,sa3017917,"Nate Lavender",NYM,RP,$2
+8906,"Providence Grays",42169,31370,sa3019868,"Jakob Marsee",MIA,OF,$2
+8906,"Providence Grays",37235,27581,sa3010617,"Hayden Wesneski",HOU,SP,$2
+8906,"Providence Grays",35677,21623,sa3008313,"Grant Wolfram",BAL,RP,$2
+8906,"Providence Grays",18364,17432,sa709602,"Jeff Hoffman",MIN,RP,$2
+8906,"Providence Grays",22527,20997,sa873313,"Eduard Bazardo",SEA,RP,$2
+8906,"Providence Grays",20291,19858,sa826671,"Luis Rengifo",SDP,2B/3B/OF,$2
+8906,"Providence Grays",18153,12564,sa597765,"Trevor Story",BOS,SS,$2
+8906,"Providence Grays",40520,29780,sa3017374,"Joe Mack",MIA,C,$2
+8906,"Providence Grays",41258,,sa3018507,"Jesús  Báez","STL AA",SS/3B,$1
+8906,"Providence Grays",45708,34979,sa3025168,"Christian Moore",LAA,2B/3B,$1
+8906,"Providence Grays",46280,,sa3041559,"Jonathan Santucci","NYM AAA",SP,$1
+8906,"Providence Grays",47646,,sa3030726,"Joseph Dzierwa","BAL AA",SP,$1
+8906,"Providence Grays",39400,29189,sa3015828,"Hector Rodriguez",CIN,OF,$1
+8906,"Providence Grays",44046,33312,sa3022603,"Brett Bateman",TOR,OF,$1
+8906,"Providence Grays",40472,29770,sa3017306,"Mason Montgomery",PIT,SP/RP,$1
+8906,"Providence Grays",39287,,sa3015715,"Manuel Pena","ARI AAA",1B/OF,$1
+8906,"Providence Grays",23660,19343,sa738675,"A.J. Puk",ARI,RP,$1
+8906,"Providence Grays",36808,21520,sa3009982,"Hogan Harris",ATH,RP,$1
+8906,"Providence Grays",34601,21454,sa3006649,"Lars Nootbaar",ARI,OF,$1
+8906,"Providence Grays",34583,24574,sa3006622,"Eduardo Valencia",DET,C/1B,$1
+8906,"Providence Grays",33049,20023,sa918679,"Rico Garcia",BAL,RP,$1
+8906,"Providence Grays",32576,19955,sa917933,"Gavin Lux",TBR,2B/3B/OF,$1
+8906,"Providence Grays",47899,,sa3044552,"Mitch Voit","NYM AA",2B/SS,$1
+8907,"Rock the Casasbah",23327,18401,sa877503,"Ronald Acuña Jr.",ATL,OF,$61
+8907,"Rock the Casasbah",18284,13510,sa598784,"José Ramírez",CLE,3B,$50
+8907,"Rock the Casasbah",44525,33825,sa3023345,"Yoshinobu Yamamoto",LAD,SP,$47
+8907,"Rock the Casasbah",18549,19611,sa920245,"Vladimir Guerrero Jr.",TOR,1B,$42
+8907,"Rock the Casasbah",43894,33677,sa3023079,"Paul Skenes",PIT,SP,$41
+8907,"Rock the Casasbah",18122,12916,sa597754,"Francisco Lindor",NYM,SS,$31
+8907,"Rock the Casasbah",14982,11579,sa548033,"Bryce Harper",PHI,1B/OF,$28
+8907,"Rock the Casasbah",14893,11477,sa548190,"Christian Yelich",MIL,OF,$26
+8907,"Rock the Casasbah",18164,13743,sa657860,"Max Fried",NYY,SP,$26
+8907,"Rock the Casasbah",18216,13624,sa657913,"Corey Seager",TEX,SS,$25
+8907,"Rock the Casasbah",19168,18679,sa737343,"Freddy Peralta",TBR,SP,$22
+8907,"Rock the Casasbah",18359,16137,sa598286,"Carlos Rodon",NYY,SP,$21
+8907,"Rock the Casasbah",18480,17678,sa659419,"Alex Bregman",CHC,3B,$17
+8907,"Rock the Casasbah",18196,14107,sa548347,"Kevin Gausman",CHC,SP,$16
+8907,"Rock the Casasbah",18391,14212,sa658473,"Josh Hader",HOU,RP,$13
+8907,"Rock the Casasbah",33647,21483,sa3008547,"Shane McClanahan",TBR,SP,$11
+8907,"Rock the Casasbah",22048,17548,sa858832,"Taylor Ward",SEA,OF,$11
+8907,"Rock the Casasbah",23813,19361,sa873673,"Corbin Burnes",ARI,SP,$7
+8907,"Rock the Casasbah",42712,31807,sa3020652,"Troy Melton",DET,SP/RP,$7
+8907,"Rock the Casasbah",38754,27867,sa3015086,"Cade Smith",CLE,RP,$7
+8907,"Rock the Casasbah",38374,27899,sa3014474,"Colt Keith",DET,1B/2B/3B,$6
+8907,"Rock the Casasbah",23693,16162,sa597893,"Brandon Woodruff",MIL,SP,$6
+8907,"Rock the Casasbah",23780,20043,sa3003396,"Luis Robert Jr.",BAL,OF,$5
+8907,"Rock the Casasbah",20989,17722,sa828803,"Trevor Megill",MIL,RP,$5
+8907,"Rock the Casasbah",20545,18568,sa828153,"Luis Arraez",PHI,1B/2B,$5
+8907,"Rock the Casasbah",40861,30113,sa3017933,"Chad Patrick",MIL,SP/RP,$4
+8907,"Rock the Casasbah",37427,26121,sa3010862,"Francisco Alvarez",NYM,C,$4
+8907,"Rock the Casasbah",34817,24598,sa3006910,"Addison Barger",TOR,3B/OF,$4
+8907,"Rock the Casasbah",21708,17338,sa830274,"Willi Castro",COL,1B/2B/SS/3B/OF,$3
+8907,"Rock the Casasbah",42765,31986,sa3020748,"Parker Messick",CLE,SP,$3
+8907,"Rock the Casasbah",42176,32127,sa3021053,"Chase DeLauter",CLE,OF,$3
+8907,"Rock the Casasbah",33669,21537,sa3007588,"Daniel Lynch IV",KCR,SP/RP,$3
+8907,"Rock the Casasbah",33622,21501,sa3008376,"Trevor Larnach",MIN,OF,$3
+8907,"Rock the Casasbah",23856,14551,sa659463,"Anthony Santander",TOR,OF,$2
+8907,"Rock the Casasbah",40748,30011,sa3017756,"Christian Encarnacion-Strand",BAL,1B/3B,$2
+8907,"Rock the Casasbah",38389,27790,sa3014490,"Evan Carter",TEX,OF,$2
+8907,"Rock the Casasbah",38328,27468,sa3014425,"Reid Detmers",LAA,SP/RP,$2
+8907,"Rock the Casasbah",37320,26031,sa3010711,"Vaughn Grissom",LAA,1B/2B/SS/3B,$2
+8907,"Rock the Casasbah",36769,25483,sa1169919,"Nick Sogard",BOS,1B/2B/SS/3B,$2
+8907,"Rock the Casasbah",38403,27572,sa3014505,"Carmen Mlodzinski",PIT,SP/RP,$1
+8907,"Rock the Casasbah",40807,30063,sa3017851,"Tristan Peters",CHW,OF,$1
+8907,"Rock the Casasbah",26134,22664,sa3003226,"Gabriel Moreno",ARI,C,$1
+8907,"Rock the Casasbah",33672,23550,sa3007225,"Aaron Ashby",MIL,RP,$1
+8907,"Rock the Casasbah",32804,20000,sa918346,"Tyler Wells",TBR,SP/RP,$1
+8918,"Chin Music Choir",38327,27769,sa3014458,"Pete Crow-Armstrong",CHC,OF,$14
+8918,"Chin Music Choir",31751,19853,sa874220,"Michael King",SDP,SP,$10
+8918,"Chin Music Choir",48239,37123,sa3063134,"Kazuma Okamoto",TOR,1B/3B,$10
+8918,"Chin Music Choir",27058,23772,sa3005082,"Wilyer Abreu",BOS,OF,$8
+8918,"Chin Music Choir",43895,33876,sa3023360,"Rhett Lowder",CIN,SP,$7
+8918,"Chin Music Choir",42310,31461,sa3020078,"Ben Joyce",LAA,RP,$7
+8918,"Chin Music Choir",26099,20599,sa3003191,"Ivan Herrera",STL,C,$7
+8918,"Chin Music Choir",18357,16149,sa599230,"Aaron Nola",PHI,SP,$7
+8918,"Chin Music Choir",38339,27889,sa3014428,"J.T. Ginn",ATH,SP/RP,$6
+8918,"Chin Music Choir",42146,31595,sa3019973,"Brooks Lee",MIN,2B/SS/3B,$6
+8918,"Chin Music Choir",40829,30091,sa3017880,"Andrew Painter",PHI,SP,$6
+8918,"Chin Music Choir",45790,35456,sa3045705,"Trey Yesavage",TOR,SP,$6
+8918,"Chin Music Choir",26570,19608,sa3004268,"Otto Lopez",MIA,2B/SS,$5
+8918,"Chin Music Choir",34132,24453,sa3005864,"Justin Martinez",ARI,RP,$5
+8918,"Chin Music Choir",35725,23986,sa3008392,"Curtis Mead",BOS,1B/2B/3B,$5
+8918,"Chin Music Choir",38398,27815,sa3014499,"Jordan Westburg",BAL,2B/3B,$5
+8918,"Chin Music Choir",45018,,sa3023987,"Rainiel Rodriguez","STL AA",C/1B,$5
+8918,"Chin Music Choir",13335,13164,sa548722,"Eduardo Rodriguez",ARI,SP,$4
+8918,"Chin Music Choir",31505,21306,sa829008,"Jacob Latz",TEX,SP/RP,$4
+8918,"Chin Music Choir",43949,33549,sa3022886,"Kyle Teel",CHW,C,$4
+8918,"Chin Music Choir",44003,33266,sa3022538,"Jacob Wilson",ATH,SS,$4
+8918,"Chin Music Choir",42728,31967,sa3020678,"Drew Thorpe",CHW,SP/RP,$3
+8918,"Chin Music Choir",45715,,sa3025257,"Charlie Condon","COL AAA",1B/OF,$3
+8918,"Chin Music Choir",40972,30182,sa3018149,"Will Warren",NYY,SP,$3
+8918,"Chin Music Choir",44336,33703,sa3023053,"Nolan McLean",NYM,SP,$3
+8918,"Chin Music Choir",38320,27465,sa3014504,"Spencer Torkelson",DET,1B,$3
+8918,"Chin Music Choir",18375,16944,sa828669,"Grant Holmes",ATL,SP,$3
+8918,"Chin Music Choir",18380,16918,sa599729,"Luke Weaver",PIT,RP,$3
+8918,"Chin Music Choir",37635,28080,sa3014696,"Jasson Dominguez",NYY,OF,$3
+8918,"Chin Music Choir",23672,20039,sa969093,"Adrian Morejon",SDP,RP,$3
+8918,"Chin Music Choir",33684,20387,sa738470,"Anthony Kay",CHW,SP,$3
+8918,"Chin Music Choir",46343,,sa3067674,"Elian Peña","NYM A+",SS,$2
+8918,"Chin Music Choir",45947,35177,sa3025452,"Carson Benge",NYM,OF,$2
+8918,"Chin Music Choir",31703,19470,sa873704,"Tommy Edman",LAD,2B/3B/OF,$2
+8918,"Chin Music Choir",43129,,sa3021208,"Eduardo Quintero","LAD A+",OF,$2
+8918,"Chin Music Choir",38314,27490,sa3014510,"Nick Gonzales",PIT,2B/SS/3B,$2
+8918,"Chin Music Choir",47914,,sa3045282,"Dixon Williams","ATL AA",1B/2B/OF,$1
+8918,"Chin Music Choir",47657,,sa3031366,"Andrew Fischer","MIL AA",1B/3B,$1
+8918,"Chin Music Choir",47555,,sa3069247,"Seth Hernandez","PIT A+",SP,$1
+8918,"Chin Music Choir",42716,,sa3020659,"Karson Milbrandt","MIA AAA",SP,$1
+8918,"Chin Music Choir",40147,29596,sa3017022,"Joshua Baez",STL,OF,$1
+8918,"Chin Music Choir",34921,21622,sa3007015,"Jake McCarthy",COL,OF,$1
+8918,"Chin Music Choir",44918,,sa3023887,"Emil Morales","LAD A+",SS,$1
+8921,"Iron ",33625,23697,sa3005720,"Julio Rodriguez",SEA,OF,$45
+8921,"Iron ",36671,25436,sa3011526,"George Kirby",SEA,SP,$23
+8921,"Iron ",41042,30279,sa3018290,"Bryan Woo",SEA,SP,$22
+8921,"Iron ",36509,25976,sa3010694,"Riley Greene",DET,OF,$15
+8921,"Iron ",40862,31757,sa3017934,"Mason Miller",SDP,RP,$14
+8921,"Iron ",22655,18839,sa874243,"Josh Naylor",SEA,1B,$13
+8921,"Iron ",40550,29837,sa3017414,"Bryce Miller",SEA,SP,$13
+8921,"Iron ",47553,37238,sa3026056,"Kade Anderson",SEA,SP/RP,$12
+8921,"Iron ",34788,22542,sa3006873,"Lawrence Butler",ATH,OF,$9
+8921,"Iron ",33949,24816,sa3005625,"Andy Pages",LAD,OF,$9
+8921,"Iron ",22668,18383,sa874715,"Michael Soroka",ARI,SP/RP,$8
+8921,"Iron ",42582,31680,sa3020459,"Cole Young",SEA,2B/SS,$8
+8921,"Iron ",38315,27470,sa3014456,"Emerson Hancock",SEA,SP/RP,$7
+8921,"Iron ",44274,33568,sa3022951,"Brandyn Garcia",ARI,RP,$7
+8921,"Iron ",42299,31448,sa3020006,"Henry Bolte",ATH,OF,$7
+8921,"Iron ",42416,31912,sa3020219,"Chandler Simpson",TBR,OF,$7
+8921,"Iron ",42312,31475,sa3020080,"Logan Henderson",MIL,SP,$7
+8921,"Iron ",18786,17085,sa736473,"Pablo Lopez",MIN,SP,$6
+8921,"Iron ",37649,26221,sa3011244,"Ryan Pepiot",TBR,SP,$6
+8921,"Iron ",32611,19716,sa917992,"Dustin May",MIL,SP,$6
+8921,"Iron ",40456,29766,sa3017286,"Zack Gelof",ATH,2B/3B/OF,$5
+8921,"Iron ",40155,30146,sa3018053,"Jack Leiter",TEX,SP,$5
+8921,"Iron ",41342,,sa3018591,"Josue De Paula","LAD AA",OF,$5
+8921,"Iron ",19649,16530,sa738378,"Mauricio Dubon",ATL,2B/SS/3B/OF,$5
+8921,"Iron ",42719,31872,sa3020860,"Cade Horton",CHC,SP,$4
+8921,"Iron ",27185,20191,sa3005306,"Garrett Whitlock",BOS,RP,$4
+8921,"Iron ",31438,20253,sa738570,"Griffin Jax",TBR,SP/RP,$4
+8921,"Iron ",23796,20437,sa3004259,"Royce Lewis",MIN,1B/2B/3B,$4
+8921,"Iron ",35808,24968,sa3008513,"Reese Olson",DET,SP,$4
+8921,"Iron ",41160,30361,sa3018409,"Lazaro Montes",SEA,OF,$3
+8921,"Iron ",44248,33575,sa3022923,"Colt Emerson",SEA,SS/3B,$3
+8921,"Iron ",45771,,sa3025565,"Theo Gillen","TBR AA",OF,$3
+8921,"Iron ",45990,,sa3028930,"Jurrangelo Cijntje","STL AAA",SP,$3
+8921,"Iron ",37234,25756,sa3010616,"Matt Brash",SEA,RP,$3
+8921,"Iron ",41419,30375,sa3018808,"Jarlin Susana","WSN AA",SP,$3
+8921,"Iron ",20900,16609,sa828588,"Bryan Abreu",HOU,RP,$3
+8921,"Iron ",44223,33572,sa3022895,"Kevin McGonigle",DET,SS/3B,$2
+8921,"Iron ",44804,,sa3023757,"Justin Gonzales","BOS AA",OF,$2
+8921,"Iron ",47653,,sa3031104,"Anthony Eyanson","BAL AA",SP,$2
+8921,"Iron ",44424,33760,sa3023171,"Matt Wilkinson",SFG,SP/RP,$2
+8921,"Iron ",42727,32051,sa3020881,"Ethan Salas",SDP,C,$2
+8921,"Iron ",38366,27475,sa3014464,"Jordan Walker",STL,OF,$2
+8921,"Iron ",25866,22630,sa3002956,"Keider Montero",DET,SP/RP,$2
+8921,"Iron ",36539,26944,sa3009613,"Edgardo Henriquez",LAD,RP,$2
+8921,"Iron ",47938,,sa3059552,"Caden Hunter","BAL AA",SP,$2
+8921,"Iron ",46358,,sa3067131,"Ryan Sloan","SEA AA",SP,$1
+8921,"Iron ",37622,25420,sa3011217,"Ryan Zeferjahn",CHC,RP,$1
+8932,"Sweet Spot",23795,19556,sa943524,"Yordan Alvarez",HOU,OF,$52
+8932,"Sweet Spot",35204,22267,sa3007593,"Tarik Skubal",LAD,SP,$44
+8932,"Sweet Spot",36338,26668,sa3009289,"Elly De La Cruz",CIN,SS,$35
+8932,"Sweet Spot",21015,17995,sa828873,"Logan Webb",SFG,SP,$34
+8932,"Sweet Spot",23859,19251,sa873981,"Pete Alonso",BAL,1B,$27
+8932,"Sweet Spot",15962,10310,sa500722,"Zack Wheeler",PHI,SP,$25
+8932,"Sweet Spot",22426,17295,sa873146,"Framber Valdez",DET,SP,$22
+8932,"Sweet Spot",38312,27463,,"Garrett Crochet",BOS,SP,$20
+8932,"Sweet Spot",6305,10155,sa500736,"Mike Trout",LAA,OF,$17
+8932,"Sweet Spot",36922,25768,sa3010152,"CJ Abrams",WSN,SS,$17
+8932,"Sweet Spot",19328,15998,sa737794,"Cody Bellinger",NYY,OF,$15
+8932,"Sweet Spot",23840,19290,sa914549,"Randy Arozarena",SEA,OF,$14
+8932,"Sweet Spot",23794,22264,sa3004765,"Shane Baz",BAL,SP,$11
+8932,"Sweet Spot",18397,16556,sa830219,"Ozzie Albies",ATL,2B,$10
+8932,"Sweet Spot",38307,27474,sa3014430,"Max Meyer",MIA,SP,$9
+8932,"Sweet Spot",37295,25931,sa3010684,"Michael Harris II",ATL,OF,$8
+8932,"Sweet Spot",33670,23796,sa3008436,"Ryan Weathers",NYY,SP,$7
+8932,"Sweet Spot",27148,23335,sa3005246,"Joey Cantillo",CLE,SP/RP,$5
+8932,"Sweet Spot",45064,,sa3024108,"Jesus Made","MIL AA",SS,$4
+8932,"Sweet Spot",42221,31539,sa3019920,"Drake Baldwin",ATL,C,$4
+8932,"Sweet Spot",33634,22186,sa3008294,"Brice Turang",MIL,2B,$4
+8932,"Sweet Spot",33325,21690,sa920423,"Edward Cabrera","CHC AAA",SP,$4
+8932,"Sweet Spot",32966,21224,sa918555,"Bailey Ober",MIN,SP,$4
+8932,"Sweet Spot",5201,4949,sa390316,"Giancarlo Stanton",NYY,OF,$4
+8932,"Sweet Spot",22651,18138,sa874172,"Ryan Helsley",BAL,RP,$4
+8932,"Sweet Spot",33611,22294,sa3008163,"Matthew Liberatore",STL,SP/RP,$3
+8932,"Sweet Spot",42723,31838,,"Kodai Senga",NYM,SP/RP,$3
+8932,"Sweet Spot",40607,29911,sa3017529,"Andrew Abbott",CIN,SP,$3
+8932,"Sweet Spot",19394,14771,sa737885,"Emilio Pagan",CIN,RP,$3
+8932,"Sweet Spot",13117,12161,sa550735,"Xander Bogaerts",SDP,SS,$2
+8932,"Sweet Spot",40298,29622,sa3017047,"Sal Frelick",MIL,OF,$2
+8932,"Sweet Spot",26915,23401,sa3004817,"Jose Caballero",NYY,2B/SS/3B/OF,$2
+8932,"Sweet Spot",20670,19600,sa828304,"Bryan De La Cruz",PHI,OF,$1
+8932,"Sweet Spot",42717,31614,sa3020661,"Gabriel Hughes",COL,SP,$1
+8932,"Sweet Spot",32051,21992,sa916835,"Camilo Doval",PIT,RP,$1
+8932,"Sweet Spot",34565,23985,sa3006594,"Osleivis Basabe",SFG,2B/SS/3B,$1
+8932,"Sweet Spot",18389,13419,sa503826,"Christian Walker",HOU,1B,$1
+8932,"Sweet Spot",38428,27494,sa3014536,"Clayton Beeter",WSN,RP,$1
+8932,"Sweet Spot",18414,12572,sa549672,"Blake Treinen",LAD,RP,$1
+8932,"Sweet Spot",35181,24729,sa3007519,"Logan O'Hoppe",TEX,C,$1
+8932,"Sweet Spot",21170,16122,sa829155,"Jordan Romano",COL,RP,$1
+8932,"Sweet Spot",19575,17735,sa738285,"Tyler Alexander",TEX,SP/RP,$1
+8932,"Sweet Spot",37786,26299,sa3011468,"Josh Jung",TEX,3B,$1
+8938,"Peel A Section",18312,15640,sa549847,"Aaron Judge",NYY,OF,$66
+8938,"Peel A Section",37182,25878,sa3010593,"Corbin Carroll",ARI,OF,$31
+8938,"Peel A Section",18276,13611,sa597889,"Mookie Betts",LAD,SS,$28
+8938,"Peel A Section",18344,17350,sa828312,"Rafael Devers",SFG,1B,$27
+8938,"Peel A Section",39108,28163,sa3015532,"Junior Caminero",TBR,3B,$22
+8938,"Peel A Section",43896,33333,sa3022654,"Wyatt Langford",TEX,OF,$16
+8938,"Peel A Section",22391,20503,sa872847,"William Contreras",MIL,C,$15
+8938,"Peel A Section",37257,26288,sa3011643,"Adley Rutschman",BOS,C,$14
+8938,"Peel A Section",42156,31347,sa3019855,"Zach Neto",LAA,SS,$12
+8938,"Peel A Section",33627,21479,sa3007867,"Nico Hoerner",CHC,2B/SS,$11
+8938,"Peel A Section",45706,35333,sa3028086,"Chase Burns",CIN,SP/RP,$10
+8938,"Peel A Section",36686,26378,sa917947,"Nick Lodolo",CIN,SP,$10
+8938,"Peel A Section",44524,33824,sa3012640,"Jung Hoo Lee",SFG,OF,$8
+8938,"Peel A Section",35874,24586,sa3008605,"Kyle Bradish",BAL,SP,$7
+8938,"Peel A Section",36669,25816,sa3010329,"Shea Langeliers",ATH,C,$7
+8938,"Peel A Section",33616,20492,sa3008444,"Casey Mize",SDP,SP,$7
+8938,"Peel A Section",37797,26368,sa3011642,"JJ Bleday",CIN,OF,$6
+8938,"Peel A Section",44039,33253,sa3022596,"Cole Carrigg",COL,SS/OF,$6
+8938,"Peel A Section",34804,20178,sa3006896,"Miguel Vargas",CHW,1B/3B,$5
+8938,"Peel A Section",38383,27577,sa3014484,"Casey Schmitt",SFG,1B/2B/3B/OF,$5
+8938,"Peel A Section",33767,23920,sa3005436,"Brayan Bello",BOS,SP/RP,$4
+8938,"Peel A Section",38378,28312,sa3014479,"Coby Mayo",BAL,1B/3B,$4
+8938,"Peel A Section",38409,27932,sa3014512,"Ian Seymour",TBR,SP/RP,$4
+8938,"Peel A Section",40552,29839,sa3017416,"Emmet Sheehan","LAD AAA",SP,$3
+8938,"Peel A Section",18449,12730,sa599574,"Nick Martinez",TBR,SP/RP,$3
+8938,"Peel A Section",18487,16997,sa830372,"Gleyber Torres",DET,2B,$3
+8938,"Peel A Section",42304,31580,sa3020011,"Chase Meidroth",CHW,2B/SS,$3
+8938,"Peel A Section",19136,19677,sa737262,"Gregory Soto",PIT,RP,$3
+8938,"Peel A Section",35928,21626,sa876060,"Griffin Conine",MIA,1B/OF,$3
+8938,"Peel A Section",47549,,sa3069164,"Eli Willits","WSN A+",SS,$2
+8938,"Peel A Section",43569,,sa3021845,"Franklin Arias","BOS AAA",SS,$2
+8938,"Peel A Section",45884,35101,sa3025363,"Sam Antonacci",CHW,2B/3B/OF,$2
+8938,"Peel A Section",40948,30145,sa3018113,"Dylan Smith",SFG,RP,$2
+8938,"Peel A Section",44554,33851,sa3023407,"Quinn Mathews",STL,SP,$2
+8938,"Peel A Section",32719,19996,sa918185,"Dylan Lee",ATL,RP,$1
+8938,"Peel A Section",35696,25098,sa3008338,"Jacob Lopez",ATH,SP,$1
+8938,"Peel A Section",36825,25679,sa3009999,"Kevin Kelly",TBR,RP,$1
+8938,"Peel A Section",44630,33891,sa3023505,"Zach Thornton",NYM,SP,$1
+8938,"Peel A Section",38093,27702,sa3011887,"Brent Headrick",NYY,RP,$1
+8938,"Peel A Section",38352,27814,sa3014447,"Shane Drohan",MIL,SP/RP,$1
+8938,"Peel A Section",38412,27779,sa3014515,"Bryce Elder",ATL,SP,$1
+8938,"Peel A Section",49806,,sa3077867,"Grady Emerson","TBR A",Util,$1
+8949,Knowznothin,18546,18345,sa874240,"Kyle Tucker",LAD,OF,$47
+8949,Knowznothin,18368,16252,sa599179,"Trea Turner",PHI,SS,$30
+8949,Knowznothin,23810,22201,sa3005068,"MacKenzie Gore",TEX,SP,$23
+8949,Knowznothin,23732,15689,sa657487,"Luis Castillo",CHW,SP,$21
+8949,Knowznothin,20920,17479,sa828681,"Jack Flaherty","DET AAA",SP,$13
+8949,Knowznothin,44515,33666,sa3023308,"Connelly Early",WSN,SP,$11
+8949,Knowznothin,23625,21846,sa917938,"Cole Ragans",KCR,SP,$10
+8949,Knowznothin,18255,13301,sa503373,"Max Muncy",LAD,3B,$8
+8949,Knowznothin,40262,29712,sa3017170,"Colson Montgomery",CHW,SS/3B,$7
+8949,Knowznothin,5644,10233,sa523977,"Aroldis Chapman",BOS,RP,$7
+8949,Knowznothin,45709,34967,sa3025129,"Travis Bazzana",CLE,2B,$7
+8949,Knowznothin,40714,29995,sa3017698,"Daylen Lile",WSN,OF,$6
+8949,Knowznothin,44147,33390,sa3022757,"Bryce Eldridge",SFG,1B,$6
+8949,Knowznothin,38308,27464,sa3014528,"Dillon Dingler",DET,C,$6
+8949,Knowznothin,42991,,sa3021069,"Sebastian Walcott","TEX AA",SS,$6
+8949,Knowznothin,40820,30076,sa3017869,"Landen Roupp",SFG,SP,$5
+8949,Knowznothin,27162,23733,sa3005271,"Ezequiel Duran",TEX,1B/2B/SS/3B/OF,$5
+8949,Knowznothin,42266,31532,sa3019969,"Spencer Jones",NYY,OF,$5
+8949,Knowznothin,18504,19374,sa658292,"Walker Buehler",SDP,SP,$5
+8949,Knowznothin,42279,31695,sa3019983,"Dylan Beavers",BAL,OF,$5
+8949,Knowznothin,20917,16432,sa828674,"Foster Griffin",CLE,SP,$5
+8949,Knowznothin,18459,16943,sa709548,"Sean Newcomb",CHW,SP/RP,$5
+8949,Knowznothin,40870,30107,sa3017948,"Christian Scott",NYM,SP,$4
+8949,Knowznothin,43966,33322,sa3022615,"Matt Shaw",CHC,2B/3B/OF,$4
+8949,Knowznothin,42711,31623,sa3020644,"Jacob Misiorowski",MIL,SP,$4
+8949,Knowznothin,42193,31382,sa3019892,"Dalton Rushing",LAD,C,$3
+8949,Knowznothin,46099,,sa3067675,"Josuar Gonzalez","SFG A",SS,$3
+8949,Knowznothin,16191,13324,sa504705,"Ildemaro Vargas",ARI,1B/2B/3B,$3
+8949,Knowznothin,44639,,sa3023515,"Brody Hopkins","TBR AAA",SP/RP,$3
+8949,Knowznothin,35487,20572,sa3008002,"Kody Clemens",MIN,1B/2B/OF,$3
+8949,Knowznothin,42538,31760,sa3020395,"JR Ritchie","ATL AAA",SP/RP,$2
+8949,Knowznothin,42754,31959,sa3020737,"Jake Bennett",BOS,SP,$2
+8949,Knowznothin,42428,31791,sa3020240,"Justin Crawford",PHI,OF,$2
+8949,Knowznothin,41265,30675,sa3018514,"Luis Lara",MIL,OF,$2
+8949,Knowznothin,21075,17586,sa829027,"Tanner Scott",LAD,RP,$2
+8949,Knowznothin,19904,15541,sa739036,"Tyler Rogers",TOR,RP,$2
+8949,Knowznothin,8147,6902,sa455689,"Martin Perez",ATL,SP,$2
+8949,Knowznothin,23809,22275,sa915698,"Jake Burger",TEX,1B,$1
+8949,Knowznothin,40496,29805,sa3017330,"TJ Rumfield",COL,1B,$1
+8949,Knowznothin,23757,15488,sa657576,"Antonio Senzatela",MIL,SP/RP,$1
+8949,Knowznothin,47552,,sa3069100,"Ethan Holliday","COL A",SS,$1
+8951,"The Northsiders",18460,13543,sa597786,"Blake Snell",LAD,SP,$22
+8951,"The Northsiders",40188,29518,sa3016870,"James Wood",WSN,OF,$20
+8951,"The Northsiders",5918,5417,sa455591,"Jose Altuve",HOU,2B/OF,$18
+8951,"The Northsiders",45716,35110,sa3025385,"Nick Kurtz",ATH,1B,$17
+8951,"The Northsiders",23601,14710,sa657938,"Edwin Diaz","LAD AAA",RP,$13
+8951,"The Northsiders",12398,11609,sa508176,"Willson Contreras",BOS,1B,$12
+8951,"The Northsiders",35824,24610,sa3008536,"Steven Kwan",CLE,OF,$12
+8951,"The Northsiders",19398,15454,sa737889,"Nick Pivetta",SDP,SP,$10
+8951,"The Northsiders",31194,17277,sa659551,"Ranger Suarez",BOS,SP,$9
+8951,"The Northsiders",26198,22799,sa3003290,"Geraldo Perdomo",ARI,SS,$9
+8951,"The Northsiders",34619,24679,sa3006675,"Brendan Donovan",SEA,2B/SS/3B/OF,$9
+8951,"The Northsiders",20732,18684,sa828383,"Sandy Alcantara",MIA,SP,$9
+8951,"The Northsiders",37216,26323,sa3010586,"Spencer Steer",CIN,1B/2B/OF,$8
+8951,"The Northsiders",40505,29478,sa3017339,"Carter Jensen",KCR,C,$7
+8951,"The Northsiders",14941,11486,sa549085,"Robbie Ray",SDP,SP,$7
+8951,"The Northsiders",33620,25377,sa3008613,"Brady Singer",CIN,SP,$6
+8951,"The Northsiders",38313,27770,sa3014516,"Zac Veen",COL,OF,$5
+8951,"The Northsiders",35602,25327,sa3008177,"Abner Uribe",MIL,RP,$4
+8951,"The Northsiders",38325,27555,sa3014438,"Garrett Mitchell",MIL,OF,$4
+8951,"The Northsiders",26154,22715,sa3003246,"Maikel Garcia",KCR,2B/SS/3B/OF,$4
+8951,"The Northsiders",45903,35121,sa3025386,"Joshua Kuroda-Grauer",ATH,2B/SS/3B,$4
+8951,"The Northsiders",18171,14078,sa621625,"Michael Wacha",KCR,SP,$4
+8951,"The Northsiders",21315,19274,sa829328,"Jacob Webb",CHC,RP,$4
+8951,"The Northsiders",44052,,sa3022609,"Aidan Miller","PHI A",SS,$4
+8951,"The Northsiders",23790,13649,sa598167,"Clay Holmes",CHC,SP,$4
+8951,"The Northsiders",18116,13125,sa454389,"Gerrit Cole",NYY,SP,$4
+8951,"The Northsiders",20421,17897,sa827423,"Garrett Cleavinger",TBR,RP,$3
+8951,"The Northsiders",40964,30140,sa3018141,"Ty Madden","DET AAA",SP/RP,$3
+8951,"The Northsiders",40389,29715,sa3017173,"Hunter Goodman",COL,C,$3
+8951,"The Northsiders",4970,10061,sa501562,"Brooks Raley",PHI,RP,$3
+8951,"The Northsiders",38699,27782,sa3014983,"Brandon Pfaadt",ARI,SP/RP,$3
+8951,"The Northsiders",46289,,sa3042374,"Mike Sirota","LAD AA",OF,$2
+8951,"The Northsiders",37700,26252,sa3011336,"Erik Miller",BOS,RP,$2
+8951,"The Northsiders",39279,28811,sa3015706,"Angel Genao",CLE,2B/SS/3B,$1
+8951,"The Northsiders",12379,9777,sa500816,"Nolan Arenado",ARI,3B,$1
+8951,"The Northsiders",19520,17170,sa738213,"Gabe Speier",SEA,RP,$1
+8951,"The Northsiders",44202,33530,sa3022867,"Cooper Pratt",MIL,SS,$1
+8951,"The Northsiders",22676,17969,sa874771,"Peter Lambert",HOU,SP,$1
+8951,"The Northsiders",41322,,sa3018571,"Jefferson Rojas","NYM AA",2B/SS/3B,$1
+8951,"The Northsiders",40648,29869,sa3017598,"Michael McGreevy",STL,SP,$1
+8951,"The Northsiders",35675,21448,sa3008311,"Davis Martin",CHW,SP,$1
+8951,"The Northsiders",35300,23789,sa3007742,"Blaze Alexander",BAL,2B/SS/3B/OF,$1
+8951,"The Northsiders",40214,29539,sa3016926,"Abimelec Ortiz",WSN,1B/OF,$1
+8955,"Barreled Souls",18386,14344,sa657863,"Matt Olson",ATL,1B,$34
+8955,"Barreled Souls",33682,22250,sa3008598,"Logan Gilbert",SEA,SP,$32
+8955,"Barreled Souls",18126,12927,sa597760,"Brandon Nimmo",TEX,OF,$19
+8955,"Barreled Souls",42737,31846,sa3020703,"Spencer Schwellenbach",ATL,SP,$18
+8955,"Barreled Souls",40927,30116,sa3018052,"Seiya Suzuki",CHC,OF,$17
+8955,"Barreled Souls",46310,35466,sa3043900,"Payton Tolle",BOS,SP,$13
+8955,"Barreled Souls",40371,29695,sa3017154,"Matt McLain",CIN,2B/SS,$12
+8955,"Barreled Souls",42741,31893,sa3020707,"Robby Snelling",MIA,SP/RP,$12
+8955,"Barreled Souls",23651,13066,sa596861,"Teoscar Hernandez",LAD,OF,$11
+8955,"Barreled Souls",38316,28199,sa3014537,"Blaze Jordan",STL,1B/3B,$10
+8955,"Barreled Souls",31741,18882,sa874181,"Brandon Lowe",PIT,2B,$10
+8955,"Barreled Souls",44286,33656,sa3022963,"A.J. Ewing",NYM,OF,$9
+8955,"Barreled Souls",38334,27473,sa3014421,"Cade Cavalli",WSN,SP,$9
+8955,"Barreled Souls",46091,35323,sa3025686,"Roki Sasaki",LAD,SP,$9
+8955,"Barreled Souls",35566,21455,sa3008128,"Kris Bubic",LAD,SP,$9
+8955,"Barreled Souls",18422,17130,sa830702,"Raisel Iglesias",ATL,RP,$9
+8955,"Barreled Souls",9668,12552,sa505033,"Eugenio Suarez",CIN,3B,$8
+8955,"Barreled Souls",38410,27758,sa3014513,"Kyle Harrison",MIL,SP/RP,$8
+8955,"Barreled Souls",23825,19326,sa873683,"Bryan Reynolds",PIT,OF,$8
+8955,"Barreled Souls",37531,26294,sa3011443,"Bryson Stott",PHI,2B/SS/3B,$8
+8955,"Barreled Souls",40941,30122,sa3018106,"Gavin Williams",CLE,SP,$7
+8955,"Barreled Souls",40615,29921,sa3017537,"Spencer Arrighetti",TOR,SP,$7
+8955,"Barreled Souls",26807,23301,sa3004659,"Janson Junk",MIA,SP/RP,$6
+8955,"Barreled Souls",31572,19901,sa829797,"Gavin Sheets",SDP,1B/OF,$5
+8955,"Barreled Souls",18272,15491,sa737507,"J.P. Crawford",SEA,SS/3B,$5
+8955,"Barreled Souls",40255,29576,sa3016974,"Ben Rice",NYY,C/1B,$5
+8955,"Barreled Souls",35776,23793,sa3008470,"Braxton Ashcraft",PIT,SP/RP,$4
+8955,"Barreled Souls",42873,32056,sa3020949,"Noah Schultz","CHW AAA",SP,$4
+8955,"Barreled Souls",45739,35423,sa3038253,"Braden Montgomery",CHW,OF,$3
+8955,"Barreled Souls",37469,26197,sa3011226,"Andrew Vaughn",MIL,1B/3B,$3
+8955,"Barreled Souls",41452,30661,sa3018841,"Didier Fuentes",ATL,SP/RP,$3
+8955,"Barreled Souls",40937,30184,sa3018097,"Noah Cameron",KCR,SP,$3
+8955,"Barreled Souls",33216,21662,sa919291,"Elvis Alvarado",ATH,RP,$3
+8955,"Barreled Souls",35532,25007,sa3008070,"Alex Vesia",LAD,RP,$3
+8955,"Barreled Souls",32492,21924,sa917772,"Juan Morillo",ARI,RP,$2
+8955,"Barreled Souls",33679,19899,sa3007582,"Clarke Schmidt",NYY,SP,$2
+8955,"Barreled Souls",45789,35061,sa3025261,"Ryan Waldschmidt",ARI,OF,$2
+8955,"Barreled Souls",47610,,sa3029229,"Brandon Compton","MIA AAA",OF,$2
+8955,"Barreled Souls",26531,20348,sa3004210,"Riley O'Brien",STL,RP,$1
+8955,"Barreled Souls",45862,,sa3025333,"James Tibbs III","LAD AAA",1B/OF,$1
+8955,"Barreled Souls",26384,20116,sa3004013,"Calvin Faucher",MIA,RP,$1
+8955,"Barreled Souls",42621,,sa3020498,"Xavier Isaac","TBR AAA",1B,$1
+8955,"Barreled Souls",47467,,sa3068835,"Alexander Frias","STL A",OF,$1
+8955,"Barreled Souls",33650,23690,sa3005898,"Brayan Rocchio",CLE,2B/SS,$1
+8957,"Seiya Prayer For My Team",22674,18360,sa874756,"Austin Riley",ATL,3B,$20
+8957,"Seiya Prayer For My Team",44526,33829,sa3023346,"Shota Imanaga",CHC,SP,$17
+8957,"Seiya Prayer For My Team",42126,31781,sa3020241,"Jackson Holliday",BAL,2B/SS,$16
+8957,"Seiya Prayer For My Team",38559,27768,sa3014807,"Eury Perez",MIA,SP,$16
+8957,"Seiya Prayer For My Team",32291,21711,sa917318,"Oneil Cruz",PIT,OF,$13
+8957,"Seiya Prayer For My Team",45714,35108,sa3025358,"Cam Smith",HOU,OF,$13
+8957,"Seiya Prayer For My Team",33259,20373,sa919548,"Andres Munoz",SEA,RP,$11
+8957,"Seiya Prayer For My Team",38361,27863,sa3014459,"Jared Jones",PIT,SP,$10
+8957,"Seiya Prayer For My Team",45769,35376,sa3065496,"Konnor Griffin",PIT,SS,$9
+8957,"Seiya Prayer For My Team",42409,31812,sa3020211,"Roman Anthony",BOS,OF,$9
+8957,"Seiya Prayer For My Team",40260,29976,sa3017662,"Jordan Lawlar",ARI,2B/SS/3B/OF,$8
+8957,"Seiya Prayer For My Team",43950,33541,sa3022882,"Dylan Crews",WSN,OF,$8
+8957,"Seiya Prayer For My Team",43893,33381,sa3022683,"Max Clark",DET,OF,$8
+8957,"Seiya Prayer For My Team",38781,27914,sa3015122,"Daniel Palencia",CHC,RP,$7
+8957,"Seiya Prayer For My Team",23793,19627,sa3003172,"Brent Rooker",ATH,OF,$7
+8957,"Seiya Prayer For My Team",38367,27496,sa3014465,"Owen Caissie",MIA,OF,$6
+8957,"Seiya Prayer For My Team",45720,35041,sa3025245,"Jac Caglianone",KCR,1B/OF,$6
+8957,"Seiya Prayer For My Team",46221,35418,sa3034986,"Gage Jump",ATH,SP,$6
+8957,"Seiya Prayer For My Team",21039,17312,sa828960,"Justin Steele",CHC,RP,$6
+8957,"Seiya Prayer For My Team",33217,21837,sa919293,"Jonathan Aranda",TBR,1B,$6
+8957,"Seiya Prayer For My Team",43988,33571,sa3022894,"Walker Jenkins",MIN,OF,$5
+8957,"Seiya Prayer For My Team",45713,34985,sa3025154,"JJ Wetherholt",STL,2B/SS,$5
+8957,"Seiya Prayer For My Team",40564,29868,sa3017428,"Bubba Chandler",PIT,SP,$5
+8957,"Seiya Prayer For My Team",40398,29646,sa3017183,"Caleb Durbin",BOS,2B/3B,$5
+8957,"Seiya Prayer For My Team",40095,29668,sa3017114,"Marcelo Mayer",SFG,2B/SS/3B,$5
+8957,"Seiya Prayer For My Team",39288,28824,sa3015716,"Samuel Basallo",BAL,C/1B,$5
+8957,"Seiya Prayer For My Team",18462,12970,sa597766,"Joe Musgrove",SDP,RP,$5
+8957,"Seiya Prayer For My Team",22078,30115,sa869798,"Robert Suarez",ATL,RP,$5
+8957,"Seiya Prayer For My Team",44057,33321,sa3022614,"Luke Keaschall",MIN,2B/OF,$5
+8957,"Seiya Prayer For My Team",45721,35205,sa3025544,"Hagen Smith",CHW,SP/RP,$4
+8957,"Seiya Prayer For My Team",42653,31827,sa3020570,"Zebby Matthews",MIN,SP,$4
+8957,"Seiya Prayer For My Team",40097,30203,sa3018054,"Jackson Jobe",DET,SP,$4
+8957,"Seiya Prayer For My Team",36325,26546,sa3009276,"Agustin Ramirez",MIA,C,$4
+8957,"Seiya Prayer For My Team",44114,,sa3022703,"Zyhir Hope","DET AA",OF,$3
+8957,"Seiya Prayer For My Team",44470,33433,sa3023233,"George Lombard Jr.",NYY,SS,$3
+8957,"Seiya Prayer For My Team",44539,,sa3023363,"Leo De Vries","ATH AA",SS,$3
+8957,"Seiya Prayer For My Team",33954,24878,sa3005630,"Heriberto Hernandez",MIA,OF,$2
+8957,"Seiya Prayer For My Team",45881,35111,sa3025360,"Kaelen Culpepper",MIN,SS,$2
+8957,"Seiya Prayer For My Team",47533,,sa3030545,"Liam Doyle","STL AA",SP,$2
+8957,"Seiya Prayer For My Team",44975,,sa3023944,"Edward Florentino","PIT A+",OF,$2
+8957,"Seiya Prayer For My Team",41865,,sa3019390,"Carlos Lagrange","NYY AAA",SP/RP,$1
+8957,"Seiya Prayer For My Team",42110,31843,sa3020827,"Kumar Rocker",TEX,SP,$1
+8957,"Seiya Prayer For My Team",46397,,sa3067043,"Caleb Bonemer","CHW AA",SS/3B,$1
+8957,"Seiya Prayer For My Team",37007,25648,sa3010309,"Justin Slaten",BOS,RP,$1
+8965,"Twin Pines 🌲🌲",33600,19755,,"Shohei Ohtani",LAD,Util/SP,$71
+8965,"Twin Pines 🌲🌲",23717,20123,sa906282,"Juan Soto",NYM,OF,$61
+8965,"Twin Pines 🌲🌲",37806,26289,sa3011484,"Gunnar Henderson",BAL,SS,$43
+8965,"Twin Pines 🌲🌲",18347,16478,sa709545,"Kyle Schwarber",PHI,1B/OF,$35
+8965,"Twin Pines 🌲🌲",23762,20454,sa919327,"Jazz Chisholm Jr.",NYY,2B/3B,$23
+8965,"Twin Pines 🌲🌲",18479,17919,sa827194,"Ian Happ",CHC,OF,$16
+8965,"Twin Pines 🌲🌲",20975,20778,sa828749,"Cristopher Sanchez",PHI,SP,$15
+8965,"Twin Pines 🌲🌲",48240,37120,sa3063258,"Munetaka Murakami",CHW,1B/3B,$13
+8965,"Twin Pines 🌲🌲",22559,21029,sa873347,"Jhoan Duran",PHI,RP,$12
+8965,"Twin Pines 🌲🌲",40142,29490,sa3016829,"Jackson Merrill",SDP,OF,$10
+8965,"Twin Pines 🌲🌲",18163,14161,sa657851,"Byron Buxton",MIN,OF,$10
+8965,"Twin Pines 🌲🌲",37841,26319,sa3011540,"Michael Busch",CHC,1B,$8
+8965,"Twin Pines 🌲🌲",35922,25385,sa829799,"Drew Rasmussen",TBR,SP,$7
+8965,"Twin Pines 🌲🌲",38368,27615,sa3014466,"Alec Burleson",STL,1B/OF,$6
+8965,"Twin Pines 🌲🌲",33645,22266,sa3007018,"Xavier Edwards",MIA,2B/SS,$6
+8965,"Twin Pines 🌲🌲",31541,20302,sa829588,"David Peterson",CHC,SP/RP,$5
+8965,"Twin Pines 🌲🌲",44544,33927,sa3023634,"Grant Taylor",CHW,SP/RP,$5
+8965,"Twin Pines 🌲🌲",42358,31505,sa3020130,"Sal Stewart",CIN,1B/2B/3B,$5
+8965,"Twin Pines 🌲🌲",42794,31857,sa3020808,"Connor Prielipp",MIN,SP,$5
+8965,"Twin Pines 🌲🌲",35440,24719,sa3007933,"Randy Vasquez",SDP,SP/RP,$5
+8965,"Twin Pines 🌲🌲",38661,27819,sa3014926,"Brandon Young",BAL,SP,$4
+8965,"Twin Pines 🌲🌲",23792,20220,sa3004837,"Jo Adell",CLE,OF,$4
+8965,"Twin Pines 🌲🌲",40541,29844,sa3017400,"Liam Hicks",TBR,C/1B,$3
+8965,"Twin Pines 🌲🌲",23639,19956,sa917920,"Mickey Moniak",COL,OF,$3
+8965,"Twin Pines 🌲🌲",21156,16442,sa829141,"Ryan O'Hearn",PIT,1B/OF,$3
+8965,"Twin Pines 🌲🌲",19422,16358,sa737914,"Tyler Mahle",ATL,SP,$2
+8965,"Twin Pines 🌲🌲",33548,20391,sa962605,"Luis García Jr.",NYY,1B/2B,$2
+8965,"Twin Pines 🌲🌲",40568,29878,sa3017461,"Sean Burke",CHW,SP/RP,$1
+8965,"Twin Pines 🌲🌲",41050,29357,sa3018298,"Walbert Urena",LAA,SP/RP,$1
+8965,"Twin Pines 🌲🌲",42598,31621,sa3020475,"Spencer Miles",TOR,SP/RP,$1
+8965,"Twin Pines 🌲🌲",39557,29107,sa3016035,"Bradgley Rodriguez",SDP,RP,$1
+8965,"Twin Pines 🌲🌲",40609,29914,sa3017531,"Andrew Alvarez",WSN,SP/RP,$1
+8965,"Twin Pines 🌲🌲",37239,25636,sa3010621,"Hunter Gaddis",CLE,RP,$1
+8965,"Twin Pines 🌲🌲",35030,24763,sa3007241,"Kyle Leahy",STL,SP/RP,$1
+8965,"Twin Pines 🌲🌲",34879,24607,sa3006973,"Jonathan Bowlan",PHI,RP,$1
+8965,"Twin Pines 🌲🌲",33652,24618,sa3007051,"Ryan Jeffers",MIN,C,$1
+8965,"Twin Pines 🌲🌲",30725,20827,sa658475,"Michael Petersen",MIA,RP,$1
+8965,"Twin Pines 🌲🌲",27723,11861,sa548332,"Jason Adam",SDP,RP,$1
+8965,"Twin Pines 🌲🌲",26800,22872,sa3004650,"Yoendrys Gomez",MIN,SP/RP,$1
+8965,"Twin Pines 🌲🌲",23311,17480,sa877364,"Daniel Duarte",NYM,SP/RP,$1
+8965,"Twin Pines 🌲🌲",18522,15194,sa737848,"Jake Bauers",MIL,1B/OF/RP,$1
+8967,"Bloom's Onions",36668,25764,sa3011225,"Bobby Witt Jr.",KCR,SS,$56
+8967,"Bloom's Onions",23682,19709,sa919910,"Fernando Tatis Jr.",SDP,2B/OF,$48
+8967,"Bloom's Onions",14934,11493,sa548155,"Manny Machado",SDP,3B,$30
+8967,"Bloom's Onions",39277,28806,sa3015704,"Jackson Chourio",MIL,OF,$24
+8967,"Bloom's Onions",23741,19959,sa917981,"Jesus Luzardo",PHI,SP,$17
+8967,"Bloom's Onions",37201,25880,sa3010571,"Hunter Brown",HOU,SP,$17
+8967,"Bloom's Onions",40978,30134,sa3018170,"Tanner Bibee",CLE,SP,$14
+8967,"Bloom's Onions",33654,21534,sa3008377,"Cal Raleigh",SEA,C,$14
+8967,"Bloom's Onions",18517,16578,sa823741,"Yandy Diaz",TBR,1B,$12
+8967,"Bloom's Onions",23834,22515,sa3004693,"Heliot Ramos",NYY,OF,$10
+8967,"Bloom's Onions",23654,19197,sa873265,"Will Smith",LAD,C,$9
+8967,"Bloom's Onions",31951,19569,sa915715,"David Bednar",NYY,RP,$8
+8967,"Bloom's Onions",35939,21636,sa876320,"Jeremy Pena",HOU,SS,$8
+8967,"Bloom's Onions",43841,32157,sa3022324,"Jonah Tong","NYM AAA",SP,$7
+8967,"Bloom's Onions",32009,22100,sa916702,"Jose Soriano",TOR,SP,$7
+8967,"Bloom's Onions",39406,29218,sa3015834,"Pedro Ramirez",CHC,2B/3B,$6
+8967,"Bloom's Onions",27074,23590,sa3005122,"Ben Brown",CHC,SP/RP,$5
+8967,"Bloom's Onions",43589,32095,sa3021981,"Cam Schlittler",NYY,SP,$5
+8967,"Bloom's Onions",38780,24978,sa3015121,"Erik Sabrowski",CLE,RP,$5
+8967,"Bloom's Onions",33607,22286,sa3005423,"Trevor Rogers",BAL,SP,$5
+8967,"Bloom's Onions",40707,29960,sa3017690,"AJ Smith-Shawver",ATL,SP,$4
+8967,"Bloom's Onions",37091,26477,sa1115496,"Spencer Horwitz",PIT,1B,$4
+8967,"Bloom's Onions",33907,24262,sa3005581,"Ceddanne Rafaela",BOS,2B/OF,$4
+8967,"Bloom's Onions",33609,21618,sa3007284,"Alec Bohm",PHI,1B/3B,$4
+8967,"Bloom's Onions",18547,18564,sa874246,"Trent Grisham",NYY,OF,$4
+8967,"Bloom's Onions",18421,13580,sa550187,"Steven Okert",HOU,RP,$3
+8967,"Bloom's Onions",37202,27691,sa3010572,"Louis Varland",TOR,RP,$3
+8967,"Bloom's Onions",30833,15130,sa658613,"Drew Anderson",DET,SP/RP,$3
+8967,"Bloom's Onions",36046,26540,sa3008762,"Angel Martinez",CLE,2B/OF,$2
+8967,"Bloom's Onions",39340,29005,sa3015768,"Esmerlyn Valdez",PIT,OF,$2
+8967,"Bloom's Onions",38456,,sa3014693,"Emmanuel Rodriguez","MIN AAA",OF,$2
+8967,"Bloom's Onions",31958,20352,sa915732,"Ernie Clement",TOR,1B/2B/SS/3B,$2
+8967,"Bloom's Onions",31488,19804,sa739000,"Bryan Baker",TBR,RP,$1
+8967,"Bloom's Onions",44310,,sa3023013,"Ralphy Velazquez","CLE AAA",1B/OF,$1
+8967,"Bloom's Onions",18257,15873,sa709610,"Sean Manaea",NYM,SP/RP,$1
+8967,"Bloom's Onions",42850,32026,sa3020885,"Drew Sommers",DET,RP,$1
+8967,"Bloom's Onions",41926,31204,sa3019501,"Justin Wrobleski",LAD,SP/RP,$1
+8967,"Bloom's Onions",37536,26438,sa1115890,"Dominic Canzone",SEA,OF,$1
+8967,"Bloom's Onions",23868,20202,sa917944,"Brandon Marsh",PHI,OF,$1
+8967,"Bloom's Onions",27207,22581,sa3005337,"Alejandro Kirk",TOR,C,$1
+8967,"Bloom's Onions",47596,,sa3028360,"Cam Cannarella","MIA AAA",OF,$1

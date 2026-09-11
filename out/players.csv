@@ -1,0 +1,1123 @@
+playerid,name,mlb,pos,vpos,age,pts,par,base_value,league_value,salary,surplus,arb,keeper_salary,keeper_surplus,keeper_npv,cut_gain,owner
+19755,Shohei Ohtani,LAD,Util/SP,SP,31,1710.6,1107.3,115,,71.0,44.0,8,81.0,34.0,1.7,-80.0,Twin Pines 🌲🌲
+15640,Aaron Judge,NYY,OF,OF,34,1130.1,658.3,69,,66.0,3.0,1,69.0,0.0,0.0,-36.0,Peel A Section
+20123,Juan Soto,NYM,OF,OF,27,1038.2,566.4,60,,61.0,-1.0,0,63.0,-3.0,0.0,-30.0,Twin Pines 🌲🌲
+18401,Ronald Acuña Jr.,ATL,OF,OF,28,1045.7,573.9,60,,61.0,-1.0,0,63.0,-3.0,0.0,-30.0,Rock the Casasbah
+22267,Tarik Skubal,LAD,SP,SP,29,1153.6,574.3,60,,44.0,16.0,4,50.0,10.0,0.0,-38.0,Sweet Spot
+33677,Paul Skenes,PIT,SP,SP,24,1100.4,523.4,55,,41.0,14.0,3,46.0,9.0,0.0,-35.0,Rock the Casasbah
+27463,Garrett Crochet,BOS,SP,SP,27,1093.7,517.0,54,,20.0,34.0,8,30.0,24.0,7.3,-44.0,Sweet Spot
+19709,Fernando Tatis Jr.,SDP,2B/OF,OF,27,913.3,441.5,47,,48.0,-1.0,0,50.0,-3.0,0.0,-23.0,Bloom's Onions
+19556,Yordan Alvarez,HOU,OF,OF,29,918.3,446.5,47,,52.0,-5.0,0,54.0,-7.0,0.0,-21.0,Sweet Spot
+19611,Vladimir Guerrero Jr.,TOR,1B,1B,27,1007.7,437.7,46,,42.0,4.0,1,45.0,1.0,0.0,-25.0,Rock the Casasbah
+25878,Corbin Carroll,ARI,OF,OF,25,888.4,416.6,44,,31.0,13.0,3,36.0,8.0,4.4,-29.0,Peel A Section
+16478,Kyle Schwarber,PHI,1B/OF,OF,33,885.2,413.4,44,,35.0,9.0,2,39.0,5.0,0.0,-27.0,Twin Pines 🌲🌲
+20778,Cristopher Sánchez,PHI,SP,SP,29,976.0,404.3,43,,15.0,28.0,5,22.0,21.0,6.9,-36.0,Twin Pines 🌲🌲
+17995,Logan Webb,SFG,SP,SP,29,974.1,402.5,43,,34.0,9.0,2,38.0,5.0,0.0,-26.0,Sweet Spot
+25764,Bobby Witt Jr.,KCR,SS,SS,26,952.8,391.8,42,,56.0,-14.0,0,58.0,-16.0,0.0,-14.0,Bloom's Onions
+11579,Bryce Harper,PHI,1B/OF,OF,33,871.0,399.2,42,,28.0,14.0,3,33.0,9.0,0.0,-28.0,Rock the Casasbah
+26289,Gunnar Henderson,BAL,SS,SS,25,952.6,391.6,41,,43.0,-2.0,0,45.0,-4.0,0.0,-20.0,Twin Pines 🌲🌲
+23697,Julio Rodríguez,SEA,OF,OF,25,857.0,385.2,41,,45.0,-4.0,0,47.0,-6.0,0.0,-19.0,Iron 
+18345,Kyle Tucker,LAD,OF,OF,29,837.6,365.8,39,,47.0,-8.0,0,49.0,-10.0,0.0,-16.0,Knowznothin
+29518,James Wood,WSN,OF,OF,23,825.3,353.5,38,,20.0,18.0,4,26.0,12.0,7.2,-28.0,The Northsiders
+10603,Chris Sale,ATL,SP,SP,37,918.2,349.0,37,,25.0,12.0,3,30.0,7.0,0.0,-25.0,Providence Grays
+35110,Nick Kurtz,ATH,1B,1B,23,907.6,337.6,36,,17.0,19.0,4,23.0,13.0,8.5,-28.0,The Northsiders
+19627,Brent Rooker,ATH,OF,OF,31,811.0,339.2,36,,7.0,29.0,7,16.0,20.0,5.6,-33.0,Seiya Prayer For My Team
+5361,Freddie Freeman,LAD,1B,1B,36,902.9,332.9,35,,27.0,8.0,2,31.0,4.0,0.0,-22.0,Providence Grays
+21846,Cole Ragans,KCR,SP,SP,28,893.1,325.0,35,,10.0,25.0,6,18.0,17.0,5.3,-30.0,Knowznothin
+30279,Bryan Woo,SEA,SP,SP,26,901.6,333.1,35,,22.0,13.0,3,27.0,8.0,0.3,-24.0,Iron 
+21534,Cal Raleigh,SEA,C,C,29,830.0,314.6,34,,14.0,20.0,5,21.0,13.0,5.6,-27.0,Bloom's Onions
+13613,Ketel Marte,ARI,2B,2B,32,858.6,322.3,34,,29.0,5.0,1,32.0,2.0,0.0,-20.0,Providence Grays
+17295,Framber Valdez,DET,SP,SP,32,883.2,315.5,34,,22.0,12.0,3,27.0,7.0,0.0,-23.0,Sweet Spot
+13743,Max Fried,NYY,SP,SP,32,884.3,316.6,34,,26.0,8.0,2,30.0,4.0,0.0,-21.0,Rock the Casasbah
+13510,José Ramírez,CLE,3B,3B,33,871.3,310.3,33,,50.0,-17.0,0,52.0,-19.0,0.0,-8.0,Rock the Casasbah
+14344,Matt Olson,ATL,1B,1B,32,875.5,305.5,33,,34.0,-1.0,0,36.0,-3.0,0.0,-16.0,Barreled Souls
+12856,George Springer,TOR,OF,OF,36,778.8,307.0,33,,6.0,27.0,6,14.0,19.0,2.5,-30.0,Providence Grays
+10954,Jacob deGrom,TEX,SP,SP,38,873.0,305.8,33,,19.0,14.0,3,24.0,9.0,0.0,-24.0,Providence Grays
+18525,Dylan Cease,TOR,SP,SP,30,876.5,309.1,33,,32.0,1.0,0,34.0,-1.0,0.0,-17.0,Providence Grays
+19251,Pete Alonso,BAL,1B,1B,31,874.6,304.6,32,,27.0,5.0,1,30.0,2.0,0.0,-19.0,Sweet Spot
+12927,Brandon Nimmo,TEX,OF,OF,33,767.8,296.0,32,,19.0,13.0,3,24.0,8.0,0.0,-23.0,Barreled Souls
+25880,Hunter Brown,HOU,SP,SP,27,870.3,303.2,32,,17.0,15.0,3,22.0,10.0,1.6,-24.0,Bloom's Onions
+28806,Jackson Chourio,MIL,OF,OF,22,760.8,289.0,31,,24.0,7.0,2,28.0,3.0,1.1,-19.0,Bloom's Onions
+12768,Sonny Gray,BOS,SP,SP,36,854.5,288.1,31,,26.0,5.0,1,29.0,2.0,0.0,-18.0,Providence Grays
+19959,Jesús Luzardo,PHI,SP,SP,28,850.1,283.8,30,,17.0,13.0,3,22.0,8.0,0.8,-22.0,Bloom's Onions
+26668,Elly De La Cruz,CIN,SS,SS,24,828.0,267.0,29,,35.0,-6.0,0,37.0,-8.0,0.0,-12.0,Sweet Spot
+25976,Riley Greene,DET,OF,OF,25,739.2,267.4,29,,15.0,14.0,3,20.0,9.0,5.2,-22.0,Iron 
+17919,Ian Happ,CHC,OF,OF,31,739.3,267.5,29,,16.0,13.0,2,20.0,9.0,0.4,-21.0,Twin Pines 🌲🌲
+25436,George Kirby,SEA,SP,SP,28,840.0,274.2,29,,23.0,6.0,1,26.0,3.0,0.0,-18.0,Iron 
+12916,Francisco Lindor,NYM,SS,SS,32,822.1,261.1,28,,31.0,-3.0,0,33.0,-5.0,0.0,-13.0,Rock the Casasbah
+28163,Junior Caminero,TBR,3B,3B,22,821.7,260.7,28,,22.0,6.0,1,25.0,3.0,1.2,-17.0,Peel A Section
+22715,Maikel Garcia,KCR,2B/SS/3B/OF,OF,26,737.0,265.2,28,,4.0,24.0,5,11.0,17.0,10.3,-26.0,The Northsiders
+33333,Wyatt Langford,TEX,OF,OF,24,733.8,262.0,28,,16.0,12.0,3,21.0,7.0,4.1,-20.0,Peel A Section
+22250,Logan Gilbert,SEA,SP,SP,29,824.7,259.5,28,,32.0,-4.0,0,34.0,-6.0,0.0,-12.0,Barreled Souls
+29490,Jackson Merrill,SDP,OF,OF,23,723.0,251.2,27,,10.0,17.0,3,15.0,12.0,8.2,-22.0,Twin Pines 🌲🌲
+15998,Cody Bellinger,NYY,OF,OF,30,720.3,248.5,27,,15.0,12.0,3,20.0,7.0,0.0,-20.0,Sweet Spot
+17548,Taylor Ward,SEA,OF,OF,32,722.8,251.0,27,,11.0,16.0,4,17.0,10.0,1.3,-22.0,Rock the Casasbah
+20503,William Contreras,MIL,C,C,28,758.9,243.5,26,,15.0,11.0,3,20.0,6.0,2.3,-19.0,Peel A Section
+27769,Pete Crow-Armstrong,CHC,OF,OF,24,710.7,238.9,26,,14.0,12.0,3,19.0,7.0,3.8,-19.0,Chin Music Choir
+17350,Rafael Devers,SFG,1B,1B,29,814.4,244.4,26,,27.0,-1.0,0,29.0,-3.0,0.0,-13.0,Peel A Section
+16578,Yandy Díaz,TBR,1B,1B,34,814.1,244.1,26,,12.0,14.0,3,17.0,9.0,0.0,-20.0,Bloom's Onions
+19290,Randy Arozarena,SEA,OF,OF,31,710.9,239.1,26,,14.0,12.0,3,19.0,7.0,0.0,-19.0,Sweet Spot
+10310,Zack Wheeler,PHI,SP,SP,36,808.2,243.7,26,,25.0,1.0,0,27.0,-1.0,0.0,-14.0,Sweet Spot
+13611,Mookie Betts,LAD,SS,SS,33,795.9,234.9,25,,28.0,-3.0,0,30.0,-5.0,0.0,-11.0,Peel A Section
+5417,Jose Altuve,HOU,2B/OF,OF,36,705.2,233.4,25,,18.0,7.0,1,21.0,4.0,0.0,-16.0,The Northsiders
+9132,Nathan Eovaldi,TEX,SP,SP,36,795.7,231.8,25,,,,,,,,,FA
+21390,Joe Ryan,MIN,SP,SP,30,797.7,233.7,25,,14.0,11.0,3,19.0,6.0,0.1,-18.0,Providence Grays
+17678,Alex Bregman,CHC,3B,3B,32,781.4,220.4,24,,17.0,7.0,2,21.0,3.0,0.0,-16.0,Rock the Casasbah
+24617,Jarren Duran,BOS,OF,OF,29,698.8,227.0,24,,20.0,4.0,1,23.0,1.0,0.0,-14.0,Providence Grays
+19326,Bryan Reynolds,PIT,OF,OF,31,690.4,218.6,24,,8.0,16.0,4,14.0,10.0,1.6,-20.0,Barreled Souls
+14107,Kevin Gausman,CHC,SP,SP,35,788.9,225.3,24,,16.0,8.0,2,20.0,4.0,0.0,-16.0,Rock the Casasbah
+25385,Drew Rasmussen,TBR,SP,SP,30,774.3,211.3,23,,7.0,16.0,3,12.0,11.0,2.8,-20.0,Twin Pines 🌲🌲
+16252,Trea Turner,PHI,SS,SS,33,760.2,199.2,22,,30.0,-8.0,0,32.0,-10.0,0.0,-7.0,Knowznothin
+18360,Austin Riley,ATL,3B,3B,29,765.3,204.3,22,,20.0,2.0,0,22.0,0.0,0.0,-12.0,Seiya Prayer For My Team
+22100,José Soriano,TOR,SP,SP,27,763.9,201.4,22,,7.0,15.0,3,12.0,10.0,2.8,-19.0,Bloom's Onions
+31347,Zach Neto,LAA,SS,SS,25,752.7,191.7,21,,12.0,9.0,2,16.0,5.0,2.6,-15.0,Peel A Section
+11493,Manny Machado,SDP,3B,3B,33,751.9,190.9,21,,30.0,-9.0,0,32.0,-11.0,0.0,-6.0,Bloom's Onions
+16997,Gleyber Torres,DET,2B,2B,29,733.5,197.2,21,,3.0,18.0,4,9.0,12.0,6.9,-20.0,Peel A Section
+24610,Steven Kwan,CLE,OF,OF,28,662.1,190.3,21,,12.0,9.0,2,16.0,5.0,1.7,-15.0,The Northsiders
+31812,Roman Anthony,BOS,OF,OF,22,660.4,188.6,21,,9.0,12.0,3,14.0,7.0,3.8,-17.0,Seiya Prayer For My Team
+27615,Alec Burleson,STL,1B/OF,OF,27,669.3,197.5,21,,6.0,15.0,3,11.0,10.0,5.2,-18.0,Twin Pines 🌲🌲
+13066,Teoscar Hernández,LAD,OF,OF,33,663.3,191.5,21,,11.0,10.0,2,15.0,6.0,0.1,-16.0,Barreled Souls
+16149,Aaron Nola,PHI,SP,SP,33,758.2,195.9,21,,7.0,14.0,3,12.0,9.0,2.1,-18.0,Chin Music Choir
+18679,Freddy Peralta,TBR,SP,SP,30,758.2,195.9,21,,22.0,-1.0,0,24.0,-3.0,0.0,-10.0,Rock the Casasbah
+15454,Nick Pivetta,SDP,SP,SP,33,756.9,194.7,21,,10.0,11.0,2,14.0,7.0,1.0,-16.0,The Northsiders
+15689,Luis Castillo,CHW,SP,SP,33,757.3,195.0,21,,21.0,0.0,0,23.0,-2.0,0.0,-11.0,Knowznothin
+37120,Munetaka Murakami,CHW,1B/3B,3B,26,742.4,181.4,20,,13.0,7.0,1,16.0,4.0,1.3,-14.0,Twin Pines 🌲🌲
+30116,Seiya Suzuki,CHC,OF,OF,31,659.7,187.9,20,,17.0,3.0,1,20.0,0.0,0.0,-12.0,Barreled Souls
+17277,Ranger Suarez,BOS,SP,SP,30,750.4,188.4,20,,9.0,11.0,2,13.0,7.0,1.3,-16.0,The Northsiders
+16162,Brandon Woodruff,MIL,SP,SP,33,748.4,186.5,20,,6.0,14.0,3,11.0,9.0,2.2,-17.0,Rock the Casasbah
+18684,Sandy Alcantara,MIA,SP,SP,30,743.2,181.5,20,,9.0,11.0,2,13.0,7.0,1.0,-16.0,The Northsiders
+19291,Zac Gallen,ARI,SP,SP,30,748.1,186.2,20,,,,,,,,,FA
+13624,Corey Seager,TEX,SS,SS,32,737.7,176.7,19,,25.0,-6.0,0,27.0,-8.0,0.0,-7.0,Rock the Casasbah
+21711,Oneil Cruz,PIT,OF,OF,27,643.5,171.7,19,,13.0,6.0,1,16.0,3.0,0.8,-13.0,Seiya Prayer For My Team
+33825,Yoshinobu Yamamoto,LAD,SP,SP,27,739.1,177.6,19,,47.0,-28.0,0,49.0,-30.0,0.0,4.0,Rock the Casasbah
+14161,Byron Buxton,MIN,OF,OF,32,637.7,165.9,18,,10.0,8.0,1,13.0,5.0,0.2,-13.0,Twin Pines 🌲🌲
+27676,Vinnie Pasquantino,KCR,1B,1B,28,735.2,165.2,18,,,,,,,,,FA
+19853,Michael King,SDP,SP,SP,31,726.2,165.3,18,,10.0,8.0,2,14.0,4.0,0.0,-13.0,Chin Music Choir
+22201,MacKenzie Gore,TEX,SP,SP,27,726.9,165.9,18,,23.0,-5.0,0,25.0,-7.0,0.0,-7.0,Knowznothin
+17479,Jack Flaherty,DET,SP,SP,30,722.5,161.7,18,,13.0,5.0,1,16.0,2.0,0.0,-12.0,Knowznothin
+20633,Yusei Kikuchi,LAA,SP,SP,35,725.8,164.9,18,,,,,,,,,FA
+30134,Tanner Bibee,CLE,SP,SP,27,724.0,163.2,18,,14.0,4.0,1,17.0,1.0,0.0,-11.0,Bloom's Onions
+11486,Robbie Ray,SDP,SP,SP,34,726.0,165.1,18,,7.0,11.0,2,11.0,7.0,0.3,-15.0,The Northsiders
+24679,Brendan Donovan,SEA,2B/SS/3B/OF,OF,29,630.8,159.0,17,,9.0,8.0,2,13.0,4.0,1.7,-13.0,The Northsiders
+18839,Josh Naylor,SEA,1B,1B,29,723.8,153.8,17,,13.0,4.0,1,16.0,1.0,0.0,-11.0,Iron 
+21483,Shane McClanahan,TBR,SP,SP,29,712.2,151.9,17,,11.0,6.0,1,14.0,3.0,0.0,-12.0,Rock the Casasbah
+30122,Gavin Williams,CLE,SP,SP,26,719.1,158.5,17,,7.0,10.0,2,11.0,6.0,1.3,-14.0,Barreled Souls
+31757,Mason Miller,SDP,RP,RP,27,605.0,154.7,17,,14.0,3.0,1,17.0,0.0,0.0,-10.0,Iron 
+22186,Brice Turang,MIL,2B,2B,26,680.2,143.9,16,,4.0,12.0,3,9.0,7.0,3.1,-14.0,Sweet Spot
+22515,Heliot Ramos,NYY,OF,OF,26,621.0,149.2,16,,10.0,6.0,1,13.0,3.0,1.2,-11.0,Bloom's Onions
+24586,Kyle Bradish,BAL,SP,SP,29,710.0,149.8,16,,7.0,9.0,2,11.0,5.0,1.0,-13.0,Peel A Section
+11156,Merrill Kelly,ARI,SP,SP,37,701.8,141.9,16,,,,,,,,,FA
+15440,Matthew Boyd,CHC,SP,SP,35,701.0,141.2,16,,6.0,10.0,2,10.0,6.0,0.0,-13.0,Providence Grays
+20302,David Peterson,CHC,SP,SP,30,706.1,146.0,16,,5.0,11.0,2,9.0,7.0,1.7,-14.0,Twin Pines 🌲🌲
+27479,Masyn Winn,STL,SS,SS,24,700.5,139.5,15,,,,,,,,,FA
+21636,Jeremy Peña,HOU,SS,SS,28,700.6,139.6,15,,8.0,7.0,2,12.0,3.0,1.3,-11.0,Bloom's Onions
+21479,Nico Hoerner,CHC,2B/SS,2B,29,668.9,132.6,15,,11.0,4.0,1,14.0,1.0,0.0,-10.0,Peel A Section
+16505,Matt Chapman,SFG,3B,3B,33,698.0,137.0,15,,,,,,,,,FA
+20454,Jazz Chisholm Jr.,NYY,2B/3B,2B,28,667.8,131.5,15,,23.0,-8.0,0,25.0,-10.0,0.0,-4.0,Twin Pines 🌲🌲
+25931,Michael Harris II,ATL,OF,OF,25,603.5,131.7,15,,8.0,7.0,2,12.0,3.0,1.2,-11.0,Sweet Spot
+25768,CJ Abrams,WSN,SS,SS,25,693.7,132.7,15,,17.0,-2.0,0,19.0,-4.0,0.0,-7.0,Sweet Spot
+27467,Tyler Soderstrom,ATH,1B/OF,OF,24,602.4,130.6,15,,7.0,8.0,2,11.0,4.0,1.8,-12.0,Providence Grays
+7304,Salvador Perez,KCR,C,C,36,653.4,138.0,15,,,,,,,,,FA
+12552,Eugenio Suárez,CIN,3B,3B,34,699.5,138.5,15,,8.0,7.0,2,12.0,3.0,0.0,-11.0,Barreled Souls
+27498,Spencer Strider,ATL,SP,SP,27,699.8,140.0,15,,15.0,0.0,0,17.0,-2.0,0.0,-8.0,Providence Grays
+29839,Emmet Sheehan,LAD,SP,SP,26,694.7,135.1,15,,3.0,12.0,3,8.0,7.0,2.0,-14.0,Peel A Section
+16137,Carlos Rodón,NYY,SP,SP,33,696.1,136.5,15,,21.0,-6.0,0,23.0,-8.0,0.0,-5.0,Rock the Casasbah
+17594,Mitch Keller,PIT,SP,SP,30,692.9,133.4,15,,,,,,,,,FA
+14710,Edwin Díaz,LAD,RP,RP,32,570.5,133.7,15,,13.0,2.0,0,15.0,0.0,0.0,-9.0,The Northsiders
+22799,Geraldo Perdomo,ARI,SS,SS,26,686.0,125.0,14,,9.0,5.0,1,12.0,2.0,0.6,-10.0,The Northsiders
+26288,Adley Rutschman,BOS,C,C,28,640.3,124.9,14,,14.0,0.0,0,16.0,-2.0,0.0,-7.0,Peel A Section
+24064,Ezequiel Tovar,COL,SS,SS,24,684.1,123.1,14,,,,,,,,,FA
+18568,Luis Arraez,PHI,1B/2B,2B,29,662.1,125.8,14,,5.0,9.0,2,9.0,5.0,2.1,-12.0,Rock the Casasbah
+33189,Nolan Schanuel,LAA,1B,1B,24,691.7,121.7,14,,,,,,,,,FA
+14374,Tyler Glasnow,LAD,SP,SP,32,684.3,125.2,14,,23.0,-9.0,0,25.0,-11.0,0.0,-3.0,Providence Grays
+27768,Eury Pérez,MIA,SP,SP,23,683.0,123.9,14,,16.0,-2.0,0,18.0,-4.0,0.0,-6.0,Seiya Prayer For My Team
+17920,Cody Ponce,TOR,SP,SP,32,681.9,122.9,14,,,,,,,,,FA
+33927,Grant Taylor,CHW,RP,RP,24,553.8,123.5,14,,5.0,9.0,2,9.0,5.0,0.1,-12.0,Twin Pines 🌲🌲
+21029,Jhoan Duran,PHI,RP,RP,28,555.9,124.7,14,,12.0,2.0,0,14.0,0.0,0.0,-8.0,Twin Pines 🌲🌲
+27867,Cade Smith,CLE,RP,RP,27,551.9,122.3,14,,7.0,7.0,2,11.0,3.0,0.0,-11.0,Rock the Casasbah
+15986,Willy Adames,SFG,SS,SS,30,675.0,114.0,13,,9.0,4.0,1,12.0,1.0,0.0,-9.0,Providence Grays
+12533,Marcus Semien,NYM,2B/SS,2B,35,651.4,115.1,13,,,,,,,,,FA
+25816,Shea Langeliers,ATH,C,C,28,630.4,115.0,13,,7.0,6.0,1,10.0,3.0,1.1,-10.0,Peel A Section
+31370,Jakob Marsee,MIA,OF,OF,25,583.8,112.0,13,,2.0,11.0,3,7.0,6.0,3.4,-12.0,Providence Grays
+12304,Chris Bassitt,BAL,SP,SP,37,676.0,117.2,13,,,,,,,,,FA
+24816,Andy Pages,LAD,OF,OF,25,576.5,104.7,12,,9.0,3.0,1,12.0,0.0,0.0,-8.0,Iron 
+29995,Daylen Lile,WSN,OF,OF,23,577.2,105.4,12,,6.0,6.0,2,10.0,2.0,0.8,-9.0,Knowznothin
+11477,Christian Yelich,MIL,OF,OF,34,579.8,108.0,12,,26.0,-14.0,0,28.0,-16.0,0.0,1.0,Rock the Casasbah
+19569,David Bednar,NYY,RP,RP,31,518.7,102.1,12,,8.0,4.0,1,11.0,1.0,0.0,-8.0,Bloom's Onions
+20599,Iván Herrera,STL,C,C,26,613.0,97.6,11,,7.0,4.0,1,10.0,1.0,0.2,-8.0,Chin Music Choir
+19522,TJ Friedl,CIN,OF,OF,30,572.3,100.5,11,,,,,,,,,FA
+19918,Daulton Varsho,HOU,OF,OF,29,566.5,94.7,11,,4.0,7.0,2,8.0,3.0,1.1,-9.0,Providence Grays
+25377,Brady Singer,CIN,SP,SP,29,650.7,93.0,11,,6.0,5.0,1,9.0,2.0,0.0,-8.0,The Northsiders
+26221,Ryan Pepiot,TBR,SP,SP,28,658.2,100.2,11,,6.0,5.0,1,9.0,2.0,0.0,-8.0,Iron 
+10233,Aroldis Chapman,BOS,RP,RP,38,513.0,98.6,11,,7.0,4.0,1,10.0,1.0,0.0,-8.0,Knowznothin
+20373,Andrés Muñoz,SEA,RP,RP,27,511.7,97.8,11,,11.0,0.0,0,13.0,-2.0,0.0,-6.0,Seiya Prayer For My Team
+15816,Devin Williams,NYM,RP,RP,31,516.0,100.4,11,,,,,,,,,FA
+33321,Luke Keaschall,MIN,2B/OF,OF,23,562.7,90.9,10,,5.0,5.0,1,8.0,2.0,1.1,-8.0,Seiya Prayer For My Team
+24262,Ceddanne Rafaela,BOS,2B/OF,OF,25,562.4,90.6,10,,4.0,6.0,1,7.0,3.0,1.8,-8.0,Bloom's Onions
+31539,Drake Baldwin,ATL,C,C,25,606.1,90.7,10,,4.0,6.0,1,7.0,3.0,1.8,-8.0,Sweet Spot
+29576,Ben Rice,NYY,C/1B,C,27,602.5,87.1,10,,5.0,5.0,1,8.0,2.0,0.7,-8.0,Barreled Souls
+16556,Ozzie Albies,ATL,2B,2B,29,623.6,87.3,10,,10.0,0.0,0,12.0,-2.0,0.0,-5.0,Sweet Spot
+22542,Lawrence Butler,ATH,OF,OF,25,561.9,90.1,10,,9.0,1.0,0,11.0,-1.0,0.0,-6.0,Iron 
+20220,Jo Adell,CLE,OF,OF,27,558.6,86.8,10,,4.0,6.0,1,7.0,3.0,1.2,-8.0,Twin Pines 🌲🌲
+26378,Nick Lodolo,CIN,SP,SP,28,642.5,85.2,10,,10.0,0.0,0,12.0,-2.0,0.0,-5.0,Peel A Section
+33703,Nolan McLean,NYM,SP,SP,24,645.9,88.4,10,,3.0,7.0,2,7.0,3.0,0.0,-9.0,Chin Music Choir
+27468,Reid Detmers,LAA,SP,SP,26,642.2,84.9,10,,2.0,8.0,2,6.0,4.0,0.9,-9.0,Rock the Casasbah
+16400,Reynaldo López,ATL,SP,SP,32,646.7,89.2,10,,,,,,,,,FA
+20253,Griffin Jax,TBR,RP,RP,31,500.0,90.6,10,,4.0,6.0,1,7.0,3.0,0.5,-8.0,Iron 
+25327,Abner Uribe,MIL,RP,RP,26,499.8,90.5,10,,4.0,6.0,1,7.0,3.0,0.6,-8.0,The Northsiders
+19197,Will Smith,LAD,C,C,31,588.6,73.2,9,,9.0,0.0,0,11.0,-2.0,0.0,-5.0,Bloom's Onions
+26319,Michael Busch,CHC,1B,1B,28,648.1,78.1,9,,8.0,1.0,0,10.0,-1.0,0.0,-5.0,Twin Pines 🌲🌲
+23772,Wilyer Abreu,BOS,OF,OF,27,547.9,76.1,9,,8.0,1.0,0,10.0,-1.0,0.0,-5.0,Chin Music Choir
+29715,Hunter Goodman,COL,C,C,26,590.4,75.0,9,,3.0,6.0,1,6.0,3.0,1.1,-8.0,The Northsiders
+17338,Willi Castro,COL,1B/2B/SS/3B/OF,OF,29,552.3,80.5,9,,3.0,6.0,1,6.0,3.0,1.4,-8.0,Rock the Casasbah
+10324,Marcell Ozuna,,OF,OF,35,545.8,74.0,9,,,,,,,,,FA
+19287,Adolis García,PHI,OF,OF,33,550.0,78.2,9,,,,,,,,,FA
+12970,Joe Musgrove,SDP,SP,SP,33,632.6,75.7,9,,5.0,4.0,1,8.0,1.0,0.0,-7.0,Seiya Prayer For My Team
+27782,Brandon Pfaadt,ARI,SP,SP,27,634.7,77.7,9,,3.0,6.0,1,6.0,3.0,0.6,-8.0,The Northsiders
+19716,Dustin May,MIL,SP,SP,28,632.8,75.9,9,,6.0,3.0,1,9.0,0.0,0.0,-6.0,Iron 
+14212,Josh Hader,HOU,RP,RP,32,484.0,80.9,9,,13.0,-4.0,0,15.0,-6.0,0.0,-3.0,Rock the Casasbah
+20423,Ryan Walker,SFG,RP,RP,30,479.4,78.1,9,,,,,,,,,FA
+27914,Daniel Palencia,CHC,RP,RP,26,481.2,79.2,9,,7.0,2.0,0,9.0,0.0,0.0,-6.0,Seiya Prayer For My Team
+18564,Trent Grisham,NYY,OF,OF,29,537.2,65.4,8,,4.0,4.0,1,7.0,1.0,0.2,-6.0,Bloom's Onions
+18036,Jake Cronenworth,SDP,1B/2B,2B,32,605.0,68.7,8,,,,,,,,,FA
+15362,Jeff McNeil,ATH,2B/OF,OF,34,537.5,65.7,8,,,,,,,,,FA
+27465,Spencer Torkelson,DET,1B,1B,26,639.2,69.2,8,,3.0,5.0,1,6.0,2.0,0.9,-7.0,Chin Music Choir
+13543,Blake Snell,LAD,SP,SP,33,619.9,63.5,8,,22.0,-14.0,0,24.0,-16.0,0.0,3.0,The Northsiders
+21455,Kris Bubic,LAD,SP,SP,28,624.4,67.9,8,,9.0,-1.0,0,11.0,-3.0,0.0,-4.0,Barreled Souls
+27473,Cade Cavalli,WSN,SP,SP,27,620.9,64.5,8,,9.0,-1.0,0,11.0,-3.0,0.0,-4.0,Barreled Souls
+13649,Clay Holmes,CHC,SP,SP,33,619.8,63.4,8,,4.0,4.0,1,7.0,1.0,0.0,-6.0,The Northsiders
+26253,Ryne Nelson,ARI,SP,SP,28,620.6,64.2,8,,,,,,,,,FA
+17432,Jeff Hoffman,MIN,RP,RP,33,469.5,72.0,8,,2.0,6.0,1,5.0,3.0,0.8,-7.0,Providence Grays
+18138,Ryan Helsley,BAL,RP,RP,31,460.1,66.3,8,,4.0,4.0,1,7.0,1.0,0.0,-6.0,Sweet Spot
+17130,Raisel Iglesias,ATL,RP,RP,36,459.0,65.6,8,,9.0,-1.0,0,11.0,-3.0,0.0,-4.0,Barreled Souls
+19612,Bo Bichette,NYM,SS/3B,SS,28,622.6,61.6,7,,21.0,-14.0,0,23.0,-16.0,0.0,3.0,Providence Grays
+35456,Trey Yesavage,TOR,SP,SP,22,614.0,57.9,7,,6.0,1.0,0,8.0,-1.0,0.0,-4.0,Chin Music Choir
+21690,Edward Cabrera,CHC,SP,SP,28,618.5,62.2,7,,4.0,3.0,1,7.0,0.0,0.0,-5.0,Sweet Spot
+29868,Bubba Chandler,PIT,SP,SP,23,616.7,60.5,7,,5.0,2.0,0,7.0,0.0,0.0,-5.0,Seiya Prayer For My Team
+22264,Shane Baz,BAL,SP,SP,27,612.9,56.8,7,,11.0,-4.0,0,13.0,-6.0,0.0,-2.0,Sweet Spot
+31687,Shane Smith,CHW,SP,SP,26,609.8,53.9,7,,,,,,,,,FA
+23335,Joey Cantillo,CLE,SP,SP,26,618.5,62.2,7,,5.0,2.0,0,7.0,0.0,0.0,-5.0,Sweet Spot
+15130,Drew Anderson,DET,RP,RP,32,452.1,61.4,7,,3.0,4.0,1,6.0,1.0,0.0,-6.0,Bloom's Onions
+16609,Bryan Abreu,HOU,RP,RP,29,441.9,55.2,7,,3.0,4.0,1,6.0,1.0,0.0,-6.0,Iron 
+31972,Brad Lord,WSN,RP,RP,26,453.5,62.3,7,,,,,,,,,FA
+23003,Yainer Diaz,HOU,C,C,27,560.8,45.4,6,,,,,,,,,FA
+20036,Isaac Paredes,HOU,1B/3B,3B,27,609.9,48.9,6,,11.0,-5.0,0,13.0,-7.0,0.0,-1.0,Providence Grays
+26294,Bryson Stott,PHI,2B/SS/3B,2B,28,587.6,51.3,6,,8.0,-2.0,0,10.0,-4.0,0.0,-2.0,Barreled Souls
+37123,Kazuma Okamoto,TOR,1B/3B,3B,30,613.5,52.5,6,,10.0,-4.0,0,12.0,-6.0,0.0,-1.0,Chin Music Choir
+21618,Alec Bohm,PHI,1B/3B,3B,29,607.8,46.8,6,,4.0,2.0,0,6.0,0.0,0.0,-4.0,Bloom's Onions
+33824,Jung Hoo Lee,SFG,OF,OF,27,524.6,52.8,6,,8.0,-2.0,0,10.0,-4.0,0.0,-2.0,Peel A Section
+21454,Lars Nootbaar,ARI,OF,OF,28,521.2,49.4,6,,1.0,5.0,1,4.0,2.0,0.9,-6.0,Providence Grays
+24598,Addison Barger,TOR,3B/OF,OF,26,515.9,44.1,6,,4.0,2.0,0,6.0,0.0,0.0,-4.0,Rock the Casasbah
+25961,Kerry Carpenter,DET,OF,OF,28,515.5,43.7,6,,,,,,,,,FA
+16442,Ryan O'Hearn,PIT,1B/OF,OF,32,522.0,50.2,6,,3.0,3.0,1,6.0,0.0,0.0,-5.0,Twin Pines 🌲🌲
+20492,Casey Mize,SDP,SP,SP,29,609.0,53.1,6,,7.0,-1.0,0,9.0,-3.0,0.0,-3.0,Peel A Section
+22286,Trevor Rogers,BAL,SP,SP,28,604.6,48.9,6,,5.0,1.0,0,7.0,-1.0,0.0,-4.0,Bloom's Onions
+27474,Max Meyer,MIA,SP,SP,27,605.3,49.6,6,,9.0,-3.0,0,11.0,-5.0,0.0,-2.0,Sweet Spot
+22210,Jeremiah Estrada,SDP,RP,RP,27,432.8,49.7,6,,,,,,,,,FA
+17897,Garrett Cleavinger,TBR,RP,RP,32,431.3,48.7,6,,3.0,3.0,1,6.0,0.0,0.0,-5.0,The Northsiders
+17722,Trevor Megill,MIL,RP,RP,32,429.2,47.5,6,,5.0,1.0,0,7.0,-1.0,0.0,-4.0,Rock the Casasbah
+17998,Pete Fairbanks,MIA,RP,RP,32,438.3,53.0,6,,,,,,,,,FA
+24017,José A. Ferrer,SEA,RP,RP,26,423.4,43.9,6,,,,,,,,,FA
+23363,Robert Garcia,TEX,RP,RP,30,428.3,46.9,6,,,,,,,,,FA
+17878,Dennis Santana,ARI,RP,RP,30,424.8,44.8,6,,,,,,,,,FA
+22581,Alejandro Kirk,TOR,C,C,27,551.5,36.1,5,,1.0,4.0,1,4.0,1.0,0.2,-5.0,Bloom's Onions
+27899,Colt Keith,DET,1B/2B/3B,2B,24,571.4,35.1,5,,6.0,-1.0,0,8.0,-3.0,0.0,-2.0,Rock the Casasbah
+18882,Brandon Lowe,PIT,2B,2B,31,570.5,34.2,5,,10.0,-5.0,0,12.0,-7.0,0.0,0.0,Barreled Souls
+20043,Luis Robert Jr.,BAL,OF,OF,28,512.8,41.0,5,,5.0,0.0,0,7.0,-2.0,0.0,-3.0,Rock the Casasbah
+10155,Mike Trout,LAA,OF,OF,34,510.1,38.3,5,,17.0,-12.0,0,19.0,-14.0,0.0,3.0,Sweet Spot
+26466,Matt Wallner,MIN,OF,OF,28,506.8,35.0,5,,,,,,,,,FA
+32127,Chase DeLauter,CLE,OF,OF,24,514.0,42.2,5,,3.0,2.0,0,5.0,0.0,0.1,-4.0,Rock the Casasbah
+25479,Brenton Doyle,CHW,OF,OF,28,509.3,37.5,5,,,,,,,,,FA
+21224,Bailey Ober,MIN,SP,SP,30,590.9,35.8,5,,4.0,1.0,0,6.0,-1.0,0.0,-3.0,Sweet Spot
+15890,Luis Severino,ATH,SP,SP,32,593.9,38.7,5,,,,,,,,,FA
+31623,Jacob Misiorowski,MIL,SP,SP,24,590.1,35.0,5,,4.0,1.0,0,6.0,-1.0,0.0,-3.0,Knowznothin
+20191,Garrett Whitlock,BOS,RP,RP,30,421.1,42.5,5,,4.0,1.0,0,6.0,-1.0,0.0,-3.0,Iron 
+19769,Will Vest,DET,RP,RP,31,414.8,38.7,5,,,,,,,,,FA
+14771,Emilio Pagán,CIN,RP,RP,35,421.7,42.9,5,,3.0,2.0,0,5.0,0.0,0.0,-4.0,Sweet Spot
+33266,Jacob Wilson,ATH,SS,SS,24,593.5,32.5,4,,4.0,0.0,0,6.0,-2.0,0.0,-2.0,Chin Music Choir
+12161,Xander Bogaerts,SDP,SS,SS,33,591.5,30.5,4,,2.0,2.0,0,4.0,0.0,0.0,-3.0,Sweet Spot
+29622,Sal Frelick,MIL,OF,OF,26,504.4,32.6,4,,2.0,2.0,0,4.0,0.0,0.1,-3.0,Sweet Spot
+29911,Andrew Abbott,CIN,SP,SP,27,586.2,31.3,4,,3.0,1.0,0,5.0,-1.0,0.0,-3.0,Sweet Spot
+33829,Shota Imanaga,CHC,SP,SP,32,587.7,32.7,4,,17.0,-13.0,0,19.0,-15.0,0.0,4.0,Seiya Prayer For My Team
+14078,Michael Wacha,KCR,SP,SP,34,582.6,27.8,4,,4.0,0.0,0,6.0,-2.0,0.0,-2.0,The Northsiders
+22543,Taj Bradley,MIN,SP,SP,25,580.0,25.4,4,,3.0,1.0,0,5.0,-1.0,0.0,-3.0,Providence Grays
+37124,Tatsuya Imai,HOU,SP,SP,28,579.2,24.6,4,,,,,,,,,FA
+31838,Kodai Senga,NYM,SP,SP,33,580.0,25.4,4,,3.0,1.0,0,5.0,-1.0,0.0,-3.0,Sweet Spot
+16944,Grant Holmes,ATL,SP,SP,30,583.7,28.9,4,,3.0,1.0,0,5.0,-1.0,0.0,-3.0,Chin Music Choir
+30115,Robert Suarez,ATL,RP,RP,35,405.0,32.7,4,,5.0,-1.0,0,7.0,-3.0,0.0,-2.0,Seiya Prayer For My Team
+20039,Adrian Morejon,SDP,RP,RP,27,393.1,25.4,4,,3.0,1.0,0,5.0,-1.0,0.0,-3.0,Chin Music Choir
+25756,Matt Brash,SEA,RP,RP,28,391.4,24.4,4,,3.0,1.0,0,5.0,-1.0,0.0,-3.0,Iron 
+23550,Aaron Ashby,MIL,RP,RP,28,395.5,26.9,4,,1.0,3.0,1,4.0,0.0,0.0,-4.0,Rock the Casasbah
+19249,Seranthony Domínguez,SEA,RP,RP,31,400.0,29.6,4,,,,,,,,,FA
+27494,Clayton Beeter,WSN,RP,RP,27,394.3,26.2,4,,1.0,3.0,1,4.0,0.0,0.0,-4.0,Sweet Spot
+3096,Kenley Jansen,DET,RP,RP,38,392.8,25.3,4,,,,,,,,,FA
+14162,Carlos Correa,HOU,SS/3B,SS,31,581.3,20.3,3,,5.0,-2.0,0,7.0,-4.0,0.0,-1.0,Providence Grays
+34985,JJ Wetherholt,STL,2B/SS,2B,23,556.7,20.4,3,,5.0,-2.0,0,7.0,-4.0,0.0,-1.0,Seiya Prayer For My Team
+20437,Royce Lewis,MIN,1B/2B/3B,2B,27,551.5,15.2,3,,4.0,-1.0,0,6.0,-3.0,0.0,-1.0,Iron 
+9777,Nolan Arenado,ARI,3B,3B,35,581.7,20.7,3,,1.0,2.0,0,3.0,0.0,0.0,-3.0,The Northsiders
+13152,Jorge Polanco,NYM,2B/SS,2B,32,558.8,22.5,3,,,,,,,,,FA
+22275,Jake Burger,TEX,1B,1B,30,591.6,21.6,3,,1.0,2.0,0,3.0,0.0,0.0,-3.0,Knowznothin
+14221,Jorge Soler,,OF,OF,34,492.3,20.5,3,,,,,,,,,FA
+16432,Foster Griffin,CLE,SP,SP,30,572.7,18.4,3,,5.0,-2.0,0,7.0,-4.0,0.0,-1.0,Knowznothin
+23920,Brayan Bello,BOS,SP,SP,27,577.6,23.1,3,,4.0,-1.0,0,6.0,-3.0,0.0,-1.0,Peel A Section
+12447,Seth Lugo,KCR,SP,SP,36,570.3,16.1,3,,3.0,0.0,0,5.0,-2.0,0.0,-2.0,Providence Grays
+23793,Braxton Ashcraft,PIT,SP,SP,26,574.3,19.9,3,,4.0,-1.0,0,6.0,-3.0,0.0,-1.0,Barreled Souls
+24728,Mike Burrows,HOU,SP,SP,26,578.1,23.5,3,,,,,,,,,FA
+13774,Zach Eflin,BAL,SP,SP,32,571.0,16.7,3,,,,,,,,,FA
+16358,Tyler Mahle,ATL,SP,SP,31,572.4,18.1,3,,2.0,1.0,0,4.0,-1.0,0.0,-2.0,Twin Pines 🌲🌲
+22294,Matthew Liberatore,STL,SP,SP,26,573.5,19.1,3,,3.0,0.0,0,5.0,-2.0,0.0,-2.0,Sweet Spot
+23590,Ben Brown,CHC,RP,RP,26,381.6,18.4,3,,5.0,-2.0,0,7.0,-4.0,0.0,-1.0,Bloom's Onions
+17780,José Alvarado,PHI,RP,RP,31,389.0,22.9,3,,,,,,,,,FA
+27691,Louis Varland,TOR,RP,RP,28,388.1,22.4,3,,3.0,0.0,0,5.0,-2.0,0.0,-2.0,Bloom's Onions
+7048,Fernando Cruz,NYY,RP,RP,36,389.7,23.4,3,,,,,,,,,FA
+17586,Tanner Scott,LAD,RP,RP,31,383.9,19.8,3,,2.0,1.0,0,4.0,-1.0,0.0,-2.0,Knowznothin
+21992,Camilo Doval,PIT,RP,RP,28,379.6,17.2,3,,1.0,2.0,0,3.0,0.0,0.0,-3.0,Sweet Spot
+13449,Taylor Rogers,MIN,RP,RP,35,379.7,17.3,3,,,,,,,,,FA
+16918,Luke Weaver,PIT,RP,RP,32,377.7,16.0,3,,3.0,0.0,0,5.0,-2.0,0.0,-2.0,Chin Music Choir
+20348,Riley O'Brien,STL,RP,RP,31,390.8,24.0,3,,1.0,2.0,0,3.0,0.0,0.0,-3.0,Barreled Souls
+19574,JoJo Romero,MIL,RP,RP,29,377.4,15.9,3,,,,,,,,,FA
+24614,Victor Vodnik,MIA,RP,RP,26,382.1,18.7,3,,,,,,,,,FA
+14542,Carlos Estévez,KCR,RP,RP,33,382.1,18.7,3,,,,,,,,,FA
+11609,Willson Contreras,BOS,1B,1B,34,575.4,5.4,2,,12.0,-10.0,0,14.0,-12.0,0.0,4.0,The Northsiders
+17901,Andrew Benintendi,CHW,OF,OF,31,485.0,13.2,2,,,,,,,,,FA
+31431,Jordan Beck,COL,OF,OF,25,485.1,13.3,2,,,,,,,,,FA
+13125,Gerrit Cole,NYY,SP,SP,35,567.8,13.7,2,,4.0,-2.0,0,6.0,-4.0,0.0,0.0,The Northsiders
+15873,Sean Manaea,NYM,SP,SP,34,561.9,8.0,2,,1.0,1.0,0,3.0,-1.0,0.0,-2.0,Bloom's Onions
+13799,Matt Strahm,,RP,RP,34,372.9,13.1,2,,,,,,,,,FA
+19804,Bryan Baker,TBR,RP,RP,31,361.4,6.1,2,,1.0,1.0,0,3.0,-1.0,0.0,-2.0,Bloom's Onions
+19360,Lucas Erceg,KCR,RP,RP,31,363.4,7.3,2,,,,,,,,,FA
+19996,Dylan Lee,ATL,RP,RP,31,364.5,8.0,2,,1.0,1.0,0,3.0,-1.0,0.0,-2.0,Peel A Section
+27517,Jared Koenig,MIL,RP,RP,32,367.1,9.6,2,,,,,,,,,FA
+19677,Gregory Soto,PIT,RP,RP,31,372.2,12.7,2,,3.0,-1.0,0,5.0,-3.0,0.0,-1.0,Peel A Section
+20539,Edwin Uceta,TBR,RP,RP,28,363.7,7.5,2,,,,,,,,,FA
+21461,Cole Sands,MIN,RP,RP,28,374.4,14.0,2,,,,,,,,,FA
+25890,Bryan King,HOU,RP,RP,29,371.2,12.1,2,,,,,,,,,FA
+10078,Caleb Thielbar,CHC,RP,RP,39,364.2,7.8,2,,,,,,,,,FA
+26231,Tyler Holton,DET,RP,RP,30,373.4,13.4,2,,,,,,,,,FA
+12857,Shawn Armstrong,CLE,RP,RP,35,368.7,10.6,2,,,,,,,,,FA
+20997,Eduard Bazardo,SEA,RP,RP,30,369.2,10.9,2,,2.0,0.0,0,4.0,-2.0,0.0,-1.0,Providence Grays
+15541,Tyler Rogers,TOR,RP,RP,35,365.2,8.4,2,,2.0,0.0,0,4.0,-2.0,0.0,-1.0,Knowznothin
+29629,Matt Svanson,STL,RP,RP,27,359.7,5.1,2,,,,,,,,,FA
+22664,Gabriel Moreno,ARI,C,C,26,485.0,-30.4,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Rock the Casasbah
+27478,Patrick Bailey,CLE,C,C,27,332.2,-183.2,1,,,,,,,,,FA
+27562,Austin Wells,NYY,C,C,26,420.5,-94.9,1,,,,,,,,,FA
+33572,Kevin McGonigle,DET,SS/3B,SS,21,526.8,-34.2,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Iron 
+18314,Dansby Swanson,CHC,SS,SS,32,548.0,-13.0,1,,,,,,,,,FA
+31580,Chase Meidroth,CHW,2B/SS,2B,24,527.3,-9.0,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Peel A Section
+26121,Francisco Alvarez,NYM,C,C,24,441.4,-74.0,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Rock the Casasbah
+22266,Xavier Edwards,MIA,2B/SS,2B,26,536.3,0.0,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Twin Pines 🌲🌲
+27815,Jordan Westburg,BAL,2B/3B,2B,27,513.0,-23.3,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Chin Music Choir
+27464,Dillon Dingler,DET,C,C,27,350.2,-165.2,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Knowznothin
+29712,Colson Montgomery,CHW,SS/3B,SS,24,561.0,0.0,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Knowznothin
+19608,Otto Lopez,MIA,2B/SS,2B,27,524.8,-11.5,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Chin Music Choir
+19950,Andrés Giménez,TOR,2B/SS,2B,27,539.5,3.2,1,,,,,,,,,FA
+29646,Caleb Durbin,BOS,2B/3B,2B,26,518.4,-17.9,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Seiya Prayer For My Team
+21865,Bo Naylor,MIL,C,C,26,428.0,-87.4,1,,,,,,,,,FA
+31781,Jackson Holliday,BAL,2B/SS,2B,22,496.1,-40.2,1,,16.0,-15.0,0,18.0,-17.0,0.0,7.0,Seiya Prayer For My Team
+24618,Ryan Jeffers,MIN,C,C,29,515.4,0.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+15491,J.P. Crawford,SEA,SS/3B,SS,31,509.7,-51.3,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Barreled Souls
+21840,Freddy Fermin,SDP,C,C,31,382.4,-133.0,1,,,,,,,,,FA
+25493,Joey Ortiz,MIL,3B/SS,SS,27,481.3,-79.7,1,,,,,,,,,FA
+27647,Anthony Volpe,NYY,SS,SS,25,433.2,-127.8,1,,,,,,,,,FA
+20178,Miguel Vargas,CHW,1B/3B,3B,26,543.4,-17.6,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Peel A Section
+13301,Max Muncy,LAD,3B,3B,35,432.0,-129.0,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Knowznothin
+27790,Evan Carter,TEX,OF,OF,23,422.8,-49.0,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Rock the Casasbah
+19722,Carlos Narváez,BAL,C,C,27,339.8,-175.6,1,,,,,,,,,FA
+26396,Josh Smith,TOR,3B/SS,SS,28,488.6,-72.4,1,,,,,,,,,FA
+23690,Brayan Rocchio,CLE,2B/SS,2B,25,396.3,-140.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Barreled Souls
+20352,Ernie Clement,TOR,1B/2B/SS/3B,2B,30,483.3,-53.0,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Bloom's Onions
+26299,Josh Jung,TEX,3B,3B,28,471.1,-89.9,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot
+35376,Konnor Griffin,PIT,SS,SS,20,391.1,-169.9,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,Seiya Prayer For My Team
+20308,Jake Meyers,HOU,OF,OF,30,415.8,-56.0,1,,,,,,,,,FA
+20391,Luis García Jr.,NYY,1B/2B,2B,26,498.5,-37.8,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Twin Pines 🌲🌲
+31595,Brooks Lee,MIN,2B/SS/3B,2B,25,446.8,-89.5,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Chin Music Choir
+29695,Matt McLain,CIN,2B/SS,2B,26,511.2,-25.1,1,,12.0,-11.0,0,14.0,-13.0,0.0,5.0,Barreled Souls
+13620,Carson Kelly,CHC,C,C,31,334.1,-181.3,1,,,,,,,,,FA
+29591,Colton Cowser,BAL,OF,OF,26,449.3,-22.5,1,,,,,,,,,FA
+29478,Carter Jensen,KCR,C,C,22,351.1,-164.3,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,The Northsiders
+21523,Jonathan India,KCR,2B,2B,29,513.9,-22.4,1,,,,,,,,,FA
+31680,Cole Young,SEA,2B/SS,2B,22,341.2,-195.1,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Iron 
+12564,Trevor Story,BOS,SS,SS,33,522.7,-38.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays
+21837,Jonathan Aranda,TBR,1B,1B,28,570.0,0.0,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Seiya Prayer For My Team
+11739,J.T. Realmuto,PHI,C,C,35,409.0,-106.4,1,,,,,,,,,FA
+27506,Ha-Seong Kim,ATL,SS,SS,30,377.2,-183.8,1,,,,,,,,,FA
+31505,Sal Stewart,CIN,1B/2B/3B,2B,22,522.0,-14.3,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Twin Pines 🌲🌲
+33549,Kyle Teel,CHW,C,C,24,347.1,-168.3,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Chin Music Choir
+27490,Nick Gonzales,PIT,2B/SS/3B,2B,27,382.7,-153.6,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Chin Music Choir
+31791,Justin Crawford,PHI,OF,OF,22,381.6,-90.2,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Knowznothin
+26477,Spencer Horwitz,PIT,1B,1B,28,478.6,-91.4,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Bloom's Onions
+29794,Kyle Manzardo,CLE,1B,1B,25,508.5,-61.5,1,,,,,,,,,FA
+25782,Pedro Pagés,STL,C,C,27,249.0,-266.4,1,,,,,,,,,FA
+35041,Jac Caglianone,KCR,1B/OF,OF,23,471.8,0.0,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Seiya Prayer For My Team
+20202,Brandon Marsh,PHI,OF,OF,28,456.0,-15.8,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Bloom's Onions
+26546,Agustín Ramírez,MIA,C,C,24,502.5,-12.9,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Seiya Prayer For My Team
+18030,Harrison Bader,SFG,OF,OF,32,403.1,-68.7,1,,,,,,,,,FA
+29931,Jacob Young,WSN,OF,OF,26,317.2,-154.6,1,,,,,,,,,FA
+15112,Ryan McMahon,NYY,3B,3B,31,389.8,-171.2,1,,,,,,,,,FA
+15905,Luis Torrens,NYM,C,C,30,200.5,-314.9,1,,,,,,,,,FA
+28824,Samuel Basallo,BAL,C/1B,C,21,409.3,-106.1,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Seiya Prayer For My Team
+25807,Jared Triolo,PIT,3B/SS,SS,28,425.2,-135.8,1,,,,,,,,,FA
+26151,Kyle Stowers,MIA,1B/OF,OF,28,460.8,-11.0,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Providence Grays
+19352,Sean Murphy,ATL,C,C,31,327.2,-188.2,1,,,,,,,,,FA
+22184,Mark Vientos,NYM,3B,3B,26,507.0,-54.0,1,,,,,,,,,FA
+23800,Parker Meadows,DET,OF,OF,26,398.4,-73.4,1,,,,,,,,,FA
+13145,Josh Bell,MIN,1B,1B,33,573.8,3.8,1,,,,,,,,,FA
+18577,Ke'Bryan Hayes,CIN,3B,3B,29,408.0,-153.0,1,,,,,,,,,FA
+29592,Connor Norby,COL,3B,3B,26,449.7,-111.3,1,,,,,,,,,FA
+31349,Victor Scott II,STL,OF,OF,25,374.3,-97.5,1,,,,,,,,,FA
+19470,Tommy Edman,LAD,2B/3B/OF,OF,31,335.8,-136.0,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Chin Music Choir
+19858,Luis Rengifo,SDP,2B/3B/OF,OF,29,367.0,-104.8,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays
+16535,Danny Jansen,TEX,C,C,31,323.9,-191.5,1,,,,,,,,,FA
+19913,Jesús Sánchez,TOR,OF,OF,28,424.7,-47.1,1,,,,,,,,,FA
+17128,Ramón Laureano,SDP,OF,OF,31,471.8,0.0,1,,,,,,,,,FA
+13419,Christian Walker,HOU,1B,1B,35,564.8,-5.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot
+16725,Jose Trevino,CIN,C,C,33,200.0,-315.4,1,,,,,,,,,FA
+21614,Kyle Isbel,KCR,OF,OF,29,372.4,-99.4,1,,,,,,,,,FA
+19452,Jake Rogers,CHW,C,C,31,176.0,-339.4,1,,,,,,,,,FA
+26123,Brett Baty,NYM,3B,3B,26,405.8,-155.2,1,,,,,,,,,FA
+17929,Cedric Mullins,TBR,OF,OF,31,414.3,-57.5,1,,,,,,,,,FA
+26548,Luisangel Acuña,CHW,2B/SS,2B,24,333.7,-202.6,1,,,,,,,,,FA
+27555,Garrett Mitchell,MIL,OF,OF,27,325.9,-145.9,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,The Northsiders
+29976,Jordan Lawlar,ARI,2B/SS/3B/OF,OF,23,376.9,-94.9,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Seiya Prayer For My Team
+22263,Nolan Gorman,STL,2B/3B,2B,26,467.1,-69.2,1,,,,,,,,,FA
+29668,Marcelo Mayer,SFG,2B/SS/3B,2B,23,379.9,-156.4,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Seiya Prayer For My Team
+25477,Isaac Collins,KCR,OF,OF,28,388.7,-83.1,1,,,,,,,,,FA
+31695,Dylan Beavers,BAL,OF,OF,24,315.9,-155.9,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Knowznothin
+21538,Nick Fortes,TBR,C,C,29,248.4,-267.0,1,,,,,,,,,FA
+15711,Tyler O'Neill,BAL,OF,OF,31,440.8,-31.0,1,,,,,,,,,FA
+19955,Gavin Lux,TBR,2B/3B/OF,OF,28,322.9,-148.9,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays
+14968,Victor Caratini,MIN,C,C,32,340.8,-174.6,1,,,,,,,,,FA
+25979,Nasim Nuñez,WSN,2B/SS,2B,25,310.5,-225.8,1,,,,,,,,,FA
+33541,Dylan Crews,WSN,OF,OF,24,390.6,-81.2,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Seiya Prayer For My Team
+23565,Davis Schneider,TOR,2B/OF,OF,27,332.9,-138.9,1,,,,,,,,,FA
+11899,Joc Pederson,TEX,OF,OF,34,409.2,-62.6,1,,,,,,,,,FA
+17232,Yoán Moncada,LAA,3B,3B,31,363.4,-197.6,1,,,,,,,,,FA
+17988,Tyler Stephenson,CIN,C,C,29,415.9,-99.5,1,,,,,,,,,FA
+23401,José Caballero,NYY,2B/SS/3B/OF,OF,29,295.5,-176.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Sweet Spot
+31912,Chandler Simpson,TBR,OF,OF,25,371.8,-100.0,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Iron 
+35108,Cam Smith,HOU,OF,OF,23,410.3,-61.5,1,,13.0,-12.0,0,15.0,-14.0,0.0,5.0,Seiya Prayer For My Team
+29993,Brady House,WSN,3B,3B,23,401.7,-159.3,1,,,,,,,,,FA
+27462,Austin Martin,MIN,OF,OF,27,305.1,-166.7,1,,,,,,,,,FA
+22563,Gabriel Arias,CHC,SS,SS,26,322.0,-239.0,1,,,,,,,,,FA
+29617,Henry Davis,PIT,C,C,26,218.4,-297.0,1,,,,,,,,,FA
+14854,Mike Yastrzemski,ATL,OF,OF,35,420.8,-51.0,1,,,,,,,,,FA
+21693,Miguel Amaya,CHC,C,C,27,264.2,-251.2,1,,,,,,,,,FA
+18123,Nathan Lukes,TOR,OF,OF,31,279.6,-192.2,1,,,,,,,,,FA
+21524,Joey Bart,CHW,C,C,29,246.6,-268.8,1,,,,,,,,,FA
+5517,Kyle Higashioka,TEX,C,C,36,193.9,-321.5,1,,,,,,,,,FA
+23792,Alek Thomas,LAD,OF,OF,26,319.5,-152.3,1,,,,,,,,,FA
+21501,Trevor Larnach,MIN,OF,OF,29,433.9,-37.9,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Rock the Casasbah
+24729,Logan O'Hoppe,TEX,C,C,26,382.9,-132.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot
+31394,Brooks Baldwin,CHW,OF,OF,25,289.5,-182.3,1,,,,,,,,,FA
+20084,J.C. Escarra,NYY,C,C,31,134.5,-380.9,1,,,,,,,,,FA
+18795,Ramón Urías,STL,3B,3B,32,276.5,-284.5,1,,,,,,,,,FA
+27475,Jordan Walker,STL,OF,OF,24,456.5,-15.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Iron 
+29779,Max Muncy,ATH,3B,3B,23,301.4,-259.6,1,,,,,,,,,FA
+19238,Lourdes Gurriel Jr.,ARI,OF,OF,32,443.7,-28.1,1,,,,,,,,,FA
+26368,JJ Bleday,CIN,OF,OF,28,305.7,-166.1,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Peel A Section
+15518,Amed Rosario,NYY,SS,SS,30,222.2,-338.8,1,,,,,,,,,FA
+21897,Christopher Morel,NYM,OF,OF,27,346.8,-125.0,1,,,,,,,,,FA
+31382,Dalton Rushing,LAD,C,C,25,179.1,-336.3,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Knowznothin
+23372,Hunter Feduccia,LAD,C,C,29,181.4,-334.0,1,,,,,,,,,FA
+19953,Josh Lowe,LAA,OF,OF,28,466.1,-5.7,1,,,,,,,,,FA
+26517,Noelvi Marte,CIN,3B/OF,OF,24,415.0,-56.8,1,,,,,,,,,FA
+22217,Luis Campusano,SDP,C,C,27,223.9,-291.5,1,,,,,,,,,FA
+16939,Lane Thomas,ATL,OF,OF,30,436.3,-35.5,1,,,,,,,,,FA
+21562,Romy Gonzalez,BOS,1B/2B,2B,29,228.4,-307.9,1,,,,,,,,,FA
+27534,Edouard Julien,COL,2B,2B,27,324.0,-212.3,1,,,,,,,,,FA
+26323,Spencer Steer,CIN,1B/2B/OF,OF,28,429.5,-42.3,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,The Northsiders
+33575,Colt Emerson,SEA,SS/3B,SS,20,198.7,-362.3,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Iron 
+31363,Graham Pauley,MIA,3B,3B,25,273.6,-287.4,1,,,,,,,,,FA
+27883,Thomas Saggese,STL,2B/SS,2B,24,230.4,-305.9,1,,,,,,,,,FA
+19392,Zach McKinstry,DET,3B/OF,OF,31,310.8,-161.0,1,,,,,,,,,FA
+37122,Sung-Mun Song,SDP,2B/SS,2B,29,255.3,-281.0,1,,,,,,,,,FA
+4949,Giancarlo Stanton,NYY,OF,OF,36,420.8,-51.0,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Sweet Spot
+30038,Carson Williams,TBR,SS,SS,23,303.3,-257.7,1,,,,,,,,,FA
+26197,Andrew Vaughn,MIL,1B/3B,3B,28,539.1,-21.9,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Barreled Souls
+34979,Christian Moore,LAA,2B/3B,2B,23,237.0,-299.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays
+15674,Reese McGuire,,C,C,31,123.0,-392.4,1,,,,,,,,,FA
+27496,Owen Caissie,MIA,OF,OF,23,338.8,-133.0,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Seiya Prayer For My Team
+19610,Keibert Ruiz,WSN,C,C,27,316.3,-199.1,1,,,,,,,,,FA
+25643,Drew Millas,WSN,C,C,28,143.0,-372.4,1,,,,,,,,,FA
+29958,Harry Ford,WSN,C,C,23,183.9,-331.5,1,,,,,,,,,FA
+29844,Liam Hicks,TBR,C/1B,C,27,269.3,-246.1,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Twin Pines 🌲🌲
+29858,Denzel Clarke,ATH,OF,OF,26,318.5,-153.3,1,,,,,,,,,FA
+33322,Matt Shaw,CHC,2B/3B/OF,OF,24,249.0,-222.8,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Knowznothin
+28253,Javier Sanoja,MIA,3B/OF,OF,23,224.0,-247.8,1,,,,,,,,,FA
+26438,Dominic Canzone,SEA,OF,OF,28,362.1,-109.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Bloom's Onions
+21746,José Fermín,STL,2B/3B/OF,OF,27,179.8,-292.0,1,,,,,,,,,FA
+18363,Victor Robles,SEA,OF,OF,29,251.4,-220.4,1,,,,,,,,,FA
+22541,George Valera,CLE,OF,OF,25,329.6,-142.2,1,,,,,,,,,FA
+19260,Jake Fraley,TBR,OF,OF,31,357.3,-114.5,1,,,,,,,,,FA
+12976,Austin Hedges,CLE,C,C,33,75.1,-440.3,1,,,,,,,,,FA
+21622,Jake McCarthy,COL,OF,OF,28,361.1,-110.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Chin Music Choir
+29780,Joe Mack,MIA,C,C,23,176.7,-338.7,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays
+22857,Wenceel Pérez,DET,OF,OF,26,278.4,-193.4,1,,,,,,,,,FA
+18848,Yohel Pozo,BAL,C,C,29,174.2,-341.2,1,,,,,,,,,FA
+33704,CJ Kayfus,CLE,1B/OF,OF,24,273.8,-198.0,1,,,,,,,,,FA
+27531,David Hamilton,MIL,2B/SS,2B,28,182.4,-353.9,1,,,,,,,,,FA
+35177,Carson Benge,NYM,OF,OF,23,295.5,-176.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Chin Music Choir
+21646,Rafael Marchán,PHI,C,C,27,136.1,-379.3,1,,,,,,,,,FA
+28022,Edgar Quero,CHW,C,C,23,398.5,-116.9,1,,,,,,,,,FA
+12979,Javier Báez,DET,SS,SS,33,259.4,-301.6,1,,,,,,,,,FA
+19901,Gavin Sheets,SDP,1B/OF,OF,30,417.3,-54.5,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Barreled Souls
+21009,Leo Rivas,SEA,2B/SS,2B,28,134.3,-402.0,1,,,,,,,,,FA
+26224,Darell Hernaiz,ATH,3B/SS,SS,24,144.1,-416.9,1,,,,,,,,,FA
+19354,Luke Raley,SEA,OF,OF,31,307.2,-164.6,1,,,,,,,,,FA
+31357,Nathan Church,STL,OF,OF,25,197.9,-273.9,1,,,,,,,,,FA
+23789,Blaze Alexander,BAL,2B/SS/3B/OF,OF,27,200.5,-271.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders
+27577,Casey Schmitt,SFG,1B/2B/3B/OF,OF,27,210.3,-261.5,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Peel A Section
+25629,Cody Freeman,TEX,2B/3B,2B,25,156.6,-379.7,1,,,,,,,,,FA
+16530,Mauricio Dubón,ATL,2B/SS/3B/OF,OF,31,322.7,-149.1,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Iron 
+27684,Michael Massey,KCR,2B,2B,28,223.0,-313.3,1,,,,,,,,,FA
+33252,Kyle Karros,COL,3B,3B,23,213.9,-347.1,1,,,,,,,,,FA
+17022,Edmundo Sosa,PHI,3B/SS,SS,30,216.3,-344.7,1,,,,,,,,,FA
+15878,Miguel Andujar,SDP,3B/OF,OF,31,299.6,-172.2,1,,,,,,,,,FA
+9218,Paul Goldschmidt,NYY,1B,1B,38,389.9,-180.1,1,,,,,,,,,FA
+28312,Coby Mayo,BAL,1B/3B,3B,24,186.2,-374.8,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Peel A Section
+22532,Tyler Freeman,COL,OF,OF,27,299.1,-172.7,1,,,,,,,,,FA
+22239,Jeremiah Jackson,BAL,2B/OF,OF,26,185.9,-285.9,1,,,,,,,,,FA
+31500,Ryan Ritter,COL,2B/SS,2B,25,213.0,-323.3,1,,,,,,,,,FA
+23733,Ezequiel Duran,TEX,1B/2B/SS/3B/OF,OF,27,211.9,-259.9,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Knowznothin
+28820,Moisés Ballesteros,LAA,Util,Util,22,311.0,-259.0,1,,,,,,,,,FA
+21558,Matt Vierling,DET,OF,OF,29,291.7,-180.1,1,,,,,,,,,FA
+19892,Pavin Smith,ARI,1B/OF,OF,30,390.5,-81.3,1,,,,,,,,,FA
+31564,Alan Roden,MIN,OF,OF,26,191.4,-280.4,1,,,,,,,,,FA
+13590,Jesse Winker,,OF,OF,32,245.0,-226.8,1,,,,,,,,,FA
+26540,Angel Martínez,CLE,2B/OF,OF,24,223.9,-247.9,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Bloom's Onions
+13770,Rob Refsnyder,,OF,OF,35,203.2,-268.6,1,,,,,,,,,FA
+26693,Juan Brito,CIN,2B,2B,24,124.8,-411.5,1,,,,,,,,,FA
+9774,Christian Vázquez,HOU,C,C,35,94.7,-420.7,1,,,,,,,,,FA
+25332,Endy Rodríguez,PIT,C,C,26,111.0,-404.4,1,,,,,,,,,FA
+19296,Alex Call,LAD,OF,OF,31,159.6,-312.2,1,,,,,,,,,FA
+12859,James McCann,ARI,C,C,36,165.1,-350.3,1,,,,,,,,,FA
+23782,Leo Jiménez,,2B/3B/SS,2B,25,117.6,-418.7,1,,,,,,,,,FA
+7802,Miguel Rojas,LAD,SS,SS,37,124.6,-436.4,1,,,,,,,,,FA
+18054,Sam Haggerty,,OF,OF,32,206.9,-264.9,1,,,,,,,,,FA
+26031,Vaughn Grissom,LAA,1B/2B/SS/3B,2B,25,128.0,-408.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Rock the Casasbah
+26202,Jake Mangum,PIT,OF,OF,30,253.2,-218.6,1,,,,,,,,,FA
+33197,Ben Williamson,TBR,2B/3B,2B,25,195.6,-340.7,1,,,,,,,,,FA
+34967,Travis Bazzana,CLE,2B,2B,23,165.9,-370.4,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Knowznothin
+22896,Lenyn Sosa,TOR,2B,2B,26,354.7,-181.6,1,,,,,,,,,FA
+24589,Richie Palacios,TBR,2B/OF,OF,29,212.6,-259.2,1,,,,,,,,,FA
+19896,Connor Wong,BOS,C,C,30,217.4,-298.0,1,,,,,,,,,FA
+23691,José Tena,WSN,3B,3B,25,190.2,-370.8,1,,,,,,,,,FA
+31665,Alex Freeland,LAD,2B,2B,24,125.1,-411.2,1,,,,,,,,,FA
+11442,Gary Sánchez,MIL,C,C,33,156.3,-359.1,1,,,,,,,,,FA
+19956,Mickey Moniak,COL,OF,OF,28,472.8,1.0,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Twin Pines 🌲🌲
+18900,Leody Taveras,BAL,OF,OF,27,125.3,-346.5,1,,,,,,,,,FA
+19363,Austin Hays,SDP,OF,OF,30,369.6,-102.2,1,,,,,,,,,FA
+16472,Rhys Hoskins,CLE,1B,1B,33,348.5,-221.5,1,,,,,,,,,FA
+26365,Jonny DeLuca,TBR,OF,OF,27,268.5,-203.3,1,,,,,,,,,FA
+15271,Austin Wynns,CHC,C,C,35,91.9,-423.5,1,,,,,,,,,FA
+22514,Triston Casas,BOS,1B,1B,26,176.7,-393.3,1,,,,,,,,,FA
+15161,Mitch Garver,NYY,C,C,35,103.2,-412.2,1,,,,,,,,,FA
+24770,James Outman,DET,OF,OF,29,175.1,-296.7,1,,,,,,,,,FA
+29766,Zack Gelof,ATH,2B/3B/OF,OF,26,166.2,-305.6,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Iron 
+31354,Jimmy Crooks,STL,C,C,24,101.7,-413.7,1,,,,,,,,,FA
+20572,Kody Clemens,MIN,1B/2B/OF,OF,30,215.4,-256.4,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Knowznothin
+19921,Blake Perkins,CLE,OF,OF,29,147.4,-324.4,1,,,,,,,,,FA
+22823,Oswald Peraza,LAA,2B/3B,2B,26,198.3,-338.0,1,,,,,,,,,FA
+28080,Jasson Domínguez,NYY,OF,OF,23,115.3,-356.5,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Chin Music Choir
+21853,Will Benson,CIN,OF,OF,28,302.0,-169.8,1,,,,,,,,,FA
+27630,Nick Loftin,KCR,2B/3B,2B,27,130.8,-405.5,1,,,,,,,,,FA
+7739,Travis d'Arnaud,LAA,C,C,37,150.0,-365.4,1,,,,,,,,,FA
+21780,Esteury Ruiz,MIA,OF,OF,27,115.4,-356.4,1,,,,,,,,,FA
+19566,Nathaniel Lowe,CLE,1B,1B,30,276.7,-293.3,1,,,,,,,,,FA
+31837,Masataka Yoshida,BOS,OF,OF,32,204.8,-267.0,1,,,,,,,,,FA
+27504,Nick Yorke,PIT,2B/3B,2B,24,138.2,-398.1,1,,,,,,,,,FA
+22277,Nick Allen,HOU,SS,SS,27,95.0,-466.0,1,,,,,,,,,FA
+31855,Colby Thomas,PHI,OF,OF,25,156.4,-315.4,1,,,,,,,,,FA
+15194,Jake Bauers,MIL,1B/OF,OF,30,257.2,-214.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+22054,Dane Myers,CIN,OF,OF,30,190.3,-281.5,1,,,,,,,,,FA
+13185,Orlando Arcia,CIN,SS,SS,31,103.6,-457.4,1,,,,,,,,,FA
+35061,Ryan Waldschmidt,ARI,OF,OF,23,107.6,-364.2,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Barreled Souls
+9241,Starling Marte,,OF,OF,37,222.3,-249.5,1,,,,,,,,,FA
+29547,Ryan Bliss,SEA,2B,2B,26,101.7,-434.6,1,,,,,,,,,FA
+16930,Jonah Heim,ATH,C,C,31,95.9,-419.5,1,,,,,,,,,FA
+31583,Zach Cole,HOU,OF,OF,25,230.7,-241.1,1,,,,,,,,,FA
+13675,Tyrone Taylor,CHC,OF,OF,32,191.4,-280.4,1,,,,,,,,,FA
+25180,Daniel Schneemann,CLE,2B/OF,OF,29,151.2,-320.6,1,,,,,,,,,FA
+19997,Santiago Espinal,ARI,2B/3B,2B,31,129.6,-406.7,1,,,,,,,,,FA
+27482,Robert Hassell III,PIT,OF,OF,24,165.7,-306.1,1,,,,,,,,,FA
+24336,Johan Rojas,PHI,OF,OF,25,105.7,-366.1,1,,,,,,,,,FA
+23695,Everson Pereira,STL,OF,OF,25,171.1,-300.7,1,,,,,,,,,FA
+21797,Andrés Chaparro,WSN,1B,1B,27,245.0,-325.0,1,,,,,,,,,FA
+21707,Oswaldo Cabrera,NYY,3B/OF,OF,27,135.4,-336.4,1,,,,,,,,,FA
+sa3020134,Jett Williams,MIL,SS,SS,22,101.1,-459.9,1,,,,,,,,,FA
+22458,Taylor Walls,TBR,SS,SS,29,165.8,-395.2,1,,,,,,,,,FA
+10243,Randal Grichuk,CHW,OF,OF,34,126.0,-345.8,1,,,,,,,,,FA
+16512,Isiah Kiner-Falefa,BOS,SS,SS,31,138.9,-422.1,1,,,,,,,,,FA
+23698,Ronny Mauricio,NYM,2B/3B,2B,25,119.6,-416.7,1,,,,,,,,,FA
+18819,Andy Ibáñez,SEA,2B/3B,2B,33,181.5,-354.8,1,,,,,,,,,FA
+16426,Thairo Estrada,,2B,2B,30,111.1,-425.2,1,,,,,,,,,FA
+19455,Andruw Monasterio,BOS,2B/3B/SS,2B,29,103.0,-433.3,1,,,,,,,,,FA
+18373,Ryan Mountcastle,BAL,1B,1B,29,159.8,-410.2,1,,,,,,,,,FA
+18872,Jahmai Jones,BOS,OF,OF,28,146.8,-325.0,1,,,,,,,,,FA
+29606,Justyn-Henry Malloy,TBR,OF,OF,26,123.4,-348.4,1,,,,,,,,,FA
+12037,Jon Berti,,3B,3B,36,97.9,-463.1,1,,,,,,,,,FA
+23917,Jorbit Vivas,WSN,2B/3B,2B,25,142.2,-394.1,1,,,,,,,,,FA
+14551,Anthony Santander,TOR,OF,OF,31,152.2,-319.6,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Rock the Casasbah
+17982,Ty France,SDP,1B,1B,31,167.6,-402.4,1,,,,,,,,,FA
+21842,Carlos Cortes,ATH,OF,OF,29,122.4,-349.4,1,,,,,,,,,FA
+12144,Max Kepler,,OF,OF,33,123.0,-348.8,1,,,,,,,,,FA
+2396,Carlos Santana,,1B,1B,40,289.6,-280.4,1,,,,,,,,,FA
+23359,Nelson Velázquez,HOU,OF,OF,27,128.9,-342.9,1,,,,,,,,,FA
+31661,Jacob Melton,TBR,OF,OF,25,124.4,-347.4,1,,,,,,,,,FA
+20126,Dylan Carlson,,OF,OF,27,93.8,-378.0,1,,,,,,,,,FA
+10231,Jose Iglesias,,SS,SS,36,89.8,-471.2,1,,,,,,,,,FA
+29630,Joey Loperfido,HOU,OF,OF,27,315.8,-156.0,1,,,,,,,,,FA
+29571,Tim Tawa,ARI,1B/OF,OF,27,103.5,-368.3,1,,,,,,,,,FA
+10472,Enrique Hernández,LAD,OF,OF,34,120.7,-351.1,1,,,,,,,,,FA
+11850,Tyler Austin,CHC,1B,1B,34,143.1,-426.9,1,,,,,,,,,FA
+16947,Derek Hill,PHI,OF,OF,30,92.9,-378.9,1,,,,,,,,,FA
+2967,Tommy Pham,CHW,OF,OF,38,157.1,-314.7,1,,,,,,,,,FA
+19877,Tristan Gray,MIN,3B/SS,SS,30,121.4,-439.6,1,,,,,,,,,FA
+31792,Otto Kemp,PHI,3B/OF,OF,26,171.7,-300.1,1,,,,,,,,,FA
+31562,Zach Dezenzo,HOU,OF,OF,26,98.9,-372.9,1,,,,,,,,,FA
+17273,Jorge Mateo,TBR,SS,SS,31,125.4,-435.6,1,,,,,,,,,FA
+16376,Michael Conforto,CHC,OF,OF,33,123.4,-348.4,1,,,,,,,,,FA
+11737,Nick Castellanos,,3B/OF,OF,34,376.3,-95.5,1,,,,,,,,,FA
+31396,Tyler Locklear,ARI,1B,1B,25,148.5,-421.5,1,,,,,,,,,FA
+21496,Brandon Lockridge,MIL,OF,OF,29,121.4,-350.4,1,,,,,,,,,FA
+23395,Eric Wagaman,NYM,1B,1B,28,127.0,-443.0,1,,,,,,,,,FA
+24934,David Fry,CLE,OF,OF,30,180.6,-291.2,1,,,,,,,,,FA
+16153,Austin Slater,TBR,OF,OF,33,107.5,-364.3,1,,,,,,,,,FA
+25660,Will Brennan,SFG,OF,OF,28,118.8,-353.0,1,,,,,,,,,FA
+9847,Andrew McCutchen,,OF,OF,39,189.0,-282.8,1,,,,,,,,,FA
+29539,Abimelec Ortiz,WSN,1B/OF,OF,24,172.7,-299.1,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders
+29554,Adrian Del Castillo,ARI,C,C,26,132.7,-382.7,1,,,,,,,,,FA
+33390,Bryce Eldridge,SFG,1B,1B,21,251.0,-319.0,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Knowznothin
+21626,Griffin Conine,MIA,1B/OF,OF,28,302.0,-169.8,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Peel A Section
+17620,Myles Straw,TOR,OF,OF,31,119.0,-352.8,1,,,,,,,,,FA
+20002,Bryce Johnson,SDP,OF,OF,30,107.7,-364.1,1,,,,,,,,,FA
+26284,John Rave,KCR,OF,OF,28,104.0,-367.8,1,,,,,,,,,FA
+24878,Heriberto Hernández,MIA,OF,OF,26,261.3,-210.5,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Seiya Prayer For My Team
+18217,Brett Sullivan,COL,C,C,32,103.5,-411.9,1,,,,,,,,,FA
+25779,Tyler Tolbert,KCR,OF,OF,28,108.2,-363.6,1,,,,,,,,,FA
+27770,Zac Veen,COL,OF,OF,24,116.3,-355.5,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,The Northsiders
+19346,Eli White,BOS,OF,OF,32,110.9,-360.9,1,,,,,,,,,FA
+5827,Wilmer Flores,,1B,1B,34,134.7,-435.3,1,,,,,,,,,FA
+27690,Joey Wiemer,CHW,OF,OF,27,116.1,-355.7,1,,,,,,,,,FA
+15223,Adam Frazier,LAA,2B,2B,34,140.6,-395.7,1,,,,,,,,,FA
+13757,Chris Taylor,,OF,OF,35,83.0,-388.8,1,,,,,,,,,FA
+28142,Jhostynxon Garcia,PIT,OF,OF,23,132.5,-339.3,1,,,,,,,,,FA
+25714,Blaine Crim,,1B,1B,29,160.4,-409.6,1,,,,,,,,,FA
+22165,Ryan Vilade,TBR,OF,OF,27,152.7,-319.1,1,,,,,,,,,FA
+29524,Bryce Teodosio,LAA,OF,OF,27,152.9,-318.9,1,,,,,,,,,FA
+21871,Jerar Encarnacion,SFG,OF,OF,28,130.6,-341.2,1,,,,,,,,,FA
+35423,Braden Montgomery,CHW,OF,OF,23,92.7,-379.1,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Barreled Souls
+26143,Troy Johnston,COL,OF,OF,29,165.3,-306.5,1,,,,,,,,,FA
+29805,TJ Rumfield,COL,1B,1B,26,327.5,-242.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Knowznothin
+13621,Jeimer Candelario,LAA,3B,3B,32,145.9,-415.1,1,,,,,,,,,FA
+27969,Deyvison De Los Santos,MIA,1B,1B,23,105.2,-464.8,1,,,,,,,,,FA
+sa3025257,Charlie Condon,COL,1B/OF,OF,23,123.2,-348.6,1,,3.0,-2.0,0,4.0,-3.0,0.0,0.0,Chin Music Choir
+15653,Dominic Smith,ATL,1B,1B,31,166.2,-403.8,1,,,,,,,,,FA
+35333,Chase Burns,CIN,SP,SP,23,530.8,-21.7,1,,10.0,-9.0,0,12.0,-11.0,0.0,4.0,Peel A Section
+24492,Grayson Rodriguez,LAA,SP,SP,26,537.1,-15.7,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Providence Grays
+19427,Shane Bieber,TOR,SP,SP,31,553.5,0.0,1,,,,,,,,,FA
+13361,Steven Matz,TBR,SP,SP,35,550.2,-3.2,1,,,,,,,,,FA
+21844,Braxton Garrett,CHC,SP,SP,28,492.4,-58.5,1,,,,,,,,,FA
+17677,Jeffrey Springs,ATH,SP,SP,33,554.0,0.5,1,,,,,,,,,FA
+27863,Jared Jones,PIT,SP,SP,24,486.7,-63.9,1,,10.0,-9.0,0,12.0,-11.0,0.0,4.0,Seiya Prayer For My Team
+8700,Justin Verlander,DET,SP,SP,43,520.7,-31.4,1,,,,,,,,,FA
+22182,Hunter Greene,CIN,SP,SP,26,371.3,-174.4,1,,,,,,,,,FA
+31843,Kumar Rocker,TEX,SP,SP,26,540.0,-12.9,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Seiya Prayer For My Team
+20387,Anthony Kay,CHW,SP,SP,31,518.8,-33.2,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Chin Music Choir
+32095,Cam Schlittler,NYY,SP,SP,25,511.4,-40.3,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Bloom's Onions
+30146,Jack Leiter,TEX,SP,SP,26,550.2,-3.2,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Iron 
+30184,Noah Cameron,KCR,SP,SP,26,532.6,-20.0,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Barreled Souls
+13164,Eduardo Rodriguez,ARI,SP,SP,33,513.8,-38.0,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Chin Music Choir
+16256,Kyle Freeland,COL,SP,SP,33,486.6,-64.0,1,,,,,,,,,FA
+35323,Roki Sasaki,LAD,SP,SP,24,476.5,-73.7,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,Barreled Souls
+15823,Zack Littell,,SP,SP,30,505.1,-46.3,1,,,,,,,,,FA
+31827,Zebby Matthews,MIN,SP,SP,26,439.7,-108.9,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Seiya Prayer For My Team
+24494,Simeon Woods Richardson,SEA,SP,SP,25,538.0,-14.8,1,,,,,,,,,FA
+11674,Jameson Taillon,TOR,SP,SP,34,502.2,-49.1,1,,,,,,,,,FA
+25098,Jacob Lopez,ATH,SP,SP,28,458.9,-90.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Peel A Section
+31986,Parker Messick,CLE,SP,SP,25,530.2,-22.3,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Rock the Casasbah
+30182,Will Warren,NYY,SP,SP,27,550.0,-3.3,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Chin Music Choir
+23796,Ryan Weathers,NYY,SP,SP,26,516.5,-35.4,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Sweet Spot
+29837,Bryce Miller,SEA,SP,SP,27,536.2,-16.6,1,,13.0,-12.0,0,15.0,-14.0,0.0,5.0,Iron 
+31846,Spencer Schwellenbach,ATL,SP,SP,26,356.3,-188.7,1,,18.0,-17.0,0,20.0,-19.0,0.0,8.0,Barreled Souls
+12730,Nick Martinez,TBR,SP,SP,35,514.3,-37.5,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Peel A Section
+30113,Chad Patrick,MIL,SP,SP,27,517.3,-34.6,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Rock the Casasbah
+29869,Michael McGreevy,STL,SP,SP,25,507.8,-43.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders
+21448,Davis Martin,CHW,SP,SP,29,506.2,-45.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders
+3137,Max Scherzer,TOR,SP,SP,41,463.8,-85.8,1,,,,,,,,,FA
+17312,Justin Steele,CHC,SP,SP,30,368.4,-177.1,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Seiya Prayer For My Team
+26108,Andre Pallante,STL,SP,SP,27,485.5,-65.1,1,,,,,,,,,FA
+19479,Aaron Civale,CHC,SP,SP,31,448.2,-100.8,1,,,,,,,,,FA
+25977,Quinn Priester,MIL,SP,SP,25,436.6,-111.9,1,,,,,,,,,FA
+33666,Connelly Early,WSN,SP,SP,24,351.4,-193.4,1,,11.0,-10.0,0,13.0,-12.0,0.0,4.0,Knowznothin
+31893,Robby Snelling,MIA,SP,SP,22,395.6,-151.1,1,,12.0,-11.0,0,14.0,-13.0,0.0,5.0,Barreled Souls
+31872,Cade Horton,CHC,SP,SP,24,495.7,-55.3,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Iron 
+14120,Lance McCullers Jr.,,SP,SP,32,451.9,-97.2,1,,,,,,,,,FA
+31475,Logan Henderson,MIL,SP,SP,24,387.8,-158.6,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Iron 
+20099,Chris Paddack,TEX,SP,SP,30,470.0,-79.9,1,,,,,,,,,FA
+33876,Rhett Lowder,CIN,SP,SP,24,428.3,-119.8,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Chin Music Choir
+27500,Slade Cecconi,CLE,SP,SP,27,535.6,-17.1,1,,,,,,,,,FA
+9803,Miles Mikolas,,SP,SP,37,447.5,-101.4,1,,,,,,,,,FA
+22487,Johan Oviedo,BOS,SP,SP,28,410.7,-136.7,1,,,,,,,,,FA
+30076,Landen Roupp,SFG,SP,SP,27,536.5,-16.3,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Knowznothin
+27889,J.T. Ginn,ATH,SP,SP,27,365.6,-179.8,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Chin Music Choir
+19447,Patrick Sandoval,BOS,SP,SP,29,378.1,-167.9,1,,,,,,,,,FA
+12718,Adrian Houser,SFG,SP,SP,33,513.9,-37.9,1,,,,,,,,,FA
+14843,Michael Lorenzen,TOR,SP,SP,34,419.9,-127.9,1,,,,,,,,,FA
+27932,Ian Seymour,TBR,SP,SP,27,457.0,-92.4,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Peel A Section
+14168,José Berríos,TOR,SP,SP,32,458.1,-91.3,1,,,,,,,,,FA
+27572,Carmen Mlodzinski,PIT,SP,SP,27,457.8,-91.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Rock the Casasbah
+29608,Joe Boyle,TBR,SP,SP,26,399.2,-147.7,1,,,,,,,,,FA
+11423,Jose Quintana,COL,SP,SP,37,376.3,-169.6,1,,,,,,,,,FA
+32227,Luis Morales,ATH,SP,SP,23,424.6,-123.4,1,,,,,,,,,FA
+27758,Kyle Harrison,MIL,SP,SP,24,440.4,-108.2,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Barreled Souls
+18383,Michael Soroka,ARI,SP,SP,28,465.6,-84.1,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Iron 
+33174,Hunter Barco,PIT,SP,SP,25,370.5,-175.1,1,,,,,,,,,FA
+27779,Bryce Elder,ATL,SP,SP,27,409.7,-137.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Peel A Section
+15474,Lucas Giolito,SDP,SP,SP,31,426.8,-121.3,1,,,,,,,,,FA
+33850,Brandon Sproat,MIL,SP,SP,25,361.1,-184.1,1,,,,,,,,,FA
+21446,Ryan Feltner,COL,SP,SP,29,361.3,-183.9,1,,,,,,,,,FA
+29878,Sean Burke,CHW,SP,SP,26,452.9,-96.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+19350,Dean Kremer,MIN,SP,SP,30,412.8,-134.6,1,,,,,,,,,FA
+17606,Cristian Javier,HOU,SP,SP,29,484.7,-65.8,1,,,,,,,,,FA
+29914,Andrew Alvarez,WSN,SP,SP,27,333.7,-210.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+35325,Ryan Johnson,LAA,SP,SP,23,263.2,-277.8,1,,,,,,,,,FA
+27589,Logan Allen,CLE,SP,SP,27,386.0,-160.3,1,,,,,,,,,FA
+27756,Mick Abel,MIN,SP,SP,24,483.0,-67.5,1,,,,,,,,,FA
+35321,Tomoyuki Sugano,COL,SP,SP,36,278.3,-263.4,1,,,,,,,,,FA
+21504,Jake Irvin,WSN,SP,SP,29,434.7,-113.7,1,,,,,,,,,FA
+30056,David Festa,MIN,SP,SP,26,256.9,-283.8,1,,,,,,,,,FA
+29812,Robert Gasser,MIL,SP,SP,27,302.2,-240.5,1,,,,,,,,,FA
+15507,Hunter Harvey,CHC,RP,RP,31,342.9,-5.2,1,,,,,,,,,FA
+19867,Griffin Canning,SDP,SP,SP,30,406.6,-140.6,1,,,,,,,,,FA
+11847,Chris Martin,,RP,RP,40,351.6,0.1,1,,,,,,,,,FA
+30091,Andrew Painter,PHI,SP,SP,23,400.2,-146.7,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Chin Music Choir
+21052,Luis Gil,NYY,SP,SP,28,353.4,-191.5,1,,,,,,,,,FA
+23301,Janson Junk,MIA,SP,SP,30,339.9,-204.4,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Barreled Souls
+24621,Ryan Weiss,HOU,SP,SP,29,339.7,-204.6,1,,,,,,,,,FA
+15038,Germán Márquez,MIN,SP,SP,31,355.6,-189.4,1,,,,,,,,,FA
+19361,Corbin Burnes,ARI,SP,SP,31,175.4,-361.8,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Rock the Casasbah
+24763,Kyle Leahy,STL,SP,SP,29,433.7,-114.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+31776,Orion Kerkering,PHI,RP,RP,25,292.2,-36.1,1,,,,,,,,,FA
+21487,Stephen Kolek,KCR,SP,SP,29,279.0,-262.7,1,,,,,,,,,FA
+33527,Hurston Waldrep,ATL,SP,SP,24,240.1,-299.9,1,,,,,,,,,FA
+33482,Chase Dollander,COL,SP,SP,24,372.3,-173.4,1,,,,,,,,,FA
+30160,Richard Fitts,STL,SP,SP,26,457.1,-92.3,1,,,,,,,,,FA
+35418,Gage Jump,ATH,SP,SP,23,191.0,-346.9,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Seiya Prayer For My Team
+25007,Alex Vesia,LAD,RP,RP,30,353.3,1.2,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Barreled Souls
+25463,Brandon Williamson,CIN,SP,SP,28,309.2,-233.8,1,,,,,,,,,FA
+16258,Aaron Bummer,,RP,RP,32,328.5,-14.0,1,,,,,,,,,FA
+31730,Jonathan Cannon,CHW,SP,SP,25,334.0,-210.1,1,,,,,,,,,FA
+17425,Erick Fedde,CHW,SP,SP,33,325.1,-218.6,1,,,,,,,,,FA
+27514,Kyle Hurt,LAD,RP,RP,28,225.3,-76.9,1,,,,,,,,,FA
+20531,Kutter Crawford,BOS,RP,RP,30,258.9,-56.4,1,,,,,,,,,FA
+17170,Gabe Speier,SEA,RP,RP,31,347.6,-2.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders
+21306,Jacob Latz,TEX,SP,SP,30,333.2,-210.8,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Chin Music Choir
+15551,Mark Leiter Jr.,ATH,RP,RP,35,351.4,0.0,1,,,,,,,,,FA
+30240,Hunter Dobbins,STL,SP,SP,26,304.2,-238.6,1,,,,,,,,,FA
+31857,Connor Prielipp,MIN,RP,RP,25,256.7,-57.8,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Twin Pines 🌲🌲
+9323,Patrick Corbin,TOR,SP,SP,36,215.3,-323.7,1,,,,,,,,,FA
+11426,Drew Pomeranz,,RP,RP,37,310.3,-25.1,1,,,,,,,,,FA
+19343,A.J. Puk,ARI,RP,RP,31,252.0,-60.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays
+24719,Randy Vásquez,SDP,SP,SP,27,400.2,-146.7,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Twin Pines 🌲🌲
+27597,Cody Bradford,TEX,SP,SP,28,269.5,-271.8,1,,,,,,,,,FA
+12572,Blake Treinen,LAD,RP,RP,38,290.7,-37.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot
+25942,Andrew Nardi,MIA,RP,RP,27,336.9,-8.8,1,,,,,,,,,FA
+14739,Paul Blackburn,NYY,RP,RP,32,297.8,-32.7,1,,,,,,,,,FA
+29921,Spencer Arrighetti,TOR,SP,SP,26,313.1,-230.1,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Barreled Souls
+31461,Ben Joyce,LAA,RP,RP,25,341.3,-6.2,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Chin Music Choir
+11861,Jason Adam,SDP,RP,RP,34,351.1,-0.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+16727,Brock Stewart,LAD,RP,RP,34,197.7,-93.8,1,,,,,,,,,FA
+12317,Colin Rea,CHC,SP,SP,35,308.5,-234.5,1,,,,,,,,,FA
+31807,Troy Melton,DET,RP,RP,25,221.5,-79.2,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Rock the Casasbah
+22717,Angel Zerpa,MIL,RP,RP,26,324.2,-16.6,1,,,,,,,,,FA
+21649,Luis Medina,ATH,SP,SP,27,301.2,-241.5,1,,,,,,,,,FA
+18655,A.J. Minter,MIN,RP,RP,32,320.2,-19.0,1,,,,,,,,,FA
+16990,Tanner Banks,PHI,RP,RP,34,330.4,-12.8,1,,,,,,,,,FA
+12095,Yimi García,TOR,RP,RP,35,327.5,-14.6,1,,,,,,,,,FA
+19876,Kevin Ginkel,ARI,RP,RP,32,326.8,-15.0,1,,,,,,,,,FA
+16511,Jordan Montgomery,TEX,SP,SP,33,171.1,-366.0,1,,,,,,,,,FA
+16122,Jordan Romano,COL,RP,RP,33,349.2,-1.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot
+23499,Keaton Winn,SFG,RP,RP,28,293.2,-35.5,1,,,,,,,,,FA
+16943,Sean Newcomb,CHW,RP,RP,33,333.0,-11.2,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Knowznothin
+29950,Jordan Leasure,CHW,RP,RP,27,337.9,-8.2,1,,,,,,,,,FA
+25648,Justin Slaten,BOS,RP,RP,28,318.5,-20.1,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Seiya Prayer For My Team
+35466,Payton Tolle,BOS,RP,RP,23,146.7,-124.9,1,,13.0,-12.0,0,15.0,-14.0,0.0,5.0,Barreled Souls
+15009,Kyle Finnegan,DET,RP,RP,34,355.1,2.3,1,,,,,,,,,FA
+32157,Jonah Tong,NYM,RP,RP,23,126.9,-136.9,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Bloom's Onions
+30661,Didier Fuentes,ATL,RP,RP,21,253.7,-59.6,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Barreled Souls
+25911,Yennier Cano,BAL,RP,RP,32,318.4,-20.1,1,,,,,,,,,FA
+31204,Justin Wrobleski,LAD,RP,RP,25,246.7,-63.9,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Bloom's Onions
+26448,Trevor McDonald,SFG,SP,SP,25,244.9,-295.3,1,,,,,,,,,FA
+29514,River Ryan,DET,SP,SP,27,209.8,-328.9,1,,,,,,,,,FA
+20367,Brusdar Graterol,LAD,RP,RP,27,190.9,-97.9,1,,,,,,,,,FA
+27552,Graham Ashcraft,CIN,RP,RP,28,335.6,-9.6,1,,,,,,,,,FA
+21574,Brendon Little,TOR,RP,RP,29,295.2,-34.3,1,,,,,,,,,FA
+11836,Taijuan Walker,,SP,SP,33,345.4,-199.2,1,,,,,,,,,FA
+24993,Kody Funderburk,MIN,RP,RP,29,354.6,2.0,1,,,,,,,,,FA
+13293,Danny Coulombe,,RP,RP,36,263.1,-53.9,1,,,,,,,,,FA
+19899,Clarke Schmidt,NYY,RP,RP,30,149.2,-123.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Barreled Souls
+13932,Dietrich Enns,BAL,RP,RP,35,303.2,-29.4,1,,,,,,,,,FA
+12880,Tyler Anderson,LAA,SP,SP,36,217.8,-321.3,1,,,,,,,,,FA
+20000,Tyler Wells,TBR,RP,RP,31,304.6,-28.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Rock the Casasbah
+19178,Tommy Nance,MIN,RP,RP,35,302.8,-29.6,1,,,,,,,,,FA
+30133,Brant Hurter,DET,RP,RP,27,266.4,-51.9,1,,,,,,,,,FA
+12828,Andrew Kittredge,BAL,RP,RP,36,320.8,-18.7,1,,,,,,,,,FA
+31676,Carson Whisenhunt,SFG,SP,SP,25,214.9,-324.0,1,,,,,,,,,FA
+33464,George Klassen,LAA,SP,SP,24,181.5,-356.0,1,,,,,,,,,FA
+19618,Jordan Hicks,CHW,RP,RP,29,319.2,-19.6,1,,,,,,,,,FA
+13580,Steven Okert,HOU,RP,RP,34,333.9,-10.7,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Bloom's Onions
+22288,Mason Englert,TBR,RP,RP,26,303.6,-29.2,1,,,,,,,,,FA
+20422,Jovani Morán,BOS,RP,RP,29,264.1,-53.3,1,,,,,,,,,FA
+22191,Tobias Myers,NYM,RP,RP,27,346.3,-3.1,1,,,,,,,,,FA
+22872,Yoendrys Gómez,MIN,RP,RP,26,280.4,-43.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+25679,Kevin Kelly,TBR,RP,RP,28,214.2,-83.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Peel A Section
+30107,Christian Scott,NYM,RP,RP,27,157.0,-118.6,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Knowznothin
+19316,Eric Lauer,LAD,RP,RP,31,277.6,-45.0,1,,,,,,,,,FA
+19374,Walker Buehler,SDP,SP,SP,31,276.6,-265.0,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Knowznothin
+33851,Quinn Mathews,STL,SP,SP,25,164.9,-371.9,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Peel A Section
+18297,Tyler Kinley,DET,RP,RP,35,323.2,-17.2,1,,,,,,,,,FA
+19753,Jonathan Loáisiga,ARI,RP,RP,31,333.8,-10.7,1,,,,,,,,,FA
+27688,Jack Kochanowicz,LAA,SP,SP,25,245.6,-294.7,1,,,,,,,,,FA
+13619,Jakob Junis,TEX,RP,RP,33,316.9,-21.0,1,,,,,,,,,FA
+9073,Kirby Yates,PIT,RP,RP,39,243.4,-65.9,1,,,,,,,,,FA
+31967,Drew Thorpe,CHW,SP,SP,25,148.1,-388.0,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Chin Music Choir
+15734,Brad Keller,PHI,RP,RP,30,340.2,-6.8,1,,,,,,,,,FA
+24453,Justin Martinez,ARI,RP,RP,24,115.1,-144.1,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Chin Music Choir
+24282,Kai-Wei Teng,HOU,RP,RP,27,287.3,-39.1,1,,,,,,,,,FA
+15145,Justin Topa,NYY,RP,RP,35,319.2,-19.6,1,,,,,,,,,FA
+13435,Pierce Johnson,CIN,RP,RP,35,303.7,-29.1,1,,,,,,,,,FA
+19911,José Suarez,,RP,RP,28,282.6,-42.0,1,,,,,,,,,FA
+26252,Erik Miller,BOS,RP,RP,28,358.8,4.5,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,The Northsiders
+22630,Keider Montero,DET,RP,RP,25,203.6,-90.2,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Iron 
+27626,Eric Orze,MIN,RP,RP,28,291.3,-36.7,1,,,,,,,,,FA
+24607,Jonathan Bowlan,PHI,RP,RP,29,293.1,-35.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+19349,Caleb Ferguson,,RP,RP,29,248.0,-63.1,1,,,,,,,,,FA
+26410,Alek Manoah,,SP,SP,28,137.3,-398.3,1,,,,,,,,,FA
+6984,Luis García,,RP,RP,39,311.6,-24.3,1,,,,,,,,,FA
+10061,Brooks Raley,PHI,RP,RP,38,324.5,-16.4,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,The Northsiders
+26389,DJ Herz,WSN,RP,RP,25,134.0,-132.6,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Providence Grays
+14993,Scott Barlow,,RP,RP,33,306.5,-27.4,1,,,,,,,,,FA
+17734,Evan Phillips,LAD,RP,RP,31,143.9,-126.6,1,,,,,,,,,FA
+26048,Sawyer Gipson-Long,DET,RP,RP,28,118.5,-142.1,1,,,,,,,,,FA
+27814,Shane Drohan,MIL,RP,RP,27,237.0,-69.8,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Peel A Section
+18323,Josh Sborz,TEX,RP,RP,32,290.3,-37.3,1,,,,,,,,,FA
+sa3023268,Thomas White,MIA,RP,RP,21,112.7,-145.6,1,,,,,,,,,FA
+17639,Justin Lawrence,WSN,RP,RP,31,288.0,-38.7,1,,,,,,,,,FA
+27792,Gavin Stone,LAD,RP,RP,27,124.8,-138.2,1,,,,,,,,,FA
+31760,JR Ritchie,ATL,SP,SP,23,125.5,-409.6,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Knowznothin
+24609,Braydon Fisher,TOR,RP,RP,25,249.1,-62.4,1,,,,,,,,,FA
+27669,Tanner Gordon,COL,SP,SP,28,157.9,-378.6,1,,,,,,,,,FA
+14874,Sam Moll,,RP,RP,34,215.3,-83.0,1,,,,,,,,,FA
+30074,Chase Silseth,TEX,RP,RP,26,300.6,-31.0,1,,,,,,,,,FA
+20020,John Schreiber,NYY,RP,RP,32,308.0,-26.5,1,,,,,,,,,FA
+32056,Noah Schultz,CHW,RP,RP,22,87.2,-161.2,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Barreled Souls
+21345,Bennett Sousa,HOU,RP,RP,31,139.2,-129.4,1,,,,,,,,,FA
+19666,Jason Alexander,HOU,RP,RP,33,149.4,-123.2,1,,,,,,,,,FA
+24975,Cooper Criswell,SEA,RP,RP,29,325.8,-15.6,1,,,,,,,,,FA
+26440,Ryan Gusto,MIA,RP,RP,27,168.3,-111.7,1,,,,,,,,,FA
+30094,Jordan Wicks,CHC,RP,RP,26,104.9,-150.4,1,,,,,,,,,FA
+13594,Robert Stephenson,LAA,RP,RP,33,166.7,-112.7,1,,,,,,,,,FA
+19742,Anthony Bender,MIA,RP,RP,31,304.5,-28.6,1,,,,,,,,,FA
+25376,Nick Mears,KCR,RP,RP,29,293.0,-35.6,1,,,,,,,,,FA
+19362,Keegan Akin,BAL,RP,RP,31,356.1,2.9,1,,,,,,,,,FA
+20116,Calvin Faucher,MIA,RP,RP,30,339.5,-7.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Barreled Souls
+18548,Sam Hentges,SFG,RP,RP,29,136.0,-131.4,1,,,,,,,,,FA
+25703,Zak Kent,WSN,RP,RP,28,242.6,-66.4,1,,,,,,,,,FA
+27636,Mitchell Parker,WSN,RP,RP,26,187.3,-100.1,1,,,,,,,,,FA
+27581,Hayden Wesneski,HOU,RP,RP,28,140.8,-128.5,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays
+18341,Julian Fernández,,RP,RP,30,168.3,-111.7,1,,,,,,,,,FA
+17556,Jimmy Herget,COL,RP,RP,32,330.6,-12.7,1,,,,,,,,,FA
+21267,Jake Bird,WSN,RP,RP,30,298.4,-32.3,1,,,,,,,,,FA
+18064,Phil Maton,CHC,RP,RP,33,345.8,-3.4,1,,,,,,,,,FA
+29887,Tanner McDougal,CHW,SP,SP,23,180.9,-356.6,1,,,,,,,,,FA
+27974,Cristian Mena,ARI,RP,RP,23,92.0,-158.2,1,,,,,,,,,FA
+17192,Jalen Beeks,TEX,RP,RP,32,249.6,-62.1,1,,,,,,,,,FA
+30249,Jack Dreyer,LAD,RP,RP,27,241.9,-66.8,1,,,,,,,,,FA
+19926,Tony Santillan,CIN,RP,RP,29,343.6,-4.8,1,,,,,,,,,FA
+24986,Colin Selby,BAL,RP,RP,28,199.9,-92.4,1,,,,,,,,,FA
+30055,Cade Povich,BAL,RP,RP,26,97.9,-154.6,1,,,,,,,,,FA
+27926,Coleman Crow,MIL,RP,RP,25,104.5,-150.6,1,,,,,,,,,FA
+29770,Mason Montgomery,PIT,RP,RP,26,313.5,-23.1,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays
+25139,Tim Herrin,CLE,RP,RP,29,278.6,-44.4,1,,,,,,,,,FA
+14706,Anthony Banda,MIN,RP,RP,32,267.1,-51.4,1,,,,,,,,,FA
+25215,Yaramil Hiraldo,BAL,RP,RP,30,165.7,-113.3,1,,,,,,,,,FA
+30250,Jaden Hill,COL,RP,RP,26,237.7,-69.4,1,,,,,,,,,FA
+3548,Liam Hendriks,,RP,RP,37,137.5,-130.5,1,,,,,,,,,FA
+19407,Ronel Blanco,HOU,RP,RP,32,90.1,-159.4,1,,,,,,,,,FA
+22051,John King,TEX,RP,RP,31,250.3,-61.7,1,,,,,,,,,FA
+31738,Josh White,MIA,RP,RP,25,196.2,-94.7,1,,,,,,,,,FA
+27694,Justin Sterner,ATH,RP,RP,29,326.4,-15.3,1,,,,,,,,,FA
+31468,Jack Perkins,ATH,RP,RP,26,107.1,-149.0,1,,,,,,,,,FA
+26214,Chris Murphy,CHW,RP,RP,28,246.5,-64.0,1,,,,,,,,,FA
+14295,Wandy Peralta,SDP,RP,RP,34,270.6,-49.3,1,,,,,,,,,FA
+22304,Brenan Hanifee,DET,RP,RP,28,173.2,-108.7,1,,,,,,,,,FA
+13346,Hoby Milner,SEA,RP,RP,35,290.9,-36.9,1,,,,,,,,,FA
+31508,Caden Dana,LAA,SP,SP,22,207.2,-331.4,1,,,,,,,,,FA
+19883,Alex Lange,KCR,RP,RP,30,249.1,-62.4,1,,,,,,,,,FA
+23237,Juan Mejia,COL,RP,RP,25,305.1,-28.2,1,,,,,,,,,FA
+23293,Codi Heuer,BAL,RP,RP,29,125.0,-138.1,1,,,,,,,,,FA
+17968,Brock Burke,CIN,RP,RP,29,295.1,-34.3,1,,,,,,,,,FA
+17611,Taylor Clarke,ARI,RP,RP,33,294.2,-34.9,1,,,,,,,,,FA
+12988,Andrew Chafin,,RP,RP,36,145.4,-125.7,1,,,,,,,,,FA
+23394,PJ Poulin,WSN,RP,RP,29,286.5,-39.6,1,,,,,,,,,FA
+20375,Greg Weissert,BOS,RP,RP,31,327.6,-14.5,1,,,,,,,,,FA
+20349,Zack Kelly,BOS,RP,RP,31,275.1,-46.5,1,,,,,,,,,FA
+29863,Ryan Bergert,KCR,SP,SP,26,196.1,-342.0,1,,,,,,,,,FA
+21741,Javier Assad,CHC,RP,RP,28,275.3,-46.4,1,,,,,,,,,FA
+15947,Ryne Stanek,STL,RP,RP,34,317.8,-20.5,1,,,,,,,,,FA
+25582,Brady Basso,ATH,RP,RP,28,115.5,-143.9,1,,,,,,,,,FA
+24937,Austin Warren,NYM,RP,RP,30,210.8,-85.8,1,,,,,,,,,FA
+24580,Josiah Gray,WSN,SP,SP,28,230.5,-309.1,1,,,,,,,,,FA
+27668,Brandon Eisert,PIT,RP,RP,28,143.5,-126.8,1,,,,,,,,,FA
+19924,Bryan Hudson,CHW,RP,RP,29,149.4,-123.2,1,,,,,,,,,FA
+19205,Jesse Scholtens,TBR,RP,RP,32,150.9,-122.3,1,,,,,,,,,FA
+29423,Kendry Rojas,MIN,RP,RP,23,162.7,-115.1,1,,,,,,,,,FA
+27470,Emerson Hancock,SEA,SP,SP,27,275.7,-265.9,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Iron 
+17381,Matt Gage,SFG,RP,RP,33,269.6,-49.9,1,,,,,,,,,FA
+6107,Huascar Brazobán,CHW,RP,RP,36,238.8,-68.7,1,,,,,,,,,FA
+23429,JP Sears,SDP,RP,RP,30,125.0,-138.1,1,,,,,,,,,FA
+31891,Andrew Morris,MIN,RP,RP,24,103.3,-151.3,1,,,,,,,,,FA
+19531,Jason Foley,SFG,RP,RP,30,105.8,-149.8,1,,,,,,,,,FA
+24995,Evan Sisk,PIT,RP,RP,29,167.0,-112.5,1,,,,,,,,,FA
+33980,Jonathan Pintaro,NYM,RP,RP,28,136.1,-131.3,1,,,,,,,,,FA
+24978,Erik Sabrowski,CLE,RP,RP,28,320.6,-18.8,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Bloom's Onions
+30170,Chase Petty,CIN,RP,RP,23,153.1,-121.0,1,,,,,,,,,FA
+15256,Cole Sulser,TBR,RP,RP,36,260.9,-55.2,1,,,,,,,,,FA
+27702,Brent Headrick,NYY,RP,RP,28,180.2,-104.4,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Peel A Section
+25636,Hunter Gaddis,CLE,RP,RP,28,301.9,-30.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+16977,Trevor Williams,TEX,RP,RP,34,113.7,-145.0,1,,,,,,,,,FA
+19320,Joey Lucchesi,,RP,RP,33,224.2,-77.6,1,,,,,,,,,FA
+19444,Yohan Ramírez,PIT,RP,RP,31,266.8,-51.6,1,,,,,,,,,FA
+12777,John Brebbia,BOS,RP,RP,36,142.7,-127.3,1,,,,,,,,,FA
+16647,Ryan Thompson,ARI,RP,RP,34,310.4,-25.0,1,,,,,,,,,FA
+17859,Adbert Alzolay,,RP,RP,31,173.6,-108.5,1,,,,,,,,,FA
+15042,Tim Mayza,PHI,RP,RP,34,202.9,-90.6,1,,,,,,,,,FA
+27775,Kyle Nicolas,WSN,RP,RP,27,167.2,-112.4,1,,,,,,,,,FA
+16350,Ryan Borucki,CLE,RP,RP,32,271.1,-49.0,1,,,,,,,,,FA
+22207,DL Hall,MIL,RP,RP,27,244.8,-65.0,1,,,,,,,,,FA
+20070,Bailey Falter,ATL,RP,RP,29,254.2,-59.3,1,,,,,,,,,FA
+20160,Nate Pearson,KCR,RP,RP,29,211.3,-85.5,1,,,,,,,,,FA
+31701,Blade Tidwell,SFG,RP,RP,25,130.1,-135.0,1,,,,,,,,,FA
+31318,Gunnar Hoglund,ATH,SP,SP,26,195.7,-342.4,1,,,,,,,,,FA
+30084,Carson Seymour,SFG,RP,RP,27,133.7,-132.8,1,,,,,,,,,FA
+sa3020336,Braden Nett,ATH,RP,RP,24,122.0,-139.9,1,,,,,,,,,FA
+5615,Ryan Brasier,,RP,RP,38,145.6,-125.5,1,,,,,,,,,FA
+31312,Colton Gordon,MIL,RP,RP,27,95.6,-156.0,1,,,,,,,,,FA
+27819,Brandon Young,BAL,RP,RP,27,101.6,-152.4,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Twin Pines 🌲🌲
+16835,Brennan Bernardino,COL,RP,RP,34,250.1,-61.8,1,,,,,,,,,FA
+30140,Ty Madden,DET,RP,RP,26,92.5,-157.9,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,The Northsiders
+25310,Peyton Gray,TEX,RP,RP,31,142.6,-127.4,1,,,,,,,,,FA
+20629,Tyler Phillips,MIA,RP,RP,28,325.6,-15.7,1,,,,,,,,,FA
+29574,Chase Lee,TOR,RP,RP,27,130.7,-134.6,1,,,,,,,,,FA
+33838,Yariel Rodríguez,TOR,RP,RP,29,97.7,-154.8,1,,,,,,,,,FA
+24452,Luinder Avila,KCR,RP,RP,24,165.7,-113.3,1,,,,,,,,,FA
+29928,Dylan Dodd,ATL,RP,RP,28,180.1,-104.5,1,,,,,,,,,FA
+15094,Rob Zastryzny,MIL,RP,RP,34,208.4,-87.2,1,,,,,,,,,FA
+17578,JT Brubaker,SFG,RP,RP,32,271.5,-48.7,1,,,,,,,,,FA
+32155,John Klein,TOR,RP,RP,24,151.0,-122.2,1,,,,,,,,,FA
+31741,Mason Barnett,ATH,RP,RP,25,94.4,-156.8,1,,,,,,,,,FA
+21527,James McArthur,KCR,RP,RP,29,87.4,-161.0,1,,,,,,,,,FA
+19409,Dane Dunning,SEA,RP,RP,31,84.5,-162.8,1,,,,,,,,,FA
+30161,Carlos Rodriguez,MIL,RP,RP,24,143.6,-126.8,1,,,,,,,,,FA
+27707,Mitch Spence,KCR,RP,RP,28,98.7,-154.1,1,,,,,,,,,FA
+26944,Edgardo Henriquez,LAD,RP,RP,24,202.4,-90.9,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Iron 
+24862,Ryan Fernandez,STL,RP,RP,28,167.9,-111.9,1,,,,,,,,,FA
+21894,Gregory Santos,,RP,RP,26,162.1,-115.5,1,,,,,,,,,FA
+27787,Will Klein,LAD,RP,RP,26,295.5,-34.1,1,,,,,,,,,FA
+26260,Drey Jameson,ARI,RP,RP,28,102.9,-151.6,1,,,,,,,,,FA
+31614,Gabriel Hughes,COL,RP,RP,24,112.5,-145.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot
+21537,Daniel Lynch IV,KCR,RP,RP,29,252.6,-60.3,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Rock the Casasbah
+21623,Grant Wolfram,BAL,RP,RP,29,205.8,-88.8,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays
+19337,Richard Lovelady,WSN,RP,RP,30,193.1,-96.6,1,,,,,,,,,FA
+33027,Luis Gastelum,STL,RP,RP,24,121.1,-140.5,1,,,,,,,,,FA
+29318,Welinton Herrera,COL,RP,RP,22,131.0,-134.4,1,,,,,,,,,FA
+31913,Hayden Harris,COL,RP,RP,27,237.2,-69.7,1,,,,,,,,,FA
+22361,Colin Holderman,CLE,RP,RP,30,173.9,-108.3,1,,,,,,,,,FA
+30171,Mason Black,KCR,RP,RP,26,185.5,-101.2,1,,,,,,,,,FA
+26215,Jackson Rutledge,,RP,RP,27,157.4,-118.3,1,,,,,,,,,FA
+16502,Ryan Yarbrough,NYY,RP,RP,34,244.1,-65.5,1,,,,,,,,,FA
+24737,Gus Varland,WSN,RP,RP,29,178.2,-105.7,1,,,,,,,,,FA
+27765,Yosver Zulueta,BAL,RP,RP,28,175.2,-107.5,1,,,,,,,,,FA
+35309,Dylan Ross,NYM,RP,RP,25,118.5,-142.1,1,,,,,,,,,FA
+19646,Kyle Hart,SDP,RP,RP,33,210.2,-86.1,1,,,,,,,,,FA
+21520,Hogan Harris,ATH,RP,RP,29,357.4,3.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays
+25796,Anthony Nunez,BAL,RP,RP,24,108.3,-148.3,1,,,,,,,,,FA
+33821,Philip Abner,SFG,RP,RP,24,111.3,-146.5,1,,,,,,,,,FA
+17964,Tyler Gilbert,CHW,RP,RP,32,146.8,-124.8,1,,,,,,,,,FA
+17282,Michael Kopech,,RP,RP,30,151.9,-121.7,1,,,,,,,,,FA
+31553,Mason Fluharty,TOR,RP,RP,24,180.5,-104.2,1,,,,,,,,,FA
+31764,AJ Blubaugh,HOU,RP,RP,25,169.9,-110.7,1,,,,,,,,,FA
+14524,José Leclerc,,RP,RP,32,116.6,-143.2,1,,,,,,,,,FA
+26259,Hunter Bigge,TBR,RP,RP,28,178.8,-105.3,1,,,,,,,,,FA
+18403,Enyel De Los Santos,HOU,RP,RP,30,273.1,-47.8,1,,,,,,,,,FA
+33248,Craig Yoho,CLE,RP,RP,26,175.5,-107.3,1,,,,,,,,,FA
+13218,Michael Fulmer,NYY,RP,RP,33,88.1,-160.6,1,,,,,,,,,FA
+17735,Tyler Alexander,TEX,RP,RP,31,296.0,-33.8,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot
+27757,Dax Fulton,MIA,RP,RP,24,103.7,-151.1,1,,,,,,,,,FA
+32026,Drew Sommers,DET,RP,RP,25,100.4,-153.1,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Bloom's Onions
+31994,Austin Peterson,CLE,RP,RP,26,111.9,-146.1,1,,,,,,,,,FA
+30166,Marco Raya,MIN,RP,RP,23,106.5,-149.4,1,,,,,,,,,FA
+20546,Grant Anderson,MIL,RP,RP,29,258.8,-56.5,1,,,,,,,,,FA
+27681,Ken Waldichuk,WSN,RP,RP,28,254.5,-59.1,1,,,,,,,,,FA
+26413,Porter Hodge,CHC,RP,RP,25,126.9,-136.9,1,,,,,,,,,FA
+23165,Steven Cruz,KCR,RP,RP,27,169.4,-111.0,1,,,,,,,,,FA
+31886,Duncan Davitt,SFG,RP,RP,26,99.6,-153.6,1,,,,,,,,,FA
+21420,Yerry De los Santos,NYY,RP,RP,28,152.5,-121.3,1,,,,,,,,,FA
+sa3025613,Ryan Lambert,NYM,RP,RP,23,160.6,-116.4,1,,,,,,,,,FA
+23150,Osvaldo Bido,,RP,RP,30,93.3,-157.4,1,,,,,,,,,FA
+20517,Nick Sandlin,DET,RP,RP,29,116.0,-143.6,1,,,,,,,,,FA
+29107,Bradgley Rodriguez,SDP,RP,RP,22,223.6,-78.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+21205,Connor Brogdon,CLE,RP,RP,31,221.0,-79.5,1,,,,,,,,,FA
+19614,Cionel Pérez,NYM,RP,RP,30,277.9,-44.8,1,,,,,,,,,FA
+26463,Alex Carrillo,SFG,RP,RP,29,80.3,-165.4,1,,,,,,,,,FA
+19481,Tyler Ferguson,CHC,RP,RP,32,222.9,-78.4,1,,,,,,,,,FA
+13892,Paul Sewald,TOR,RP,RP,36,352.7,0.8,1,,,,,,,,,FA
+11804,Héctor Neris,,RP,RP,37,88.9,-160.1,1,,,,,,,,,FA
+11384,Tommy Kahnle,,RP,RP,36,185.3,-101.3,1,,,,,,,,,FA
+33294,Seth Halvorsen,LAD,RP,RP,26,179.7,-104.7,1,,,,,,,,,FA
+27853,Ryan Watson,LAA,RP,RP,28,160.5,-116.4,1,,,,,,,,,FA
+27487,Landon Knack,LAD,RP,RP,28,82.8,-163.8,1,,,,,,,,,FA
+23455,Hunter Stratton,SDP,RP,RP,29,119.8,-141.3,1,,,,,,,,,FA
+28148,Luis Perales,WSN,RP,RP,23,85.1,-162.4,1,,,,,,,,,FA
+21662,Elvis Alvarado,ATH,RP,RP,27,247.5,-63.4,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Barreled Souls
+30004,McCade Brown,COL,RP,RP,25,74.9,-168.7,1,,,,,,,,,FA
+30142,Doug Nikhazy,CHC,RP,RP,26,122.3,-139.8,1,,,,,,,,,FA
+33826,Yuki Matsui,SDP,RP,RP,30,181.8,-103.5,1,,,,,,,,,FA
+30195,Franco Aleman,CLE,RP,RP,26,88.9,-160.1,1,,,,,,,,,FA
+20185,Zach Pop,MIA,RP,RP,29,153.5,-120.7,1,,,,,,,,,FA
+20333,Nick Raquet,,RP,RP,30,122.4,-139.7,1,,,,,,,,,FA
+18337,Nick Anderson,,RP,RP,35,146.2,-125.2,1,,,,,,,,,FA
+15043,Lou Trivino III,PHI,RP,RP,34,93.9,-157.1,1,,,,,,,,,FA
+30031,Julian Aguiar,CIN,RP,RP,25,110.0,-147.3,1,,,,,,,,,FA
+25501,Paxton Schultz,WSN,RP,RP,28,108.8,-148.0,1,,,,,,,,,FA
+14332,Joel Payamps,ATL,RP,RP,32,260.5,-55.4,1,,,,,,,,,FA
+19330,Matt Festa,CLE,RP,RP,33,288.0,-38.7,1,,,,,,,,,FA
+18674,Jake Woodford,TBR,RP,RP,29,93.7,-157.2,1,,,,,,,,,FA
+19222,Lake Bachar,PIT,RP,RP,31,230.3,-73.9,1,,,,,,,,,FA
+17888,Tayler Saucedo,LAA,RP,RP,33,97.7,-154.8,1,,,,,,,,,FA
+sa3020389,Shane Murphy,CHW,RP,RP,25,77.3,-167.2,1,,,,,,,,,FA
+26079,Beau Brieske,DET,RP,RP,28,95.9,-155.9,1,,,,,,,,,FA
+6175,Albert Suárez,,RP,RP,36,82.9,-163.8,1,,,,,,,,,FA
+30180,Travis Adams,MIN,RP,RP,26,159.2,-117.2,1,,,,,,,,,FA
+24930,Ethan Roberts,CHC,RP,RP,28,158.0,-118.0,1,,,,,,,,,FA
+23779,Justin Bruihl,STL,RP,RP,29,246.0,-64.3,1,,,,,,,,,FA
+33908,José Fermin,LAA,RP,RP,24,96.8,-155.3,1,,,,,,,,,FA
+31616,David Morgan,SDP,RP,RP,26,283.7,-41.3,1,,,,,,,,,FA
+27649,Connor Phillips,CIN,RP,RP,25,267.0,-51.5,1,,,,,,,,,FA
+20385,Isaac Mattson,PIT,RP,RP,30,296.2,-33.7,1,,,,,,,,,FA
+19524,Alan Rangel,PHI,RP,RP,28,65.6,-174.3,1,,,,,,,,,FA
+20271,Daysbel Hernández,,RP,RP,29,100.1,-153.3,1,,,,,,,,,FA
+31261,Chris Roycroft,ATH,RP,RP,29,223.1,-78.3,1,,,,,,,,,FA
+19795,Keegan Thompson,COL,RP,RP,31,139.6,-129.2,1,,,,,,,,,FA
+33568,Brandyn Garcia,ARI,RP,RP,26,203.2,-90.4,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Iron 
+26429,Cody Laweryson,MIN,RP,RP,28,189.3,-98.9,1,,,,,,,,,FA
+30085,Ben Casparius,LAD,RP,RP,27,248.5,-62.8,1,,,,,,,,,FA
+23488,Ron Marinaccio,MIN,RP,RP,30,153.7,-120.6,1,,,,,,,,,FA
+23313,José Buttó,SFG,RP,RP,28,326.9,-14.9,1,,,,,,,,,FA
+21584,Tristan Beck,SFG,RP,RP,30,76.1,-167.9,1,,,,,,,,,FA
+29114,Jedixson Paez,BOS,RP,RP,22,202.3,-91.0,1,,,,,,,,,FA
+24914,Lazaro Estrada,TOR,RP,RP,27,129.3,-135.5,1,,,,,,,,,FA
+12972,Joe Ross,TEX,RP,RP,33,134.4,-132.4,1,,,,,,,,,FA
+29934,Riley Martin,CHC,RP,RP,28,84.6,-162.7,1,,,,,,,,,FA
+26443,Sam Aldegheri,LAA,RP,RP,24,57.9,-179.0,1,,,,,,,,,FA
+29519,Gordon Graceffo,STL,RP,RP,26,176.1,-106.9,1,,,,,,,,,FA
+26257,Joey Estes,ATH,RP,RP,24,104.9,-150.4,1,,,,,,,,,FA
+16507,Dan Altavilla,,RP,RP,33,154.7,-120.0,1,,,,,,,,,FA
+33834,Andrew Walters,CLE,RP,RP,25,161.9,-115.6,1,,,,,,,,,FA
+18413,José Urquidy,CHW,SP,SP,31,209.6,-329.1,1,,,,,,,,,FA
+29615,Kyle Backhus,PHI,RP,RP,28,216.7,-82.2,1,,,,,,,,,FA
+30145,Dylan Smith,SFG,RP,RP,26,82.4,-164.1,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Peel A Section
+16814,Tim Hill,NYY,RP,RP,36,283.1,-41.7,1,,,,,,,,,FA
+23162,Eduarniel Núñez,CHC,RP,RP,27,191.0,-97.8,1,,,,,,,,,FA
+15488,Antonio Senzatela,MIL,SP,SP,31,261.5,-279.4,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Knowznothin
+22176,Easton McGee,KCR,RP,RP,28,138.0,-130.2,1,,,,,,,,,FA
+20023,Rico Garcia,BAL,RP,RP,32,255.2,-58.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays
+26790,Angel Chivilli,NYY,RP,RP,23,95.2,-156.3,1,,,,,,,,,FA
+25420,Ryan Zeferjahn,CHC,RP,RP,28,224.1,-77.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Iron 
+31815,Cade Gibson,MIA,RP,RP,28,152.2,-121.5,1,,,,,,,,,FA
+12760,Rafael Montero,,RP,RP,35,97.5,-154.9,1,,,,,,,,,FA
+15552,Chad Green,,RP,RP,35,103.5,-151.2,1,,,,,,,,,FA
+21544,Chase Shugart,PHI,RP,RP,29,126.6,-137.1,1,,,,,,,,,FA
+26191,Kade Strowd,ARI,RP,RP,28,122.7,-139.5,1,,,,,,,,,FA
+16233,Tejay Antone,CIN,RP,RP,32,91.3,-158.7,1,,,,,,,,,FA
+13942,Brent Suter,ATL,RP,RP,36,263.6,-53.6,1,,,,,,,,,FA
+22932,Prelander Berroa,CHW,RP,RP,26,120.7,-140.7,1,,,,,,,,,FA
+12808,Mike Clevinger,,RP,RP,35,190.1,-98.4,1,,,,,,,,,FA
+24710,Luis Curvelo,TEX,RP,RP,25,137.8,-130.3,1,,,,,,,,,FA
+30081,Tyler Samaniego,BOS,RP,RP,27,89.3,-159.9,1,,,,,,,,,FA
+sa3017383,Garrett Hawkins,SDP,RP,RP,26,120.0,-141.2,1,,,,,,,,,FA
+30226,Spencer Bivens,SFG,RP,RP,32,157.9,-118.0,1,,,,,,,,,FA
+31850,Cade Winquest,STL,RP,RP,26,204.8,-89.4,1,,,,,,,,,FA
+29542,Andre Granillo,DET,RP,RP,26,208.0,-87.5,1,,,,,,,,,FA
+22915,Carlos Vargas,SEA,RP,RP,26,263.2,-53.8,1,,,,,,,,,FA
+29754,Sam Bachman,LAA,RP,RP,26,270.1,-49.6,1,,,,,,,,,FA
+21656,Kervin Castro,NYY,RP,RP,27,137.2,-130.7,1,,,,,,,,,FA
+19274,Jacob Webb,CHC,RP,RP,32,240.6,-67.6,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,The Northsiders
+17948,Trent Thornton,CHC,RP,RP,32,83.7,-163.3,1,,,,,,,,,FA
+31883,Troy Taylor,SEA,RP,RP,24,117.7,-142.6,1,,,,,,,,,FA
+29633,Andrew Hoffmann,PHI,RP,RP,26,270.3,-49.5,1,,,,,,,,,FA
+17755,Drew Smith,,RP,RP,32,137.5,-130.5,1,,,,,,,,,FA
+31953,Riley Cornelio,WSN,RP,RP,26,60.5,-177.4,1,,,,,,,,,FA
+25651,Ty Adcock,SDP,RP,RP,29,97.2,-155.1,1,,,,,,,,,FA
+25921,Casey Legumina,TBR,RP,RP,29,220.6,-79.8,1,,,,,,,,,FA
+31936,Samy Natera Jr.,LAA,RP,RP,26,82.9,-163.8,1,,,,,,,,,FA
+27481,Cole Wilcox,SEA,RP,RP,26,100.1,-153.3,1,,,,,,,,,FA
+sa3011733,Ryan Harbin,PIT,RP,RP,24,83.9,-163.2,1,,,,,,,,,FA
+20151,James Karinchak,ATL,RP,RP,30,135.1,-131.9,1,,,,,,,,,FA
+21132,Alexis Díaz,TEX,RP,RP,29,82.9,-163.8,1,,,,,,,,,FA
+31880,Alex Hoppe,BAL,RP,RP,27,92.6,-157.9,1,,,,,,,,,FA
+31612,Carson Palmquist,WSN,RP,RP,25,99.5,-153.7,1,,,,,,,,,FA
+20827,Michael Petersen,MIA,RP,RP,32,190.9,-97.9,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+21924,Juan Morillo,ARI,RP,RP,27,235.3,-70.8,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Barreled Souls
+29357,Walbert Ureña,LAA,RP,RP,22,138.5,-129.9,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲
+21549,Jackson Kowar,BAL,RP,RP,29,99.2,-153.8,1,,,,,,,,,FA
+27407,Rolddy Muñoz,ATL,RP,RP,26,78.4,-166.5,1,,,,,,,,,FA
+27271,Juan Burgos,ARI,RP,RP,26,79.9,-165.6,1,,,,,,,,,FA
+31615,William Kempner,MIA,RP,RP,25,89.9,-159.5,1,,,,,,,,,FA
+23426,Max Lazar,PHI,RP,RP,27,113.0,-145.4,1,,,,,,,,,FA
+20353,Steven Wilson,TBR,RP,RP,31,153.1,-121.0,1,,,,,,,,,FA
+27583,Garrett Acton,MIN,RP,RP,28,73.7,-169.4,1,,,,,,,,,FA
+27753,Bailey Horn,DET,RP,RP,28,122.0,-139.9,1,,,,,,,,,FA
+26213,Caleb Kilian,PHI,RP,RP,29,278.9,-44.2,1,,,,,,,,,FA
+31571,Paul Gervase,LAD,RP,RP,26,122.7,-139.5,1,,,,,,,,,FA
+25620,Luis Mey,CIN,RP,RP,25,114.9,-144.3,1,,,,,,,,,FA
+31942,Cameron Foster,BAL,RP,RP,27,113.1,-145.4,1,,,,,,,,,FA
+33785,Josh Ekness,MIA,RP,RP,24,77.7,-167.0,1,,,,,,,,,FA
+26020,Seth Johnson,ATH,RP,RP,27,67.1,-173.4,1,,,,,,,,,FA
+22461,Logan Gillaspie,SDP,RP,RP,29,93.3,-157.4,1,,,,,,,,,FA
+29271,Yilber Díaz,DET,RP,RP,25,80.3,-165.4,1,,,,,,,,,FA
+16427,Scott Blewett,ATH,RP,RP,30,88.7,-160.2,1,,,,,,,,,FA
+23479,Cam Sanders,BAL,RP,RP,29,116.6,-143.2,1,,,,,,,,,FA
+21863,George Soriano,STL,RP,RP,27,268.5,-50.6,1,,,,,,,,,FA
+sa3004006,Robinson Ortiz,SEA,RP,RP,26,133.8,-132.7,1,,,,,,,,,FA
+31870,Matt Pushard,MIA,RP,RP,28,193.5,-96.3,1,,,,,,,,,FA
+25427,Gavin Hollowell,CHC,RP,RP,28,112.0,-146.0,1,,,,,,,,,FA
+26482,Jayden Murray,CHC,RP,RP,29,87.6,-160.9,1,,,,,,,,,FA
+12791,Michael Kelly,,RP,RP,33,255.0,-58.8,1,,,,,,,,,FA
+sa3017609,Austin Love,STL,RP,RP,27,77.7,-167.0,1,,,,,,,,,FA
+29521,Ryan Loutos,SEA,RP,RP,27,89.3,-159.9,1,,,,,,,,,FA
+31610,Zach Maxwell,CIN,RP,RP,25,141.0,-128.3,1,,,,,,,,,FA
+25311,Roddery Muñoz,HOU,RP,RP,26,234.0,-71.6,1,,,,,,,,,FA
+11691,Tyron Guerrero,BOS,RP,RP,35,89.0,-160.1,1,,,,,,,,,FA
+22113,Cole Winn,TEX,RP,RP,26,293.6,-35.3,1,,,,,,,,,FA
+31865,Peyton Pallette,CHW,RP,RP,25,186.5,-100.6,1,,,,,,,,,FA
+26353,Marc Church,TEX,RP,RP,25,88.2,-160.6,1,,,,,,,,,FA
+19695,Connor Seabold,KCR,RP,RP,30,204.2,-89.8,1,,,,,,,,,FA
+29628,Alek Jacob,SDP,RP,RP,28,117.5,-142.7,1,,,,,,,,,FA
+18554,Enmanuel De Jesus,DET,RP,RP,29,194.2,-95.9,1,,,,,,,,,FA
+22200,Ryan Rolison,CHC,RP,RP,28,121.7,-140.1,1,,,,,,,,,FA
+30231,Carter Baumler,TEX,RP,RP,24,183.9,-102.2,1,,,,,,,,,FA
+26419,Bradley Blalock,MIA,RP,RP,25,82.4,-164.1,1,,,,,,,,,FA
+26247,Orlando Ribalta,WSN,RP,RP,28,173.5,-108.5,1,,,,,,,,,FA
+19976,Tyson Miller,,RP,RP,30,72.4,-170.2,1,,,,,,,,,FA
+20203,Eli Morgan,NYY,RP,RP,30,115.3,-144.0,1,,,,,,,,,FA
+26349,Gavin Collyer,TEX,RP,RP,25,89.8,-159.6,1,,,,,,,,,FA
+27662,Christian Roa,HOU,RP,RP,27,170.2,-110.5,1,,,,,,,,,FA
+26641,Wikelman González,MIA,RP,RP,24,175.6,-107.2,1,,,,,,,,,FA
+27570,Cole Henry,WSN,RP,RP,26,317.3,-20.8,1,,,,,,,,,FA
+28052,Brandan Bidois,MIA,RP,RP,25,204.1,-89.9,1,,,,,,,,,FA
+7836,Hunter Strickland,,RP,RP,37,96.5,-155.5,1,,,,,,,,,FA
+21951,Joel Peguero,SFG,RP,RP,29,188.4,-99.4,1,,,,,,,,,FA
+24203,Luis Peralta,CHC,RP,RP,25,124.6,-138.3,1,,,,,,,,,FA
+31552,Zach Agnos,COL,RP,RP,25,225.8,-76.6,1,,,,,,,,,FA

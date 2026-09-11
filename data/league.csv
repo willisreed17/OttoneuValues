@@ -1,0 +1,20 @@
+key,value
+# Ottoneu league 1297. Every row here is a LEAGUE setting, not a model knob --
+# delete this file and value.py falls back to the Ottoneu standard defaults.
+# Point the tool at another league by editing this file, nothing else.
+teams,0
+format,h2h
+scoring,FPTS
+cap,400
+roster_max,40
+# Pulled from the league, not assumed -- see the rules doc's settings checklist.
+catcher_slots,1
+games_cap,0
+arb_method,allocations
+arb_budget,25
+arb_min,1
+arb_max,3
+# Your preference, not a league setting: weight on each further keeper season
+# in keeper_npv, relative to this season. 0.5 = next season 0.5, then 0.25,
+# 0.125, 0.0625. 1.0 = every season equal to this one.
+keeper_discount,0.5
