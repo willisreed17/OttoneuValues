@@ -5,8 +5,11 @@ it works, and the specific things that already went wrong so they don't go wrong
 twice. `README.md` covers how to *run* it; this file covers *why it is the way it
 is*.
 
-Last updated: 2026-09-11. League 1297, 12 teams, Ottoneu H2H FanGraphs Points,
-currently mid-season (~week 21).
+Last updated: 2026-09-12. League 1297, 12 teams, Ottoneu H2H FanGraphs Points,
+currently mid-season (~week 21). The valuation engine itself is now treated as
+locked (`CLAUDE.md`) — Phase 3 is a web UI built by a second developer on top
+of it; this file and `README.md` are written to be onboarding for that, not
+just a lab notebook for the person who built the engine.
 
 ---
 
@@ -17,16 +20,31 @@ projection-based tools (OttoValues et al.) by pricing players **in the context o
 an actual league** — who is already rostered, at what salary, and how much money
 is genuinely loose.
 
-Phase 1 is personal use for league 1297. Phase 2 is generalising it so other
-Ottoneu managers can point it at their own league. Phase 2 is gated on the data
-access constraints in §5 and, for public release, on asking FanGraphs first.
+Phase 1 was personal use for league 1297 (done — see §7 for the verification
+record). Phase 2 is generalising it so other Ottoneu managers can point it at
+their own league; gated on the data access constraints in §5 and, for public
+release, on asking FanGraphs first. Phase 3, now underway, is a web UI — see
+`README.md`'s "What `value.py` hands off" for the interface it consumes and
+"Intended use" for the three cases it's designed to serve
+(pre-draft-with-keepers, pre-draft keeper decisions, intraseason
+bid/trade/cut). The UI is a consumer of the engine's output; it is never a
+reason to change pricing logic (`CLAUDE.md`).
 
-**Two scripts, stdlib only.** No pandas — the default interpreter here is Python
-3.15 alpha with no wheels for it. Everything runs on `py -3.13`.
+**Three scripts, stdlib only.** No pandas — the default interpreter here is
+Python 3.15 alpha with no wheels for it. Everything runs on `py -3.13`.
 
-- `value.py` — prices players in two layers, writes `out/players.csv` and
-  `out/teams.csv`.
-- `backtest.py` — scores projections against realized outcomes. The yardstick.
+- `value.py` — prices players in three layers (base value, league context,
+  keeper/cut decisions — `README.md` has the full breakdown), writes
+  `out/players.csv` and `out/teams.csv`.
+- `backtest.py` — scores projections against realized outcomes. The
+  yardstick; written before the valuation logic was touched, on purpose (§2).
+- `marcel.py` — builds a ten-season test bed from open MLB statsapi data (a
+  deliberately worse projection than Steamer, so pricing *shape* can be
+  scored on ten samples instead of the one FanGraphs snapshot available at
+  any moment), measures `RELIABILITY`, backtests `keeper_npv` out of sample,
+  and runs the synthetic-league Monte Carlo (§7, `NEXT_STEPS.md` Task 11)
+  that's the closest thing this project has to a real-money validation
+  without an actual auction.
 
 ---
 
@@ -445,7 +463,13 @@ Each of these produced confident, wrong output. Each has a selftest pinning it.
     Σ realized(Y) / Σ projected(Y). The out-of-sample NPV test missed by 1.6x
     for the young and 0.85x for the old at every horizon, which reads like an
     aging failure. k = 0 showed the same pattern: Marcel's age curve, not
-    aging. Check the base season before blaming the horizon.
+    aging. Check the base season before blaming the horizon. **Confirmed
+    2026-09-12** once historical Steamer existed to check it against
+    (`marcel.py --age-check`): Marcel's k = 0 bias is steeply monotone by age
+    (H 1.66→0.93, P 1.97→0.93 across the four bins); Steamer's is flat by
+    comparison (H 1.15-1.18, P 1.10-1.42, not monotone). The bias really was
+    Marcel's, not a property every projection carries — no age-bias factor
+    belongs in the engine.
 
 ---
 
@@ -460,6 +484,35 @@ proportional to marginal model dollars across the $5+ range (intercept −34 raw
 not measurably wrong. This was the project's first non-circular measurement;
 everything before it was either an arithmetic identity or agreement with the
 market. Details and the corrected curvature mapping: `NEXT_STEPS.md` Task 1.
+
+**Settled 2026-09-12, a second and stronger non-circular measurement:** a
+synthetic-league Monte Carlo (`marcel.py --league-sim`) runs value.py's own
+$values in a real one-shot $400 auction against two deliberately worse
+strategies (raw points, no scarcity or reliability adjustment; random), then
+plays the real season out. Value beats points beats random on the Steamer bed
+(15.33 vs 13.80 vs 12.28 mean wins of 28, 500-trial Monte Carlo) — the first
+evidence that the model's adjustments predict actual winning, not just flatter
+PAR per dollar. Conditional on projection quality, though: the same test on
+the deliberately-worse Marcel bed inverts (value is the *worst* strategy,
+13.35 vs 14.05/14.00) — scarcity-aware pricing amplifies whatever the
+per-player projection says, for better or worse. `NEXT_STEPS.md` Task 11.
+
+**Settled 2026-09-12: a per-position market review, one real fix, one real
+non-fix.** Every position checked the same way (model $ vs cross-league
+`average_values.csv`, by price tier, watching for a monotone-in-price gap
+isolated to one position). Catcher and SP both showed a large top-tier gap;
+only catcher got a second, independent signal (the ten-season bed's own
+realized/projected PAR ratio, 0.852 relative to other hitters) — so only
+catcher got fixed (`RELIABILITY["C"] = 0.852`). SP's gap (bigger, 16x the
+sample) survived three separate attempts to corroborate it in realized
+outcomes (bust rate, refill ratio, ratio-of-sums at the top all read like
+hitters') and was left alone, explicitly logged rather than priced — the same
+shape as the disproven RP claim (§4), and the same discipline applied.
+Resimulating the Task 11 synthetic league after the catcher fix showed no
+material change (15.31 vs 15.33 for `value`) — expected, since one roster
+slot out of 40 is too small a lever for a whole-season win-rate metric to
+see; the market table, not the league sim, is the right instrument for a
+single-position correction. `NEXT_STEPS.md` Task 12.
 
 Still open:
 
@@ -481,11 +534,28 @@ Still open:
   comparison, never validation. Position residuals (SP and OF +4.6, SS −2.5)
   are candidate edges. The 10-start cap is universal, so SP's is not an
   artefact of an assumed setting.
-- ~~Marginal starts are priced at full value~~ — **closed 2026-09-11, not
-  built.** Depth (8 × 1.25 starts) already equals the cap, so no priced starter
-  is the one benched on average; the rest is weekly variance, and the bed
-  (season totals) cannot see it. Cheap SP actually run *above* hitters per
-  dollar, which is the unpriced cushion. `NEXT_STEPS.md` Task 9.
+- ~~Marginal starts are priced at full value~~ — **closed 2026-09-11**
+  (predicted from depth alone) **and quantified 2026-09-12** by the weekly
+  lineup simulation: the GS cap costs SP ~1.6-1.7% of relative realized value
+  (season-total-equivalent 0.982 → capped 0.966 on Steamer). Small, as
+  predicted, because depth (8 × 1.25 starts) already sits at the cap on
+  average. `NEXT_STEPS.md` Task 9/10.
+- **RP_SLOTS 5 vs 6 and refill vs floored on RP: direction settled, magnitude
+  still open.** The roster-size question is still a coin flip on the
+  season-total bed (0.57 vs 0.59). The lineup simulation (built weekly, then
+  rebuilt at daily granularity once the league owner confirmed Ottoneu allows
+  daily lineup changes — a week-locked bench understated it) confirms the
+  *direction* both open questions pointed at: floored's season-total
+  `RELIABILITY` (0.803 Steamer) overstates what a bench-constrained team
+  actually captures, and the mandatory 5-of-6-active rule costs real value on
+  top of it, at every activation-signal window tested. It does **not** settle
+  the magnitude: RP5 swings 0.53 to 0.75+ (relative to hitters) purely on the
+  trailing-days window used to decide who's active, with no asymptote found
+  short of RP6's ceiling — see the sweep in `NEXT_STEPS.md` Task 10. A trailing
+  points average is too weak a proxy for what a real GM knows (probable
+  pitchers, save situations); the fix is a better signal, not a better window.
+  **`RELIABILITY["RP"]` stays at the season-total 0.803** — an honest,
+  reproducible measurement — until one exists. `NEXT_STEPS.md` Task 10.
 - Seasonal games caps (162/hitter, 810 OF) aren't modelled; `value.py` warns
   rather than emitting uncapped hitter values for a league that uses one.
 - ~~`1B` is the largest positional disagreement with market (−$7.3)~~ —
@@ -493,7 +563,16 @@ Still open:
   defaulting to 1B and the lineup had no Util slot, so 1B replacement sat at 691
   against a real 570. With Util modelled the whole positional spread tightened to
   +2.5 (OF) .. −2.6 (SS), and 1B is now +2.1.
-- Prospects with no projection get no value, though they still consume cap.
+- ~~Prospects with no projection get no value~~ — **closed 2026-09-12**:
+  `value.load_prospects()`, a flat judgment-call value by rank tier (owner's
+  numbers), BYOD from a ranked list. `NEXT_STEPS.md` Task 13.
+- ~~Intraseason bid/trade/cut use is unverified~~ — **closed 2026-09-12**:
+  `base_value`/`surplus`/`cut_gain`/`keeper_npv` carry no full-season
+  assumption, confirmed against a realistic-scale rest-of-season-collapse
+  scenario (a real $38 preseason ace scaled to a 15%-of-pace year correctly
+  crashed to the $1 floor with `cut_gain` +$18). Layer 2's mid-season silence
+  is correct behavior (no roster spots open), not a gap. `NEXT_STEPS.md`
+  Task 13.
 
 ---
 
@@ -515,8 +594,8 @@ Still open:
 | Util is a leftovers slot, filled in a second pass | Making every hitter Util-eligible would funnel the league into the scarcest opening (§6.1); a DH is priced against the best *spare hitter of any position*, which is why he keeps his bat and loses positional scarcity |
 | Derive SP depth from the weekly GS cap; `BASE_SP` deleted | The derivation is *not* measurably more accurate (0.165 vs 0.199, 6/10 seasons — inside the noise); it is adopted because it comes from the rules instead of one league's salaries. The cap is 10 in every Ottoneu H2H league (owner, 2026-09-10), so it is a rule (`GS_CAP`), not a setting |
 | Shrink RP projected PAR by 0.6, don't cap RP at $15 | A cap hits the same ceiling while leaving the middle of the reliever curve wrong; shrinkage fixes the whole curve and the ceiling falls out as a consequence ($26 -> $16) |
-| `RELIABILITY` is a property of the projection, not the league | Re-measure per projection source (`backtest.py --measure`); Steamer handles relievers better than Marcel |
-| `RELIABILITY` is a measured ratio per role — floored realized / projected PAR, relative to hitters | It is the quantity proportional pricing equalizes; a regression slope with an intercept is not (§6.29-30). RP 0.61 recovers the hand-fitted 0.6 |
+| `RELIABILITY` is a property of the projection, not the league | Re-measure per projection source (`backtest.py --measure`); Steamer handles relievers better than Marcel — measured directly 2026-09-12 (SP 0.986, RP 0.803) once historical Steamer existed, up from the Marcel-proxy SP 0.957, RP 0.61 |
+| `RELIABILITY` is a measured ratio per role — floored realized / projected PAR, relative to hitters | It is the quantity proportional pricing equalizes; a regression slope with an intercept is not (§6.29-30). The Marcel-proxy RP 0.61 recovered the hand-fitted 0.6; measured on Steamer itself it's 0.803 |
 | The option cushion is measured, not priced | Everyone at the margin has it; pricing it cost stars 16% and opened a −$7 gap, monotone in price, against the cross-league market (§6.30) |
 | Report a refill basis (`rPAR~`) beside raw and floored | Raw and floored are bounds; refill is mechanical (vacated time refilled at replacement) and has no knob |
 | Run `backtest.py --market` after any pricing change | Market agreement validates nothing, but error monotone in price across *every* league of the format is a flaw signal one league can't give |
@@ -524,13 +603,19 @@ Still open:
 | `keeper_discount` 0.5, a preference in `league.csv` | Owner's call: four seasons at full weight over-valued the distant future given roster turnover. Not measured and not a league setting — it's the manager's horizon. Weights are relative to this season, so next season already counts 0.5 and NPV is in this season's dollars |
 | Aging on floored realized PAR, each horizon measured directly, 4-year bins | Points-then-replacement and chaining both gave confident wrong answers (§6.31); floored matches `RELIABILITY`; 2-year pitcher bins were non-monotone at n 100-300 |
 | Birthdates via Steamer `xMLBAMID` → statsapi | Steamer's JSON carries the MLBAM id for every player and statsapi is open, so no name matching |
-| Hitters pooled into one role | Per-position hitter slopes swing −0.8 to 2.8 season to season; ten seasons can't separate them |
+| Hitters pooled into one role, except catcher | Per-position hitter slopes swing −0.8 to 2.8 season to season; ten seasons can't separate them on their own. Catcher is the one exception (2026-09-12): a real-money cross-league market gap *and* the bed's own floored ratio agreed (0.852 relative to other hitters), which is the two-signal bar every other hitter position still hasn't cleared |
+| A market disagreement needs a second, independent signal before it's priced | SP shows the same shape as catcher's gap (bigger, 16x the sample) but bust rate, refill ratio, and ratio-of-sums at the top all read like hitters' — no corroboration despite looking, so it stays unpriced and logged, not fixed. Repeating the disproven RP "underpriced" mistake (§4) in the opposite direction would be acting on market agreement alone, which validates nothing either way |
 | Pitcher role comes from the projection, never the roster export | Eligibility says where he may be slotted today; only what he actually does scores points (§6.27) |
-| `RP_SLOTS = 6` — roster practice, not the lineup's 5 | A reliever appears in ~40% of games, so 5 arms cannot keep 5 slots busy; 6 is standard practice across the format. Neither derived nor fitted: observed, and a property of the format rather than of one league. The bed cannot tell 5 from 6 apart (0.57 vs 0.59) |
+| `RP_SLOTS = 6` — roster practice, not the lineup's 5 | A reliever appears in ~40% of games, so 5 arms cannot keep 5 slots busy; 6 is standard practice across the format. Neither derived nor fitted: observed, and a property of the format rather than of one league. The bed cannot tell 5 from 6 apart on roster size (0.57 vs 0.59); the lineup sim confirms the mandatory 5-of-6-active rule costs real value on top of that but can't yet pin how much (`NEXT_STEPS.md` Task 10) |
 | `catcher_slots` and `games_cap` are settings, not constants | Both were written as universals in the rules doc and are not (§6.21) |
 | Warn on `format != h2h` rather than emit values | Season-long points leagues are governed by an innings cap, not a weekly GS cap; H2H-shaped pitcher values would be silently wrong |
 | Vote-off arbitration returns `{}`, not a guess | It is a different mechanism, not a different number |
 | Model arbitration take as a clamped share of team surplus | The rules bound it to $11-$33 per roster; bargain-heavy rosters draw the max |
 | Spread arbitration proportional to surplus, not greedily | 11 managers choose independently, so the aggregate spreads; flagged as the one unruled assumption |
-| No age-bias factor from the bed | The out-of-sample NPV test's miss by age is Marcel's age curve (visible at k = 0), a property of the projection; with no historical Steamer it can't be measured for the source actually priced (§6.32) |
-| Marginal starts not modelled | GS-cap depth already makes the average week's starts fit the priced 8 slots; the remainder is weekly variance, which a season-total bed cannot measure, and building it unmeasured would be a fitted guess |
+| No age-bias factor from the bed | The out-of-sample NPV test's miss by age is Marcel's age curve (visible at k = 0), a property of the projection, not aging — confirmed 2026-09-12 on historical Steamer, whose k = 0 bias is flat by comparison (§6.32) |
+| Weekly lines cached per calendar week, from `stats=byDateRange` | One call per week for every player (~27 a season) rather than a game log per player (~1,500); calendar weeks because merging is a lossless sum, so Ottoneu's odd weeks are the reader's call. `--weekly` checks the sums against season totals |
+| Marginal starts not priced, but quantified | GS-cap depth already makes the average week's starts fit the priced 8 slots, so a season-total correction would be a fitted guess; the lineup sim measured the real cost directly instead (~1.6-1.7% of SP's relative value) |
+| Synthetic 12-team staffs for the lineup sim, snake-drafted by preseason rank | No historical Ottoneu roster export exists for these seasons; a snake draft off the same pool the season-total bed already prices matches the depth constants exactly, so the comparison isn't also silently changing the priced player universe |
+| Lineup-sim bench decisions from trailing signal only, never that period's own result | A GM can't see today's line before setting it; SP benches the worst-*preseason*-ranked arm first when a week's starts exceed `GS_CAP` (cold: preseason projection), matching the project's no-hindsight standard elsewhere (`--npv`'s held-out tables) |
+| RP lineup-sim mechanic rebuilt daily, not weekly | Ottoneu allows daily lineup changes (owner, 2026-09-12); a week-locked active-5 is stricter than real play and understated RP reliability. `marcel.py --weekly` now also pulls/validates a daily pitching cache (`data/mlb/YYYY_pitching_daily.json`) |
+| RP5's number not folded into `RELIABILITY` despite the rebuild | Sweeping the daily trailing-days window 1-90 swings RP5 0.53-0.75+ with no asymptote short of the no-bench ceiling — a trailing-points average is too weak a stand-in for real role information (probable pitchers, save situations), so the window picked would be picking the answer, not measuring it |

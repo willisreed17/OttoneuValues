@@ -356,10 +356,10 @@ def measure(argv):
             path, "~/Downloads/fangraphs-leaderboard-projections-Pitchers.csv",
             os.path.join("data", "steamer_bat.csv"))
         proj, plevels, _ = pools(rows, depth, pp, ap)
-        obs += [(p["vpos"] if p["vpos"] in value.PITCHER_POS else "H", p["par"],
-                 p["refill_par"], plevels[p["vpos"]], p["realized_par"])
+        obs += [(p["vpos"] if p["vpos"] in value.PITCHER_POS or p["vpos"] == "C" else "H",
+                 p["par"], p["refill_par"], plevels[p["vpos"]], p["realized_par"])
                 for p in proj.values() if p["par"] > 0]
-    n = {g: sum(1 for o in obs if o[0] == g) for g in ("H", "SP", "RP")}
+    n = {g: sum(1 for o in obs if o[0] == g) for g in ("H", "SP", "RP", "C")}
     # The factor is a RATIO of sums, not a regression slope. Dollars are
     # proportional to PAR, so what has to come out equal across roles is
     # realized-per-projected in aggregate -- exactly what the by-position table

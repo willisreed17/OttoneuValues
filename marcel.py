@@ -20,8 +20,17 @@ It also projects *full* seasons, which is how the engine is actually used
 Usage:
   python marcel.py                      # all target seasons -> out/backtest_YYYY.csv
   python marcel.py --years 2022,2023
+  python marcel.py --steamer             # same bed, projected side from data/Historic
+                                          #   Steamer Preseason Projections/ instead of
+                                          #   Marcel -> out/backtest_YYYY_steamer.csv
   python marcel.py --aging              # -> data/aging.csv, data/birthdates.csv
   python marcel.py --npv                # out-of-sample keeper_npv backtest
+  python marcel.py --age-check [--steamer]  # k=0 realized/projected PAR by age
+  python marcel.py --weekly             # cache weekly lines for every bed season
+  python marcel.py --lineup-sim [--steamer]  # weekly SP/RP bench sim, RP5 vs RP6
+  python marcel.py --league-sim [--steamer] [--trials 200]  # synthetic auction
+                                          #   + season Monte Carlo: value vs
+                                          #   raw-points vs random drafting
   python marcel.py --selftest
 """
 
@@ -29,6 +38,7 @@ import csv
 import datetime
 import json
 import os
+import random
 import sys
 import urllib.request
 
@@ -111,37 +121,43 @@ def cached(name, fetch):
     return data
 
 
+def pages(query):
+    """Every split of one MLB /stats query, paged."""
+    out, off = [], 0
+    while True:
+        url = ("%s/stats?%s&sportId=1&playerPool=All&limit=1000&offset=%d"
+               % (API, query, off))
+        blob = json.load(urllib.request.urlopen(url, timeout=180))["stats"][0]
+        sp = blob.get("splits", [])
+        out += sp
+        off += len(sp)
+        if not sp or off >= blob.get("totalSplits", 0):
+            return out
+
+
 def fetch_stats(season, group):
-    def go():
-        out, off = [], 0
-        while True:
-            url = ("%s/stats?stats=season&group=%s&season=%d&sportId=1"
-                   "&playerPool=All&limit=1000&offset=%d" % (API, group, season, off))
-            blob = json.load(urllib.request.urlopen(url, timeout=180))["stats"][0]
-            sp = blob.get("splits", [])
-            out += sp
-            off += len(sp)
-            if not sp or off >= blob.get("totalSplits", 0):
-                return out
-    return cached("%d_%s" % (season, group), go)
+    return cached("%d_%s" % (season, group),
+                  lambda: pages("stats=season&group=%s&season=%d" % (group, season)))
+
+
+def our_stats(st, group):
+    """One statsapi stat block -> our stat names."""
+    api_map = bt.BAT_API if group == "hitting" else bt.PIT_API
+    s = {v: bt.num(st.get(k, 0)) for k, v in api_map.items()}
+    if group == "pitching":
+        s["IP"] = bt.innings(st.get("inningsPitched"))
+        s["GS"] = bt.num(st.get("gamesStarted", 0))
+    else:
+        s["PA"] = bt.num(st.get("plateAppearances", 0))
+    return s
 
 
 def season_stats(season, group):
     """-> {mlbam: stats} in our stat names. statsapi returns season totals
     already aggregated across trades, one row per player -- verified, so there
     is no duplicate-team row to merge."""
-    api_map = bt.BAT_API if group == "hitting" else bt.PIT_API
-    out = {}
-    for sp in fetch_stats(season, group):
-        st = sp["stat"]
-        s = {v: bt.num(st.get(k, 0)) for k, v in api_map.items()}
-        if group == "pitching":
-            s["IP"] = bt.innings(st.get("inningsPitched"))
-            s["GS"] = bt.num(st.get("gamesStarted", 0))
-        else:
-            s["PA"] = bt.num(st.get("plateAppearances", 0))
-        out[str(sp["player"]["id"])] = s
-    return out
+    return {str(sp["player"]["id"]): our_stats(sp["stat"], group)
+            for sp in fetch_stats(season, group)}
 
 
 def season_positions(season):
@@ -163,6 +179,472 @@ def season_people(season):
     return {str(p["id"]): (p["fullName"], p.get("birthDate", ""),
                            (p.get("primaryPosition") or {}).get("abbreviation", ""))
             for p in cached("%d_people" % season, go)}
+
+
+# Weekly lines, for anything H2H does inside a week that season totals can't
+# show: benching a healthy bad player, the 10-start cap, how many relievers a
+# week actually uses. Stored per *calendar* week (Monday-Sunday; the first week
+# starts on opening day), because merging weeks is a lossless sum -- the reader
+# decides how Ottoneu groups the odd ones (opening week, All-Star week, an
+# overseas opener). One call per week for every player, not a game log per
+# player: ~27 calls a season instead of ~1,500.
+def calendar_weeks(start, end):
+    """-> [(first day, last day)] ISO dates, Monday-Sunday, clipped to the season."""
+    d, end = datetime.date.fromisoformat(start), datetime.date.fromisoformat(end)
+    out = []
+    while d <= end:
+        sun = min(d + datetime.timedelta(days=6 - d.weekday()), end)
+        out.append((d.isoformat(), sun.isoformat()))
+        d = sun + datetime.timedelta(days=1)
+    return out
+
+
+def season_bounds(season):
+    """-> (regularSeasonStartDate, regularSeasonEndDate), ISO strings."""
+    def go():
+        url = "%s/seasons?sportId=1&season=%d" % (API, season)
+        return json.load(urllib.request.urlopen(url, timeout=180))["seasons"][0]
+    s = cached("%d_season" % season, go)
+    return s["regularSeasonStartDate"], s["regularSeasonEndDate"]
+
+
+def season_weeks(season):
+    return calendar_weeks(*season_bounds(season))
+
+
+def season_days(season):
+    """-> every calendar date (ISO) of the regular season, inclusive."""
+    d, end = (datetime.date.fromisoformat(x) for x in season_bounds(season))
+    out = []
+    while d <= end:
+        out.append(d.isoformat())
+        d += datetime.timedelta(days=1)
+    return out
+
+
+def weekly_stats(season, group):
+    """-> {week's first day: {mlbam: stats}}, zero stats omitted."""
+    def go():
+        out = {}
+        for a, b in season_weeks(season):
+            q = ("stats=byDateRange&group=%s&season=%d&startDate=%s&endDate=%s"
+                 % (group, season, a, b))
+            out[a] = {str(sp["player"]["id"]): {k: v for k, v in
+                                               our_stats(sp["stat"], group).items() if v}
+                      for sp in pages(q)}
+        return out
+    return cached("%d_%s_weekly" % (season, group), go)
+
+
+# Daily lines, pitching only. Ottoneu allows daily lineup changes (confirmed by
+# the league owner 2026-09-12), so a reliever's active-or-benched decision is a
+# per-day call, not a per-week one -- the weekly lineup sim's first cut locked
+# the active 5 for the whole calendar week, which is a stricter constraint than
+# a real GM plays under and understated RP reliability. SP is untouched: GS_CAP
+# is a genuinely weekly rule, and a start either happens on its day or it
+# doesn't -- the weekly bench-the-worst-ranked-arm mechanic already operates at
+# effectively per-start granularity, since a starter works one turn a week.
+def daily_stats(season, group="pitching"):
+    """-> {date: {mlbam: stats}}, zero stats omitted, days with no stats
+    omitted entirely. One stats=byDateRange call per calendar day for the
+    whole league (~180 a season) rather than a game log per player (~1,500) --
+    same trick as weekly_stats, one day wide instead of seven."""
+    def go():
+        out = {}
+        for d in season_days(season):
+            q = ("stats=byDateRange&group=%s&season=%d&startDate=%s&endDate=%s"
+                 % (group, season, d, d))
+            rows = {str(sp["player"]["id"]): {k: v for k, v in
+                                              our_stats(sp["stat"], group).items() if v}
+                    for sp in pages(q)}
+            if rows:
+                out[d] = rows
+        return out
+    return cached("%d_%s_daily" % (season, group), go)
+
+
+def weekly_main(seasons):
+    """Pull, then check the weeks (or days, for pitching) add back up to
+    statsapi's own season totals -- a window that drops a traded player's
+    games, or a gap between windows, shows up here rather than as a quiet
+    shortfall in whatever reads it."""
+    for y in seasons:
+        for group in ("hitting", "pitching"):
+            wk = weekly_stats(y, group)
+            w = bt.BAT_W if group == "hitting" else bt.PIT_W
+            tot = {}
+            for week in wk.values():
+                for pid, s in week.items():
+                    tot[pid] = tot.get(pid, 0.0) + bt.points(s, w)
+            season = season_stats(y, group)
+            off = [pid for pid in set(tot) | set(season)
+                   if abs(tot.get(pid, 0.0) - bt.points(season.get(pid, {}), w)) > 0.5]
+            print("%d %-8s %2d weeks  %4d players  weekly sums off season total: %d"
+                  % (y, group, len(wk), len(tot), len(off)))
+        dy = daily_stats(y, "pitching")
+        tot = {}
+        for day in dy.values():
+            for pid, s in day.items():
+                tot[pid] = tot.get(pid, 0.0) + bt.points(s, bt.PIT_W)
+        season = season_stats(y, "pitching")
+        off = [pid for pid in set(tot) | set(season)
+               if abs(tot.get(pid, 0.0) - bt.points(season.get(pid, {}), bt.PIT_W)) > 0.5]
+        print("%d %-8s %2d days   %4d players  daily sums off season total: %d"
+              % (y, "pitching", len(dy), len(tot), len(off)))
+
+
+# --- weekly pitching lineup simulation (Task 10) -----------------------------
+# The season-total bed prices every rostered starter's and reliever's projected
+# PAR in full, as if a team could always deploy its whole staff. Real Ottoneu
+# H2H can't: SP is capped at GS_CAP starts a week (a team with 8 rotation arms
+# often turns in more than 10 combined starts some weeks and has to sit some of
+# them), and a reliever only pitches ~40% of his team's games, so an owner is
+# choosing which 5 of his bullpen are "active" -- daily, since Ottoneu allows
+# daily lineup changes (confirmed 2026-09-12; a first cut of this sim locked
+# the choice for the whole week and understated RP reliability). Neither is
+# visible to a season-total bed. This builds synthetic 12-team staffs from the
+# same projected pool the bed already prices, and replays each actual line
+# through a no-hindsight bench policy, to see whose realized value the bench
+# decisions actually cost.
+ACTIVE_RP = 5          # rules: the standard lineup's RP slots (roster carries RP_SLOTS)
+# Ottoneu allows daily lineup changes (confirmed by the league owner
+# 2026-09-12), so RP activation is decided fresh each day, not locked for the
+# week -- a week-locked active-5 is stricter than a real GM plays under and
+# understates RP reliability. TRAILING_DAYS is the day-granularity analogue of
+# the original TRAILING_WEEKS=3 (roughly the same elapsed time, ~21 days);
+# both are activation-signal windows, not rules, and both are stress-tested by
+# `--lineup-sim`'s own sensitivity sweep.
+TRAILING_DAYS = 14
+
+
+def snake_teams(ranked_pids, n_teams, roster_size):
+    """-> {team: [pid, ...]}. `ranked_pids` sorted best-to-worst (preseason
+    projection); a snake draft spreads talent the way an auction/draft roughly
+    does, so no synthetic team is stacked or starved by construction."""
+    teams = {t: [] for t in range(n_teams)}
+    order = list(range(n_teams))
+    it = iter(ranked_pids)
+    for rnd in range(roster_size):
+        for t in (order if rnd % 2 == 0 else order[::-1]):
+            pid = next(it, None)
+            if pid is None:
+                return teams
+            teams[t].append(pid)
+    return teams
+
+
+def sim_sp_team(roster, weeks, wk_pit, proj_pts):
+    """-> ({pid: policy points}, {pid: uncapped points}, [team policy points
+    per week]) for one team's rotation. A week whose combined starts exceed
+    GS_CAP benches whole starts from the worst-projected arm first -- fixed by
+    preseason rank, never that week's result, so this is a policy a GM could
+    actually have followed. The weekly breakdown is what a real matchup needs;
+    the two season totals are what the RELIABILITY-ratio measurement needs."""
+    worst_first = sorted(roster, key=lambda pid: proj_pts.get(pid, 0.0))
+    policy, uncapped, weekly = {pid: 0.0 for pid in roster}, {pid: 0.0 for pid in roster}, []
+    for wk in weeks:
+        lines = {pid: wk_pit.get(wk, {}).get(pid, {}) for pid in roster}
+        starts = {pid: lines[pid].get("GS", 0.0) for pid in roster}
+        pts = {pid: bt.points(lines[pid], bt.PIT_W) for pid in roster}
+        for pid in roster:
+            uncapped[pid] += pts[pid]
+        remaining = sum(starts.values())
+        active = set(roster)
+        for pid in worst_first:
+            if remaining <= value.GS_CAP:
+                break
+            if starts[pid] <= 0:
+                continue
+            active.discard(pid)
+            remaining -= starts[pid]
+        for pid in active:
+            policy[pid] += pts[pid]
+        weekly.append(sum(pts[pid] for pid in active))
+    return policy, uncapped, weekly
+
+
+def sim_rp_team(roster, periods, stats_by_period, proj_pts,
+                active_slots=ACTIVE_RP, trailing=TRAILING_DAYS):
+    """-> {pid: policy points}. Each period (a day, in practice -- Ottoneu
+    allows daily changes) activates the `active_slots` arms with the best
+    trailing signal (mean actual points, last `trailing` periods, zeros
+    included; preseason projection before any history exists) -- what a GM
+    could know setting that day's lineup, never that period's own result."""
+    policy = {pid: 0.0 for pid in roster}
+    history = {pid: [] for pid in roster}
+    for period in periods:
+        lines = {pid: stats_by_period.get(period, {}).get(pid, {}) for pid in roster}
+        pts = {pid: bt.points(lines[pid], bt.PIT_W) for pid in roster}
+
+        def signal(pid):
+            h = history[pid][-trailing:]
+            return sum(h) / len(h) if h else proj_pts.get(pid, 0.0)
+
+        for pid in sorted(roster, key=signal, reverse=True)[:active_slots]:
+            policy[pid] += pts[pid]
+        for pid in roster:
+            history[pid].append(pts[pid])
+    return policy
+
+
+def simulate_season(y, suffix, n_teams, depth, active_rp=ACTIVE_RP):
+    """-> {"SP": {pid: policy pts}, "SP_uncapped": {...}, "RP": {pid: policy pts}}
+    for one bed season's projected pool, drafted into synthetic staffs and
+    replayed week by week.
+
+    Roster size always matches `depth` (the same SP/RP counts the season-total
+    bed already prices) -- only `active_rp` (how many of the 6 rostered arms
+    play a given day) varies, so a 5-vs-6 comparison changes one mechanic at a
+    time instead of also silently changing the priced player pool.
+
+    SP is replayed by calendar week (GS_CAP is a genuinely weekly rule); RP by
+    calendar day (Ottoneu allows daily lineup changes, so the active-5 decision
+    is a daily one -- see the TRAILING_DAYS comment)."""
+    rows, pp, ap = bt.load_bed(os.path.join(OUT, "backtest_%d%s.csv" % (y, suffix)), "", "")
+    proj = bt.mkpool(rows, "proj", pp)
+    _, _, assigned = value.price(proj, depth)
+    proj_pts = {pid: p["pts"] for pid, p in proj.items()}
+    wk_pit = weekly_stats(y, "pitching")
+    weeks = [a for a, _ in season_weeks(y)]
+    day_pit = daily_stats(y, "pitching")
+    days = season_days(y)
+
+    out = {"SP": {}, "SP_uncapped": {}, "RP": {}}
+    sp_ranked = sorted((pid for pid, role in assigned.items() if role == "SP"),
+                       key=lambda pid: -proj_pts[pid])
+    for roster in snake_teams(sp_ranked, n_teams, depth["SP"] // n_teams).values():
+        policy, uncapped, _ = sim_sp_team(roster, weeks, wk_pit, proj_pts)
+        out["SP"].update(policy)
+        out["SP_uncapped"].update(uncapped)
+
+    rp_ranked = sorted((pid for pid, role in assigned.items() if role == "RP"),
+                       key=lambda pid: -proj_pts[pid])
+    for roster in snake_teams(rp_ranked, n_teams, depth["RP"] // n_teams).values():
+        out["RP"].update(sim_rp_team(roster, days, day_pit, proj_pts, active_rp))
+    return out
+
+
+def lineup_sim_main(suffix):
+    """Aggregate the lineup policy across the whole bed and print it beside the
+    season-total floored `RELIABILITY` ratio (the basis proportional pricing
+    actually uses -- APPROACH trap 29/30), relative to hitters.
+
+    RP runs twice: active_rp=6 (every rostered arm always active every day --
+    no bench mechanic at all, so this should reproduce the season-total floored
+    ratio almost exactly, as a sanity check) and active_rp=5 (the real rule --
+    the gap between them is what the mandatory daily bench actually costs)."""
+    cfg = value.load_settings(os.path.join(value.DATA, "league.csv"))
+    n_teams = cfg["teams"] or 12
+    depth = value.base_depth(n_teams, cfg)
+    seasons = [y for y in range(FIRST_TARGET, LAST_TARGET + 1) if y not in SKIP
+               if os.path.exists(os.path.join(OUT, "backtest_%d%s.csv" % (y, suffix)))]
+
+    acc = {g: [0.0, 0.0] for g in ("H", "SP", "SP_uncapped", "RP5", "RP6")}
+    for y in seasons:
+        sim5 = simulate_season(y, suffix, n_teams, depth, active_rp=5)
+        sim6 = simulate_season(y, suffix, n_teams, depth, active_rp=6)
+        rows, pp, ap = bt.load_bed(os.path.join(OUT, "backtest_%d%s.csv" % (y, suffix)), "", "")
+        proj, _, alevels = bt.pools(rows, depth, pp, ap)
+        for pid, p in proj.items():
+            if p["par"] <= 0:
+                continue
+            g = "H" if p["vpos"] in value.HITTER_POS else p["vpos"]
+            if g == "H":
+                acc["H"][1] += p["par"]
+                acc["H"][0] += max(p["realized_par"], 0.0)
+            elif g == "SP" and pid in sim5["SP"]:
+                acc["SP"][1] += p["par"]
+                acc["SP"][0] += max(sim5["SP"][pid] - alevels["SP"], 0.0)
+                acc["SP_uncapped"][1] += p["par"]
+                acc["SP_uncapped"][0] += max(sim5["SP_uncapped"][pid] - alevels["SP"], 0.0)
+            elif g == "RP" and pid in sim5["RP"]:
+                acc["RP5"][1] += p["par"]
+                acc["RP5"][0] += max(sim5["RP"][pid] - alevels["RP"], 0.0)
+                acc["RP6"][1] += p["par"]
+                acc["RP6"][0] += max(sim6["RP"][pid] - alevels["RP"], 0.0)
+    ratio = {g: (t / p if p else 0.0) for g, (t, p) in acc.items()}
+    print("%d seasons, lineup-policy realized/projected PAR relative to hitters:" % len(seasons))
+    for g in ("SP", "SP_uncapped", "RP5", "RP6"):
+        print("  %-12s %.3f" % (g, ratio[g] / ratio["H"]))
+    print("  SP_uncapped ignores the GS cap (what the season-total bed already prices);\n"
+          "  SP is the same staffs with weekly benching applied -- the gap is the cap's cost.\n"
+          "  RP6 (all 6 rostered arms always active every day) is the no-bench sanity check\n"
+          "  against the season-total floored RELIABILITY ratio; RP5 is the real daily 5-of-6 rule.")
+
+
+# --- synthetic league Monte Carlo: does $value actually predict winning? -----
+# The lineup sim measured realized PAR per dollar; this measures the thing
+# that's a proxy FOR -- does a $value-drafted roster win more real weekly
+# matchups than a roster built by a deliberately worse strategy, given the
+# SAME real subsequent production? "Value agrees with itself" would be
+# circular (APPROACH trap 2: market agreement validates nothing), so this
+# always runs strategies against each other in one league, never value alone.
+#
+# No historical Ottoneu roster export is needed: everything here is a
+# one-shot startup auction (no keepers) built from the same projected pool the
+# season-total bed already prices, followed by the real season's actual
+# weekly production. Only the schedule and the random strategy's own bids are
+# randomized -- Monte Carlo washes out matchup luck, not model uncertainty.
+STRATEGIES = ("value", "points", "random")
+TEAMS_PER_STRATEGY = 4    # 12 = 4+4+4, fixed every trial. Which team NUMBER
+                          # carries which strategy is uninformative here (a
+                          # strategy's bids don't depend on a label), so only
+                          # the schedule and the random strategy's own draws
+                          # need repeating across Monte Carlo trials.
+ROSTER_SIZE = 40          # one-shot startup draft: no keepers, full 40-man auction
+
+
+def naive_dollar_values(pool, n_teams, cfg):
+    """value.py's own $-conversion mechanics, but one undifferentiated position
+    (no scarcity split) and no RELIABILITY shrink -- the "points" strategy,
+    and the exact ablation this test measures value.py's adjustments against.
+    The replacement pool is sized to the SAME total as value.py's own per-
+    position depths (~318 "starter" slots, not the full 480-player, 40-man-
+    roster count) -- matching pool size is what keeps this an ablation of
+    scarcity-and-reliability alone, not a second, accidental difference in how
+    deep the market is. Works on a copy: `pool`'s own scarcity-aware
+    par/vpos/value (the "value" strategy) is untouched."""
+    flat = {pid: dict(p, pos=["ANY"]) for pid, p in pool.items()}
+    total_slots = sum(value.base_depth(n_teams, cfg).values())
+    value.price(flat, {"ANY": total_slots})
+    total_par = sum(max(p["par"], 0.0) for p in flat.values())  # no reliability shrink
+    value.to_dollars(flat, total_par, n_teams * (cfg["cap"] - cfg["roster_max"]))
+    return flat
+
+
+class DraftTeam:
+    def __init__(self, strategy, valuations, cap):
+        self.strategy, self.valuations, self.budget = strategy, valuations, cap
+        self.roster = []
+
+    def bid(self, pid, rng):
+        if len(self.roster) >= ROSTER_SIZE:
+            return 0
+        room = self.budget - (ROSTER_SIZE - len(self.roster) - 1)  # $1 held per other open slot
+        if room < 1:
+            return 0
+        if self.strategy == "random":
+            return rng.randint(1, room)
+        return max(0, min(room, round(self.valuations.get(pid, 0))))
+
+
+def clear_price(bids):
+    """-> the winning price for a list of bids, English-auction convention:
+    $1 over the runner-up, capped at the winning bid itself (so a tie clears
+    at the tied amount, and a sole bidder pays the $1 floor)."""
+    ranked = sorted(bids, reverse=True)
+    return min(ranked[0], ranked[1] + 1) if len(ranked) > 1 else 1
+
+
+def run_auction(pool, n_teams, cfg, rng):
+    """-> [DraftTeam, ...], TEAMS_PER_STRATEGY per strategy. Nominates in
+    descending true (scarcity-aware) $value -- best player up first, the real
+    auction convention -- and clears each at `clear_price`."""
+    naive = naive_dollar_values(pool, n_teams, cfg)
+    by_strategy = {"value": {pid: p["value"] for pid, p in pool.items()},
+                   "points": {pid: p["value"] for pid, p in naive.items()},
+                   "random": {}}
+    teams = [DraftTeam(s, by_strategy[s], cfg["cap"])
+             for s in STRATEGIES for _ in range(TEAMS_PER_STRATEGY)]
+    for pid in sorted(pool, key=lambda k: -pool[k]["value"]):
+        bids = {t: t.bid(pid, rng) for t in teams if pid not in t.roster}
+        bids = {t: b for t, b in bids.items() if b > 0}
+        if not bids:
+            continue
+        winner = max(bids, key=bids.get)
+        winner.roster.append(pid)
+        winner.budget -= clear_price(list(bids.values()))
+    return teams
+
+
+def team_hitter_pos(pos):
+    """A team's own weekly lineup has a literal middle-infield flex slot (2B
+    or SS), not the season-total depth solver's 50/50 split across all teams
+    -- that split only means something once smoothed over n_teams, not for one
+    team's own seven-slot infield-plus-outfield lineup."""
+    return pos + (["MI"] if {"2B", "SS"} & set(pos) else [])
+
+
+def score_week_hitting(roster, week, wk_bat, cfg, pool):
+    """-> this team's best possible hitting lineup score for one week, from
+    its own roster's real weekly production -- reuses value.draft()'s
+    scarcest-slot-first, Util-second-pass logic exactly as the season-total
+    engine does, just scoped to one team's roster instead of the whole league."""
+    depth = {"C": cfg["catcher_slots"], "1B": 1, "2B": 1, "3B": 1, "SS": 1,
+             "MI": value.MIDDLE_INFIELD, "OF": 5, "Util": 1}
+    week_pool = {pid: {"pos": team_hitter_pos(pool[pid]["pos"]),
+                       "pts": bt.points(wk_bat.get(week, {}).get(pid, {}), bt.BAT_W)}
+                for pid in roster if value.is_hitter(pool[pid])}
+    _, assigned = value.draft(week_pool, depth)
+    return sum(week_pool[pid]["pts"] for pid in assigned)
+
+
+def score_season(team, pool, weeks, wk_bat, wk_pit, cfg):
+    """-> [this team's total FGPts, one per week], its own drafted roster
+    against real production. SP still benches the worst-projected arm first
+    past GS_CAP (validated, low-sensitivity, `NEXT_STEPS.md` Task 10); RP is
+    credited in full every week -- the daily RP bench signal's own magnitude is
+    unresolved (Task 10), and importing that noise into a different experiment
+    would confound this one, so RP is deliberately the uncapped (RP6) case."""
+    sp = [pid for pid in team.roster if pool[pid]["pos"][:1] == ["SP"]]
+    rp = [pid for pid in team.roster if pool[pid]["pos"][:1] == ["RP"]]
+    proj_pts = {pid: pool[pid]["pts"] for pid in team.roster}
+    _, _, sp_weekly = sim_sp_team(sp, weeks, wk_pit, proj_pts)
+    return [score_week_hitting(team.roster, wk, wk_bat, cfg, pool) + sp_weekly[i]
+            + sum(bt.points(wk_pit.get(wk, {}).get(pid, {}), bt.PIT_W) for pid in rp)
+            for i, wk in enumerate(weeks)]
+
+
+def league_trial(pool, weeks, wk_bat, wk_pit, cfg, n_teams, rng):
+    """-> {strategy: mean wins} for one Monte Carlo trial: one auction, one
+    random weekly pairing schedule, real actual production decides every
+    matchup."""
+    teams = run_auction(pool, n_teams, cfg, rng)
+    scores = [score_season(t, pool, weeks, wk_bat, wk_pit, cfg) for t in teams]
+    wins = [0.0] * n_teams
+    order = list(range(n_teams))
+    for wi in range(len(weeks)):
+        rng.shuffle(order)
+        for a, b in zip(order[0::2], order[1::2]):
+            if scores[a][wi] > scores[b][wi]:
+                wins[a] += 1
+            elif scores[b][wi] > scores[a][wi]:
+                wins[b] += 1
+            else:
+                wins[a] += 0.5
+                wins[b] += 0.5
+    by_strategy = {s: [] for s in STRATEGIES}
+    for t, w in zip(teams, wins):
+        by_strategy[t.strategy].append(w)
+    return {s: sum(v) / len(v) for s, v in by_strategy.items()}
+
+
+def league_sim_main(suffix, trials=200):
+    cfg = value.load_settings(os.path.join(value.DATA, "league.csv"))
+    n_teams = cfg["teams"] or 12
+    seasons = [y for y in range(FIRST_TARGET, LAST_TARGET + 1) if y not in SKIP
+               if os.path.exists(os.path.join(OUT, "backtest_%d%s.csv" % (y, suffix)))]
+    rng = random.Random(0)
+    print("%d seasons x %d trials, mean wins/season by strategy "
+          "(%d teams, .5 = expected under a coin flip):" % (len(seasons), trials, TEAMS_PER_STRATEGY))
+    grand = {s: [] for s in STRATEGIES}
+    for y in seasons:
+        rows, pp, ap = bt.load_bed(os.path.join(OUT, "backtest_%d%s.csv" % (y, suffix)), "", "")
+        pool = bt.mkpool(rows, "proj", pp)
+        value.base_values(pool, n_teams, cfg)   # sets par/vpos/value -- the "value" strategy
+        wk_bat = weekly_stats(y, "hitting")
+        wk_pit = weekly_stats(y, "pitching")
+        weeks = [a for a, _ in season_weeks(y)]
+        per = {s: [] for s in STRATEGIES}
+        for _ in range(trials):
+            r = league_trial(pool, weeks, wk_bat, wk_pit, cfg, n_teams, rng)
+            for s in STRATEGIES:
+                per[s].append(r[s])
+        print("  %d  " % y + "  ".join("%s %5.2f" % (s, sum(v) / len(v)) for s, v in per.items()))
+        for s in STRATEGIES:
+            grand[s] += per[s]
+    print("all seasons  " + "  ".join("%s %5.3f" % (s, sum(v) / len(v)) for s, v in grand.items())
+          + "  (%d weeks/season)" % len(weeks))
 
 
 age_on = value.age_on
@@ -308,6 +790,81 @@ def build(target, cache):
     return list(rows.values())
 
 
+HIST_STEAMER = os.path.join(value.DATA, "Historic Steamer Preseason Projections")
+
+
+def steamer_hist(year, pitcher):
+    """-> {mlbam: stats} from a FanGraphs "Historical Projections" Steamer
+    export, in our stat names -- the same raw components bt.points() scores
+    everywhere else, not the file's own FPTS/SPTS column (one formula for both
+    sides, per backtest.py's docstring)."""
+    name = "%d %s.csv" % (year, "Pitchers" if pitcher else "Hitter")
+    keys = ["GS", "IP", "SO", "H", "BB", "HBP", "HR", "SV", "HLD"] if pitcher \
+        else ["PA", "AB", "H", "2B", "3B", "HR", "BB", "HBP", "SB", "CS"]
+    with open(os.path.join(HIST_STEAMER, name), newline="", encoding="utf-8-sig") as f:
+        # IP here is a real decimal (a projection, not a box score), unlike
+        # statsapi's .1/.2-for-thirds -- bt.innings() would misread it.
+        return {r["MLBAMID"]: {k: bt.num(r[k]) for k in keys}
+                for r in csv.DictReader(f) if r.get("MLBAMID")}
+
+
+def build_steamer(target, cache):
+    """-> rows in the shape backtest.py reads, like build(), but the projected
+    line comes from a historic Steamer export instead of Marcel. Positions and
+    actuals still come from the statsapi cache, so only the projection source
+    differs and the two beds are comparable (`--measure`, aging_ratios)."""
+    priors = prior_seasons(target)
+    for y in priors + [target]:
+        cache.setdefault(y, {
+            "hitting": season_stats(y, "hitting"),
+            "pitching": season_stats(y, "pitching"),
+            "pos": season_positions(y),
+            "people": season_people(y),
+        })
+    rows = {}
+    for group, weights_key, pitcher in (("hitting", "H", False), ("pitching", "P", True)):
+        w = bt.PIT_W if pitcher else bt.BAT_W
+        floor = bt.MIN_IP if pitcher else bt.MIN_PA
+        pt_key = "IP" if pitcher else "PA"
+        actual = cache[target][group]
+        for pid, proj in steamer_hist(target, pitcher).items():
+            if proj[pt_key] < floor:
+                continue
+            a = actual.get(pid)
+            person = next((cache[y]["people"].get(pid) for y in priors
+                           if pid in cache[y]["people"]), None)
+            if not a or not person:
+                continue
+            name, birth, primary = person
+            if pitcher:
+                ppos = "SP" if proj["GS"] >= 5 else "RP"
+                apos = "SP" if a.get("GS", 0) >= 5 else "RP"
+            else:
+                g = {}
+                for y in priors[:2]:
+                    for pos, n in cache[y]["pos"].get(pid, {}).items():
+                        g[pos] = g.get(pos, 0) + n
+                ppos = hitting_pos(primary, g)
+                if ppos is None:
+                    continue
+                apos = ppos
+
+            r = rows.get(pid)
+            if r:  # a two-way player scores in both -- his points add up
+                r["proj"] += bt.points(proj, w)
+                r["actual"] += bt.points(a, w)
+                r["group"] = "2W"
+                r["proj_pos"] = r["proj_pos"] + "/" + ppos
+                r["act_pos"] = r["act_pos"] + "/" + apos
+                continue
+            rows[pid] = {"mlbam": pid, "fg_id": "", "name": name,
+                         "group": weights_key, "pos": apos,
+                         "proj_pos": ppos, "act_pos": apos,
+                         "proj": bt.points(proj, w), "actual": bt.points(a, w),
+                         "proj_pt": proj[pt_key], "actual_pt": a.get(pt_key, 0.0)}
+    return list(rows.values())
+
+
 # Keeper aging: realized PAR k seasons later over realized PAR now, both floored
 # at zero (the basis RELIABILITY is measured on), for the players Marcel PRICED,
 # by age. Two things learned the hard way:
@@ -327,10 +884,13 @@ AGING_BINS = [(0, 25), (26, 29), (30, 33), (34, 99)]
 AGING_HORIZON = 4
 
 
-def aging_bed():
+def aging_bed(suffix=""):
     """-> (birth, {season: projected pool}, {season: $ per PAR}) over the bed.
     Each pool is reliability-shrunk and priced exactly as value.py prices a live
-    season, so a player's `par` is what keeper_npv calls base_par."""
+    season, so a player's `par` is what keeper_npv calls base_par.
+
+    `suffix` picks the bed: "" is Marcel (`out/backtest_YYYY.csv`), "_steamer"
+    the historic-Steamer bed from `marcel.py --steamer`."""
     cfg = value.load_settings(os.path.join(value.DATA, "league.csv"))
     n_teams = cfg["teams"] or 12
     depth = value.base_depth(n_teams, cfg)
@@ -340,7 +900,10 @@ def aging_bed():
         birth.update({k: v[1] for k, v in season_people(y).items()})
     pools, rates = {}, {}
     for y in seasons:
-        rows, pp, ap = bt.load_bed(os.path.join(OUT, "backtest_%d.csv" % y), "", "")
+        path = os.path.join(OUT, "backtest_%d%s.csv" % (y, suffix))
+        if not os.path.exists(path):
+            continue
+        rows, pp, ap = bt.load_bed(path, "", "")
         pool = bt.pools(rows, depth, pp, ap)[0]
         rates[y] = value.to_dollars(pool, value.apply_reliability(pool),
                                     n_teams * (cfg["cap"] - cfg["roster_max"]))
@@ -375,6 +938,27 @@ def aging_ratios(birth, pools, drop=lambda y, later: False):
                     a[2] += 1
     return [(g, k, AGING_BINS[b][0], AGING_BINS[b][1], round(t / s, 3), n)
             for (g, k, b), (s, t, n) in sorted(acc.items())]
+
+
+def same_season_bias(birth, pools):
+    """-> [(group, age_lo, age_hi, ratio, n)]: realized/projected PAR by age
+    bin, k=0 (no aging horizon). Isolates whether an aging-table miss by age
+    belongs to the base projection itself, before any horizon is applied
+    (APPROACH trap 32)."""
+    acc = {}
+    for y, pool in pools.items():
+        for pid, p in pool.items():
+            age = age_on(birth.get(pid, ""), y)
+            if p["par"] <= 0 or age is None:
+                continue
+            g = "P" if p["vpos"] in value.PITCHER_POS else "H"
+            b = next(i for i, (lo, hi) in enumerate(AGING_BINS) if lo <= age <= hi)
+            a = acc.setdefault((g, b), [0.0, 0.0, 0])
+            a[0] += p["par"]
+            a[1] += max(p["realized_par"], 0.0)
+            a[2] += 1
+    return [(g, AGING_BINS[b][0], AGING_BINS[b][1], round(t / s, 3), n)
+            for (g, b), (s, t, n) in sorted(acc.items())]
 
 
 def realize(pred, real, d):
@@ -539,6 +1123,8 @@ def main(argv):
     def arg(flag, default):
         return argv[argv.index(flag) + 1] if flag in argv else default
 
+    steamer = "--steamer" in argv
+    builder, suffix = (build_steamer, "_steamer") if steamer else (build, "")
     years = arg("--years", "")
     targets = ([int(y) for y in years.split(",")] if years else
                [y for y in range(FIRST_TARGET, LAST_TARGET + 1) if y not in SKIP])
@@ -547,8 +1133,8 @@ def main(argv):
     for t in targets:
         priors = prior_seasons(t)
         print("%d  <- %s" % (t, ", ".join(str(y) for y in priors)))
-        rows = build(t, cache)
-        path = os.path.join(OUT, "backtest_%d.csv" % t)
+        rows = builder(t, cache)
+        path = os.path.join(OUT, "backtest_%d%s.csv" % (t, suffix))
         with open(path, "w", newline="", encoding="utf-8") as f:
             wr = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
             wr.writeheader()
@@ -559,7 +1145,7 @@ def main(argv):
             if priors[0] != t - 1 else ""
         print("  wrote %s (%d players)%s" % (path, len(rows), note))
     print("\nScore each with:  py -3.13 backtest.py --dollars --backtest "
-          "out/backtest_YYYY.csv")
+          "out/backtest_YYYY%s.csv" % suffix)
 
 
 def selftest():
@@ -641,6 +1227,68 @@ def selftest():
     birth = {"a": "1990-01-01"}                   # 25 in 2015
     assert aging_ratios(birth, pools) == [("H", 1, 0, 25, 0.5, 1)]
     assert aging_ratios(birth, pools, lambda y, later: later == 2016) == []
+    assert same_season_bias(birth, {2015: pools[2015]}) == [("H", 0, 25, 1.0, 1)]
+
+    # Weekly lineup sim: snake draft spreads talent, doesn't stack one team.
+    teams = snake_teams(["a", "b", "c", "d"], 2, 2)
+    assert teams == {0: ["a", "d"], 1: ["b", "c"]}, teams
+
+    # SP bench: a week's combined starts over GS_CAP bench the worst-projected
+    # arm's whole week, not just the overage -- 'x' outranks 'y' on preseason
+    # points, so 'y' sits and scores nothing that week, capped or not.
+    wk_pit = {"w1": {"x": {"GS": 6, "IP": 40, "SO": 40}, "y": {"GS": 6, "IP": 40, "SO": 40}}}
+    policy, uncapped, weekly = sim_sp_team(["x", "y"], ["w1"], wk_pit, {"x": 100, "y": 50})
+    assert weekly == [376.0], weekly
+    assert policy == {"x": 376.0, "y": 0.0}, policy
+    assert uncapped == {"x": 376.0, "y": 376.0}, "uncapped ignores the bench entirely"
+
+    # RP activation: week 1 has no history, so the preseason-ranked top 2 of 3
+    # play; week 2 re-ranks on trailing actual points, no hindsight -- 'c' was
+    # benched in week 1 despite the big week he actually had, and only starts
+    # counting once week 2's ranking (built from week 1's *result*) picks him.
+    wk_rp = {"w1": {"a": {"IP": 2, "SO": 2}, "b": {"IP": 1, "SO": 1}, "c": {"IP": 5, "SO": 5}},
+             "w2": {"a": {"IP": 3, "SO": 3}, "b": {"IP": 10, "SO": 10}, "c": {"IP": 1, "SO": 1}}}
+    rp_policy = sim_rp_team(["a", "b", "c"], ["w1", "w2"], wk_rp,
+                            {"a": 10, "b": 5, "c": 1}, active_slots=2)
+    assert round(rp_policy["b"], 1) == 9.4, "b's week 2 (94 pts) never counts -- benched"
+    assert round(rp_policy["c"], 1) == 9.4, "c's week 1 (47 pts) never counts -- benched"
+
+    # Synthetic league: auction clearing price, budget reserve, MI flex slot.
+    assert clear_price([50, 30, 10]) == 31         # $1 over the runner-up
+    assert clear_price([50, 50]) == 50             # a tie clears at the tied bid
+    assert clear_price([50]) == 1                  # sole bidder pays the $1 floor
+
+    t = DraftTeam("value", {"a": 50}, cap=100)
+    assert t.bid("a", random.Random(0)) == 50      # plenty of room
+    t.roster, t.budget = ["x"] * 38, 10            # 2 slots left, one is this bid
+    assert t.bid("a", random.Random(0)) == 9       # $1 held back for the other slot
+    t.roster, t.budget = ["x"] * 39, 5             # last slot: no reserve needed
+    assert t.bid("a", random.Random(0)) == 5
+    t.roster = ["x"] * 40                          # roster full
+    assert t.bid("a", random.Random(0)) == 0
+
+    assert team_hitter_pos(["2B"]) == ["2B", "MI"]
+    assert team_hitter_pos(["OF"]) == ["OF"]
+    week_pool = {"c1": {"pos": team_hitter_pos(["C"]), "pts": 10.0},
+                "ss1": {"pos": team_hitter_pos(["SS"]), "pts": 8.0},
+                "ss2": {"pos": team_hitter_pos(["SS"]), "pts": 7.0},
+                "2b1": {"pos": team_hitter_pos(["2B"]), "pts": 6.0}}
+    _, assigned = value.draft(week_pool, {"C": 1, "1B": 1, "2B": 1, "3B": 1, "SS": 1,
+                                          "MI": value.MIDDLE_INFIELD, "OF": 5, "Util": 1})
+    # ss2 has no natural SS slot left (ss1 outscored him for it) but still
+    # starts, at the extra middle-infield flex slot the season-total depth
+    # solver's 50/50 split can't represent for one team's own lineup.
+    assert set(assigned) == {"c1", "ss1", "ss2", "2b1"}, assigned
+    assert assigned["ss2"] == "MI", assigned
+
+    # Weeks tile the season exactly: no gap, no overlap, Monday starts after
+    # the first. 2019 opened on a Wednesday in Tokyo.
+    wk = calendar_weeks("2019-03-20", "2019-09-29")
+    assert wk[0] == ("2019-03-20", "2019-03-24") and wk[-1][1] == "2019-09-29"
+    for (_, b), (a, _) in zip(wk, wk[1:]):
+        nxt = datetime.date.fromisoformat(a)
+        assert nxt - datetime.date.fromisoformat(b) == datetime.timedelta(days=1)
+        assert nxt.weekday() == 0
     print("selftest ok")
 
 
@@ -651,5 +1299,19 @@ if __name__ == "__main__":
         aging_main()
     elif "--npv" in sys.argv:
         npv_backtest()
+    elif "--weekly" in sys.argv:
+        weekly_main([y for y in range(FIRST_TARGET, LAST_TARGET + 1) if y not in SKIP])
+    elif "--age-check" in sys.argv:
+        suffix = "_steamer" if "--steamer" in sys.argv else ""
+        birth, pools, _ = aging_bed(suffix)
+        print("same-season (k=0) realized/projected PAR by age, %s bed:"
+              % ("Steamer" if suffix else "Marcel"))
+        for g, lo, hi, ratio, n in same_season_bias(birth, pools):
+            print("  %s %2d-%-3d ratio %.2f  n=%d" % (g, lo, hi, ratio, n))
+    elif "--lineup-sim" in sys.argv:
+        lineup_sim_main("_steamer" if "--steamer" in sys.argv else "")
+    elif "--league-sim" in sys.argv:
+        trials = int(sys.argv[sys.argv.index("--trials") + 1]) if "--trials" in sys.argv else 200
+        league_sim_main("_steamer" if "--steamer" in sys.argv else "", trials)
     else:
         main(sys.argv[1:])

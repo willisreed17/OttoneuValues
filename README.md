@@ -23,6 +23,7 @@ py -3.13 backtest.py --dollars                            # scores value.py's pr
 py -3.13 backtest.py --selftest
 
 py -3.13 marcel.py                # ten seasons of Marcel -> out/backtest_YYYY.csv
+py -3.13 marcel.py --weekly       # cache Mon-Sun weekly lines, checked against season totals
 py -3.13 backtest.py --dollars --backtest out/backtest_2024.csv
 ```
 
@@ -113,7 +114,70 @@ against a simulated keeper deadline: inflation came out position-specific (2B
 values summed to $1,695 against $1,690 of free money.
 
 Layer 2 reports "no open market" and emits no values when rosters are full — as
-they are mid-season. It's fundamentally an offseason/auction tool.
+they are mid-season almost all the time. That's correct behavior for layer 2
+specifically (there genuinely is no market to solve when nobody has a roster
+spot), not a limit on intraseason use of the tool overall — see layer 3.
+
+**Layer 3 — decisions.** What to actually do, given base value and who owns
+what. Runs after layer 1, needs no open market:
+
+- `surplus` = `base_value − salary`: is he worth what he costs right now.
+- `cut_gain` (`value.cut_gain`): does dropping him free more cap (after the
+  50% in-season penalty) than the production he takes with him. The number
+  that matters for a cut, not raw negative surplus — see its docstring.
+- `keeper_surplus` = `base_value − keeper_salary` (next year's cost:
+  retention + arbitration): keep him for one more year or not.
+- `keeper_npv` (`value.keeper_npv`): the multi-year version — backward
+  induction over `data/aging.csv`, cut-free each offseason, discounted by
+  `keeper_discount`. Backtested out-of-sample (`marcel.py --npv`).
+
+None of layer 3 has a full-season assumption baked in: it prices off
+whatever's in `steamer_{bat,pit}.csv`, full-season or rest-of-season alike
+(verified 2026-09-12 against a real mid-season-collapse scenario — see below
+for swapping in a rest-of-season snapshot). Layer 2 itself comes back to
+life the rare times a real spot opens up (a cut, an IL move) — see the `il`
+case in `value.py`'s own selftest.
+
+## What `value.py` hands off (the interface a UI consumes)
+
+`out/players.csv`, one row per priced player: `playerid` (join key — FanGraphs
+id, joins to `xMLBAMID` via `data/birthdates.csv` for age/statsapi), `name`,
+`mlb` (team), `pos` (all eligible, `/`-joined), `vpos` (the position he's
+actually priced at), `age`, `pts` (projected FGPts/SPTS), `par` (points above
+replacement, post-`RELIABILITY`), `base_value` (layer 1, $), `league_value`
+(layer 2, $ or blank — "no open market" most of the season), `salary`,
+`surplus`, `arb` (this year's allocation if rostered), `keeper_salary`,
+`keeper_surplus`, `keeper_npv`, `cut_gain`, `owner` (team name or `FA`).
+`out/teams.csv` is the per-team cap ledger (cap, used, penalties, open spots,
+projected value, surplus). Both are plain CSVs, safe to read from anything.
+
+For a live UI rather than a batch CSV, the underlying functions
+(`value.base_values`, `value.league_values`, `value.keeper_npv`,
+`value.cut_gain`) take plain dicts and have no CLI/file coupling — call them
+directly instead of shelling out and re-parsing `out/players.csv` if the UI
+needs to react to a hypothetical (a proposed trade, a what-if bid) that
+hasn't happened yet.
+
+## Intended use — three cases, same engine
+
+1. **Pre-draft, including keeper leagues.** Refresh `rosterexport.csv` and
+   `teams_cap.csv` after keepers are locked in, before the auction. Layer 2
+   is the point: it re-solves replacement against only the un-kept pool, so
+   cheap keepers correctly inflate what's left, without a flat multiplier.
+   Never checked against a real auction yet, only a simulated one — see
+   `APPROACH.md` §7.
+2. **Pre-draft keeper decisions.** `keeper_surplus`/`keeper_npv`, off the
+   current `steamer_{bat,pit}.csv`. The best-covered case — `keeper_npv` has
+   an out-of-sample backtest behind it (`marcel.py --npv`).
+3. **Intraseason bid, trade, and cut decisions.** Overwrite
+   `steamer_{bat,pit}.csv` with a rest-of-season snapshot (same file, no code
+   change — FanGraphs' projections page has its own ROS toggle). Layer 3
+   handles it; layer 2 mostly won't fire (rosters are full), which is
+   expected, not broken.
+
+`data/prospects.csv` (optional) flat-values players with no Steamer
+projection at all, by rank tier — a judgment call, not a measurement; see its
+section below.
 
 ## Refreshing data
 
@@ -163,6 +227,28 @@ or `fangraphsdc`.
 (`data/aging.csv`) and fetches birthdates for any new ids
 (`data/birthdates.csv`). Without them `keeper_npv` is left blank.
 `py -3.13 marcel.py --npv` backtests `keeper_npv` out of sample on the bed.
+
+**Mid-season (rest-of-season) use:** overwrite `steamer_{bat,pit}.csv` with a
+rest-of-season snapshot instead of the preseason one (same file, same
+`load_projections`, no code change -- FanGraphs' projections page has its own
+ROS toggle; pull it the same BYOD way). Everything downstream -- base value,
+`surplus`, `cut_gain`, `keeper_npv` -- prices off whatever's in the file, full
+season or the games left. Manual refresh only; no automated pull is planned
+for this (owner's call, 2026-09-12) — same as `data/prospects.csv`.
+
+### `data/prospects.csv` — optional, prospects with no Steamer projection
+Steamer has no projection at all for a player with no real MLB role yet, so he
+prices at $0 despite consuming a roster spot. There's nothing to build a real
+PAR-based value from, so this is a flat, judgment-call override
+(`value.PROSPECT_TIERS`, owner's numbers, 2026-09-12), not a measurement.
+
+`https://www.fangraphs.com/prospects/the-board` (or MLB Pipeline / Baseball
+America's top-100), sorted best-prospect-first, "Export Data" to CSV — row
+order IS the rank, so no particular rank column is required. Needs `Name`,
+`Team`, `Position`, and a FanGraphs `playerid` to join to `steamer_{bat,pit}.csv`'s
+id space (the exact column names may need adjusting once you've pulled a real
+file). A real Steamer projection always wins; this only fills in players
+`load_projections` never saw at all.
 
 ### `data/teams_cap.csv` — required for layer 2
 **The roster export cannot produce cap space.** Three things live only on the

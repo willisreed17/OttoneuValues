@@ -427,8 +427,8 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 664913,,Seth Brown,H,1B/OF,1B/OF,1B/OF,485.8,361.8,444.5,400.0
 666160,,Mickey Moniak,H,OF,OF,OF,406.6,360.9,372.7,418.0
 672386,,Alejandro Kirk,H,C,C,C,529.1,360.4,465.1,386.0
-663698,,Joey Bart,H,C,C,C,256.3,360.3,276.6,282.0
 642350,,Jose Siri,H,OF,OF,OF,451.9,360.3,414.5,448.0
+663698,,Joey Bart,H,C,C,C,256.3,360.3,276.6,282.0
 456781,,Donovan Solano,H,1B/2B/3B,1B/2B/3B,1B/2B/3B,496.8,359.5,455.4,309.0
 657649,,Jared Koenig,P,SP,SP,SP,238.1,359.2,63.9,62.0
 641680,,Jonah Heim,H,C,C,C,517.3,358.4,495.5,491.0
@@ -442,8 +442,8 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 593576,,Héctor Neris,P,RP,RP,RP,427.6,353.7,62.7,59.3
 664076,,Garrett Cleavinger,P,RP,RP,RP,142.0,353.0,30.3,60.0
 666023,,Freddy Fermin,H,C,C,C,355.7,352.0,318.2,368.0
-682626,,Francisco Alvarez,H,C,C,C,467.7,351.3,412.9,342.0
 669289,,Santiago Espinal,H,2B/3B/SS,2B/3B/SS,2B/3B/SS,374.6,351.3,376.1,391.0
+682626,,Francisco Alvarez,H,C,C,C,467.7,351.3,412.9,342.0
 674370,,Osvaldo Bido,P,SP,SP,SP,340.4,351.0,85.3,63.3
 666181,,Will Benson,H,OF,OF,OF,472.0,350.3,370.6,388.0
 679529,,Spencer Torkelson,H,1B,1B,1B,626.6,349.6,582.4,381.0
@@ -540,8 +540,8 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 554340,,Yimi García,P,RP,RP,RP,368.0,288.0,61.1,39.0
 657612,,Tim Hill,P,RP,RP,RP,210.5,286.0,49.0,67.0
 670174,,Josh Winckowski,P,SP,SP,SP,447.5,284.8,109.2,76.0
-676356,,Jonny DeLuca,H,OF,OF,OF,249.0,282.8,222.5,362.0
 596142,,Gary Sánchez,H,C,C,C,403.0,282.8,380.6,280.0
+676356,,Jonny DeLuca,H,OF,OF,OF,249.0,282.8,222.5,362.0
 650391,,Eloy Jiménez,H,OF,OF,OF,579.7,281.9,477.2,349.0
 669713,,Hayden Wesneski,P,SP,SP,SP,397.7,280.5,108.0,67.7
 669387,,Carmen Mlodzinski,P,RP,RP,RP,209.2,280.4,40.0,50.7
@@ -719,8 +719,8 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 658668,,Edward Olivares,H,OF,OF,OF,465.7,158.9,409.9,196.0
 666018,,Jonathan Aranda,H,1B/2B,1B/2B,1B/2B,267.1,158.7,260.2,143.0
 621111,,Walker Buehler,P,SP,SP,SP,337.5,158.3,66.5,75.3
-547184,,Michael Kelly,P,RP,RP,RP,147.1,158.1,30.7,31.3
 593974,,Wandy Peralta,P,RP,RP,RP,305.6,158.1,54.6,38.3
+547184,,Michael Kelly,P,RP,RP,RP,147.1,158.1,30.7,31.3
 675540,,Xzavion Curry,P,SP,SP,SP,379.2,157.5,108.4,42.7
 642136,,Matt Thaiss,H,1B/C,1B/C,1B/C,352.4,156.8,361.6,186.0
 608638,,JT Chargois,P,RP,RP,RP,239.4,155.7,45.4,36.3
@@ -870,8 +870,8 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 621512,,Tomás Nido,H,C,C,C,195.9,74.2,261.8,140.0
 643361,,Kevin Herget,P,RP,RP,RP,135.6,74.0,34.9,11.3
 643265,,Garrett Cooper,H,1B,1B,1B,531.0,72.8,475.4,116.0
-593934,,Miguel Sanó,H,1B,1B,1B,220.2,72.7,207.1,95.0
 592200,,Curt Casali,H,C,C,C,234.6,72.7,265.6,125.0
+593934,,Miguel Sanó,H,1B,1B,1B,220.2,72.7,207.1,95.0
 641313,,Tim Anderson,H,SS,SS,SS,496.1,72.1,497.1,241.0
 663465,,Kolby Allard,P,RP,SP,RP,188.5,71.9,68.3,27.0
 542932,,Jon Berti,H,2B/3B/OF/SS,2B/3B/OF/SS,2B/3B/OF/SS,473.0,71.9,452.4,74.0
@@ -940,8 +940,8 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 663562,,Noah Davis,P,RP,SP,RP,88.6,46.0,37.1,20.3
 570257,,Joely Rodríguez,P,RP,RP,RP,167.3,45.8,32.5,13.7
 669459,,Kyle Nelson,P,RP,RP,RP,261.2,45.5,53.7,10.7
-595881,,Tyler Beede,P,RP,RP,RP,95.5,45.4,28.1,14.0
 608648,,Tyler Duffey,P,RP,RP,RP,143.2,45.4,27.4,9.0
+595881,,Tyler Beede,P,RP,RP,RP,95.5,45.4,28.1,14.0
 668731,,Akil Baddoo,H,OF,OF,OF,416.8,44.9,401.0,82.0
 687798,,Nick Robertson,P,RP,RP,RP,131.1,44.8,33.2,13.3
 663897,,Luke Williams,2W,2B/3B/OF,2B/3B/OF/RP,2B/3B/OF/RP,305.3,44.4,223.1,52.0
@@ -1079,8 +1079,8 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 701643,,Grant Hartwig,P,RP,RP,RP,163.7,11.4,39.7,6.7
 621016,,Jose Cuas,P,RP,RP,RP,260.9,11.3,58.4,16.3
 668984,,Casey Legumina,P,RP,RP,RP,94.2,10.5,28.3,9.3
-677865,,Justin Bruihl,P,RP,RP,RP,162.8,10.2,38.4,5.7
 681982,,Grant Anderson,P,RP,RP,RP,162.6,10.2,39.8,26.7
+677865,,Justin Bruihl,P,RP,RP,RP,162.8,10.2,38.4,5.7
 448179,,Rich Hill,P,RP,SP,RP,557.1,10.2,145.6,3.7
 676961,,Caleb Boushley,P,RP,RP,RP,99.8,10.0,23.2,4.0
 641312,,Shaun Anderson,P,RP,RP,RP,70.1,9.6,22.1,16.3
@@ -1093,15 +1093,15 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 668970,,Gavin Hollowell,P,RP,RP,RP,127.7,6.7,39.5,1.3
 676604,,Tyler Zuber,P,RP,RP,RP,82.8,6.6,22.0,3.3
 669395,,Dylan Coleman,P,RP,RP,RP,184.4,6.4,38.0,1.0
-687799,,Cade Marlowe,H,OF,OF,OF,279.1,6.2,250.0,9.0
 669392,,Samad Taylor,H,2B/OF,2B/OF,2B/OF,244.1,6.2,234.5,5.0
+687799,,Cade Marlowe,H,OF,OF,OF,279.1,6.2,250.0,9.0
 664139,,Ian Gibaut,P,RP,RP,RP,330.5,6.0,63.4,2.0
 679881,,J.P. Martínez,H,OF,OF,OF,226.4,6.0,222.0,10.0
 641726,,Daulton Jefferies,P,RP,SP,RP,265.0,5.9,63.9,14.7
 553882,,Omar Narváez,H,C,C,C,278.9,5.8,302.6,69.0
 669699,,Braden Shewmake,H,Util,Util,Util,215.1,5.7,202.0,67.0
-669352,,Bubba Thompson,H,OF,OF,OF,237.3,5.6,248.1,18.0
 623168,,Tyler Heineman,H,C,C,C,216.2,5.6,240.9,16.0
+669352,,Bubba Thompson,H,OF,OF,OF,237.3,5.6,248.1,18.0
 689266,,Dylan Dodd,P,RP,SP,RP,138.1,5.4,77.2,2.0
 664702,,Myles Straw,H,OF,OF,OF,440.1,5.4,518.6,4.0
 622608,,Antonio Senzatela,P,RP,SP,RP,256.2,5.4,73.1,12.3
@@ -1131,8 +1131,8 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 675656,,Kevin Smith,H,3B/SS,3B/SS,3B/SS,226.6,0.0,288.1,0.0
 641427,,Alan Busenitz,P,RP,RP,RP,119.2,-0.1,25.5,4.0
 656186,,Dan Altavilla,P,RP,RP,RP,94.7,-0.2,22.0,3.7
-621458,,Edwin Rios,H,Util,Util,Util,217.4,-0.4,226.2,10.0
 595284,,Andrew Knapp,H,C,C,C,159.2,-0.4,204.6,6.0
+621458,,Edwin Rios,H,Util,Util,Util,217.4,-0.4,226.2,10.0
 681962,,Vinny Capra,H,Util,Util,Util,218.2,-0.5,211.2,9.0
 669288,,Daniel Johnson,H,Util,Util,Util,209.9,-1.0,200.0,1.0
 642020,,Chuckie Robinson,H,C,C,C,191.4,-1.6,206.0,76.0
@@ -1153,8 +1153,8 @@ mlbam,fg_id,name,group,pos,proj_pos,act_pos,proj,actual,proj_pt,actual_pt
 676617,,Riley O'Brien,P,RP,RP,RP,83.2,-4.2,22.1,8.0
 666720,,Yerry Rodríguez,P,RP,RP,RP,122.0,-4.4,28.9,21.7
 664059,,Sam Haggerty,H,2B/OF,2B/OF,2B/OF,297.1,-4.5,274.1,16.0
-605119,,Brian Anderson,H,3B/OF,3B/OF,3B/OF,406.5,-5.0,418.8,5.0
 665155,,Nick Maton,H,2B/3B/OF,2B/3B/OF,2B/3B/OF,343.2,-5.0,355.0,5.0
+605119,,Brian Anderson,H,3B/OF,3B/OF,3B/OF,406.5,-5.0,418.8,5.0
 656657,,Zach Logue,P,RP,RP,RP,89.1,-5.1,33.2,2.0
 643393,,Tony Kemp,H,2B/OF,2B/OF,2B/OF,439.1,-6.0,465.3,10.0
 669450,,Cooper Hummel,H,C/OF,C/OF,C/OF,205.1,-6.1,233.1,8.0

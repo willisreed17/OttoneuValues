@@ -77,10 +77,27 @@ ROTATION = 5                    # a starter takes every fifth turn
 # cushion, so it cancels at the margin.
 #
 # It describes the PROJECTION, not the league -- these are Marcel's numbers.
-# Re-measure when the source changes; Steamer handles relievers better, so its
-# RP slope is probably nearer 1. A hard "no reliever above $15" cap would hit
-# the same ceiling while leaving the middle of the reliever curve wrong.
-RELIABILITY = {"SP": 0.957, "RP": 0.61}
+# Measured directly on Steamer (data/Historic Steamer Preseason Projections/,
+# 2015-2025 minus 2020, backtest.py --measure "out/backtest_20*_steamer.csv") --
+# not the Marcel proxy this used to be (SP 0.957, RP 0.61). Confirms the old
+# comment's guess: Steamer handles relievers better, so its RP slope sits
+# nearer 1. Re-measure again if the projection source changes.
+#
+# C joined 2026-09-12: two independent signals agreed (cross-league market
+# pays $9-12 less than model for $10+ catchers, monotone in price -- and
+# unlike the disproven RP "underpriced" claim, this one has a SECOND leg,
+# because the ten-season bed's own floored ratio backs it up: catchers
+# realize 85% of what other hitters realize relative to projection, even
+# though the season-to-season swing is wide (0.33-1.40) and wouldn't be
+# trustworthy alone). SP got the same market-gap scrutiny (bigger gap, much
+# bigger sample) and did NOT get an entry: bust rate, refill ratio, and
+# ratio-of-sums at the top all came back indistinguishable from hitters', so
+# there was no second leg -- logged as an open, unexplained market
+# disagreement instead (`NEXT_STEPS.md` Task 12), not acted on. "H" now
+# excludes catcher from its own baseline (matching how SP/RP were always
+# excluded), which is why SP/RP shifted slightly (0.986/0.803 -> 0.975/0.794)
+# without either one actually changing.
+RELIABILITY = {"SP": 0.975, "RP": 0.794, "C": 0.852}
 
 # --- league settings ---------------------------------------------------------
 # Anything that differs between Ottoneu leagues belongs HERE, as an input, not
@@ -210,6 +227,49 @@ def load_projections(path, pitcher, out=None):
                 "two_way": False,
             }
     return out
+
+
+# Prospects with no MLB role yet have no Steamer projection at all -- nothing
+# to build a real PAR-based value from -- so they price at $0 despite
+# consuming a roster spot. A flat override by rank tier is a judgment call
+# (owner, 2026-09-12), not a measurement: see APPROACH for why that's a
+# different, weaker kind of claim than everything else in this file, and
+# `NEXT_STEPS.md` for the option (not taken) of measuring it instead from
+# historical prospects who did eventually get a projection.
+PROSPECT_TIERS = [(5, 4), (10, 3), (15, 2), (20, 1)]  # (rank <= N, $)
+
+
+def prospect_value(rank):
+    """-> a flat $ value by rank tier, or None past the point of being worth
+    a roster spot."""
+    for max_rank, val in PROSPECT_TIERS:
+        if rank <= max_rank:
+            return val
+    return None
+
+
+def load_prospects(path, players):
+    """Flat-value prospects `players` has no real projection for at all (see
+    PROSPECT_TIERS). BYOD: a ranked list (FanGraphs' The Board or similar),
+    exported already sorted best-prospect-first -- row order IS the rank, so
+    no particular rank column is required.
+
+    Call AFTER base_values() and BEFORE its base_value/base_par/base_vpos
+    snapshot: these are flat overrides, not PAR-based, and must never
+    influence a real player's replacement level by going through price()."""
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        for rank, r in enumerate(csv.DictReader(f), start=1):
+            pid = r.get("playerid") or r.get("PlayerId") or r.get("PlayerID")
+            if not pid or pid in players:
+                continue
+            val = prospect_value(rank)
+            if val is None:
+                continue
+            pos = ([p for p in (r.get("Position") or "").upper().split("/") if p in POSITIONS]
+                   or [UTIL])
+            players[pid] = {"name": r.get("Name", pid), "mlb": r.get("Team", ""),
+                            "pos": pos, "pts": 0.0, "pts_p": 0.0, "pt": 0.0,
+                            "two_way": False, "par": 0.0, "vpos": pos[0], "value": val}
 
 
 def load_settings(path):
@@ -687,6 +747,12 @@ def main(argv):
 
     # ---- layer 1: base value, no league context at all ----------------------
     depth, levels, assigned, rate = base_values(players, n_teams, cfg)
+    prospect_path = os.path.join(DATA, "prospects.csv")
+    if os.path.exists(prospect_path):
+        load_prospects(prospect_path, players)
+    else:
+        print("NOTE: no data/prospects.csv -- prospects with no Steamer "
+              "projection are unpriced (see README).")
     for p in players.values():
         p["base_value"], p["base_vpos"], p["base_par"] = p["value"], p["vpos"], p["par"]
 
@@ -951,7 +1017,13 @@ def selftest():
     # freight everywhere.
     price(rel, {"RP": 1, "SP": 1})
     assert apply_reliability(rel, {}) == 800.0
-    assert set(RELIABILITY) <= PITCHER_POS, "hitters are the unit; no cushion"
+    # Hitters are pooled into one role EXCEPT catcher (measured + corroborated
+    # by the cross-league market, 2026-09-12) -- adding another hitter position
+    # here needs the same two-signal bar, not just a market disagreement.
+    assert set(RELIABILITY) <= PITCHER_POS | {"C"}, "no unjustified per-hitter-position cushion"
+
+    assert [prospect_value(r) for r in (1, 5, 6, 10, 11, 15, 16, 20, 21, 100)] == \
+        [4, 4, 3, 3, 2, 2, 1, 1, None, None], "prospect tiers are by RANK, not a measurement"
 
     assert normalize(["SP", "RP"]) == ["SP"], "a swingman is a starter"
     # ...and so is a projected starter who currently carries RP-only Ottoneu
