@@ -1,4 +1,5 @@
 __pycache__/
 # 77MB of cached statsapi responses. Regenerate with `py -3.13 marcel.py`;
 # they are raw upstream data, not ours to redistribute.
-data/mlb/
+engine/data/mlb/
+engine/data/backup/

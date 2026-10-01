@@ -1,0 +1,2070 @@
+playerid,name,mlb,pos,vpos,age,pts,par,base_value,league_value,salary,surplus,arb,keeper_salary,keeper_surplus,keeper_npv,cut_gain,owner,proj_source
+19755,Shohei Ohtani,LAD,Util/SP,SP,32,1606.4,1006.5,103,,71.0,32.0,3,76.0,27.0,13.5,-68.0,Twin Pines 🌲🌲,marcel-2027
+31623,Jacob Misiorowski,MIL,SP,SP,25,944.0,778.4,80,,4.0,76.0,11,17.0,63.0,45.0,-78.0,Knowznothin,marcel-2027
+33677,Paul Skenes,PIT,SP,SP,25,921.9,736.1,75,,41.0,34.0,5,48.0,27.0,13.5,-55.0,Rock the Casasbah,marcel-2027
+27769,Pete Crow-Armstrong,CHC,OF,OF,25,884.1,610.1,63,,14.0,49.0,7,23.0,40.0,35.1,-56.0,Chin Music Choir,marcel-2027
+33825,Yoshinobu Yamamoto,LAD,SP,SP,28,947.3,565.5,58,,47.0,11.0,2,51.0,7.0,3.5,-35.0,Rock the Casasbah,marcel-2027
+32095,Cam Schlittler,NYY,SP,SP,26,935.9,549.8,57,,5.0,52.0,8,15.0,42.0,30.7,-55.0,Bloom's Onions,marcel-2027
+29518,James Wood,WSN,OF,OF,24,812.9,492.3,51,,20.0,31.0,5,27.0,24.0,20.0,-41.0,The Northsiders,marcel-2027
+19959,Jesús Luzardo,PHI,SP,SP,29,892.5,490.0,51,,17.0,34.0,5,24.0,27.0,17.6,-43.0,Bloom's Onions,marcel-2027
+28163,Junior Caminero,TBR,3B,3B,23,871.6,436.4,45,,22.0,23.0,3,27.0,18.0,14.5,-34.0,Peel A Section,marcel-2027
+19556,Yordan Alvarez,HOU,OF,OF,30,899.2,422.3,44,,52.0,-8.0,0,54.0,-10.0,0.0,-18.0,Sweet Spot,marcel-2027
+26668,Elly De La Cruz,CIN,SS,SS,25,813.6,416.0,43,,35.0,8.0,1,38.0,5.0,3.0,-26.0,Sweet Spot,marcel-2027
+20778,Cristopher Sánchez,PHI,SP,SP,30,957.4,395.8,41,,15.0,26.0,3,20.0,21.0,13.0,-34.0,Twin Pines 🌲🌲,marcel-2027
+30279,Bryan Woo,SEA,SP,SP,27,826.3,398.8,41,,22.0,19.0,3,27.0,14.0,7.8,-30.0,Iron ,marcel-2027
+19709,Fernando Tatis Jr.,SDP,2B/OF,2B,28,821.2,386.5,40,,48.0,-8.0,0,50.0,-10.0,0.0,-16.0,Rock the Casasbah,marcel-2027
+33703,Nolan McLean,NYM,SP,SP,25,740.8,390.0,40,,3.0,37.0,5,10.0,30.0,20.5,-39.0,Chin Music Choir,marcel-2027
+31986,Parker Messick,CLE,SP,SP,26,809.4,375.5,39,,3.0,36.0,5,10.0,29.0,20.9,-38.0,Rock the Casasbah,marcel-2027
+22267,Tarik Skubal,LAD,SP,SP,30,933.2,373.0,39,,44.0,-5.0,0,46.0,-7.0,0.0,-17.0,Sweet Spot,marcel-2027
+35333,Chase Burns,CIN,SP,SP,24,727.0,363.6,38,,10.0,28.0,4,16.0,22.0,13.1,-33.0,Peel A Section,marcel-2027
+20123,Juan Soto,NYM,OF,OF,28,795.8,351.5,37,,61.0,-24.0,0,63.0,-26.0,0.0,-7.0,Twin Pines 🌲🌲,marcel-2027
+25764,Bobby Witt Jr.,KCR,SS,SS,27,848.3,358.7,37,,56.0,-19.0,0,58.0,-21.0,0.0,-9.0,Bloom's Onions,marcel-2027
+25878,Corbin Carroll,ARI,OF,OF,26,794.0,349.3,36,,31.0,5.0,1,34.0,2.0,1.0,-21.0,Peel A Section,marcel-2027
+30122,Gavin Williams,CLE,SP,SP,27,787.0,344.7,36,,7.0,29.0,4,13.0,23.0,15.7,-33.0,Barreled Souls,marcel-2027
+27468,Reid Detmers,LAA,SP,SP,27,787.7,345.6,36,,2.0,34.0,5,9.0,27.0,19.4,-35.0,Rock the Casasbah,marcel-2027
+29576,Ben Rice,NYY,C/1B,C,28,776.5,332.6,35,,5.0,30.0,4,11.0,24.0,18.6,-33.0,Barreled Souls,marcel-2027
+18525,Dylan Cease,TOR,SP,SP,31,897.5,339.4,35,,32.0,3.0,0,34.0,1.0,0.5,-19.0,Providence Grays,marcel-2027
+29490,Jackson Merrill,SDP,OF,OF,24,712.1,325.5,34,,10.0,24.0,2,14.0,20.0,16.7,-29.0,Twin Pines 🌲🌲,marcel-2027
+16478,Kyle Schwarber,PHI,1B/OF,OF,34,871.3,329.5,34,,35.0,-1.0,0,37.0,-3.0,0.0,-17.0,Twin Pines 🌲🌲,marcel-2027
+10603,Chris Sale,ATL,SP,SP,38,918.5,330.0,34,,25.0,9.0,1,28.0,6.0,3.0,-22.0,Providence Grays,marcel-2027
+31505,Sal Stewart,CIN,1B/2B/3B,2B,23,704.8,317.5,33,,5.0,28.0,3,10.0,23.0,19.7,-31.0,Twin Pines 🌲🌲,marcel-2027
+28806,Jackson Chourio,MIL,OF,OF,23,706.5,316.2,33,,24.0,9.0,1,27.0,6.0,3.8,-21.0,Bloom's Onions,marcel-2027
+25385,Drew Rasmussen,TBR,SP,SP,31,877.6,320.7,33,,7.0,26.0,3,12.0,21.0,14.0,-30.0,Twin Pines 🌲🌲,marcel-2027
+25768,CJ Abrams,WSN,2B/SS,2B,26,750.8,298.2,31,,17.0,14.0,2,21.0,10.0,6.6,-23.0,Sweet Spot,marcel-2027
+11579,Bryce Harper,PHI,1B/OF,OF,34,822.6,284.4,30,,28.0,2.0,0,30.0,0.0,0.0,-16.0,Rock the Casasbah,marcel-2027
+20599,Iván Herrera,STL,C,C,27,725.6,272.7,29,,7.0,22.0,3,12.0,17.0,12.4,-26.0,Chin Music Choir,marcel-2027
+25976,Riley Greene,DET,OF,OF,26,739.4,280.8,29,,15.0,14.0,2,19.0,10.0,6.7,-22.0,Iron ,marcel-2027
+22100,José Soriano,TOR,SP,SP,28,738.5,277.9,29,,7.0,22.0,3,12.0,17.0,11.2,-26.0,Bloom's Onions,marcel-2027
+23793,Braxton Ashcraft,PIT,SP,SP,27,738.8,278.3,29,,4.0,25.0,4,10.0,19.0,12.9,-27.0,Barreled Souls,marcel-2027
+22186,Brice Turang,MIL,2B,2B,27,725.1,266.0,28,,4.0,24.0,4,10.0,18.0,13.5,-26.0,Sweet Spot,marcel-2027
+26289,Gunnar Henderson,BAL,SS,SS,26,771.7,262.6,28,,43.0,-15.0,0,45.0,-17.0,0.0,-7.0,Twin Pines 🌲🌲,marcel-2027
+10310,Zack Wheeler,PHI,SP,SP,37,846.3,267.6,28,,25.0,3.0,0,27.0,1.0,0.5,-16.0,Sweet Spot,marcel-2027
+22250,Logan Gilbert,SEA,SP,SP,30,817.4,264.0,28,,32.0,-4.0,0,34.0,-6.0,0.0,-12.0,Barreled Souls,marcel-2027
+30116,Seiya Suzuki,CHC,OF,OF,32,748.4,256.3,27,,17.0,10.0,1,20.0,7.0,3.5,-19.0,Barreled Souls,marcel-2027
+17995,Logan Webb,SFG,SP,SP,30,809.2,256.3,27,,34.0,-7.0,0,36.0,-9.0,0.0,-10.0,Sweet Spot,marcel-2027
+19251,Pete Alonso,BAL,1B,1B,32,831.0,245.0,26,,27.0,-1.0,0,29.0,-3.0,0.0,-13.0,Sweet Spot,marcel-2027
+13613,Ketel Marte,ARI,2B,2B,33,738.5,248.2,26,,29.0,-3.0,0,31.0,-5.0,0.0,-12.0,Providence Grays,marcel-2027
+19290,Randy Arozarena,SEA,OF,OF,32,741.8,249.1,26,,14.0,12.0,2,18.0,8.0,4.0,-19.0,Sweet Spot,marcel-2027
+27615,Alec Burleson,STL,1B/OF,OF,28,714.6,249.7,26,,6.0,20.0,2,10.0,16.0,11.9,-23.0,Twin Pines 🌲🌲,marcel-2027
+31539,Drake Baldwin,ATL,C,C,26,699.9,242.5,26,,4.0,22.0,3,9.0,17.0,12.6,-24.0,Sweet Spot,marcel-2027
+29995,Daylen Lile,WSN,OF,OF,24,664.3,246.4,26,,6.0,20.0,3,11.0,15.0,12.1,-23.0,Knowznothin,marcel-2027
+10954,Jacob deGrom,TEX,SP,SP,39,823.0,247.4,26,,19.0,7.0,1,22.0,4.0,2.0,-17.0,Providence Grays,marcel-2027
+22286,Trevor Rogers,BAL,SP,SP,29,718.3,250.0,26,,5.0,21.0,3,10.0,16.0,10.6,-24.0,Bloom's Onions,marcel-2027
+35466,Payton Tolle,BOS,SP,SP,24,668.3,251.4,26,,13.0,13.0,2,17.0,9.0,4.5,-20.0,Barreled Souls,marcel-2027
+18345,Kyle Tucker,LAD,OF,OF,30,729.8,235.9,25,,47.0,-22.0,0,49.0,-24.0,0.0,-2.0,Knowznothin,marcel-2027
+30184,Noah Cameron,KCR,SP,SP,27,708.7,236.8,25,,3.0,22.0,3,8.0,17.0,11.5,-24.0,Barreled Souls,marcel-2027
+33572,Kevin McGonigle,DET,SS/3B,SS,22,698.8,226.0,24,,2.0,22.0,3,7.0,17.0,14.1,-23.0,Iron ,marcel-2027
+29715,Hunter Goodman,COL,C,C,27,690.9,231.9,24,,3.0,21.0,3,8.0,16.0,12.2,-23.0,The Northsiders,marcel-2027
+20503,William Contreras,MIL,C,C,29,690.0,230.8,24,,15.0,9.0,1,18.0,6.0,3.7,-17.0,Peel A Section,marcel-2027
+23772,Wilyer Abreu,BOS,OF,OF,28,695.6,225.9,24,,8.0,16.0,2,12.0,12.0,8.3,-20.0,Chin Music Choir,marcel-2027
+23697,Julio Rodríguez,SEA,OF,OF,26,697.3,228.0,24,,45.0,-21.0,0,47.0,-23.0,0.0,-2.0,Iron ,marcel-2027
+17350,Rafael Devers,SFG,1B,1B,30,817.1,229.7,24,,27.0,-3.0,0,29.0,-5.0,0.0,-11.0,Peel A Section,marcel-2027
+31757,Mason Miller,SDP,RP,RP,28,569.6,231.7,24,,14.0,10.0,1,17.0,7.0,3.5,-17.0,Iron ,marcel-2027
+22543,Taj Bradley,MIN,SP,SP,26,704.9,231.6,24,,3.0,21.0,3,8.0,16.0,10.9,-23.0,Providence Grays,marcel-2027
+22201,MacKenzie Gore,TEX,SP,SP,28,701.6,227.0,24,,23.0,1.0,0,25.0,-1.0,0.0,-13.0,Knowznothin,marcel-2027
+18882,Brandon Lowe,PIT,2B,2B,32,714.6,221.9,23,,10.0,13.0,2,14.0,9.0,4.8,-18.0,Barreled Souls,marcel-2027
+15640,Aaron Judge,NYY,OF,OF,35,748.9,216.2,23,,67.0,-44.0,0,69.0,-46.0,0.0,10.0,Bloom's Onions,marcel-2027
+19326,Bryan Reynolds,PIT,OF,OF,32,710.5,214.6,23,,8.0,15.0,2,12.0,11.0,6.1,-19.0,Barreled Souls,marcel-2027
+25436,George Kirby,SEA,SP,SP,29,691.3,212.8,23,,23.0,0.0,0,25.0,-2.0,0.0,-12.0,Iron ,marcel-2027
+29357,Walbert Ureña,LAA,SP,SP,23,650.8,217.9,23,,1.0,22.0,2,5.0,18.0,11.8,-23.0,Twin Pines 🌲🌲,marcel-2027
+27867,Cade Smith,CLE,RP,RP,28,554.6,217.9,23,,7.0,16.0,2,11.0,12.0,7.4,-20.0,Rock the Casasbah,marcel-2027
+22264,Shane Baz,BAL,SP,SP,28,697.9,221.9,23,,11.0,12.0,2,15.0,8.0,4.3,-18.0,Sweet Spot,marcel-2027
+27473,Cade Cavalli,WSN,SP,SP,28,694.3,217.0,23,,9.0,14.0,2,13.0,10.0,5.7,-19.0,Barreled Souls,marcel-2027
+33321,Luke Keaschall,MIN,2B/OF,2B,24,636.5,204.5,22,,5.0,17.0,3,10.0,12.0,9.2,-20.0,Seiya Prayer For My Team,marcel-2027
+31347,Zach Neto,LAA,SS,SS,26,727.1,206.7,22,,12.0,10.0,1,15.0,7.0,4.4,-16.0,Peel A Section,marcel-2027
+14344,Matt Olson,ATL,1B,1B,33,795.9,206.4,22,,34.0,-12.0,0,36.0,-14.0,0.0,-5.0,Barreled Souls,marcel-2027
+22799,Geraldo Perdomo,ARI,SS,SS,27,729.6,209.9,22,,9.0,13.0,2,13.0,9.0,6.0,-18.0,The Northsiders,marcel-2027
+12768,Sonny Gray,BOS,SP,SP,37,777.5,208.1,22,,26.0,-4.0,0,28.0,-6.0,0.0,-9.0,Providence Grays,marcel-2027
+17295,Framber Valdez,DET,SP,SP,33,752.3,202.8,22,,22.0,0.0,0,24.0,-2.0,0.0,-11.0,Sweet Spot,marcel-2027
+35110,Nick Kurtz,ATH,1B,1B,24,729.1,199.9,21,,17.0,4.0,1,20.0,1.0,0.5,-13.0,The Northsiders,marcel-2027
+19608,Otto Lopez,MIA,2B/SS,2B,28,667.2,193.4,21,,5.0,16.0,2,9.0,12.0,8.3,-19.0,Chin Music Choir,marcel-2027
+14078,Michael Wacha,KCR,SP,SP,35,766.0,198.1,21,,4.0,17.0,3,9.0,12.0,6.6,-19.0,The Northsiders,marcel-2027
+30134,Tanner Bibee,CLE,SP,SP,28,678.1,194.7,21,31,,,,,,,,FA,marcel-2027
+27768,Eury Pérez,MIA,SP,SP,24,641.7,200.5,21,,16.0,5.0,1,19.0,2.0,1.0,-13.0,Seiya Prayer For My Team,marcel-2027
+14107,Kevin Gausman,CHC,SP,SP,36,770.4,201.9,21,,16.0,5.0,1,19.0,2.0,1.0,-13.0,Rock the Casasbah,marcel-2027
+27467,Tyler Soderstrom,ATH,1B/OF,OF,25,629.2,188.3,20,,7.0,13.0,2,11.0,9.0,6.6,-17.0,Providence Grays,marcel-2027
+29478,Carter Jensen,KCR,C,C,23,616.6,190.8,20,,7.0,13.0,2,11.0,9.0,6.7,-17.0,The Northsiders,marcel-2027
+13743,Max Fried,NYY,SP,SP,33,739.4,190.6,20,,26.0,-6.0,0,28.0,-8.0,0.0,-7.0,Rock the Casasbah,marcel-2027
+18684,Sandy Alcantara,MIA,SP,SP,31,737.2,188.6,20,,9.0,11.0,2,13.0,7.0,3.6,-16.0,The Northsiders,marcel-2027
+27475,Jordan Walker,STL,OF,OF,25,623.8,179.4,19,,2.0,17.0,3,7.0,12.0,9.5,-18.0,Iron ,marcel-2027
+35177,Carson Benge,NYM,OF,OF,24,624.6,180.7,19,,2.0,17.0,3,7.0,12.0,9.6,-18.0,Chin Music Choir,marcel-2027
+10155,Mike Trout,LAA,OF,OF,35,708.2,178.5,19,,17.0,2.0,0,19.0,0.0,0.0,-11.0,Sweet Spot,marcel-2027
+17277,Ranger Suarez,BOS,SP,SP,31,727.3,179.3,19,,9.0,10.0,1,12.0,7.0,3.7,-15.0,The Northsiders,marcel-2027
+30076,Landen Roupp,SFG,SP,SP,28,663.9,175.1,19,,5.0,14.0,2,9.0,10.0,5.9,-17.0,Knowznothin,marcel-2027
+19853,Michael King,SDP,SP,SP,32,729.1,181.0,19,,10.0,9.0,1,13.0,6.0,3.0,-14.0,Chin Music Choir,marcel-2027
+20253,Griffin Jax,TBR,SP,SP,32,730.2,182.0,19,,4.0,15.0,2,8.0,11.0,6.7,-17.0,Iron ,marcel-2027
+22664,Gabriel Moreno,ARI,C,C,27,636.6,168.0,18,,1.0,17.0,3,6.0,12.0,8.7,-18.0,Rock the Casasbah,marcel-2027
+26319,Michael Busch,CHC,1B,1B,29,744.6,170.9,18,,8.0,10.0,1,11.0,7.0,4.6,-14.0,Twin Pines 🌲🌲,marcel-2027
+17919,Ian Happ,CHC,OF,OF,32,665.5,165.1,18,,16.0,2.0,0,18.0,0.0,0.0,-10.0,Twin Pines 🌲🌲,marcel-2027
+24816,Andy Pages,LAD,OF,OF,26,647.1,165.1,18,,9.0,9.0,1,12.0,6.0,3.7,-14.0,Iron ,marcel-2027
+21534,Cal Raleigh,SEA,C,C,30,659.8,171.4,18,,14.0,4.0,1,17.0,1.0,0.5,-11.0,Bloom's Onions,marcel-2027
+25931,Michael Harris II,ATL,OF,OF,26,649.0,167.5,18,,8.0,10.0,1,11.0,7.0,4.5,-14.0,Sweet Spot,marcel-2027
+12730,Nick Martinez,TBR,SP,SP,36,730.7,167.6,18,,3.0,15.0,2,7.0,11.0,6.1,-17.0,Peel A Section,marcel-2027
+33927,Grant Taylor,CHW,RP,RP,25,447.9,165.9,18,,5.0,13.0,1,8.0,10.0,5.5,-16.0,Twin Pines 🌲🌲,marcel-2027
+20039,Adrian Morejon,SDP,RP,RP,28,496.4,164.3,18,,3.0,15.0,2,7.0,11.0,6.9,-17.0,Chin Music Choir,marcel-2027
+29878,Sean Burke,CHW,SP,SP,27,658.6,167.8,18,,1.0,17.0,2,5.0,13.0,8.7,-18.0,Twin Pines 🌲🌲,marcel-2027
+31580,Chase Meidroth,CHW,2B/SS,2B,25,609.2,159.4,17,,3.0,14.0,2,7.0,10.0,7.6,-16.0,Peel A Section,marcel-2027
+32127,Chase DeLauter,CLE,OF,OF,25,612.3,160.3,17,,3.0,14.0,2,7.0,10.0,7.7,-16.0,Rock the Casasbah,marcel-2027
+18568,Luis Arraez,PHI,1B/2B,2B,30,652.5,153.6,17,,5.0,12.0,2,9.0,8.0,4.3,-15.0,Rock the Casasbah,marcel-2027
+15998,Cody Bellinger,NYY,OF,OF,31,660.1,159.2,17,,15.0,2.0,0,17.0,0.0,0.0,-10.0,Sweet Spot,marcel-2027
+18679,Freddy Peralta,TBR,SP,SP,31,706.3,159.5,17,,22.0,-5.0,0,24.0,-7.0,0.0,-6.0,Rock the Casasbah,marcel-2027
+25880,Hunter Brown,HOU,SP,SP,28,652.2,159.0,17,,17.0,0.0,0,19.0,-2.0,0.0,-9.0,Bloom's Onions,marcel-2027
+19611,Vladimir Guerrero Jr.,TOR,1B,1B,28,726.0,156.7,16,25,,,,,,,,FA,marcel-2027
+20454,Jazz Chisholm Jr.,NYY,2B/3B,2B,29,629.6,146.3,16,,14.0,2.0,0,16.0,0.0,0.0,-9.0,Seiya Prayer For My Team,marcel-2027
+24610,Steven Kwan,CLE,OF,OF,29,634.6,149.4,16,,12.0,4.0,1,15.0,1.0,0.5,-10.0,The Northsiders,marcel-2027
+22266,Xavier Edwards,MIA,2B/SS,2B,27,632.8,150.3,16,,6.0,10.0,1,9.0,7.0,4.6,-13.0,Twin Pines 🌲🌲,marcel-2027
+5361,Freddie Freeman,LAD,1B,1B,37,764.5,144.6,16,,27.0,-11.0,0,29.0,-13.0,0.0,-3.0,Providence Grays,marcel-2027
+20391,Luis García Jr.,NYY,1B/2B,2B,27,630.6,147.5,16,,2.0,14.0,1,5.0,11.0,7.8,-15.0,Twin Pines 🌲🌲,marcel-2027
+18401,Ronald Acuña Jr.,ATL,OF,OF,29,635.5,150.6,16,,61.0,-45.0,0,63.0,-47.0,0.0,14.0,Rock the Casasbah,marcel-2027
+23335,Joey Cantillo,CLE,SP,SP,27,642.3,145.3,16,,5.0,11.0,2,9.0,7.0,3.8,-14.0,Sweet Spot,marcel-2027
+25816,Shea Langeliers,ATH,C,C,29,609.7,136.4,15,,7.0,8.0,1,10.0,5.0,3.0,-12.0,Peel A Section,marcel-2027
+15194,Jake Bauers,MIL,1B/OF,OF,31,638.4,135.3,15,,1.0,14.0,1,4.0,11.0,6.8,-15.0,Twin Pines 🌲🌲,marcel-2027
+21837,Jonathan Aranda,TBR,1B,1B,29,721.9,142.4,15,,6.0,9.0,2,10.0,5.0,3.1,-12.0,Seiya Prayer For My Team,marcel-2027
+26151,Kyle Stowers,MIA,1B/OF,OF,29,624.9,137.3,15,,5.0,10.0,1,8.0,7.0,4.5,-13.0,Providence Grays,marcel-2027
+20220,Jo Adell,CLE,OF,OF,28,622.6,134.4,15,,4.0,11.0,1,7.0,8.0,5.2,-13.0,Twin Pines 🌲🌲,marcel-2027
+20178,Miguel Vargas,CHW,1B/3B,3B,27,716.6,136.3,15,,5.0,10.0,1,8.0,7.0,4.5,-13.0,Peel A Section,marcel-2027
+17678,Alex Bregman,CHC,3B,3B,33,733.0,137.6,15,,17.0,-2.0,0,19.0,-4.0,0.0,-7.0,Rock the Casasbah,marcel-2027
+21390,Joe Ryan,MIN,SP,SP,31,687.9,142.2,15,,14.0,1.0,0,16.0,-1.0,0.0,-8.0,Providence Grays,marcel-2027
+21029,Jhoan Duran,PHI,RP,RP,29,471.1,141.0,15,,12.0,3.0,0,14.0,1.0,0.5,-9.0,Twin Pines 🌲🌲,marcel-2027
+16252,Trea Turner,PHI,SS,SS,34,697.7,125.4,14,,30.0,-16.0,0,32.0,-18.0,0.0,1.0,Knowznothin,marcel-2027
+12927,Brandon Nimmo,TEX,OF,OF,34,649.3,124.0,14,,19.0,-5.0,0,21.0,-7.0,0.0,-5.0,Barreled Souls,marcel-2027
+27464,Dillon Dingler,DET,C,C,28,604.4,130.2,14,,6.0,8.0,1,9.0,5.0,3.1,-11.0,Knowznothin,marcel-2027
+24617,Jarren Duran,BOS,OF,OF,30,636.5,133.2,14,,10.0,4.0,1,13.0,1.0,0.5,-9.0,Rock the Casasbah,marcel-2027
+14161,Byron Buxton,MIN,OF,OF,33,635.6,132.2,14,,10.0,4.0,0,12.0,2.0,1.0,-9.0,Twin Pines 🌲🌲,marcel-2027
+16578,Yandy Díaz,TBR,1B,1B,35,743.8,125.4,14,,12.0,2.0,0,14.0,0.0,0.0,-8.0,Bloom's Onions,marcel-2027
+33333,Wyatt Langford,TEX,OF,OF,25,593.6,129.4,14,,16.0,-2.0,0,18.0,-4.0,0.0,-6.0,Peel A Section,marcel-2027
+21479,Nico Hoerner,CHC,2B/SS,2B,30,630.1,128.9,14,,11.0,3.0,0,13.0,1.0,0.5,-9.0,Peel A Section,marcel-2027
+9132,Nathan Eovaldi,TEX,SP,SP,37,684.8,127.9,14,21,,,,,,,,FA,marcel-2027
+24763,Kyle Leahy,STL,SP,SP,30,668.7,124.1,14,,1.0,13.0,1,4.0,10.0,6.2,-14.0,Twin Pines 🌲🌲,marcel-2027
+19612,Bo Bichette,NYM,SS/3B,SS,29,654.6,115.8,13,,21.0,-8.0,0,23.0,-10.0,0.0,-3.0,Providence Grays,marcel-2027
+21622,Jake McCarthy,COL,OF,OF,29,606.9,114.7,13,,1.0,12.0,2,5.0,8.0,5.3,-13.0,Chin Music Choir,marcel-2027
+26108,Andre Pallante,STL,SP,SP,28,621.1,116.1,13,19,,,,,,,,FA,marcel-2027
+11486,Robbie Ray,SDP,SP,SP,35,671.2,116.2,13,,7.0,6.0,1,10.0,3.0,1.5,-10.0,The Northsiders,marcel-2027
+27691,Louis Varland,TOR,RP,RP,29,441.8,114.0,13,,3.0,10.0,1,6.0,7.0,4.0,-12.0,Bloom's Onions,marcel-2027
+20373,Andrés Muñoz,SEA,RP,RP,28,447.7,119.4,13,,11.0,2.0,0,13.0,0.0,0.0,-8.0,Seiya Prayer For My Team,marcel-2027
+33829,Shota Imanaga,CHC,SP,SP,33,665.4,121.0,13,,17.0,-4.0,0,19.0,-6.0,0.0,-5.0,Seiya Prayer For My Team,marcel-2027
+12856,George Springer,TOR,OF,OF,37,628.4,104.6,12,,6.0,6.0,1,9.0,3.0,1.5,-9.0,Rock the Casasbah,marcel-2027
+17548,Taylor Ward,SEA,OF,OF,33,616.6,119.9,12,20,,,,,,,,FA,marcel-2027
+29844,Liam Hicks,TBR,C/1B,C,28,590.0,113.2,12,,3.0,9.0,1,6.0,6.0,3.9,-11.0,Twin Pines 🌲🌲,marcel-2027
+29868,Bubba Chandler,PIT,SP,SP,24,594.7,110.7,12,,5.0,7.0,1,8.0,4.0,2.0,-10.0,Seiya Prayer For My Team,marcel-2027
+26438,Dominic Canzone,SEA,OF,OF,29,592.0,96.0,11,,1.0,10.0,1,4.0,7.0,4.5,-11.0,Bloom's Onions,marcel-2027
+33824,Jung Hoo Lee,SFG,OF,OF,28,592.5,96.7,11,,8.0,3.0,0,10.0,1.0,0.5,-7.0,Peel A Section,marcel-2027
+26294,Bryson Stott,PHI,2B/SS/3B,2B,29,593.7,101.3,11,,8.0,3.0,0,10.0,1.0,0.5,-7.0,Barreled Souls,marcel-2027
+29646,Caleb Durbin,BOS,2B/3B,2B,27,588.3,94.5,11,,5.0,6.0,1,8.0,3.0,1.5,-9.0,Seiya Prayer For My Team,marcel-2027
+22542,Lawrence Butler,ATH,OF,OF,26,593.7,98.2,11,,9.0,2.0,0,11.0,0.0,0.0,-7.0,Iron ,marcel-2027
+20036,Isaac Paredes,HOU,1B/3B,3B,28,684.1,95.5,11,,11.0,0.0,0,13.0,-2.0,0.0,-6.0,Providence Grays,marcel-2027
+24262,Ceddanne Rafaela,BOS,2B/OF,2B,26,588.9,95.3,11,,4.0,7.0,1,7.0,4.0,2.3,-9.0,Bloom's Onions,marcel-2027
+31370,Jakob Marsee,MIA,OF,OF,26,593.3,97.7,11,,2.0,9.0,1,5.0,6.0,3.8,-10.0,Providence Grays,marcel-2027
+17722,Trevor Megill,MIL,RP,RP,33,479.6,101.6,11,,5.0,6.0,1,8.0,3.0,1.5,-9.0,Rock the Casasbah,marcel-2027
+25327,Abner Uribe,MIL,RP,RP,27,429.6,102.7,11,,4.0,7.0,1,7.0,4.0,2.0,-9.0,The Northsiders,marcel-2027
+13164,Eduardo Rodriguez,ARI,SP,SP,34,651.2,98.9,11,,4.0,7.0,1,7.0,4.0,2.0,-9.0,Chin Music Choir,marcel-2027
+31621,Spencer Miles,TOR,SP,SP,26,605.1,94.1,11,16,,,,,,,,FA,marcel-2027
+29914,Andrew Alvarez,WSN,SP,SP,28,607.0,96.7,11,,1.0,10.0,1,4.0,7.0,4.1,-11.0,Twin Pines 🌲🌲,marcel-2027
+31475,Logan Henderson,MIL,SP,SP,25,588.7,99.2,11,,7.0,4.0,1,10.0,1.0,0.5,-8.0,Iron ,marcel-2027
+30113,Chad Patrick,MIL,SP,SP,28,607.9,97.9,11,16,,,,,,,,FA,marcel-2027
+16358,Tyler Mahle,ATL,SP,SP,32,646.2,102.9,11,,2.0,9.0,1,5.0,6.0,3.5,-10.0,Twin Pines 🌲🌲,marcel-2027
+16556,Ozzie Albies,ATL,2B,2B,30,593.5,88.7,10,,10.0,0.0,0,12.0,-2.0,0.0,-5.0,Sweet Spot,marcel-2027
+35041,Jac Caglianone,KCR,1B/OF,OF,24,571.7,93.2,10,,6.0,4.0,1,9.0,1.0,0.5,-7.0,Seiya Prayer For My Team,marcel-2027
+29712,Colson Montgomery,CHW,SS/3B,SS,25,615.4,88.0,10,,7.0,3.0,0,9.0,1.0,0.5,-7.0,Knowznothin,marcel-2027
+13510,José Ramírez,CLE,3B,3B,34,699.7,189.8,10,30,,,,,,,,FA,marcel-2027
+20202,Brandon Marsh,PHI,OF,OF,29,589.3,92.6,10,,1.0,9.0,1,4.0,6.0,3.9,-10.0,Bloom's Onions,marcel-2027
+19569,David Bednar,NYY,RP,RP,32,464.1,91.9,10,,8.0,2.0,0,10.0,0.0,0.0,-6.0,Bloom's Onions,marcel-2027
+23550,Aaron Ashby,MIL,RP,RP,29,419.0,93.0,10,,1.0,9.0,1,4.0,6.0,3.6,-10.0,Rock the Casasbah,marcel-2027
+27572,Carmen Mlodzinski,PIT,SP,SP,28,601.2,88.7,10,,1.0,9.0,1,4.0,6.0,3.5,-10.0,Rock the Casasbah,marcel-2027
+27932,Ian Seymour,TBR,SP,SP,28,603.7,92.2,10,,4.0,6.0,1,7.0,3.0,1.5,-8.0,Peel A Section,marcel-2027
+20302,David Peterson,CHC,SP,SP,31,635.9,93.3,10,,5.0,5.0,0,7.0,3.0,1.5,-8.0,Twin Pines 🌲🌲,marcel-2027
+5417,Jose Altuve,HOU,2B/OF,2B,37,603.1,83.5,9,,18.0,-9.0,0,20.0,-11.0,0.0,0.0,The Northsiders,marcel-2027
+11477,Christian Yelich,MIL,OF,OF,35,600.1,78.4,9,,26.0,-17.0,0,28.0,-19.0,0.0,4.0,Rock the Casasbah,marcel-2027
+11609,Willson Contreras,BOS,1B,1B,35,694.9,80.2,9,,12.0,-3.0,0,14.0,-5.0,0.0,-3.0,The Northsiders,marcel-2027
+10233,Aroldis Chapman,BOS,RP,RP,39,463.3,84.0,9,,7.0,2.0,0,9.0,0.0,0.0,-6.0,Knowznothin,marcel-2027
+30182,Will Warren,NYY,SP,SP,28,594.8,79.9,9,,3.0,6.0,1,6.0,3.0,1.5,-8.0,Chin Music Choir,marcel-2027
+12447,Seth Lugo,KCR,SP,SP,37,624.0,75.4,9,13,,,,,,,,FA,marcel-2027
+27702,Brent Headrick,NYY,RP,RP,29,398.9,74.4,9,,1.0,8.0,1,4.0,5.0,2.7,-9.0,Peel A Section,marcel-2027
+20572,Kody Clemens,MIN,1B/2B/OF,2B,31,577.9,71.5,8,,3.0,5.0,1,6.0,2.0,1.0,-7.0,Knowznothin,marcel-2027
+21711,Oneil Cruz,PIT,OF,OF,28,571.1,69.8,8,,13.0,-5.0,0,15.0,-7.0,0.0,-2.0,Seiya Prayer For My Team,marcel-2027
+31595,Brooks Lee,MIN,2B/SS/3B,2B,26,568.0,69.1,8,,6.0,2.0,0,8.0,0.0,0.0,-5.0,Chin Music Choir,marcel-2027
+12916,Francisco Lindor,NYM,SS,SS,33,625.0,69.1,8,,31.0,-23.0,0,33.0,-25.0,0.0,7.0,Rock the Casasbah,marcel-2027
+31912,Chandler Simpson,TBR,OF,OF,26,569.4,67.7,8,,7.0,1.0,0,9.0,-1.0,0.0,-5.0,Iron ,marcel-2027
+7304,Salvador Perez,KCR,C,C,37,573.3,77.3,8,13,,,,,,,,FA,marcel-2027
+11493,Manny Machado,SDP,3B,3B,34,686.9,177.9,8,29,,,,,,,,FA,marcel-2027
+25636,Hunter Gaddis,CLE,RP,RP,29,396.9,72.6,8,,1.0,7.0,1,4.0,4.0,2.2,-8.0,Twin Pines 🌲🌲,marcel-2027
+29770,Mason Montgomery,PIT,RP,RP,27,397.0,72.7,8,,1.0,7.0,1,4.0,4.0,2.2,-8.0,Providence Grays,marcel-2027
+17586,Tanner Scott,LAD,RP,RP,32,432.8,72.2,8,,2.0,6.0,1,5.0,3.0,1.5,-7.0,Knowznothin,marcel-2027
+13649,Clay Holmes,CHC,SP,SP,34,614.3,67.0,8,,4.0,4.0,1,7.0,1.0,0.5,-6.0,The Northsiders,marcel-2027
+17130,Raisel Iglesias,ATL,RP,RP,37,439.8,70.4,8,,9.0,-1.0,0,11.0,-3.0,0.0,-4.0,Barreled Souls,marcel-2027
+29869,Michael McGreevy,STL,SP,SP,26,589.0,71.9,8,,1.0,7.0,1,4.0,4.0,2.2,-8.0,The Northsiders,marcel-2027
+15440,Matthew Boyd,CHC,SP,SP,36,621.3,73.1,8,,6.0,2.0,0,8.0,0.0,0.0,-5.0,Twin Pines 🌲🌲,marcel-2027
+13066,Teoscar Hernández,LAD,OF,OF,34,579.7,59.5,7,,11.0,-4.0,0,13.0,-6.0,0.0,-2.0,Barreled Souls,marcel-2027
+34985,JJ Wetherholt,STL,2B/SS,2B,24,549.1,59.9,7,,5.0,2.0,0,7.0,0.0,0.0,-5.0,Seiya Prayer For My Team,marcel-2027
+29805,TJ Rumfield,COL,1B,1B,27,659.0,63.6,7,,1.0,6.0,1,4.0,3.0,1.8,-7.0,Knowznothin,marcel-2027
+18839,Josh Naylor,SEA,1B,1B,30,664.0,69.3,7,12,,,,,,,,FA,marcel-2027
+13301,Max Muncy,LAD,3B,3B,36,675.2,62.3,7,,8.0,-1.0,0,10.0,-3.0,0.0,-3.0,Knowznothin,marcel-2027
+27490,Nick Gonzales,PIT,2B/SS/3B,2B,28,563.6,63.6,7,,2.0,5.0,1,5.0,2.0,1.0,-6.0,Chin Music Choir,marcel-2027
+27465,Spencer Torkelson,DET,1B,1B,27,652.0,54.8,7,,3.0,4.0,1,6.0,1.0,0.5,-6.0,Chin Music Choir,marcel-2027
+35101,Sam Antonacci,CHW,2B/3B/OF,2B,24,547.7,57.6,7,,2.0,5.0,1,5.0,2.0,1.0,-6.0,Peel A Section,marcel-2027
+18383,Michael Soroka,ARI,SP,SP,29,577.8,56.5,7,,8.0,-1.0,0,10.0,-3.0,0.0,-3.0,Iron ,marcel-2027
+19996,Dylan Lee,ATL,RP,RP,32,405.7,55.1,7,,1.0,6.0,1,4.0,3.0,1.5,-7.0,Peel A Section,marcel-2027
+16432,Foster Griffin,CLE,SP,SP,31,600.2,59.7,7,,5.0,2.0,0,7.0,0.0,0.0,-5.0,Knowznothin,marcel-2027
+19804,Bryan Baker,TBR,RP,RP,32,412.7,59.5,7,,1.0,6.0,1,4.0,3.0,1.5,-7.0,Bloom's Onions,marcel-2027
+24586,Kyle Bradish,BAL,SP,SP,30,604.0,63.2,7,,7.0,0.0,0,9.0,-2.0,0.0,-4.0,Peel A Section,marcel-2027
+15541,Tyler Rogers,TOR,RP,RP,36,428.3,63.7,7,,2.0,5.0,1,5.0,2.0,1.0,-6.0,Knowznothin,marcel-2027
+29911,Andrew Abbott,CIN,SP,SP,28,579.6,59.0,7,,3.0,4.0,1,6.0,1.0,0.5,-6.0,Sweet Spot,marcel-2027
+14212,Josh Hader,HOU,RP,RP,33,408.4,56.8,7,,13.0,-6.0,0,15.0,-8.0,0.0,-1.0,Rock the Casasbah,marcel-2027
+20191,Garrett Whitlock,BOS,RP,RP,31,407.3,56.1,7,,4.0,3.0,0,6.0,1.0,0.5,-5.0,Iron ,marcel-2027
+17432,Jeff Hoffman,MIN,RP,RP,34,424.9,61.8,7,,2.0,5.0,1,5.0,2.0,1.0,-6.0,Providence Grays,marcel-2027
+16442,Ryan O'Hearn,PIT,1B/OF,OF,33,557.3,46.1,6,,3.0,3.0,0,5.0,1.0,0.5,-5.0,Twin Pines 🌲🌲,marcel-2027
+18564,Trent Grisham,NYY,OF,OF,30,564.5,54.0,6,,4.0,2.0,0,6.0,0.0,0.0,-4.0,Bloom's Onions,marcel-2027
+13611,Mookie Betts,LAD,SS,SS,34,617.9,51.6,6,,28.0,-22.0,0,30.0,-24.0,0.0,8.0,Peel A Section,marcel-2027
+24878,Heriberto Hernández,MIA,OF,OF,27,552.8,46.9,6,,2.0,4.0,1,5.0,1.0,0.5,-5.0,Seiya Prayer For My Team,marcel-2027
+27782,Brandon Pfaadt,ARI,SP,SP,28,570.0,45.7,6,,3.0,3.0,0,5.0,1.0,0.5,-5.0,The Northsiders,marcel-2027
+16609,Bryan Abreu,HOU,RP,RP,30,397.0,49.7,6,,3.0,3.0,0,5.0,1.0,0.5,-5.0,Iron ,marcel-2027
+29839,Emmet Sheehan,LAD,SP,SP,27,572.9,49.7,6,,3.0,3.0,0,5.0,1.0,0.5,-5.0,Peel A Section,marcel-2027
+16918,Luke Weaver,PIT,RP,RP,33,388.8,44.5,6,,3.0,3.0,0,5.0,1.0,0.5,-5.0,Chin Music Choir,marcel-2027
+16137,Carlos Rodón,NYY,SP,SP,34,591.9,47.6,6,,21.0,-15.0,0,23.0,-17.0,0.0,4.0,Rock the Casasbah,marcel-2027
+21306,Jacob Latz,TEX,RP,RP,31,403.9,54.0,6,,4.0,2.0,0,6.0,0.0,0.0,-4.0,Chin Music Choir,marcel-2027
+21483,Shane McClanahan,TBR,SP,SP,30,585.0,45.4,6,,11.0,-5.0,0,13.0,-7.0,0.0,-1.0,Rock the Casasbah,marcel-2027
+31204,Justin Wrobleski,LAD,SP,SP,26,572.0,48.5,6,,1.0,5.0,1,4.0,2.0,1.0,-6.0,Bloom's Onions,marcel-2027
+19716,Dustin May,MIL,SP,SP,29,571.0,47.1,6,,6.0,0.0,0,8.0,-2.0,0.0,-3.0,Iron ,marcel-2027
+11156,Merrill Kelly,ARI,SP,SP,38,592.2,47.9,6,,3.0,3.0,0,5.0,1.0,0.5,-5.0,Twin Pines 🌲🌲,marcel-2027
+27555,Garrett Mitchell,MIL,OF,OF,28,543.1,34.7,5,,4.0,1.0,0,6.0,-1.0,0.0,-3.0,The Northsiders,marcel-2027
+21636,Jeremy Peña,HOU,SS,SS,29,595.7,42.0,5,,8.0,-3.0,0,10.0,-5.0,0.0,-1.0,Bloom's Onions,marcel-2027
+26368,JJ Bleday,CIN,OF,OF,29,547.2,39.9,5,,6.0,-1.0,0,8.0,-3.0,0.0,-2.0,Peel A Section,marcel-2027
+23796,Ryan Weathers,NYY,SP,SP,27,567.8,42.7,5,,7.0,-2.0,0,9.0,-4.0,0.0,-2.0,Sweet Spot,marcel-2027
+25007,Alex Vesia,LAD,RP,RP,31,388.7,44.4,5,,3.0,2.0,0,5.0,0.0,0.0,-4.0,Barreled Souls,marcel-2027
+26944,Edgardo Henriquez,LAD,RP,RP,25,345.5,35.0,5,6,,,,,,,,FA,marcel-2027
+17969,Peter Lambert,HOU,SP,SP,30,582.0,42.5,5,,1.0,4.0,1,4.0,1.0,0.5,-5.0,The Northsiders,marcel-2027
+21448,Davis Martin,CHW,SP,SP,30,578.8,39.5,5,,1.0,4.0,1,4.0,1.0,0.5,-5.0,The Northsiders,marcel-2027
+30249,Jack Dreyer,LAD,RP,RP,28,359.7,38.3,5,7,,,,,,,,FA,marcel-2027
+25679,Kevin Kelly,TBR,RP,RP,29,365.3,43.5,5,,1.0,4.0,1,4.0,1.0,0.5,-5.0,Peel A Section,marcel-2027
+16944,Grant Holmes,ATL,SP,SP,31,579.8,40.5,5,,3.0,2.0,0,5.0,0.0,0.0,-4.0,Chin Music Choir,marcel-2027
+20116,Calvin Faucher,MIA,RP,RP,31,380.6,39.3,5,,1.0,4.0,1,4.0,1.0,0.5,-5.0,Barreled Souls,marcel-2027
+20492,Casey Mize,SDP,SP,SP,30,575.8,36.7,5,,7.0,-2.0,0,9.0,-4.0,0.0,-2.0,Peel A Section,marcel-2027
+16943,Sean Newcomb,CHW,RP,RP,34,391.0,42.2,5,,5.0,0.0,0,7.0,-2.0,0.0,-3.0,Knowznothin,marcel-2027
+14374,Tyler Glasnow,LAD,SP,SP,33,578.8,39.5,5,,23.0,-18.0,0,25.0,-20.0,0.0,6.0,Providence Grays,marcel-2027
+29107,Bradgley Rodriguez,SDP,RP,RP,23,347.6,37.7,5,,1.0,4.0,0,3.0,2.0,1.0,-5.0,Twin Pines 🌲🌲,marcel-2027
+13580,Steven Okert,HOU,RP,RP,35,385.5,39.0,5,7,,,,,,,,FA,marcel-2027
+21501,Trevor Larnach,MIN,OF,OF,30,540.0,27.1,4,,3.0,1.0,0,5.0,-1.0,0.0,-3.0,Rock the Casasbah,marcel-2027
+15986,Willy Adames,SFG,SS,SS,31,590.9,31.6,4,,9.0,-5.0,0,11.0,-7.0,0.0,0.0,Providence Grays,marcel-2027
+22515,Heliot Ramos,NYY,OF,OF,27,538.1,38.2,4,7,,,,,,,,FA,marcel-2027
+20352,Ernie Clement,TOR,1B/2B/SS/3B,2B,31,539.9,29.7,4,,2.0,2.0,0,4.0,0.0,0.0,-3.0,Bloom's Onions,marcel-2027
+28253,Javier Sanoja,MIA,3B/OF,OF,24,530.9,59.9,4,10,,,,,,,,FA,marcel-2027
+17988,Tyler Stephenson,CIN,C,C,30,520.6,37.5,4,7,,,,,,,,FA,marcel-2027
+22630,Keider Montero,DET,SP,SP,26,558.6,30.0,4,,2.0,2.0,0,4.0,0.0,0.0,-3.0,Iron ,marcel-2027
+15873,Sean Manaea,NYM,SP,SP,35,574.2,32.3,4,,1.0,3.0,0,3.0,1.0,0.5,-4.0,Bloom's Onions,marcel-2027
+21924,Juan Morillo,ARI,RP,RP,28,349.2,28.7,4,,2.0,2.0,0,4.0,0.0,0.0,-3.0,Barreled Souls,marcel-2027
+31891,Andrew Morris,MIN,RP,RP,25,338.5,26.1,4,5,,,,,,,,FA,marcel-2027
+24978,Erik Sabrowski,CLE,RP,RP,29,349.7,29.1,4,,5.0,-1.0,0,7.0,-3.0,0.0,-2.0,Bloom's Onions,marcel-2027
+19677,Gregory Soto,PIT,RP,RP,32,372.7,34.4,4,,3.0,1.0,0,5.0,-1.0,0.0,-3.0,Peel A Section,marcel-2027
+16149,Aaron Nola,PHI,SP,SP,34,571.1,29.7,4,,7.0,-3.0,0,9.0,-5.0,0.0,-1.0,Chin Music Choir,marcel-2027
+20348,Riley O'Brien,STL,RP,RP,32,368.1,31.5,4,,1.0,3.0,0,3.0,1.0,0.5,-4.0,Barreled Souls,marcel-2027
+34967,Travis Bazzana,CLE,2B,2B,24,522.7,16.2,3,,7.0,-4.0,0,9.0,-6.0,0.0,0.0,Knowznothin,marcel-2027
+31680,Cole Young,SEA,2B/SS,2B,23,526.8,23.0,3,,8.0,-5.0,0,10.0,-7.0,0.0,1.0,Iron ,marcel-2027
+11899,Joc Pederson,TEX,OF,OF,35,532.7,23.2,3,5,,,,,,,,FA,marcel-2027
+19956,Mickey Moniak,COL,OF,OF,29,533.2,22.3,3,,3.0,0.0,0,5.0,-2.0,0.0,-2.0,Twin Pines 🌲🌲,marcel-2027
+17968,Brock Burke,CIN,RP,RP,30,346.2,17.7,3,4,,,,,,,,FA,marcel-2027
+30661,Didier Fuentes,ATL,RP,RP,22,333.5,19.7,3,,3.0,0.0,0,5.0,-2.0,0.0,-2.0,Barreled Souls,marcel-2027
+24017,José A. Ferrer,SEA,RP,RP,27,335.8,16.3,3,4,,,,,,,,FA,marcel-2027
+3096,Kenley Jansen,DET,RP,RP,39,346.3,16.3,3,4,,,,,,,,FA,marcel-2027
+30115,Robert Suarez,ATL,RP,RP,36,348.7,17.7,3,,5.0,-2.0,0,7.0,-4.0,0.0,-1.0,Seiya Prayer For My Team,marcel-2027
+20000,Tyler Wells,TBR,RP,RP,32,342.3,15.2,3,3,,,,,,,,FA,marcel-2027
+26231,Tyler Holton,DET,SP,SP,31,552.8,15.1,3,3,,,,,,,,FA,marcel-2027
+15816,Devin Williams,NYM,RP,RP,32,345.9,17.5,3,,6.0,-3.0,0,8.0,-5.0,0.0,0.0,The Northsiders,marcel-2027
+25420,Ryan Zeferjahn,CHC,RP,RP,29,334.5,15.1,3,,1.0,2.0,0,3.0,0.0,0.0,-3.0,Iron ,marcel-2027
+20023,Rico Garcia,BAL,RP,RP,33,355.4,23.5,3,,1.0,2.0,0,3.0,0.0,0.0,-3.0,Providence Grays,marcel-2027
+31764,AJ Blubaugh,HOU,RP,RP,26,334.2,14.8,3,3,,,,,,,,FA,marcel-2027
+19444,Yohan Ramírez,PIT,RP,RP,32,344.8,16.8,3,4,,,,,,,,FA,marcel-2027
+13624,Corey Seager,TEX,SS,SS,33,571.7,10.5,2,,25.0,-23.0,0,27.0,-25.0,0.0,10.0,Rock the Casasbah,marcel-2027
+19249,Seranthony Domínguez,SEA,RP,RP,32,328.4,6.5,2,2,,,,,,,,FA,marcel-2027
+31776,Orion Kerkering,PHI,RP,RP,26,328.8,9.9,2,3,,,,,,,,FA,marcel-2027
+29519,Gordon Graceffo,STL,RP,RP,27,328.2,9.3,2,2,,,,,,,,FA,marcel-2027
+13125,Gerrit Cole,NYY,SP,SP,36,546.5,8.4,2,,4.0,-2.0,0,6.0,-4.0,0.0,0.0,The Northsiders,marcel-2027
+19876,Kevin Ginkel,ARI,RP,RP,33,326.7,5.4,2,2,,,,,,,,FA,marcel-2027
+14771,Emilio Pagán,CIN,RP,RP,36,329.0,6.3,2,,3.0,-1.0,0,5.0,-3.0,0.0,-1.0,Sweet Spot,marcel-2027
+20997,Eduard Bazardo,SEA,RP,RP,31,330.6,7.9,2,2,,,,,,,,FA,marcel-2027
+33568,Brandyn Garcia,ARI,RP,RP,27,330.9,11.8,2,,7.0,-5.0,0,9.0,-7.0,0.0,1.0,Iron ,marcel-2027
+17170,Gabe Speier,SEA,RP,RP,32,333.9,9.9,2,,1.0,1.0,0,3.0,-1.0,0.0,-2.0,The Northsiders,marcel-2027
+17611,Taylor Clarke,ARI,RP,RP,34,342.5,14.1,2,3,,,,,,,,FA,marcel-2027
+19574,JoJo Romero,MIL,RP,RP,30,335.5,11.0,2,3,,,,,,,,FA,marcel-2027
+7048,Fernando Cruz,NYY,RP,RP,37,337.3,11.1,2,3,,,,,,,,FA,marcel-2027
+21992,Camilo Doval,PIT,RP,RP,29,326.9,8.1,2,,1.0,1.0,0,3.0,-1.0,0.0,-2.0,Sweet Spot,marcel-2027
+24609,Braydon Fisher,TOR,SP,SP,26,545.1,11.4,2,3,,,,,,,,FA,marcel-2027
+6107,Huascar Brazobán,CHW,RP,RP,37,331.1,7.5,2,2,,,,,,,,FA,marcel-2027
+15689,Luis Castillo,CHW,SP,SP,34,553.9,14.8,2,,21.0,-19.0,0,23.0,-21.0,0.0,8.0,Knowznothin,marcel-2027
+4940,Jason Heyward,,OF,OF,37,194.6,-289.8,1,1,,,,,,,,FA,marcel-2027
+19913,Jesús Sánchez,ARI,OF,OF,29,431.7,-95.1,1,1,,,,,,,,FA,marcel-2027
+25844,Logan Davidson,TBR,1B,1B,29,201.3,-501.1,1,1,,,,,,,,FA,marcel-2027
+15941,Austin Nola,,C,C,37,192.7,-253.2,1,1,,,,,,,,FA,marcel-2027
+19896,Connor Wong,BOS,C,C,31,314.7,-175.0,1,1,,,,,,,,FA,marcel-2027
+23782,Leo Jiménez,,2B/3B/SS,2B,26,263.8,-268.4,1,1,,,,,,,,FA,marcel-2027
+9847,Andrew McCutchen,,OF,OF,40,291.8,-199.8,1,1,,,,,,,,FA,marcel-2027
+25505,Cade Marlowe,LAA,OF,OF,30,210.9,-326.4,1,1,,,,,,,,FA,marcel-2027
+2967,Tommy Pham,CHW,OF,OF,39,248.0,-240.3,1,1,,,,,,,,FA,marcel-2027
+14593,David Bote,LAD,2B/3B,2B,34,209.5,-248.5,1,1,,,,,,,,FA,marcel-2027
+29912,Darren Baker,SFG,2B,2B,28,222.3,-320.4,1,1,,,,,,,,FA,marcel-2027
+25688,Cam Devanney,,3B,3B,30,191.1,-334.0,1,1,,,,,,,,FA,marcel-2027
+27647,Anthony Volpe,NYY,SS,SS,26,361.9,-174.6,1,1,,,,,,,,FA,marcel-2027
+21716,Enmanuel Valdez,PIT,2B,2B,28,202.8,-344.9,1,1,,,,,,,,FA,marcel-2027
+17326,Cole Tucker,,SS/OF,OF,30,202.9,-328.2,1,1,,,,,,,,FA,marcel-2027
+24064,Ezequiel Tovar,COL,SS,SS,25,476.8,-40.4,1,1,,,,,,,,FA,marcel-2027
+10200,Tucker Barnhart,,C,C,36,186.0,-259.1,1,1,,,,,,,,FA,marcel-2027
+25971,Kevin Alcántara,CHC,OF,OF,24,224.7,-468.1,1,1,,,,,,,,FA,marcel-2027
+13675,Tyrone Taylor,CHC,OF,OF,33,357.7,-164.9,1,1,,,,,,,,FA,marcel-2027
+27815,Jordan Westburg,BAL,2B/3B,2B,28,278.3,-294.1,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Chin Music Choir,marcel-2027
+20529,Nolan Jones,SEA,OF,OF,29,210.2,-372.8,1,1,,,,,,,,FA,marcel-2027
+14221,Jorge Soler,,OF,OF,35,421.0,-80.2,1,1,,,,,,,,FA,marcel-2027
+32053,Turner Hill,SFG,OF,OF,28,259.9,-310.5,1,1,,,,,,,,FA,marcel-2027
+13145,Josh Bell,MIN,1B,1B,34,601.0,0.0,1,1,,,,,,,,FA,marcel-2027
+26202,Jake Mangum,PIT,OF,OF,31,494.0,-15.0,1,1,,,,,,,,FA,marcel-2027
+24622,Ryan Fitzgerald,LAD,2B/SS,2B,33,221.1,-282.5,1,1,,,,,,,,FA,marcel-2027
+33381,Max Clark,DET,OF,OF,22,353.2,-268.4,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Seiya Prayer For My Team,marcel-2027
+30361,Lazaro Montes,SEA,OF,OF,22,252.8,-434.5,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Iron ,marcel-2027
+11281,Whit Merrifield,,2B/OF,2B,38,189.6,-266.9,1,1,,,,,,,,FA,marcel-2027
+26244,Kenedy Corona,NYY,OF,OF,27,216.0,-365.5,1,1,,,,,,,,FA,marcel-2027
+22184,Mark Vientos,NYM,3B,3B,27,427.5,-84.2,1,1,,,,,,,,FA,marcel-2027
+20540,José Devers,,2B/SS,2B,27,214.4,-330.3,1,1,,,,,,,,FA,marcel-2027
+19562,Zack Short,NYM,SS,SS,32,198.1,-333.5,1,1,,,,,,,,FA,marcel-2027
+29189,Héctor Rodríguez,CIN,OF,OF,23,267.0,-411.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+29455,Carlos Jorge,CIN,OF,OF,23,213.1,-487.3,1,1,,,,,,,,FA,marcel-2027
+18821,José Azócar,ATL,OF,OF,31,210.4,-327.0,1,1,,,,,,,,FA,marcel-2027
+33323,Charles McAdoo,TOR,1B/2B,2B,25,257.5,-364.7,1,1,,,,,,,,FA,marcel-2027
+18395,Travis Blankenhorn,,OF,OF,30,195.6,-343.3,1,1,,,,,,,,FA,marcel-2027
+29524,Bryce Teodosio,LAA,OF,OF,28,206.3,-377.7,1,1,,,,,,,,FA,marcel-2027
+25967,Orelvis Martinez,,2B,2B,25,218.0,-430.1,1,1,,,,,,,,FA,marcel-2027
+21538,Nick Fortes,TBR,C,C,30,336.6,-152.4,1,1,,,,,,,,FA,marcel-2027
+14387,Harold Ramírez,,OF,OF,32,186.3,-353.5,1,1,,,,,,,,FA,marcel-2027
+24589,Richie Palacios,TBR,2B/OF,2B,30,421.9,-61.6,1,1,,,,,,,,FA,marcel-2027
+19292,Armando Alvarez,,1B/3B,3B,32,203.4,-320.5,1,1,,,,,,,,FA,marcel-2027
+20557,CJ Alexander,HOU,3B,3B,30,197.9,-326.5,1,1,,,,,,,,FA,marcel-2027
+27501,Justin Foscue,TEX,2B,2B,28,354.1,-155.2,1,1,,,,,,,,FA,marcel-2027
+33500,John Peck,DET,SS,SS,24,226.9,-453.9,1,1,,,,,,,,FA,marcel-2027
+16472,Rhys Hoskins,CLE,1B,1B,34,410.3,-176.5,1,1,,,,,,,,FA,marcel-2027
+20126,Dylan Carlson,,OF,OF,28,191.2,-396.6,1,1,,,,,,,,FA,marcel-2027
+20404,Jared Young,NYM,1B,1B,31,418.9,-200.3,1,1,,,,,,,,FA,marcel-2027
+10243,Randal Grichuk,CHW,OF,OF,35,442.1,-60.6,1,1,,,,,,,,FA,marcel-2027
+27604,Alika Williams,ATH,2B/SS,2B,28,315.8,-203.2,1,1,,,,,,,,FA,marcel-2027
+21535,Connor Kaiser,KCR,2B,2B,30,201.2,-304.4,1,1,,,,,,,,FA,marcel-2027
+26517,Noelvi Marte,CIN,3B/OF,OF,25,317.8,-292.7,1,1,,,,,,,,FA,marcel-2027
+22263,Nolan Gorman,STL,2B/3B,2B,27,352.0,-157.8,1,1,,,,,,,,FA,marcel-2027
+25543,Korey Lee,CHW,C,C,28,185.4,-351.5,1,1,,,,,,,,FA,marcel-2027
+25817,Braden Shewmake,HOU,3B/SS,SS,29,230.2,-331.6,1,1,,,,,,,,FA,marcel-2027
+33357,Andrew Pinckney,WSN,OF,OF,26,235.6,-341.0,1,1,,,,,,,,FA,marcel-2027
+29794,Kyle Manzardo,CLE,1B,1B,26,475.2,-157.7,1,1,,,,,,,,FA,marcel-2027
+30163,César Prieto,STL,3B,3B,28,186.3,-386.6,1,1,,,,,,,,FA,marcel-2027
+19901,Gavin Sheets,SDP,OF,OF,31,475.8,-35.0,1,1,,,,,,,,FA,marcel-2027
+25814,C.J. Stubbs,TOR,C,C,30,208.8,-284.3,1,1,,,,,,,,FA,marcel-2027
+17452,Jose Siri,LAA,OF,OF,31,299.4,-229.1,1,1,,,,,,,,FA,marcel-2027
+19734,Josh Rojas,KCR,3B,3B,33,227.2,-294.3,1,1,,,,,,,,FA,marcel-2027
+27684,Michael Massey,KCR,2B,2B,29,451.0,-33.7,1,1,,,,,,,,FA,marcel-2027
+24451,J.P. Martínez,,OF,OF,31,209.7,-327.8,1,1,,,,,,,,FA,marcel-2027
+14477,Jake Cave,CHW,OF,OF,34,200.3,-284.5,1,1,,,,,,,,FA,marcel-2027
+10815,Jurickson Profar,ATL,OF,OF,34,295.9,-196.0,1,1,,,,,,,,FA,marcel-2027
+33390,Bryce Eldridge,SFG,1B,1B,22,540.1,-112.9,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Knowznothin,marcel-2027
+31781,Jackson Holliday,BAL,2B/SS,2B,23,425.6,-144.5,1,,16.0,-15.0,0,18.0,-17.0,0.0,7.0,Seiya Prayer For My Team,marcel-2027
+15055,Dom Nuñez,CLE,C,C,32,209.9,-283.2,1,1,,,,,,,,FA,marcel-2027
+5343,Brandon Crawford,,SS,SS,40,190.8,-287.4,1,1,,,,,,,,FA,marcel-2027
+33530,Cooper Pratt,MIL,SS,SS,22,368.3,-320.9,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders,marcel-2027
+11739,J.T. Realmuto,PHI,C,C,36,461.7,-19.6,1,1,,,,,,,,FA,marcel-2027
+25705,Dustin Harris,SDP,OF,OF,27,297.2,-263.8,1,1,,,,,,,,FA,marcel-2027
+29622,Sal Frelick,MIL,OF,OF,27,444.2,-89.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Sweet Spot,marcel-2027
+27899,Colt Keith,DET,1B/2B/3B,2B,25,503.1,-16.2,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Rock the Casasbah,marcel-2027
+25180,Daniel Schneemann,CLE,2B/OF,2B,30,335.7,-156.4,1,1,,,,,,,,FA,marcel-2027
+19260,Jake Fraley,TBR,OF,OF,32,281.5,-248.8,1,1,,,,,,,,FA,marcel-2027
+28820,Moisés Ballesteros,LAA,Util,Util,23,372.2,-378.6,1,1,,,,,,,,FA,marcel-2027
+23917,Jorbit Vivas,WSN,2B/3B,2B,26,364.5,-142.2,1,1,,,,,,,,FA,marcel-2027
+22217,Luis Campusano,SDP,C,C,28,340.9,-168.6,1,1,,,,,,,,FA,marcel-2027
+20017,Miles Mastrobuoni,SEA,3B,3B,31,194.0,-330.8,1,1,,,,,,,,FA,marcel-2027
+20970,Oscar Gonzalez,,OF,OF,29,193.9,-393.3,1,1,,,,,,,,FA,marcel-2027
+10681,Gio Urshela,,3B,3B,35,193.2,-279.1,1,1,,,,,,,,FA,marcel-2027
+9627,Yan Gomes,,C,C,39,175.0,-268.6,1,1,,,,,,,,FA,marcel-2027
+14366,Joey Meneses,ATH,1B,1B,35,184.1,-386.0,1,1,,,,,,,,FA,marcel-2027
+18316,Edwin Rios,,1B/3B,3B,33,205.3,-318.4,1,1,,,,,,,,FA,marcel-2027
+9777,Nolan Arenado,ARI,3B,3B,36,573.1,-32.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders,marcel-2027
+18819,Andy Ibáñez,SEA,2B/3B,2B,34,205.6,-252.1,1,1,,,,,,,,FA,marcel-2027
+6887,Martín Maldonado,,C,C,40,161.2,-280.6,1,1,,,,,,,,FA,marcel-2027
+21730,Jair Camargo,ATL,C,C,27,215.3,-316.3,1,1,,,,,,,,FA,marcel-2027
+15730,Tyler Wade,,2B/OF,2B,32,179.1,-328.7,1,1,,,,,,,,FA,marcel-2027
+19779,Dairon Blanco,,OF,OF,34,218.3,-267.8,1,1,,,,,,,,FA,marcel-2027
+25660,Will Brennan,SFG,OF,OF,29,198.2,-387.9,1,1,,,,,,,,FA,marcel-2027
+19966,Bobby Dalbec,,1B,1B,32,182.5,-460.4,1,1,,,,,,,,FA,marcel-2027
+24759,Mickey Gasper,BOS,C/1B,C,31,339.0,-159.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Rock the Casasbah,marcel-2027
+9774,Christian Vázquez,HOU,C,C,36,262.7,-192.5,1,1,,,,,,,,FA,marcel-2027
+19599,Chas McCormick,CHC,OF,OF,32,179.1,-361.4,1,1,,,,,,,,FA,marcel-2027
+13663,Jack López,,2B,2B,34,200.3,-257.0,1,1,,,,,,,,FA,marcel-2027
+27534,Edouard Julien,COL,2B,2B,28,315.6,-203.5,1,1,,,,,,,,FA,marcel-2027
+22707,Gustavo Campero,LAA,OF,OF,29,217.9,-363.2,1,1,,,,,,,,FA,marcel-2027
+27543,Duke Ellis,NYY,OF,OF,29,215.6,-366.0,1,1,,,,,,,,FA,marcel-2027
+20308,Jake Meyers,HOU,OF,OF,31,300.1,-228.3,1,1,,,,,,,,FA,marcel-2027
+26295,Oliver Dunn,TBR,3B,3B,29,187.5,-385.1,1,1,,,,,,,,FA,marcel-2027
+16572,Connor Joe,SEA,1B/OF,OF,34,214.0,-271.8,1,1,,,,,,,,FA,marcel-2027
+19384,Trenton Brooks,HOU,1B,1B,31,188.1,-454.3,1,1,,,,,,,,FA,marcel-2027
+14813,Kyle Farmer,ATL,2B/SS,2B,36,213.2,-245.1,1,1,,,,,,,,FA,marcel-2027
+16725,Jose Trevino,CIN,C,C,34,253.4,-200.5,1,1,,,,,,,,FA,marcel-2027
+25183,Drew Avans,COL,OF,OF,31,199.3,-339.2,1,1,,,,,,,,FA,marcel-2027
+29949,Tyler Black,MIL,1B,1B,26,234.2,-459.8,1,1,,,,,,,,FA,marcel-2027
+26468,Victor Bericoto,SFG,OF,OF,25,266.9,-398.3,1,1,,,,,,,,FA,marcel-2027
+18433,P.J. Higgins,CIN,C/1B,C,34,213.0,-235.6,1,1,,,,,,,,FA,marcel-2027
+26121,Francisco Alvarez,NYM,C,C,25,481.9,-3.7,1,1,,,,,,,,FA,marcel-2027
+23790,Will Banfield,CIN,C,C,27,206.2,-327.0,1,1,,,,,,,,FA,marcel-2027
+19422,Brian Serven,ATH,C,C,32,220.1,-272.7,1,1,,,,,,,,FA,marcel-2027
+29767,BJ Murray Jr.,CHC,1B,1B,27,207.5,-493.3,1,1,,,,,,,,FA,marcel-2027
+26208,Tyler Fitzgerald,LAD,2B/SS,2B,29,243.0,-294.5,1,1,,,,,,,,FA,marcel-2027
+12144,Max Kepler,,OF,OF,34,298.9,-193.2,1,1,,,,,,,,FA,marcel-2027
+29993,Brady House,WSN,3B,3B,24,380.2,-189.5,1,1,,,,,,,,FA,marcel-2027
+23401,José Caballero,NYY,2B/SS/3B/OF,2B,30,461.6,-56.4,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Sweet Spot,marcel-2027
+29571,Tim Tawa,ARI,1B/OF,OF,28,373.2,-168.5,1,1,,,,,,,,FA,marcel-2027
+25643,Drew Millas,WSN,C,C,29,255.5,-269.1,1,1,,,,,,,,FA,marcel-2027
+33398,Scott Bandura,SFG,Util,Util,25,218.6,-632.8,1,1,,,,,,,,FA,marcel-2027
+5517,Kyle Higashioka,TEX,C,C,37,328.0,-135.7,1,1,,,,,,,,FA,marcel-2027
+18171,Seth Brown,,1B/OF,OF,34,194.6,-289.8,1,1,,,,,,,,FA,marcel-2027
+22532,Tyler Freeman,COL,OF,OF,28,364.4,-179.5,1,1,,,,,,,,FA,marcel-2027
+21853,Will Benson,CIN,OF,OF,29,275.3,-291.2,1,1,,,,,,,,FA,marcel-2027
+24618,Ryan Jeffers,MIN,C,C,30,493.7,0.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲,marcel-2027
+19455,Andruw Monasterio,BOS,2B/3B/SS,2B,30,370.0,-118.7,1,1,,,,,,,,FA,marcel-2027
+22557,Michael Siani,DET,OF,OF,27,181.6,-408.7,1,1,,,,,,,,FA,marcel-2027
+22209,Sam Huff,BAL,C,C,29,198.7,-335.9,1,1,,,,,,,,FA,marcel-2027
+23691,José Tena,WSN,3B,3B,26,358.3,-171.0,1,1,,,,,,,,FA,marcel-2027
+17161,Chad Wallach,ATH,C,C,35,209.4,-238.7,1,1,,,,,,,,FA,marcel-2027
+13620,Carson Kelly,CHC,C,C,32,484.3,0.0,1,1,,,,,,,,FA,marcel-2027
+31382,Dalton Rushing,LAD,C,C,26,371.9,-143.2,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Knowznothin,marcel-2027
+19997,Santiago Espinal,ARI,2B/3B,2B,32,223.3,-280.1,1,1,,,,,,,,FA,marcel-2027
+12510,Curt Casali,,C,C,38,185.0,-259.9,1,1,,,,,,,,FA,marcel-2027
+33575,Colt Emerson,SEA,SS/3B,SS,21,294.9,-442.3,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Iron ,marcel-2027
+18848,Yohel Pozo,BAL,C,C,30,231.0,-261.4,1,1,,,,,,,,FA,marcel-2027
+33266,Jacob Wilson,ATH,SS,SS,25,473.4,-146.9,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Chin Music Choir,marcel-2027
+24598,Addison Barger,TOR,3B/OF,OF,27,274.5,-302.0,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Rock the Casasbah,marcel-2027
+25979,Nasim Nuñez,WSN,2B/SS,2B,26,381.7,-120.6,1,1,,,,,,,,FA,marcel-2027
+29591,Colton Cowser,BAL,OF,OF,27,453.8,-67.4,1,1,,,,,,,,FA,marcel-2027
+23985,Osleivis Basabe,SFG,2B/SS/3B,2B,26,262.4,-314.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+37123,Kazuma Okamoto,TOR,1B/3B,3B,31,585.5,-24.6,1,,10.0,-9.0,0,12.0,-11.0,0.0,4.0,Chin Music Choir,marcel-2027
+30675,Luis Lara,MIL,OF,OF,22,305.5,-347.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Knowznothin,marcel-2027
+19968,Jared Oliva,TBR,OF,OF,31,209.9,-327.5,1,1,,,,,,,,FA,marcel-2027
+27471,Zach DeLoach,,OF,OF,28,204.5,-380.0,1,1,,,,,,,,FA,marcel-2027
+11737,Nick Castellanos,,3B/OF,OF,35,319.1,-162.6,1,1,,,,,,,,FA,marcel-2027
+25782,Pedro Pagés,STL,C,C,28,296.4,-221.0,1,1,,,,,,,,FA,marcel-2027
+14111,Eric Haase,ATL,C,C,34,244.6,-208.2,1,1,,,,,,,,FA,marcel-2027
+23789,Blaze Alexander,BAL,2B/SS/3B/OF,2B,28,399.6,-142.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders,marcel-2027
+19931,Luke Williams,ATL,3B/OF,OF,30,196.4,-328.2,1,1,,,,,,,,FA,marcel-2027
+19339,Nicky Lopez,TEX,2B/SS,2B,32,265.4,-233.8,1,1,,,,,,,,FA,marcel-2027
+14854,Mike Yastrzemski,ATL,OF,OF,36,477.4,-28.0,1,1,,,,,,,,FA,marcel-2027
+35121,Joshua Kuroda-Grauer,ATH,2B/SS/3B,2B,24,288.3,-371.7,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,The Northsiders,marcel-2027
+26365,Jonny DeLuca,TBR,OF,OF,28,378.8,-161.5,1,1,,,,,,,,FA,marcel-2027
+28020,Jose Fernandez,ARI,1B/3B,3B,23,309.1,-307.1,1,1,,,,,,,,FA,marcel-2027
+31765,Nacho Alvarez Jr.,LAA,3B,3B,24,204.1,-480.9,1,1,,,,,,,,FA,marcel-2027
+29539,Abimelec Ortiz,WSN,1B,1B,25,255.6,-571.5,1,1,,,,,,,,FA,marcel-2027
+26284,John Rave,KCR,OF,OF,29,296.9,-264.1,1,1,,,,,,,,FA,marcel-2027
+27531,David Hamilton,MIL,2B/SS,2B,29,398.1,-100.0,1,1,,,,,,,,FA,marcel-2027
+18067,Garrett Stubbs,PHI,C,C,34,183.6,-261.1,1,1,,,,,,,,FA,marcel-2027
+25616,Marco Luciano,NYY,SS,SS,25,201.1,-496.6,1,1,,,,,,,,FA,marcel-2027
+33571,Walker Jenkins,MIN,OF,OF,22,263.1,-417.5,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Seiya Prayer For My Team,marcel-2027
+20543,Elehuris Montero,,1B,1B,28,182.4,-524.8,1,1,,,,,,,,FA,marcel-2027
+23695,Everson Pereira,STL,OF,OF,26,267.0,-301.6,1,1,,,,,,,,FA,marcel-2027
+27504,Nick Yorke,PIT,2B/3B,2B,25,245.0,-385.4,1,1,,,,,,,,FA,marcel-2027
+15504,Jamie Westbrook,,2B,2B,32,203.3,-302.1,1,1,,,,,,,,FA,marcel-2027
+29668,Marcelo Mayer,SFG,2B/SS/3B,2B,24,301.0,-350.6,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Seiya Prayer For My Team,marcel-2027
+23986,Curtis Mead,BOS,1B/2B/3B,2B,26,439.0,-92.6,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Chin Music Choir,marcel-2027
+32119,Nick Morabito,NYM,OF,OF,24,218.5,-478.4,1,1,,,,,,,,FA,marcel-2027
+17975,Scott Kingery,,SS/OF,OF,33,198.5,-333.0,1,1,,,,,,,,FA,marcel-2027
+5827,Wilmer Flores,,1B,1B,35,230.7,-342.8,1,1,,,,,,,,FA,marcel-2027
+35061,Ryan Waldschmidt,ARI,OF,OF,24,354.4,-266.4,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Barreled Souls,marcel-2027
+13590,Jesse Winker,,OF,OF,33,233.0,-302.1,1,1,,,,,,,,FA,marcel-2027
+12005,Nick Martini,,OF,OF,37,190.2,-293.8,1,1,,,,,,,,FA,marcel-2027
+14942,Andrew Knapp,,C,C,35,206.1,-241.6,1,1,,,,,,,,FA,marcel-2027
+26420,Kyren Paris,LAA,2B/OF,2B,25,207.0,-448.3,1,1,,,,,,,,FA,marcel-2027
+31545,Drew Gilbert,SFG,OF,OF,26,416.1,-114.7,1,1,,,,,,,,FA,marcel-2027
+18036,Jake Cronenworth,SDP,1B/2B,2B,33,453.7,-26.6,1,1,,,,,,,,FA,marcel-2027
+29614,Chad Stevens,COL,2B/3B,2B,28,188.6,-362.7,1,1,,,,,,,,FA,marcel-2027
+18217,Brett Sullivan,COL,C,C,33,306.2,-183.8,1,1,,,,,,,,FA,marcel-2027
+22232,Mason McCoy,SDP,SS,SS,32,193.6,-338.4,1,1,,,,,,,,FA,marcel-2027
+29931,Jacob Young,WSN,OF,OF,27,440.9,-83.6,1,1,,,,,,,,FA,marcel-2027
+26540,Angel Martínez,CLE,2B/OF,2B,25,458.7,-89.7,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Bloom's Onions,marcel-2027
+16153,Austin Slater,TBR,OF,OF,34,226.1,-260.6,1,1,,,,,,,,FA,marcel-2027
+15172,Tim Anderson,,SS,SS,34,148.6,-326.4,1,1,,,,,,,,FA,marcel-2027
+18363,Victor Robles,SEA,OF,OF,30,310.1,-217.3,1,1,,,,,,,,FA,marcel-2027
+23378,José Barrero,BAL,SS,SS,29,201.3,-376.0,1,1,,,,,,,,FA,marcel-2027
+29858,Denzel Clarke,ATH,OF,OF,27,229.1,-349.1,1,1,,,,,,,,FA,marcel-2027
+15274,Mike Tauchman,,OF,OF,36,258.8,-230.3,1,1,,,,,,,,FA,marcel-2027
+9218,Paul Goldschmidt,NYY,1B,1B,39,471.6,-119.8,1,1,,,,,,,,FA,marcel-2027
+19287,Adolis García,PHI,OF,OF,34,353.6,-142.6,1,1,,,,,,,,FA,marcel-2027
+31855,Colby Thomas,PHI,OF,OF,26,258.4,-312.4,1,1,,,,,,,,FA,marcel-2027
+19600,Bryan De La Cruz,PHI,OF,OF,30,228.8,-315.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+15654,Billy McKinney,,OF,OF,32,198.7,-339.9,1,1,,,,,,,,FA,marcel-2027
+19858,Luis Rengifo,SDP,2B/3B/OF,2B,30,395.1,-129.6,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays,marcel-2027
+25005,Justin Dean,CHC,OF,OF,30,226.2,-309.6,1,1,,,,,,,,FA,marcel-2027
+25369,Omar Martinez,LAA,C,C,25,219.4,-411.2,1,1,,,,,,,,FA,marcel-2027
+21523,Jonathan India,KCR,2B,2B,30,291.3,-205.3,1,1,,,,,,,,FA,marcel-2027
+27479,Masyn Winn,STL,SS,SS,25,501.2,0.0,1,1,,,,,,,,FA,marcel-2027
+18872,Jahmai Jones,BOS,OF,OF,29,345.3,-203.5,1,1,,,,,,,,FA,marcel-2027
+27845,Matt Mervis,,1B,1B,29,202.3,-499.8,1,1,,,,,,,,FA,marcel-2027
+13152,Jorge Polanco,NYM,2B/SS,2B,33,325.6,-167.6,1,1,,,,,,,,FA,marcel-2027
+21547,Coco Montes,,2B,2B,30,207.5,-297.5,1,1,,,,,,,,FA,marcel-2027
+19983,Conner Capel,COL,OF,OF,30,210.9,-326.4,1,1,,,,,,,,FA,marcel-2027
+22741,Eliezer Alfonzo,LAD,C,C,27,211.4,-320.9,1,1,,,,,,,,FA,marcel-2027
+29596,Joshua Báez,STL,OF,OF,24,295.3,-364.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Chin Music Choir,marcel-2027
+15491,J.P. Crawford,SEA,SS/3B,SS,32,494.3,-74.7,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Barreled Souls,marcel-2027
+16505,Matt Chapman,SFG,3B,3B,34,484.3,-114.4,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,The Northsiders,marcel-2027
+10441,Jon Singleton,,1B,1B,35,202.4,-369.0,1,1,,,,,,,,FA,marcel-2027
+19514,Andrew Knizner,SFG,C,C,32,211.1,-282.0,1,1,,,,,,,,FA,marcel-2027
+5254,Robbie Grossman,,OF,OF,37,189.7,-294.3,1,1,,,,,,,,FA,marcel-2027
+22857,Wenceel Pérez,DET,OF,OF,27,328.1,-225.0,1,1,,,,,,,,FA,marcel-2027
+29630,Joey Loperfido,HOU,OF,OF,28,269.6,-298.4,1,1,,,,,,,,FA,marcel-2027
+33380,Drew Cavanaugh,SFG,C,C,25,262.9,-343.7,1,1,,,,,,,,FA,marcel-2027
+19522,TJ Friedl,CIN,OF,OF,31,390.2,-129.2,1,1,,,,,,,,FA,marcel-2027
+12147,Nick Ahmed,,SS,SS,37,170.9,-305.8,1,1,,,,,,,,FA,marcel-2027
+13757,Chris Taylor,,OF,OF,36,182.9,-300.6,1,1,,,,,,,,FA,marcel-2027
+16686,Jason Vosler,,1B/3B,3B,33,202.7,-321.3,1,1,,,,,,,,FA,marcel-2027
+10472,Enrique Hernández,LAD,OF,OF,35,241.4,-246.4,1,1,,,,,,,,FA,marcel-2027
+12979,Javier Báez,DET,SS,SS,34,289.0,-196.4,1,1,,,,,,,,FA,marcel-2027
+16939,Lane Thomas,ATL,OF,OF,31,399.4,-119.0,1,1,,,,,,,,FA,marcel-2027
+19252,Cavan Biggio,HOU,2B,2B,32,189.7,-317.1,1,1,,,,,,,,FA,marcel-2027
+16398,Brian Navarreto,MIA,C,C,32,213.3,-279.7,1,1,,,,,,,,FA,marcel-2027
+19958,Carter Kieboom,PHI,3B,3B,29,210.6,-356.1,1,1,,,,,,,,FA,marcel-2027
+18887,Seby Zavala,DET,C,C,33,198.6,-294.9,1,1,,,,,,,,FA,marcel-2027
+19346,Eli White,BOS,OF,OF,33,334.6,-190.3,1,1,,,,,,,,FA,marcel-2027
+33708,Cooper Ingle,CLE,OF,OF,25,209.7,-492.9,1,1,,,,,,,,FA,marcel-2027
+25779,Tyler Tolbert,KCR,OF,OF,29,336.9,-214.0,1,1,,,,,,,,FA,marcel-2027
+15878,Miguel Andujar,SDP,3B/OF,OF,32,401.4,-102.6,1,1,,,,,,,,FA,marcel-2027
+25346,Ronny Simon,PIT,OF,OF,27,241.1,-334.1,1,1,,,,,,,,FA,marcel-2027
+33704,CJ Kayfus,CLE,1B/OF,OF,25,244.0,-436.2,1,1,,,,,,,,FA,marcel-2027
+19953,Josh Lowe,LAA,OF,OF,29,396.5,-139.3,1,1,,,,,,,,FA,marcel-2027
+29547,Ryan Bliss,SEA,2B,2B,27,207.9,-338.5,1,1,,,,,,,,FA,marcel-2027
+12552,Eugenio Suárez,CIN,3B,3B,35,604.7,-3.0,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Barreled Souls,marcel-2027
+31437,Jace Jung,DET,3B,3B,26,192.7,-378.6,1,1,,,,,,,,FA,marcel-2027
+25448,Greg Jones,CHC,OF,OF,29,197.7,-388.5,1,1,,,,,,,,FA,marcel-2027
+13897,Tyler Heineman,LAA,C,C,36,251.0,-202.6,1,1,,,,,,,,FA,marcel-2027
+17901,Andrew Benintendi,CHW,OF,OF,32,492.9,-16.2,1,1,,,,,,,,FA,marcel-2027
+13602,Patrick Wisdom,SEA,3B,3B,35,195.6,-276.9,1,1,,,,,,,,FA,marcel-2027
+26477,Spencer Horwitz,PIT,1B,1B,29,524.1,-105.6,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Bloom's Onions,marcel-2027
+10323,Rafael Ortega,,OF,OF,36,200.9,-283.9,1,1,,,,,,,,FA,marcel-2027
+23250,David Bañuelos,MIN,Util,Util,30,211.7,-428.3,1,1,,,,,,,,FA,marcel-2027
+31396,Tyler Locklear,ARI,1B,1B,26,224.4,-472.1,1,1,,,,,,,,FA,marcel-2027
+22261,Bubba Thompson,,OF,OF,29,206.7,-377.2,1,1,,,,,,,,FA,marcel-2027
+13770,Rob Refsnyder,,OF,OF,36,304.9,-187.7,1,1,,,,,,,,FA,marcel-2027
+23800,Parker Meadows,DET,OF,OF,27,246.8,-326.9,1,1,,,,,,,,FA,marcel-2027
+23733,Ezequiel Duran,TEX,1B/2B/SS/3B/OF,2B,28,512.9,0.0,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Knowznothin,marcel-2027
+21587,César Salazar,HOU,C,C,31,207.2,-286.0,1,1,,,,,,,,FA,marcel-2027
+5273,Sandy León,ATL,C,C,38,175.0,-268.6,1,1,,,,,,,,FA,marcel-2027
+26467,Luis Matos,MIL,OF,OF,25,222.1,-472.4,1,1,,,,,,,,FA,marcel-2027
+22168,Akil Baddoo,MIL,OF,OF,28,190.2,-397.9,1,1,,,,,,,,FA,marcel-2027
+19358,Weston Wilson,SEA,3B/OF,OF,32,294.3,-220.5,1,1,,,,,,,,FA,marcel-2027
+20521,Nick Madrigal,TBR,2B/3B,2B,30,222.2,-281.3,1,1,,,,,,,,FA,marcel-2027
+23372,Hunter Feduccia,LAD,C,C,30,292.0,-198.5,1,1,,,,,,,,FA,marcel-2027
+17992,David Fletcher,,2B,2B,33,207.6,-297.4,1,1,,,,,,,,FA,marcel-2027
+14894,Tony Kemp,,2B/OF,2B,35,201.4,-256.0,1,1,,,,,,,,FA,marcel-2027
+26288,Adley Rutschman,BOS,C,C,29,448.7,-52.9,1,,14.0,-13.0,0,16.0,-15.0,0.0,6.0,Peel A Section,marcel-2027
+20958,Rodolfo Durán,SDP,C,C,29,226.1,-303.6,1,1,,,,,,,,FA,marcel-2027
+5297,Aaron Hicks,,OF,OF,37,186.2,-297.5,1,1,,,,,,,,FA,marcel-2027
+13621,Jeimer Candelario,LAA,3B,3B,33,198.9,-325.4,1,1,,,,,,,,FA,marcel-2027
+33433,George Lombard Jr.,NYY,SS,SS,22,291.1,-448.6,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Seiya Prayer For My Team,marcel-2027
+10950,Adam Duvall,,OF,OF,38,171.1,-311.5,1,1,,,,,,,,FA,marcel-2027
+26664,Yohendrick Piñango,TOR,OF,OF,25,308.6,-329.3,1,1,,,,,,,,FA,marcel-2027
+29575,Trey Sweeney,DET,SS,SS,27,195.1,-383.7,1,1,,,,,,,,FA,marcel-2027
+31583,Zach Cole,HOU,OF,OF,26,249.7,-323.3,1,1,,,,,,,,FA,marcel-2027
+28763,Felix Reyes,PHI,1B/OF,OF,26,211.5,-371.2,1,1,,,,,,,,FA,marcel-2027
+16426,Thairo Estrada,,2B,2B,31,186.8,-320.3,1,1,,,,,,,,FA,marcel-2027
+29782,Niko Kavadas,LAA,1B,1B,28,194.6,-509.5,1,1,,,,,,,,FA,marcel-2027
+22842,Alexander Canario,,OF,OF,27,215.3,-366.4,1,1,,,,,,,,FA,marcel-2027
+22165,Ryan Vilade,TBR,OF,OF,28,359.2,-186.0,1,1,,,,,,,,FA,marcel-2027
+12533,Marcus Semien,NYM,2B/SS,2B,36,477.9,0.0,1,1,,,,,,,,FA,marcel-2027
+24257,Jhonkensy Noel,BAL,OF,OF,25,205.8,-499.4,1,1,,,,,,,,FA,marcel-2027
+27497,Tyler Callihan,PIT,OF,OF,27,259.9,-310.5,1,1,,,,,,,,FA,marcel-2027
+12859,James McCann,ARI,C,C,37,298.5,-161.4,1,1,,,,,,,,FA,marcel-2027
+19890,Emmanuel Rivera,,3B,3B,31,195.4,-329.3,1,1,,,,,,,,FA,marcel-2027
+29617,Henry Davis,PIT,C,C,27,274.0,-247.3,1,1,,,,,,,,FA,marcel-2027
+32054,Shawn Ross,TOR,C/1B,C,27,222.4,-308.0,1,1,,,,,,,,FA,marcel-2027
+25434,Will Wilson,SEA,2B/3B,2B,28,204.2,-343.1,1,1,,,,,,,,FA,marcel-2027
+26299,Josh Jung,TEX,3B,3B,29,521.6,-108.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+27963,Maximo Acosta,MIA,2B/3B/SS,2B,24,221.0,-425.1,1,1,,,,,,,,FA,marcel-2027
+29487,Blake Dunn,CIN,OF,OF,28,287.9,-275.4,1,1,,,,,,,,FA,marcel-2027
+28272,Jeferson Quero,MIL,C,C,24,220.6,-409.3,1,1,,,,,,,,FA,marcel-2027
+13755,Tomás Nido,BOS,C,C,33,187.0,-306.8,1,1,,,,,,,,FA,marcel-2027
+21558,Matt Vierling,DET,OF,OF,30,335.5,-189.3,1,1,,,,,,,,FA,marcel-2027
+19238,Lourdes Gurriel Jr.,,OF,OF,33,353.2,-169.9,1,1,,,,,,,,FA,marcel-2027
+19314,Donovan Walton,ATH,2B,2B,33,370.7,-117.9,1,1,,,,,,,,FA,marcel-2027
+33253,Cole Carrigg,COL,SS/OF,OF,25,456.9,-96.8,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Peel A Section,marcel-2027
+27690,Joey Wiemer,CHW,OF,OF,28,281.4,-283.6,1,1,,,,,,,,FA,marcel-2027
+22581,Alejandro Kirk,TOR,C,C,28,451.4,-49.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Bloom's Onions,marcel-2027
+21009,Leo Rivas,SEA,2B/SS,2B,29,248.9,-287.1,1,1,,,,,,,,FA,marcel-2027
+25961,Kerry Carpenter,DET,OF,OF,29,450.4,-71.7,1,1,,,,,,,,FA,marcel-2027
+22197,MJ Melendez,NYM,OF,OF,28,251.8,-320.7,1,1,,,,,,,,FA,marcel-2027
+15518,Amed Rosario,NYY,SS,SS,31,343.4,-173.6,1,1,,,,,,,,FA,marcel-2027
+29554,Adrian Del Castillo,ARI,C,C,27,295.7,-221.8,1,1,,,,,,,,FA,marcel-2027
+17907,Brendan Rodgers,BOS,2B,2B,30,208.5,-296.4,1,1,,,,,,,,FA,marcel-2027
+17620,Myles Straw,TOR,OF,OF,32,367.8,-153.8,1,1,,,,,,,,FA,marcel-2027
+21497,Luken Baker,,1B,1B,30,213.6,-426.2,1,1,,,,,,,,FA,marcel-2027
+33492,Jim Jarvis,ATL,SS,SS,26,239.9,-327.6,1,1,,,,,,,,FA,marcel-2027
+20157,Matthew Batten,,2B/3B,2B,32,213.8,-290.6,1,1,,,,,,,,FA,marcel-2027
+29573,Billy Cook,PIT,OF,OF,28,217.6,-363.5,1,1,,,,,,,,FA,marcel-2027
+12158,Austin Barnes,,C,C,37,190.3,-255.3,1,1,,,,,,,,FA,marcel-2027
+12180,Jorge Alfaro,KCR,C,C,34,204.1,-243.3,1,1,,,,,,,,FA,marcel-2027
+29634,Will Wagner,SDP,2B/3B,2B,28,239.9,-298.4,1,1,,,,,,,,FA,marcel-2027
+26143,Troy Johnston,COL,1B/OF,OF,30,474.3,-45.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Rock the Casasbah,marcel-2027
+15112,Ryan McMahon,NYY,3B,3B,32,417.2,-85.3,1,1,,,,,,,,FA,marcel-2027
+23792,Alek Thomas,LAD,OF,OF,27,276.2,-290.1,1,1,,,,,,,,FA,marcel-2027
+19813,Charles Leblanc,,2B/3B,2B,31,217.2,-286.8,1,1,,,,,,,,FA,marcel-2027
+31357,Nathan Church,STL,OF,OF,26,415.7,-115.2,1,1,,,,,,,,FA,marcel-2027
+19198,Yuli Gurriel,SDP,1B,1B,43,182.7,-387.2,1,1,,,,,,,,FA,marcel-2027
+15937,Aledmys Díaz,,SS,SS,36,186.4,-291.4,1,1,,,,,,,,FA,marcel-2027
+26123,Brett Baty,NYM,3B,3B,27,494.7,0.0,1,1,,,,,,,,FA,marcel-2027
+5235,Justin Turner,,3B,3B,42,213.2,-260.6,1,1,,,,,,,,FA,marcel-2027
+13723,Jacob Stallings,BAL,C,C,37,195.3,-251.0,1,1,,,,,,,,FA,marcel-2027
+33644,Kristian Campbell,BOS,1B/2B/OF,2B,25,231.2,-466.1,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders,marcel-2027
+2396,Carlos Santana,,1B,1B,41,248.1,-326.7,1,1,,,,,,,,FA,marcel-2027
+19928,Ryan McKenna,,OF,OF,30,216.3,-320.5,1,1,,,,,,,,FA,marcel-2027
+33361,Yohandy Morales,WSN,1B/3B,3B,25,257.9,-579.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+10655,Rob Brantly,,C,C,37,204.2,-243.3,1,1,,,,,,,,FA,marcel-2027
+15362,Jeff McNeil,ATH,2B/OF,2B,35,500.0,20.5,1,4,,,,,,,,FA,marcel-2027
+27478,Patrick Bailey,CLE,C,C,28,337.8,-172.3,1,1,,,,,,,,FA,marcel-2027
+21865,Bo Naylor,MIL,C,C,27,252.1,-273.1,1,1,,,,,,,,FA,marcel-2027
+21840,Freddy Fermin,SDP,C,C,32,308.1,-181.9,1,1,,,,,,,,FA,marcel-2027
+18795,Ramón Urías,HOU,3B,3B,33,282.3,-233.7,1,1,,,,,,,,FA,marcel-2027
+25629,Cody Freeman,TEX,2B/3B,2B,26,245.6,-291.2,1,1,,,,,,,,FA,marcel-2027
+24770,James Outman,DET,OF,OF,30,232.4,-302.8,1,1,,,,,,,,FA,marcel-2027
+12161,Xander Bogaerts,SDP,SS,SS,34,562.2,0.0,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Sweet Spot,marcel-2027
+31695,Dylan Beavers,BAL,OF,OF,25,397.4,-195.3,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Knowznothin,marcel-2027
+20450,Brewer Hicklen,ATL,OF,OF,31,242.9,-291.2,1,1,,,,,,,,FA,marcel-2027
+25475,Logan Driscoll,MIA,C,C,29,200.2,-334.1,1,1,,,,,,,,FA,marcel-2027
+15149,Trey Mancini,,1B/OF,OF,35,216.8,-269.2,1,1,,,,,,,,FA,marcel-2027
+33189,Nolan Schanuel,LAA,1B,1B,25,532.3,-113.7,1,1,,,,,,,,FA,marcel-2027
+27630,Nick Loftin,KCR,2B/3B,2B,28,409.7,-85.5,1,1,,,,,,,,FA,marcel-2027
+22505,Buddy Kennedy,WSN,2B/3B,2B,28,189.8,-361.2,1,1,,,,,,,,FA,marcel-2027
+31431,Jordan Beck,COL,OF,OF,26,329.8,-222.9,1,1,,,,,,,,FA,marcel-2027
+33197,Ben Williamson,TBR,2B/3B,2B,26,330.2,-185.2,1,1,,,,,,,,FA,marcel-2027
+23818,Jihwan Bae,MIL,2B/OF,2B,27,191.4,-359.2,1,1,,,,,,,,FA,marcel-2027
+31500,Ryan Ritter,COL,2B/SS,2B,26,214.6,-330.1,1,1,,,,,,,,FA,marcel-2027
+25813,Grae Kessinger,PIT,2B/3B,2B,29,196.4,-352.9,1,1,,,,,,,,FA,marcel-2027
+16947,Derek Hill,PHI,OF,OF,31,335.6,-189.2,1,1,,,,,,,,FA,marcel-2027
+19864,Riley Adams,WSN,C,C,31,192.9,-300.8,1,1,,,,,,,,FA,marcel-2027
+26224,Darell Hernaiz,ATH,3B/SS,SS,25,249.1,-406.4,1,1,,,,,,,,FA,marcel-2027
+17929,Cedric Mullins,TBR,OF,OF,32,479.4,-31.0,1,1,,,,,,,,FA,marcel-2027
+14551,Anthony Santander,TOR,OF,OF,32,243.7,-298.9,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Rock the Casasbah,marcel-2027
+20287,Ben Rortvedt,LAD,C,C,29,178.3,-359.9,1,1,,,,,,,,FA,marcel-2027
+24729,Logan O'Hoppe,TEX,C,C,27,342.8,-177.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+29577,Ben Malgeri,DET,OF,OF,27,300.3,-259.9,1,1,,,,,,,,FA,marcel-2027
+33552,LuJames Groover,ARI,1B,1B,25,226.0,-620.5,1,1,,,,,,,,FA,marcel-2027
+26469,Davis Wendzel,,3B,3B,30,189.0,-336.3,1,1,,,,,,,,FA,marcel-2027
+24934,David Fry,CLE,OF,OF,31,328.4,-197.2,1,1,,,,,,,,FA,marcel-2027
+sa3022706,Bo Davidson,SFG,OF,OF,24,224.5,-468.5,1,1,,,,,,,,FA,marcel-2027
+19960,Taylor Trammell,HOU,OF,OF,29,327.5,-225.8,1,1,,,,,,,,FA,marcel-2027
+33514,Brett Callahan,DET,OF,OF,25,240.9,-441.3,1,1,,,,,,,,FA,marcel-2027
+25621,Bryan Ramos,BAL,3B,3B,25,197.1,-492.4,1,1,,,,,,,,FA,marcel-2027
+12164,Miguel Sanó,,1B/3B,3B,34,198.6,-274.1,1,1,,,,,,,,FA,marcel-2027
+19921,Blake Perkins,CLE,OF,OF,30,243.0,-291.1,1,1,,,,,,,,FA,marcel-2027
+18042,Dylan Moore,PHI,2B/OF,2B,34,229.1,-230.3,1,1,,,,,,,,FA,marcel-2027
+35423,Braden Montgomery,CHW,OF,OF,24,358.6,-259.5,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Barreled Souls,marcel-2027
+18400,Juan Yepez,,1B/OF,OF,29,220.9,-359.4,1,1,,,,,,,,FA,marcel-2027
+20311,Corey Julks,DET,OF,OF,31,192.4,-346.8,1,1,,,,,,,,FA,marcel-2027
+24597,Jonathan Ornelas,MIL,2B/3B/SS,2B,27,201.5,-346.5,1,1,,,,,,,,FA,marcel-2027
+18889,Danny Mendick,,2B/SS,2B,33,191.4,-315.2,1,1,,,,,,,,FA,marcel-2027
+31166,Heston Kjerstad,BAL,OF,OF,28,210.7,-372.2,1,1,,,,,,,,FA,marcel-2027
+15161,Mitch Garver,NYY,C,C,36,265.6,-189.9,1,1,,,,,,,,FA,marcel-2027
+17982,Ty France,SDP,1B,1B,32,550.2,-63.9,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Twin Pines 🌲🌲,marcel-2027
+31415,Collin Price,HOU,C,C,27,215.5,-316.1,1,1,,,,,,,,FA,marcel-2027
+14128,Joey Gallo,,OF,OF,33,190.4,-349.0,1,1,,,,,,,,FA,marcel-2027
+21489,Hayden Senger,NYM,C,C,30,185.0,-308.9,1,1,,,,,,,,FA,marcel-2027
+31567,Trey Lipscomb,WSN,3B,3B,27,179.7,-394.9,1,1,,,,,,,,FA,marcel-2027
+22896,Lenyn Sosa,,2B,2B,27,298.7,-224.6,1,1,,,,,,,,FA,marcel-2027
+13355,Luke Maile,KCR,C,C,36,199.3,-247.5,1,1,,,,,,,,FA,marcel-2027
+29830,Jack Winkler,ATH,2B,2B,28,214.3,-330.4,1,1,,,,,,,,FA,marcel-2027
+17696,Kevin Newman,,2B/SS,2B,33,189.8,-317.0,1,1,,,,,,,,FA,marcel-2027
+8623,Donovan Solano,,2B,2B,39,217.5,-241.1,1,1,,,,,,,,FA,marcel-2027
+25867,Ryan Kreidler,MIN,SS,SS,29,287.0,-268.5,1,1,,,,,,,,FA,marcel-2027
+35108,Cam Smith,HOU,OF,OF,24,518.0,4.3,1,,13.0,-12.0,0,15.0,-14.0,0.0,5.0,Seiya Prayer For My Team,marcel-2027
+19151,Estevan Florial,,OF,OF,29,202.6,-382.3,1,1,,,,,,,,FA,marcel-2027
+28199,Blaze Jordan,STL,3B,3B,24,301.2,-320.2,1,1,,,,,,,,FA,marcel-2027
+27931,Petey Halpin,CLE,OF,OF,25,281.6,-374.0,1,1,,,,,,,,FA,marcel-2027
+19352,Sean Murphy,ATL,C,C,32,269.7,-221.5,1,1,,,,,,,,FA,marcel-2027
+27482,Robert Hassell III,PIT,OF,OF,25,204.5,-501.5,1,1,,,,,,,,FA,marcel-2027
+20437,Royce Lewis,MIN,1B/2B/3B,2B,28,495.8,-21.4,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Iron ,marcel-2027
+27883,Thomas Saggese,STL,2B/SS/3B/OF,2B,25,298.4,-354.9,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Iron ,marcel-2027
+23312,Ryan Noda,BAL,1B,1B,31,174.9,-468.8,1,1,,,,,,,,FA,marcel-2027
+13338,Omar Narváez,,C,C,35,182.4,-262.2,1,1,,,,,,,,FA,marcel-2027
+22054,Dane Myers,CIN,OF,OF,31,409.4,-108.0,1,1,,,,,,,,FA,marcel-2027
+8418,Ehire Adrianza,,3B/SS,SS,37,203.7,-269.4,1,1,,,,,,,,FA,marcel-2027
+9241,Starling Marte,,OF,OF,38,319.4,-174.2,1,1,,,,,,,,FA,marcel-2027
+22239,Jeremiah Jackson,BAL,2B/OF,2B,27,346.4,-164.8,1,1,,,,,,,,FA,marcel-2027
+27789,Shay Whitcomb,SFG,3B,3B,28,213.3,-352.8,1,1,,,,,,,,FA,marcel-2027
+19892,Pavin Smith,ARI,1B/OF,OF,31,315.5,-211.3,1,1,,,,,,,,FA,marcel-2027
+24400,Terrin Vavra,,2B/OF,2B,30,211.3,-293.3,1,1,,,,,,,,FA,marcel-2027
+17276,Alex Jackson,MIN,C,C,31,232.5,-259.9,1,1,,,,,,,,FA,marcel-2027
+28816,Denzer Guzman,LAA,3B,3B,23,321.8,-286.1,1,1,,,,,,,,FA,marcel-2027
+31532,Spencer Jones,NYY,OF,OF,26,388.1,-159.6,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Knowznothin,marcel-2027
+19627,Brent Rooker,ATH,OF,OF,32,482.1,-36.6,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Seiya Prayer For My Team,marcel-2027
+33279,Tommy Troy,ARI,OF,OF,25,273.3,-387.7,1,1,,,,,,,,FA,marcel-2027
+21707,Oswaldo Cabrera,CIN,3B/OF,OF,28,199.4,-370.2,1,1,,,,,,,,FA,marcel-2027
+21871,Jerar Encarnacion,SFG,OF,OF,29,208.6,-374.8,1,1,,,,,,,,FA,marcel-2027
+22514,Triston Casas,BOS,1B,1B,27,226.4,-469.6,1,1,,,,,,,,FA,marcel-2027
+19877,Tristan Gray,MIN,3B/SS,SS,31,266.9,-250.6,1,1,,,,,,,,FA,marcel-2027
+19906,Diego Castillo,TEX,2B/SS,2B,29,215.9,-328.4,1,1,,,,,,,,FA,marcel-2027
+31710,Ben Ross,MIN,2B/3B,2B,26,215.2,-329.3,1,1,,,,,,,,FA,marcel-2027
+18373,Ryan Mountcastle,BAL,1B,1B,30,244.9,-391.8,1,1,,,,,,,,FA,marcel-2027
+13744,David Dahl,,OF,OF,33,204.7,-333.3,1,1,,,,,,,,FA,marcel-2027
+31958,Gabriel Rincones Jr.,PHI,OF,OF,26,221.4,-358.8,1,1,,,,,,,,FA,marcel-2027
+31792,Otto Kemp,PHI,3B/OF,OF,27,230.0,-331.8,1,1,,,,,,,,FA,marcel-2027
+15653,Dominic Smith,ATL,1B,1B,32,376.4,-247.1,1,1,,,,,,,,FA,marcel-2027
+17128,Ramón Laureano,SDP,OF,OF,32,416.6,-100.1,1,1,,,,,,,,FA,marcel-2027
+21797,Andrés Chaparro,WSN,1B,1B,28,360.0,-302.1,1,1,,,,,,,,FA,marcel-2027
+18123,Nathan Lukes,TOR,OF,OF,32,477.4,-33.2,1,1,,,,,,,,FA,marcel-2027
+5760,Avisaíl García,,OF,OF,36,203.3,-281.7,1,1,,,,,,,,FA,marcel-2027
+29958,Harry Ford,WSN,C,C,24,268.1,-335.6,1,1,,,,,,,,FA,marcel-2027
+16337,Nick Gordon,,OF,OF,31,188.8,-350.7,1,1,,,,,,,,FA,marcel-2027
+31665,Alex Freeland,LAD,2B,2B,25,334.4,-237.5,1,1,,,,,,,,FA,marcel-2027
+25055,Nate Eaton,BOS,OF,OF,30,244.7,-289.2,1,1,,,,,,,,FA,marcel-2027
+18551,Ali Sánchez,NYY,C,C,30,196.7,-296.8,1,1,,,,,,,,FA,marcel-2027
+26991,Jesus Rodriguez,SFG,C/OF,C,25,249.2,-364.9,1,1,,,,,,,,FA,marcel-2027
+25524,Aaron Schunk,,2B/3B/SS,2B,29,186.9,-364.8,1,1,,,,,,,,FA,marcel-2027
+17040,Jose Herrera,PIT,C,C,30,184.7,-309.2,1,1,,,,,,,,FA,marcel-2027
+29962,Kenny Piper,TBR,C,C,28,226.8,-302.8,1,1,,,,,,,,FA,marcel-2027
+28848,Tanner Murray,CHW,OF,OF,27,224.6,-354.8,1,1,,,,,,,,FA,marcel-2027
+16953,Chadwick Tromp,LAD,C,C,32,190.7,-303.0,1,1,,,,,,,,FA,marcel-2027
+31471,Jack Brannigan,PIT,3B,3B,26,215.8,-349.6,1,1,,,,,,,,FA,marcel-2027
+12037,Jon Berti,,3B,3B,37,191.5,-280.7,1,1,,,,,,,,FA,marcel-2027
+27449,Ryan Ward,LAD,OF,OF,29,247.5,-326.1,1,1,,,,,,,,FA,marcel-2027
+31791,Justin Crawford,PHI,OF,OF,23,428.6,-143.6,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Knowznothin,marcel-2027
+29606,Justyn-Henry Malloy,TBR,OF,OF,27,211.4,-371.3,1,1,,,,,,,,FA,marcel-2027
+16219,J.D. Davis,,3B,3B,34,191.5,-280.7,1,1,,,,,,,,FA,marcel-2027
+33656,A.J. Ewing,NYM,OF,OF,22,482.0,-55.3,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,Barreled Souls,marcel-2027
+28312,Coby Mayo,BAL,1B/3B,3B,25,493.8,-188.8,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Peel A Section,marcel-2027
+16530,Mauricio Dubón,ATL,2B/SS/3B/OF,2B,32,515.8,3.2,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Iron ,marcel-2027
+23698,Ronny Mauricio,NYM,2B/3B,2B,26,233.2,-306.8,1,1,,,,,,,,FA,marcel-2027
+19354,Luke Raley,SEA,OF,OF,32,389.7,-129.7,1,1,,,,,,,,FA,marcel-2027
+23989,Junior Perez,CHW,OF,OF,25,228.8,-461.3,1,1,,,,,,,,FA,marcel-2027
+25467,Will Robertson,BAL,OF,OF,29,174.4,-417.7,1,1,,,,,,,,FA,marcel-2027
+16357,Pablo Reyes,LAA,OF,OF,33,181.5,-358.8,1,1,,,,,,,,FA,marcel-2027
+29005,Esmerlyn Valdez,PIT,OF,OF,23,446.2,-114.5,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Bloom's Onions,marcel-2027
+11615,Brandon Drury,,2B/3B,2B,34,146.5,-306.8,1,1,,,,,,,,FA,marcel-2027
+19844,Abraham Toro,KCR,2B/3B,2B,30,212.9,-291.6,1,1,,,,,,,,FA,marcel-2027
+19318,Matt Thaiss,HOU,C,C,32,206.7,-286.5,1,1,,,,,,,,FA,marcel-2027
+24574,Eduardo Valencia,DET,C/1B,C,27,344.1,-175.9,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+29976,Jordan Lawlar,ARI,2B/SS/3B/OF,2B,24,295.6,-359.6,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Seiya Prayer For My Team,marcel-2027
+35126,Lucas Spence,HOU,OF,OF,24,213.8,-486.2,1,1,,,,,,,,FA,marcel-2027
+20321,Stuart Fairchild,SEA,OF,OF,31,217.3,-319.4,1,1,,,,,,,,FA,marcel-2027
+27599,Jacob Hurtubise,MIL,OF,OF,29,194.6,-392.4,1,1,,,,,,,,FA,marcel-2027
+16451,Luis Guillorme,,2B/3B,2B,32,180.0,-327.8,1,1,,,,,,,,FA,marcel-2027
+25138,Levi Jordan,WSN,OF,OF,31,205.5,-332.4,1,1,,,,,,,,FA,marcel-2027
+17484,Eloy Jiménez,,OF,OF,30,203.0,-335.1,1,1,,,,,,,,FA,marcel-2027
+17338,Willi Castro,COL,1B/2B/SS/3B/OF,2B,30,510.8,-2.3,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Rock the Casasbah,marcel-2027
+17273,Jorge Mateo,TBR,SS,SS,32,281.1,-242.2,1,1,,,,,,,,FA,marcel-2027
+6184,J.D. Martinez,,OF,OF,39,206.9,-278.4,1,1,,,,,,,,FA,marcel-2027
+19824,Chuckie Robinson,ATL,C,C,32,163.4,-331.2,1,1,,,,,,,,FA,marcel-2027
+31988,Nate Furman,SFG,2B,2B,25,210.5,-442.5,1,1,,,,,,,,FA,marcel-2027
+21735,Sebastián Rivero,LAA,C,C,28,215.5,-316.1,1,1,,,,,,,,FA,marcel-2027
+19610,Keibert Ruiz,WSN,C,C,28,382.6,-119.6,1,1,,,,,,,,FA,marcel-2027
+26106,Maverick Handley,ATL,C,C,29,178.7,-359.4,1,1,,,,,,,,FA,marcel-2027
+25477,Isaac Collins,KCR,OF,OF,29,507.6,0.0,1,1,,,,,,,,FA,marcel-2027
+25111,David Hensley,,OF,OF,31,203.2,-334.9,1,1,,,,,,,,FA,marcel-2027
+37120,Munetaka Murakami,CHW,1B/3B,3B,27,584.5,-29.3,1,,13.0,-12.0,0,15.0,-14.0,0.0,5.0,Twin Pines 🌲🌲,marcel-2027
+24605,Michael Helman,TEX,OF,OF,31,237.3,-297.4,1,1,,,,,,,,FA,marcel-2027
+20043,Luis Robert Jr.,BAL,OF,OF,29,359.0,-186.3,1,1,,,,,,,,FA,marcel-2027
+30080,Hao-Yu Lee,DET,2B/3B,2B,24,428.3,-82.1,1,1,,,,,,,,FA,marcel-2027
+15674,Reese McGuire,CHW,C,C,32,211.1,-282.0,1,1,,,,,,,,FA,marcel-2027
+7739,Travis d'Arnaud,LAA,C,C,38,236.6,-215.1,1,1,,,,,,,,FA,marcel-2027
+33312,Brett Bateman,TOR,OF,OF,25,340.7,-289.1,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+31394,Brooks Baldwin,CHW,OF,OF,26,235.0,-341.7,1,1,,,,,,,,FA,marcel-2027
+27569,Trei Cruz,DET,OF,OF,28,208.6,-374.8,1,1,,,,,,,,FA,marcel-2027
+18015,Paul DeJong,,SS,SS,33,218.1,-311.5,1,1,,,,,,,,FA,marcel-2027
+35322,Hyeseong Kim,LAD,2B/SS,2B,28,294.2,-230.3,1,1,,,,,,,,FA,marcel-2027
+31661,Jacob Melton,TBR,OF,OF,26,193.5,-393.8,1,1,,,,,,,,FA,marcel-2027
+32051,Ethan Salas,SDP,C,C,21,234.5,-402.4,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Iron ,marcel-2027
+20242,Kevin Smith,,3B/SS,SS,30,212.6,-310.4,1,1,,,,,,,,FA,marcel-2027
+16622,Luis Urías,TOR,2B/3B,2B,30,262.1,-237.4,1,1,,,,,,,,FA,marcel-2027
+16997,Gleyber Torres,DET,2B,2B,30,510.5,-2.6,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Peel A Section,marcel-2027
+8090,Matt Carpenter,,3B,3B,41,198.0,-274.7,1,1,,,,,,,,FA,marcel-2027
+11442,Gary Sánchez,MIL,C,C,34,371.4,-98.0,1,1,,,,,,,,FA,marcel-2027
+4949,Giancarlo Stanton,NYY,OF,OF,37,345.3,-157.5,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Sweet Spot,marcel-2027
+29710,Cam Cauley,TEX,2B/SS/OF,2B,24,242.4,-447.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Peel A Section,marcel-2027
+18900,Leody Taveras,BAL,OF,OF,28,387.8,-150.2,1,1,,,,,,,,FA,marcel-2027
+19470,Tommy Edman,LAD,2B/3B/OF,2B,32,394.6,-130.2,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Chin Music Choir,marcel-2027
+11445,Mark Canha,,OF,OF,38,197.7,-286.9,1,1,,,,,,,,FA,marcel-2027
+12160,Ben Gamel,,OF,OF,35,210.3,-275.2,1,1,,,,,,,,FA,marcel-2027
+21270,Sean Bouchard,,OF,OF,31,187.5,-352.2,1,1,,,,,,,,FA,marcel-2027
+21682,Luis De Los Santos,,3B,3B,29,202.9,-365.8,1,1,,,,,,,,FA,marcel-2027
+20003,Keston Hiura,,1B/2B,2B,30,195.2,-311.0,1,1,,,,,,,,FA,marcel-2027
+29016,Leo Bernal,STL,C,C,23,283.9,-325.7,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Rock the Casasbah,marcel-2027
+27735,Brett Wisely,ATL,2B,2B,28,189.2,-361.9,1,1,,,,,,,,FA,marcel-2027
+22272,Raynel Delgado,HOU,2B/3B/SS,2B,27,230.7,-309.9,1,1,,,,,,,,FA,marcel-2027
+18054,Sam Haggerty,,OF,OF,33,224.4,-311.6,1,1,,,,,,,,FA,marcel-2027
+29695,Matt McLain,CIN,2B/SS,2B,27,453.9,-74.0,1,,12.0,-11.0,0,14.0,-13.0,0.0,5.0,Barreled Souls,marcel-2027
+11038,Kevin Kiermaier,,OF,OF,37,169.4,-313.1,1,1,,,,,,,,FA,marcel-2027
+14412,Joe Hudson,,C,C,36,208.7,-239.3,1,1,,,,,,,,FA,marcel-2027
+25479,Brenton Doyle,CHW,OF,OF,29,368.6,-174.2,1,1,,,,,,,,FA,marcel-2027
+35107,Tommy White,ATH,1B/3B,3B,24,272.9,-367.0,1,1,,,,,,,,FA,marcel-2027
+19859,René Pinto,,C,C,30,212.0,-281.0,1,1,,,,,,,,FA,marcel-2027
+19566,Nathaniel Lowe,CLE,1B,1B,31,512.3,-97.6,1,1,,,,,,,,FA,marcel-2027
+20002,Bryce Johnson,SDP,OF,OF,31,223.9,-312.1,1,1,,,,,,,,FA,marcel-2027
+22563,Gabriel Arias,CHC,SS,SS,27,295.1,-258.4,1,1,,,,,,,,FA,marcel-2027
+14130,Daniel Vogelbach,,1B,1B,34,197.5,-373.5,1,1,,,,,,,,FA,marcel-2027
+31363,Graham Pauley,MIA,3B,3B,26,278.7,-270.8,1,1,,,,,,,,FA,marcel-2027
+10324,Marcell Ozuna,,OF,OF,36,469.4,-35.4,1,1,,,,,,,,FA,marcel-2027
+12564,Trevor Story,BOS,SS,SS,34,420.4,-131.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays,marcel-2027
+19818,Joshua Palacios,PIT,OF,OF,31,204.4,-333.6,1,1,,,,,,,,FA,marcel-2027
+21464,Bryan Torres,STL,OF,OF,29,286.9,-276.7,1,1,,,,,,,,FA,marcel-2027
+15429,Kris Bryant,COL,3B/OF,OF,35,184.3,-287.4,1,1,,,,,,,,FA,marcel-2027
+23802,Anthony Seigler,BOS,2B/3B,2B,28,297.0,-226.8,1,1,,,,,,,,FA,marcel-2027
+29795,James Triantos,CHC,2B,2B,24,216.9,-431.9,1,1,,,,,,,,FA,marcel-2027
+28326,Jared Serna,MIA,2B,2B,25,220.2,-426.4,1,1,,,,,,,,FA,marcel-2027
+34979,Christian Moore,LAA,2B/3B,2B,24,246.1,-441.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+25575,Kyle McCann,,C,C,29,208.5,-324.3,1,1,,,,,,,,FA,marcel-2027
+26149,Dominic Fletcher,CIN,OF,OF,29,174.1,-418.1,1,1,,,,,,,,FA,marcel-2027
+20054,Bligh Madris,STL,1B/OF,OF,31,207.7,-330.0,1,1,,,,,,,,FA,marcel-2027
+29218,Pedro Ramírez,CHC,2B/3B,2B,23,365.8,-243.4,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Bloom's Onions,marcel-2027
+20084,J.C. Escarra,NYY,C,C,32,225.2,-267.4,1,1,,,,,,,,FA,marcel-2027
+28552,Yanquiel Fernández,NYY,OF,OF,24,213.5,-486.7,1,1,,,,,,,,FA,marcel-2027
+18353,Daz Cameron,TOR,OF,OF,30,196.1,-342.7,1,1,,,,,,,,FA,marcel-2027
+23395,Eric Wagaman,NYM,1B,1B,29,265.5,-420.6,1,1,,,,,,,,FA,marcel-2027
+26536,Warming Bernabel,,1B,1B,25,228.3,-616.7,1,1,,,,,,,,FA,marcel-2027
+24655,Owen Miller,CHC,1B/2B,2B,30,197.3,-308.7,1,1,,,,,,,,FA,marcel-2027
+13853,Joey Wendle,,2B/3B/SS,2B,37,197.9,-259.2,1,1,,,,,,,,FA,marcel-2027
+26693,Juan Brito,CIN,2B,2B,25,261.6,-357.9,1,1,,,,,,,,FA,marcel-2027
+24782,David Villar,,1B/3B,3B,30,211.6,-311.5,1,1,,,,,,,,FA,marcel-2027
+22766,Steward Berroa,PHI,OF,OF,28,202.7,-382.2,1,1,,,,,,,,FA,marcel-2027
+27653,Christian Koss,SFG,2B/3B/SS,2B,29,297.3,-226.4,1,1,,,,,,,,FA,marcel-2027
+29930,Kyler Fedko,PIT,OF,OF,27,198.9,-387.0,1,1,,,,,,,,FA,marcel-2027
+19643,Daniel Johnson,,OF,OF,31,202.7,-335.5,1,1,,,,,,,,FA,marcel-2027
+21614,Kyle Isbel,KCR,OF,OF,30,335.2,-189.7,1,1,,,,,,,,FA,marcel-2027
+15711,Tyler O'Neill,BAL,OF,OF,32,394.5,-124.4,1,1,,,,,,,,FA,marcel-2027
+28142,Jhostynxon Garcia,PIT,OF,OF,24,209.5,-493.3,1,1,,,,,,,,FA,marcel-2027
+23359,Nelson Velázquez,HOU,OF,OF,28,250.9,-321.8,1,1,,,,,,,,FA,marcel-2027
+27790,Evan Carter,TEX,OF,OF,24,428.4,-131.1,1,1,,,,,,,,FA,marcel-2027
+21746,José Fermín,STL,2B/3B/OF,2B,28,377.6,-125.7,1,1,,,,,,,,FA,marcel-2027
+17838,Willie Calhoun,,OF,OF,32,204.1,-333.9,1,1,,,,,,,,FA,marcel-2027
+24151,Eddys Leonard,SFG,OF,OF,26,219.3,-361.4,1,1,,,,,,,,FA,marcel-2027
+19262,Garrett Hampson,CIN,2B/OF,2B,32,169.7,-339.1,1,1,,,,,,,,FA,marcel-2027
+16417,Sergio Alcántara,,2B/3B/SS,2B,30,207.6,-297.4,1,1,,,,,,,,FA,marcel-2027
+19363,Austin Hays,SDP,OF,OF,31,313.4,-213.7,1,1,,,,,,,,FA,marcel-2027
+19802,Jhonny Pereda,SEA,C,C,31,253.3,-238.4,1,1,,,,,,,,FA,marcel-2027
+22277,Nick Allen,HOU,SS,SS,28,244.9,-321.3,1,1,,,,,,,,FA,marcel-2027
+22471,Livan Soto,,SS,SS,27,215.1,-358.7,1,1,,,,,,,,FA,marcel-2027
+13499,Tom Murphy,,C,C,36,196.3,-250.1,1,1,,,,,,,,FA,marcel-2027
+18607,Jared Walsh,,1B,1B,33,204.8,-435.9,1,1,,,,,,,,FA,marcel-2027
+33252,Kyle Karros,COL,3B,3B,24,494.4,-0.5,1,1,,,,,,,,FA,marcel-2027
+25483,Nick Sogard,BOS,1B/2B/SS/3B,2B,29,348.7,-205.8,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Rock the Casasbah,marcel-2027
+19392,Zach McKinstry,DET,3B/OF,OF,32,432.6,-68.3,1,1,,,,,,,,FA,marcel-2027
+33270,Jonah Cox,SFG,OF,OF,25,309.1,-328.5,1,1,,,,,,,,FA,marcel-2027
+25855,Matt Gorski,LAD,1B/OF,OF,29,208.0,-375.6,1,1,,,,,,,,FA,marcel-2027
+30038,Carson Williams,TBR,SS,SS,24,205.9,-488.6,1,1,,,,,,,,FA,marcel-2027
+12434,Kevin Pillar,,OF,OF,38,193.6,-290.7,1,1,,,,,,,,FA,marcel-2027
+29957,Edwin Arroyo,CIN,2B,2B,23,243.7,-387.5,1,1,,,,,,,,FA,marcel-2027
+27573,Gage Workman,SDP,3B,3B,27,222.4,-341.4,1,1,,,,,,,,FA,marcel-2027
+19293,Nick Senzel,,OF,OF,32,186.1,-353.7,1,1,,,,,,,,FA,marcel-2027
+31443,Sterlin Thompson,COL,OF,OF,26,253.4,-318.7,1,1,,,,,,,,FA,marcel-2027
+25332,Endy Rodríguez,PIT,C,C,27,325.2,-187.1,1,1,,,,,,,,FA,marcel-2027
+33098,Carson McCusker,,OF,OF,29,196.2,-390.4,1,1,,,,,,,,FA,marcel-2027
+18577,Ke'Bryan Hayes,CIN,3B,3B,30,260.5,-257.7,1,1,,,,,,,,FA,marcel-2027
+19950,Andrés Giménez,TOR,2B/SS,2B,28,436.0,-52.5,1,1,,,,,,,,FA,marcel-2027
+28084,Emmanuel Rodriguez,MIN,OF,OF,24,235.1,-463.8,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Bloom's Onions,marcel-2027
+21454,Lars Nootbaar,ARI,OF,OF,29,431.0,-105.8,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+23003,Yainer Diaz,HOU,C,C,28,467.7,-19.5,1,1,,,,,,,,FA,marcel-2027
+28824,Samuel Basallo,BAL,C/1B,C,22,417.7,-118.0,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Seiya Prayer For My Team,marcel-2027
+17893,Tyler Nevin,,1B/3B,3B,30,190.6,-334.6,1,1,,,,,,,,FA,marcel-2027
+17837,Jakson Reetz,SEA,C,C,31,210.2,-282.9,1,1,,,,,,,,FA,marcel-2027
+31522,Tim Elko,CHW,1B,1B,28,202.1,-500.1,1,1,,,,,,,,FA,marcel-2027
+28080,Jasson Domínguez,NYY,OF,OF,24,376.5,-229.8,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Chin Music Choir,marcel-2027
+21618,Alec Bohm,PHI,1B/3B,3B,30,607.9,0.0,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Bloom's Onions,marcel-2027
+11680,Elias Díaz,TEX,C,C,36,308.7,-152.5,1,1,,,,,,,,FA,marcel-2027
+13768,Travis Jankowski,NYM,OF,OF,36,175.5,-307.4,1,1,,,,,,,,FA,marcel-2027
+27506,Ha-Seong Kim,ATL,SS,SS,31,245.5,-281.3,1,1,,,,,,,,FA,marcel-2027
+17232,Yoán Moncada,LAA,3B,3B,32,312.7,-200.2,1,1,,,,,,,,FA,marcel-2027
+24679,Brendan Donovan,SEA,2B/SS/3B/OF,2B,30,380.3,-145.9,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,The Northsiders,marcel-2027
+15679,Rowdy Tellez,ATL,1B,1B,32,244.4,-392.3,1,1,,,,,,,,FA,marcel-2027
+23442,Luis Vázquez,BAL,3B/SS,SS,27,192.7,-378.6,1,1,,,,,,,,FA,marcel-2027
+13836,Matt Duffy,,3B,3B,36,209.9,-263.7,1,1,,,,,,,,FA,marcel-2027
+13324,Ildemaro Vargas,ARI,1B/2B/3B,2B,35,415.3,-90.4,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Knowznothin,marcel-2027
+21780,Esteury Ruiz,MIA,OF,OF,28,356.8,-189.0,1,1,,,,,,,,FA,marcel-2027
+17766,DJ Stewart,,OF,OF,33,196.5,-342.3,1,1,,,,,,,,FA,marcel-2027
+29905,Kahlil Watson,CLE,OF,OF,24,256.3,-415.8,1,1,,,,,,,,FA,marcel-2027
+30871,Josue De Paula,LAD,OF,OF,22,275.0,-397.8,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Iron ,marcel-2027
+25493,Joey Ortiz,MIL,3B/SS,SS,28,439.5,-69.2,1,1,,,,,,,,FA,marcel-2027
+31837,Masataka Yoshida,BOS,OF,OF,33,403.4,-114.6,1,1,,,,,,,,FA,marcel-2027
+11368,Yasmani Grandal,,C,C,38,203.8,-243.6,1,1,,,,,,,,FA,marcel-2027
+24273,Liover Peguero,WSN,2B/SS,2B,26,217.4,-326.6,1,1,,,,,,,,FA,marcel-2027
+23813,Brandon Valenzuela,TOR,C,C,26,335.7,-174.8,1,1,,,,,,,,FA,marcel-2027
+27593,Ivan Johnson,CIN,2B,2B,28,210.1,-335.7,1,1,,,,,,,,FA,marcel-2027
+27962,Adael Amador,COL,2B,2B,24,248.5,-379.6,1,1,,,,,,,,FA,marcel-2027
+26374,Kameron Misner,PHI,OF,OF,29,217.1,-364.2,1,1,,,,,,,,FA,marcel-2027
+12325,Jace Peterson,,2B/3B,2B,37,192.0,-264.7,1,1,,,,,,,,FA,marcel-2027
+17027,Alex Verdugo,,OF,OF,31,193.7,-345.4,1,1,,,,,,,,FA,marcel-2027
+30384,Michael Arroyo,SEA,2B/OF,2B,22,251.7,-432.2,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays,marcel-2027
+21897,Christopher Morel,NYM,OF,OF,28,251.7,-320.8,1,1,,,,,,,,FA,marcel-2027
+23690,Brayan Rocchio,CLE,2B/SS,2B,26,495.6,-21.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Barreled Souls,marcel-2027
+35094,Sean Keys,TOR,1B,1B,24,236.0,-604.0,1,1,,,,,,,,FA,marcel-2027
+12092,Niko Goodrum,,Util,Util,35,191.5,-379.1,1,1,,,,,,,,FA,marcel-2027
+27562,Austin Wells,NYY,C,C,27,428.8,-65.3,1,1,,,,,,,,FA,marcel-2027
+22458,Taylor Walls,TBR,SS,SS,30,363.0,-152.0,1,1,,,,,,,,FA,marcel-2027
+12861,Anthony Rendon,LAA,3B,3B,37,181.7,-289.8,1,1,,,,,,,,FA,marcel-2027
+22275,Jake Burger,TEX,1B,1B,31,579.7,-31.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Knowznothin,marcel-2027
+19918,Daulton Varsho,HOU,OF,OF,30,504.6,-11.9,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Rock the Casasbah,marcel-2027
+18314,Dansby Swanson,CHC,SS,SS,33,533.1,35.1,1,6,,,,,,,,FA,marcel-2027
+16376,Michael Conforto,CHC,OF,OF,34,423.6,-77.8,1,1,,,,,,,,FA,marcel-2027
+21496,Brandon Lockridge,MIL,OF,OF,30,257.7,-274.9,1,1,,,,,,,,FA,marcel-2027
+33225,Jacob Gonzalez,PIT,1B/SS,SS,25,298.2,-335.9,1,1,,,,,,,,FA,marcel-2027
+23968,Jorge Barrosa,HOU,OF,OF,26,250.1,-322.8,1,1,,,,,,,,FA,marcel-2027
+9874,DJ LeMahieu,,2B,2B,38,183.9,-272.2,1,1,,,,,,,,FA,marcel-2027
+10028,Christian Bethancourt,PIT,C,C,35,194.2,-251.9,1,1,,,,,,,,FA,marcel-2027
+31991,Rafael Flores Jr.,PIT,C/1B,C,26,348.7,-159.5,1,1,,,,,,,,FA,marcel-2027
+27577,Casey Schmitt,SFG,1B/2B/3B/OF,2B,28,506.7,-7.8,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Peel A Section,marcel-2027
+19964,Eguy Rosario,,3B,3B,27,221.8,-342.1,1,1,,,,,,,,FA,marcel-2027
+31490,Wade Meckler,LAA,OF,OF,27,403.9,-130.0,1,1,,,,,,,,FA,marcel-2027
+16496,Forrest Wall,,OF,OF,31,204.5,-333.5,1,1,,,,,,,,FA,marcel-2027
+26548,Luisangel Acuña,CHW,2B/SS,2B,25,282.5,-323.3,1,1,,,,,,,,FA,marcel-2027
+27763,Drew Romo,CHW,C,C,25,242.5,-375.3,1,1,,,,,,,,FA,marcel-2027
+26031,Vaughn Grissom,LAA,1B/2B/SS/3B,2B,26,415.6,-122.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+33795,Rikuu Nishida,CHW,OF,OF,26,215.7,-365.9,1,1,,,,,,,,FA,marcel-2027
+19452,Jake Rogers,CHW,C,C,32,249.1,-242.7,1,1,,,,,,,,FA,marcel-2027
+30011,Christian Encarnacion-Strand,BAL,1B/3B,3B,27,322.9,-357.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Rock the Casasbah,marcel-2027
+16623,Greg Allen,,OF,OF,34,191.4,-292.7,1,1,,,,,,,,FA,marcel-2027
+26323,Spencer Steer,CIN,1B/2B/OF,2B,29,495.4,-21.9,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,The Northsiders,marcel-2027
+22411,Cal Stevenson,DET,OF,OF,30,209.5,-328.0,1,1,,,,,,,,FA,marcel-2027
+24488,Max Schuemann,NYY,SS,SS,30,236.6,-291.1,1,1,,,,,,,,FA,marcel-2027
+29780,Joe Mack,MIA,C,C,24,369.8,-192.3,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays,marcel-2027
+18582,Rudy Martin Jr.,TOR,Util,Util,31,211.7,-428.3,1,1,,,,,,,,FA,marcel-2027
+22558,Jarred Kelenic,NYY,OF,OF,27,233.6,-343.5,1,1,,,,,,,,FA,marcel-2027
+14162,Carlos Correa,HOU,SS/3B,SS,32,390.4,-189.0,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Providence Grays,marcel-2027
+17954,Sam Hilliard,,OF,OF,33,231.1,-304.2,1,1,,,,,,,,FA,marcel-2027
+22530,Johnathan Rodríguez,ATH,OF,OF,27,211.9,-370.7,1,1,,,,,,,,FA,marcel-2027
+25040,Vinny Capra,BOS,3B,3B,30,163.9,-363.9,1,1,,,,,,,,FA,marcel-2027
+15676,José Abreu,,1B,1B,40,161.6,-406.8,1,1,,,,,,,,FA,marcel-2027
+33541,Dylan Crews,WSN,OF,OF,25,437.6,-128.7,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Seiya Prayer For My Team,marcel-2027
+23565,Davis Schneider,TOR,2B/OF,2B,28,292.9,-231.9,1,1,,,,,,,,FA,marcel-2027
+15271,Austin Wynns,CHC,C,C,36,241.4,-210.9,1,1,,,,,,,,FA,marcel-2027
+19698,Edward Olivares,,OF,OF,31,195.2,-343.7,1,1,,,,,,,,FA,marcel-2027
+20626,Logan Porter,LAA,C,C,31,216.1,-276.8,1,1,,,,,,,,FA,marcel-2027
+25805,Blake Sabol,TBR,C/OF,C,29,207.8,-325.2,1,1,,,,,,,,FA,marcel-2027
+12155,Eddie Rosario,,OF,OF,35,164.4,-317.7,1,1,,,,,,,,FA,marcel-2027
+21693,Miguel Amaya,CHC,C,C,28,337.9,-172.2,1,1,,,,,,,,FA,marcel-2027
+35376,Konnor Griffin,PIT,SS,SS,21,420.7,-234.1,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,Seiya Prayer For My Team,marcel-2027
+27781,Pedro León,PHI,OF,OF,29,201.6,-383.6,1,1,,,,,,,,FA,marcel-2027
+19296,Alex Call,LAD,OF,OF,32,354.9,-168.0,1,1,,,,,,,,FA,marcel-2027
+19273,Stone Garrett,,OF,OF,31,222.1,-314.1,1,1,,,,,,,,FA,marcel-2027
+31564,Alan Roden,MIN,OF,OF,27,247.4,-326.2,1,1,,,,,,,,FA,marcel-2027
+19948,Cristian Pache,NYM,OF,OF,28,183.6,-406.2,1,1,,,,,,,,FA,marcel-2027
+27496,Owen Caissie,MIA,OF,OF,24,389.9,-207.7,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Seiya Prayer For My Team,marcel-2027
+24336,Johan Rojas,PHI,OF,OF,26,196.2,-390.4,1,1,,,,,,,,FA,marcel-2027
+27969,Deyvison De Los Santos,MIA,1B,1B,24,218.5,-632.9,1,1,,,,,,,,FA,marcel-2027
+19955,Gavin Lux,TBR,2B/3B/OF,2B,29,262.6,-313.8,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+29779,Max Muncy,ATH,3B,3B,24,361.1,-221.1,1,1,,,,,,,,FA,marcel-2027
+21842,Carlos Cortes,ATH,OF,OF,30,440.5,-73.8,1,1,,,,,,,,FA,marcel-2027
+18360,Austin Riley,ATL,3B,3B,30,566.9,-45.1,1,,20.0,-19.0,0,22.0,-21.0,0.0,9.0,Seiya Prayer For My Team,marcel-2027
+10231,Jose Iglesias,,SS,SS,37,228.9,-252.1,1,1,,,,,,,,FA,marcel-2027
+21562,Romy Gonzalez,BOS,1B/2B,2B,30,304.4,-190.9,1,1,,,,,,,,FA,marcel-2027
+20056,Alan Trejo,,2B/SS,2B,31,167.9,-341.1,1,1,,,,,,,,FA,marcel-2027
+20505,Drew Waters,KCR,OF,OF,28,204.0,-380.6,1,1,,,,,,,,FA,marcel-2027
+28022,Edgar Quero,CHW,C,C,24,318.9,-256.7,1,1,,,,,,,,FA,marcel-2027
+29592,Connor Norby,COL,1B/2B/3B,2B,27,445.9,-84.0,1,,10.0,-9.0,0,12.0,-11.0,0.0,4.0,Iron ,marcel-2027
+26047,Jase Bowen,SDP,OF,OF,26,222.1,-357.9,1,1,,,,,,,,FA,marcel-2027
+23557,Chris Roller,,OF,OF,30,211.5,-325.8,1,1,,,,,,,,FA,marcel-2027
+17684,Vimael Machín,COL,3B,3B,33,214.9,-307.8,1,1,,,,,,,,FA,marcel-2027
+31441,Daniel Susac,SFG,C,C,26,282.1,-237.8,1,1,,,,,,,,FA,marcel-2027
+16512,Isiah Kiner-Falefa,BOS,SS,SS,32,303.2,-217.8,1,1,,,,,,,,FA,marcel-2027
+26396,Josh Smith,TOR,3B/SS,SS,29,379.7,-144.2,1,1,,,,,,,,FA,marcel-2027
+37122,Sung-Mun Song,SDP,2B/SS,2B,30,245.3,-255.9,1,1,,,,,,,,FA,marcel-2027
+19722,Carlos Narváez,BAL,C,C,28,329.8,-181.7,1,1,,,,,,,,FA,marcel-2027
+26466,Matt Wallner,MIN,OF,OF,29,347.9,-200.2,1,1,,,,,,,,FA,marcel-2027
+21524,Joey Bart,CHW,C,C,30,314.9,-174.8,1,1,,,,,,,,FA,marcel-2027
+11489,Michael A. Taylor,,OF,OF,36,194.1,-290.2,1,1,,,,,,,,FA,marcel-2027
+19788,Zach Remillard,,2B,2B,33,208.7,-296.2,1,1,,,,,,,,FA,marcel-2027
+27784,Tyler Gentry,,OF,OF,28,209.3,-373.9,1,1,,,,,,,,FA,marcel-2027
+23788,Jordyn Adams,,OF,OF,27,206.1,-378.0,1,1,,,,,,,,FA,marcel-2027
+23296,Jacob Amaya,,SS,SS,28,156.6,-432.0,1,1,,,,,,,,FA,marcel-2027
+31448,Henry Bolte,ATH,OF,OF,23,503.0,-20.5,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Iron ,marcel-2027
+33280,Brice Matthews,HOU,2B/OF,2B,25,289.6,-311.6,1,1,,,,,,,,FA,marcel-2027
+33549,Kyle Teel,CHW,C,C,25,324.8,-262.2,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Chin Music Choir,marcel-2027
+27698,Eric Yang,,Util,Util,29,212.2,-487.4,1,1,,,,,,,,FA,marcel-2027
+20538,Jose F Miranda,,1B/3B,3B,29,216.4,-348.9,1,1,,,,,,,,FA,marcel-2027
+24496,DaShawn Keirsey Jr.,ATL,OF,OF,30,176.6,-364.2,1,1,,,,,,,,FA,marcel-2027
+2136,David Peralta,,OF,OF,39,213.4,-272.4,1,1,,,,,,,,FA,marcel-2027
+13419,Christian Walker,HOU,1B,1B,36,608.3,0.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+26148,Tristin English,,1B,1B,30,196.6,-444.9,1,1,,,,,,,,FA,marcel-2027
+15905,Luis Torrens,NYM,C,C,31,347.8,-140.9,1,1,,,,,,,,FA,marcel-2027
+15464,Hunter Renfroe,,OF,OF,35,192.1,-292.1,1,1,,,,,,,,FA,marcel-2027
+21626,Griffin Conine,MIA,1B/OF,OF,29,438.4,-96.5,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Peel A Section,marcel-2027
+24703,Jonah Bride,TEX,1B/3B,3B,31,210.9,-312.2,1,1,,,,,,,,FA,marcel-2027
+20536,Vidal Bruján,NYM,2B/OF,2B,29,189.6,-361.4,1,1,,,,,,,,FA,marcel-2027
+29766,Zack Gelof,ATH,2B/3B/OF,2B,27,439.3,-92.3,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Iron ,marcel-2027
+23209,Blake Hunt,,C,C,28,210.9,-321.5,1,1,,,,,,,,FA,marcel-2027
+21078,Trey Cabbage,,OF,OF,30,198.1,-340.5,1,1,,,,,,,,FA,marcel-2027
+29788,Brett Harris,SFG,3B,3B,29,210.0,-356.9,1,1,,,,,,,,FA,marcel-2027
+26546,Agustín Ramírez,MIA,C,C,25,399.7,-145.9,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Seiya Prayer For My Team,marcel-2027
+31562,Zach Dezenzo,HOU,OF,OF,27,246.7,-327.1,1,1,,,,,,,,FA,marcel-2027
+25353,Michael Stefanic,ATH,2B,2B,31,197.6,-308.4,1,1,,,,,,,,FA,marcel-2027
+16959,Eddy Alvarez,,Util,Util,37,201.1,-370.2,1,1,,,,,,,,FA,marcel-2027
+25845,Michael Toglia,CIN,1B,1B,28,247.5,-443.1,1,1,,,,,,,,FA,marcel-2027
+22045,Grant Koch,,C,C,30,206.4,-286.8,1,1,,,,,,,,FA,marcel-2027
+35111,Kaelen Culpepper,MIN,SS,SS,24,289.7,-450.9,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Seiya Prayer For My Team,marcel-2027
+15223,Adam Frazier,LAA,2B,2B,35,286.3,-177.4,1,1,,,,,,,,FA,marcel-2027
+27462,Austin Martin,MIN,OF,OF,28,395.3,-140.8,1,1,,,,,,,,FA,marcel-2027
+16535,Danny Jansen,TEX,C,C,32,331.5,-157.7,1,1,,,,,,,,FA,marcel-2027
+16925,Aramis Garcia,ARI,C,C,34,198.4,-248.3,1,1,,,,,,,,FA,marcel-2027
+22823,Oswald Peraza,LAA,2B/3B,2B,27,330.5,-184.8,1,1,,,,,,,,FA,marcel-2027
+18030,Harrison Bader,SFG,OF,OF,33,317.8,-208.8,1,1,,,,,,,,FA,marcel-2027
+31354,Jimmy Crooks,STL,C,C,25,247.0,-368.4,1,1,,,,,,,,FA,marcel-2027
+18126,LaMonte Wade Jr.,HOU,1B/OF,OF,33,276.7,-254.0,1,1,,,,,,,,FA,marcel-2027
+13185,Orlando Arcia,CIN,SS,SS,32,199.7,-331.7,1,1,,,,,,,,FA,marcel-2027
+14712,Manuel Margot,,OF,OF,32,188.6,-351.0,1,1,,,,,,,,FA,marcel-2027
+14274,Mitch Haniger,,OF,OF,36,181.4,-302.0,1,1,,,,,,,,FA,marcel-2027
+25714,Blaine Crim,,1B,1B,30,221.9,-417.1,1,1,,,,,,,,FA,marcel-2027
+22244,Jack Suwinski,TBR,OF,OF,28,189.9,-398.3,1,1,,,,,,,,FA,marcel-2027
+26197,Andrew Vaughn,MIL,1B/3B,3B,29,457.8,-188.2,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Barreled Souls,marcel-2027
+24641,Willie MacIver,SEA,C,C,30,204.6,-288.7,1,1,,,,,,,,FA,marcel-2027
+19458,Cooper Hummel,,OF,OF,32,197.6,-341.1,1,1,,,,,,,,FA,marcel-2027
+sa3014494,Aaron Sabato,MIN,1B,1B,28,210.9,-489.0,1,1,,,,,,,,FA,marcel-2027
+29896,Christian Franklin,BAL,OF,OF,27,223.7,-355.9,1,1,,,,,,,,FA,marcel-2027
+21635,Nick Maton,,2B/3B,2B,30,202.6,-302.9,1,1,,,,,,,,FA,marcel-2027
+33191,Brock Rodden,SEA,3B/SS,SS,27,230.3,-331.4,1,1,,,,,,,,FA,marcel-2027
+25999,Victor Mesa Jr.,TBR,OF,OF,25,397.1,-182.8,1,1,,,,,,,,FA,marcel-2027
+22541,George Valera,CLE,OF,OF,26,229.9,-348.1,1,1,,,,,,,,FA,marcel-2027
+29704,Braxton Fulford,COL,C,C,28,228.0,-301.4,1,1,,,,,,,,FA,marcel-2027
+27915,Alejandro Osuna,TEX,OF,OF,24,310.3,-326.5,1,1,,,,,,,,FA,marcel-2027
+31349,Victor Scott II,STL,OF,OF,26,278.2,-287.6,1,1,,,,,,,,FA,marcel-2027
+19197,Will Smith,LAD,C,C,32,465.8,-28.8,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,Bloom's Onions,marcel-2027
+22566,Tirso Ornelas,SDP,OF,OF,27,204.9,-379.5,1,1,,,,,,,,FA,marcel-2027
+30028,Bob Seymour,,1B,1B,28,200.4,-502.2,1,1,,,,,,,,FA,marcel-2027
+16930,Jonah Heim,ATH,C,C,32,350.5,-138.1,1,1,,,,,,,,FA,marcel-2027
+15279,Garrett Cooper,,1B,1B,36,189.4,-381.0,1,1,,,,,,,,FA,marcel-2027
+31812,Roman Anthony,BOS,OF,OF,23,421.8,-154.9,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,Seiya Prayer For My Team,marcel-2027
+12976,Austin Hedges,CLE,C,C,34,273.9,-182.7,1,1,,,,,,,,FA,marcel-2027
+15585,Mike Ford,,1B,1B,34,186.7,-383.5,1,1,,,,,,,,FA,marcel-2027
+19806,Jason Delay,BOS,C,C,32,210.9,-282.2,1,1,,,,,,,,FA,marcel-2027
+26599,Jonatan Clase,TOR,OF,OF,25,228.8,-461.3,1,1,,,,,,,,FA,marcel-2027
+27770,Zac Veen,COL,OF,OF,25,242.4,-451.7,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,The Northsiders,marcel-2027
+28811,Angel Genao,CLE,2B/SS/3B,2B,23,255.2,-426.4,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,The Northsiders,marcel-2027
+27676,Vinnie Pasquantino,KCR,1B,1B,29,590.8,-21.9,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Barreled Souls,marcel-2027
+14196,Andrew Velazquez,,SS,SS,32,200.3,-331.1,1,1,,,,,,,,FA,marcel-2027
+25980,Matthew Lugo,KCR,OF,OF,26,220.6,-359.8,1,1,,,,,,,,FA,marcel-2027
+28833,Gabriel Gonzalez,MIN,OF,OF,23,227.4,-463.7,1,1,,,,,,,,FA,marcel-2027
+30162,Oscar Colás,,OF,OF,28,209.5,-373.7,1,1,,,,,,,,FA,marcel-2027
+25807,Jared Triolo,PIT,3B/SS,SS,29,374.5,-150.7,1,1,,,,,,,,FA,marcel-2027
+7802,Miguel Rojas,LAD,SS,SS,38,365.5,-125.6,1,1,,,,,,,,FA,marcel-2027
+27493,Rece Hinds,BAL,OF,OF,26,228.2,-350.3,1,1,,,,,,,,FA,marcel-2027
+19910,Sandro Fabian,,OF,OF,29,208.1,-375.5,1,1,,,,,,,,FA,marcel-2027
+19294,Nick Solak,SDP,2B,2B,32,202.1,-303.4,1,1,,,,,,,,FA,marcel-2027
+14968,Victor Caratini,MIN,C,C,33,418.1,-68.3,1,1,,,,,,,,FA,marcel-2027
+33322,Matt Shaw,CHC,2B/3B/OF,2B,25,365.3,-244.2,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Knowznothin,marcel-2027
+18289,Brian Anderson,,3B/OF,OF,34,205.0,-268.2,1,1,,,,,,,,FA,marcel-2027
+22715,Maikel Garcia,KCR,2B/SS/3B/OF,2B,27,465.2,-59.8,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,The Northsiders,marcel-2027
+21646,Rafael Marchán,PHI,C,C,28,204.1,-329.5,1,1,,,,,,,,FA,marcel-2027
+30063,Tristan Peters,CHW,OF,OF,27,515.4,0.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Rock the Casasbah,marcel-2027
+28344,Tsung-Che Cheng,BOS,SS,SS,25,216.0,-471.9,1,1,,,,,,,,FA,marcel-2027
+22274,Samad Taylor,SDP,2B/OF,2B,28,337.0,-220.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Rock the Casasbah,marcel-2027
+31793,Rhylan Thomas,TOR,OF,OF,27,212.1,-370.4,1,1,,,,,,,,FA,marcel-2027
+25425,Austin Shenton,,1B,1B,29,214.5,-484.5,1,1,,,,,,,,FA,marcel-2027
+25690,Grant McCray,SFG,OF,OF,26,228.2,-350.3,1,1,,,,,,,,FA,marcel-2027
+17022,Edmundo Sosa,PHI,3B/SS,SS,31,377.5,-128.9,1,1,,,,,,,,FA,marcel-2027
+27451,Alec Marsh,KCR,SP,SP,29,240.4,-408.3,1,1,,,,,,,,FA,marcel-2027
+12970,Joe Musgrove,SDP,SP,SP,34,261.7,-237.8,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Seiya Prayer For My Team,marcel-2027
+20185,Zach Pop,MIA,RP,RP,30,92.1,-142.2,1,1,,,,,,,,FA,marcel-2027
+18323,Josh Sborz,TEX,RP,RP,33,115.9,-127.3,1,1,,,,,,,,FA,marcel-2027
+30081,Tyler Samaniego,BOS,RP,RP,28,141.6,-162.6,1,1,,,,,,,,FA,marcel-2027
+22690,Jack O'Loughlin,,RP,RP,27,88.7,-211.4,1,1,,,,,,,,FA,marcel-2027
+19374,Walker Buehler,SDP,SP,SP,32,459.5,-72.7,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Knowznothin,marcel-2027
+19990,Bryse Wilson,MIL,RP,RP,29,134.4,-169.3,1,1,,,,,,,,FA,marcel-2027
+16306,Gerardo Reyes,,RP,RP,34,97.3,-127.7,1,1,,,,,,,,FA,marcel-2027
+27649,Connor Phillips,CIN,RP,RP,26,171.5,-135.1,1,1,,,,,,,,FA,marcel-2027
+27685,Carson Spiers,CIN,RP,RP,29,66.3,-232.0,1,1,,,,,,,,FA,marcel-2027
+13470,Lucas Sims,CHW,RP,RP,33,111.5,-130.0,1,1,,,,,,,,FA,marcel-2027
+27914,Daniel Palencia,CHC,RP,RP,27,250.3,-62.5,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Seiya Prayer For My Team,marcel-2027
+27481,Cole Wilcox,SEA,RP,RP,27,138.9,-165.1,1,1,,,,,,,,FA,marcel-2027
+31838,Kodai Senga,NYM,SP,SP,34,404.9,-114.0,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Sweet Spot,marcel-2027
+19388,Tony Gonsolin,KCR,RP,RP,33,86.3,-145.9,1,1,,,,,,,,FA,marcel-2027
+23313,José Buttó,SFG,RP,RP,29,143.1,-161.2,1,1,,,,,,,,FA,marcel-2027
+26255,Caleb Freeman,,RP,RP,29,91.8,-208.5,1,1,,,,,,,,FA,marcel-2027
+35323,Roki Sasaki,LAD,SP,SP,25,416.3,-230.3,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,Barreled Souls,marcel-2027
+21652,Elvis Peguero,BAL,RP,RP,30,103.4,-135.1,1,1,,,,,,,,FA,marcel-2027
+19312,Cal Quantrill,TEX,SP,SP,32,433.2,-97.5,1,1,,,,,,,,FA,marcel-2027
+19695,Connor Seabold,KCR,RP,RP,31,133.8,-116.0,1,1,,,,,,,,FA,marcel-2027
+25427,Gavin Hollowell,CHC,RP,RP,29,128.0,-175.1,1,1,,,,,,,,FA,marcel-2027
+25595,Xzavion Curry,NYM,RP,RP,28,99.7,-201.2,1,1,,,,,,,,FA,marcel-2027
+18655,A.J. Minter,MIN,RP,RP,33,245.7,-45.6,1,1,,,,,,,,FA,marcel-2027
+26191,Kade Strowd,ARI,RP,RP,29,130.7,-172.7,1,1,,,,,,,,FA,marcel-2027
+25589,Sammy Peralta,LAA,RP,RP,29,104.1,-197.2,1,1,,,,,,,,FA,marcel-2027
+21690,Edward Cabrera,CHC,SP,SP,29,431.5,-145.1,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Sweet Spot,marcel-2027
+24591,Joey Gerber,NYM,RP,RP,30,119.5,-125.0,1,1,,,,,,,,FA,marcel-2027
+20794,Manuel Rodríguez,TBR,RP,RP,30,156.0,-102.0,1,1,,,,,,,,FA,marcel-2027
+27582,Davis Daniel,,RP,RP,30,88.4,-144.6,1,1,,,,,,,,FA,marcel-2027
+10314,Erasmo Ramírez,,RP,RP,37,92.6,-130.4,1,1,,,,,,,,FA,marcel-2027
+29866,Chayce McDermott,NYM,RP,RP,28,68.3,-230.2,1,1,,,,,,,,FA,marcel-2027
+21183,Humberto Castellanos,,RP,RP,29,99.1,-201.8,1,1,,,,,,,,FA,marcel-2027
+17480,Daniel Duarte,NYM,RP,RP,30,210.9,-67.5,1,1,,,,,,,,FA,marcel-2027
+15290,Austin Pruitt,ATH,RP,RP,37,78.5,-138.5,1,1,,,,,,,,FA,marcel-2027
+31910,Brycen Mautz,STL,RP,RP,25,101.0,-277.6,1,1,,,,,,,,FA,marcel-2027
+26333,Jack Weisenburger,NYM,RP,RP,29,144.2,-160.2,1,1,,,,,,,,FA,marcel-2027
+17034,Sean Reid-Foley,,RP,RP,31,116.1,-127.1,1,1,,,,,,,,FA,marcel-2027
+25463,Brandon Williamson,CIN,SP,SP,29,269.2,-368.6,1,1,,,,,,,,FA,marcel-2027
+25379,Sam Long,KCR,RP,RP,31,101.2,-136.5,1,1,,,,,,,,FA,marcel-2027
+26413,Porter Hodge,CHC,RP,RP,26,137.2,-166.7,1,1,,,,,,,,FA,marcel-2027
+29633,Andrew Hoffmann,PHI,RP,RP,27,89.8,-210.3,1,1,,,,,,,,FA,marcel-2027
+30250,Jaden Hill,COL,RP,RP,27,215.9,-94.2,1,1,,,,,,,,FA,marcel-2027
+21131,Jose Espada,BAL,RP,RP,30,108.6,-131.9,1,1,,,,,,,,FA,marcel-2027
+25098,Jacob Lopez,ATH,SP,SP,29,431.2,-145.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Peel A Section,marcel-2027
+22487,Johan Oviedo,BOS,RP,RP,29,105.1,-196.2,1,1,,,,,,,,FA,marcel-2027
+17874,Nestor Cortes,PHI,SP,SP,32,231.6,-287.2,1,1,,,,,,,,FA,marcel-2027
+24493,Adam Kloffenstein,NYY,RP,RP,26,100.2,-200.8,1,1,,,,,,,,FA,marcel-2027
+12572,Blake Treinen,LAD,RP,RP,39,220.5,-56.4,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+23165,Steven Cruz,KCR,RP,RP,28,251.4,-61.5,1,1,,,,,,,,FA,marcel-2027
+31598,Jake Palisch,CHW,RP,RP,28,94.9,-205.6,1,1,,,,,,,,FA,marcel-2027
+21052,Luis Gil,NYY,SP,SP,29,317.0,-302.8,1,1,,,,,,,,FA,marcel-2027
+25918,Zack Thompson,STL,RP,RP,29,71.9,-226.8,1,1,,,,,,,,FA,marcel-2027
+17312,Justin Steele,CHC,SP,SP,31,300.2,-222.6,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Seiya Prayer For My Team,marcel-2027
+18337,Nick Anderson,,RP,RP,36,90.2,-131.8,1,1,,,,,,,,FA,marcel-2027
+22294,Matthew Liberatore,STL,SP,SP,27,540.2,4.7,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Sweet Spot,marcel-2027
+27877,Beck Way,KCR,RP,RP,27,123.1,-179.7,1,1,,,,,,,,FA,marcel-2027
+20422,Jovani Morán,BOS,RP,RP,30,267.2,-32.0,1,1,,,,,,,,FA,marcel-2027
+17755,Drew Smith,,RP,RP,33,110.5,-130.7,1,1,,,,,,,,FA,marcel-2027
+14993,Scott Barlow,,RP,RP,34,222.9,-55.0,1,1,,,,,,,,FA,marcel-2027
+19350,Dean Kremer,MIN,SP,SP,31,482.1,-51.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲,marcel-2027
+27626,Eric Orze,MIN,RP,RP,29,221.9,-88.6,1,1,,,,,,,,FA,marcel-2027
+28148,Luis Perales,WSN,RP,RP,24,59.2,-331.0,1,1,,,,,,,,FA,marcel-2027
+19281,Nick Hernandez,ATH,RP,RP,32,73.8,-153.8,1,1,,,,,,,,FA,marcel-2027
+34847,Tyler Davis,CHW,RP,RP,28,180.4,-126.9,1,1,,,,,,,,FA,marcel-2027
+19309,Trevor Richards,CHW,RP,RP,34,281.3,-21.3,1,1,,,,,,,,FA,marcel-2027
+22717,Angel Zerpa,MIL,RP,RP,27,159.3,-146.3,1,1,,,,,,,,FA,marcel-2027
+21189,Brooks Kriske,ATH,RP,RP,33,105.7,-133.7,1,1,,,,,,,,FA,marcel-2027
+19866,Brandon Bielak,HOU,RP,RP,31,71.1,-155.5,1,1,,,,,,,,FA,marcel-2027
+21367,Peter Strzelecki,STL,RP,RP,32,123.4,-122.5,1,1,,,,,,,,FA,marcel-2027
+24728,Mike Burrows,HOU,SP,SP,27,364.2,-237.8,1,1,,,,,,,,FA,marcel-2027
+13190,Jordan Weems,,RP,RP,34,75.7,-140.2,1,1,,,,,,,,FA,marcel-2027
+24494,Simeon Woods Richardson,SEA,SP,SP,26,352.1,-254.4,1,1,,,,,,,,FA,marcel-2027
+25611,Antoine Kelly,CHC,RP,RP,27,102.5,-198.6,1,1,,,,,,,,FA,marcel-2027
+33458,Jared Simpson,WSN,RP,RP,27,104.5,-196.8,1,1,,,,,,,,FA,marcel-2027
+20070,Bailey Falter,ATL,SP,SP,30,265.9,-254.9,1,1,,,,,,,,FA,marcel-2027
+26253,Ryne Nelson,ARI,SP,SP,29,487.8,-67.5,1,1,,,,,,,,FA,marcel-2027
+33294,Seth Halvorsen,LAD,RP,RP,27,153.6,-151.6,1,1,,,,,,,,FA,marcel-2027
+31614,Gabriel Hughes,COL,SP,SP,25,363.4,-331.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+22273,Owen White,,RP,RP,27,74.7,-224.3,1,1,,,,,,,,FA,marcel-2027
+27757,Dax Fulton,MIA,RP,RP,25,166.2,-194.2,1,1,,,,,,,,FA,marcel-2027
+35418,Gage Jump,ATH,SP,SP,24,422.2,-219.1,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Seiya Prayer For My Team,marcel-2027
+13273,Ross Stripling,,SP,SP,37,233.1,-262.6,1,1,,,,,,,,FA,marcel-2027
+19995,Joel Kuhnel,SFG,RP,RP,32,174.7,-90.3,1,1,,,,,,,,FA,marcel-2027
+30226,Spencer Bivens,KCR,RP,RP,33,138.2,-113.2,1,1,,,,,,,,FA,marcel-2027
+14764,Wes Parsons,,RP,RP,34,92.4,-130.5,1,1,,,,,,,,FA,marcel-2027
+8241,David Robertson,,RP,RP,42,156.7,-93.3,1,1,,,,,,,,FA,marcel-2027
+25890,Bryan King,HOU,RP,RP,30,297.5,-13.0,1,1,,,,,,,,FA,marcel-2027
+29514,River Ryan,DET,RP,RP,28,113.9,-188.1,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Iron ,marcel-2027
+22175,Max Kranick,WSN,RP,RP,29,124.4,-178.5,1,1,,,,,,,,FA,marcel-2027
+21481,Sean Hjelle,,RP,RP,30,99.0,-137.9,1,1,,,,,,,,FA,marcel-2027
+15947,Ryne Stanek,STL,RP,RP,35,310.7,-4.3,1,1,,,,,,,,FA,marcel-2027
+31552,Zach Agnos,COL,RP,RP,26,243.0,-69.2,1,1,,,,,,,,FA,marcel-2027
+29952,Luke Murphy,LAA,RP,RP,27,148.8,-156.0,1,1,,,,,,,,FA,marcel-2027
+26344,Taylor Rashi,ATH,RP,RP,31,129.3,-118.8,1,1,,,,,,,,FA,marcel-2027
+24492,Grayson Rodriguez,LAA,SP,SP,27,389.4,-203.1,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Providence Grays,marcel-2027
+21544,Chase Shugart,PHI,RP,RP,30,219.1,-62.3,1,1,,,,,,,,FA,marcel-2027
+12763,Chris Devenski,NYM,RP,RP,36,89.8,-132.0,1,1,,,,,,,,FA,marcel-2027
+15463,José De León,,RP,RP,34,98.3,-127.1,1,1,,,,,,,,FA,marcel-2027
+13774,Zach Eflin,BAL,SP,SP,33,248.0,-271.8,1,1,,,,,,,,FA,marcel-2027
+15552,Chad Green,,RP,RP,36,111.0,-119.7,1,1,,,,,,,,FA,marcel-2027
+19951,Ian Anderson,,RP,RP,29,79.4,-219.9,1,1,,,,,,,,FA,marcel-2027
+33821,Philip Abner,SFG,RP,RP,25,84.5,-298.7,1,1,,,,,,,,FA,marcel-2027
+21455,Kris Bubic,LAD,SP,SP,29,536.2,-0.8,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,Barreled Souls,marcel-2027
+20447,Enoli Paredes,,RP,RP,31,112.5,-129.4,1,1,,,,,,,,FA,marcel-2027
+3137,Max Scherzer,TOR,SP,SP,42,358.3,-154.3,1,1,,,,,,,,FA,marcel-2027
+29812,Robert Gasser,MIL,SP,SP,28,448.3,-121.9,1,1,,,,,,,,FA,marcel-2027
+26117,Blas Castaño,COL,RP,RP,28,129.7,-173.6,1,1,,,,,,,,FA,marcel-2027
+21863,George Soriano,STL,RP,RP,28,222.1,-88.5,1,1,,,,,,,,FA,marcel-2027
+16981,Tyler Beede,,RP,RP,34,92.7,-130.3,1,1,,,,,,,,FA,marcel-2027
+33862,Ty Johnson,TBR,RP,RP,25,119.8,-253.5,1,1,,,,,,,,FA,marcel-2027
+21238,Allan Winans,,RP,RP,31,67.3,-157.8,1,1,,,,,,,,FA,marcel-2027
+29826,Brett Kerry,LAA,RP,RP,28,140.3,-163.8,1,1,,,,,,,,FA,marcel-2027
+30106,Jack Neely,CHC,RP,RP,27,88.5,-211.5,1,1,,,,,,,,FA,marcel-2027
+23162,Eduarniel Núñez,CHC,RP,RP,28,82.3,-217.3,1,1,,,,,,,,FA,marcel-2027
+31886,Duncan Davitt,SFG,RP,RP,27,96.6,-204.1,1,1,,,,,,,,FA,marcel-2027
+19979,Zach Plesac,,RP,RP,32,77.0,-151.7,1,1,,,,,,,,FA,marcel-2027
+14975,Chad Kuhl,,RP,RP,34,93.2,-130.0,1,1,,,,,,,,FA,marcel-2027
+21649,Luis Medina,ATH,RP,RP,28,278.2,-36.8,1,1,,,,,,,,FA,marcel-2027
+19206,Dakota Hudson,,SP,SP,32,180.9,-334.9,1,1,,,,,,,,FA,marcel-2027
+15042,Tim Mayza,PHI,RP,RP,35,264.6,-30.9,1,1,,,,,,,,FA,marcel-2027
+20546,Grant Anderson,MIL,RP,RP,30,252.2,-41.5,1,1,,,,,,,,FA,marcel-2027
+23135,Eduardo Salazar,,RP,RP,29,74.3,-224.6,1,1,,,,,,,,FA,marcel-2027
+20370,Bruce Zimmermann,,RP,RP,32,96.7,-139.3,1,1,,,,,,,,FA,marcel-2027
+29945,Jack Sinclair,WSN,RP,RP,28,132.5,-171.0,1,1,,,,,,,,FA,marcel-2027
+29837,Bryce Miller,SEA,SP,SP,28,521.3,-21.4,1,1,,,,,,,,FA,marcel-2027
+31850,Cade Winquest,STL,RP,RP,27,135.6,-168.1,1,1,,,,,,,,FA,marcel-2027
+17169,José Castillo,,RP,RP,31,97.0,-139.2,1,1,,,,,,,,FA,marcel-2027
+13050,Anthony DeSclafani,,RP,RP,37,88.1,-133.0,1,1,,,,,,,,FA,marcel-2027
+19178,Tommy Nance,MIN,RP,RP,36,282.4,-20.6,1,1,,,,,,,,FA,marcel-2027
+33464,George Klassen,LAA,SP,SP,25,290.1,-471.6,1,1,,,,,,,,FA,marcel-2027
+20009,Kenny Rosenberg,,RP,RP,31,81.3,-149.0,1,1,,,,,,,,FA,marcel-2027
+23391,Ricky Vanasco,ATL,RP,RP,28,81.4,-218.1,1,1,,,,,,,,FA,marcel-2027
+27753,Bailey Horn,DET,RP,RP,29,82.5,-217.1,1,1,,,,,,,,FA,marcel-2027
+25862,Noah Davis,PIT,RP,RP,30,43.9,-172.6,1,1,,,,,,,,FA,marcel-2027
+19479,Aaron Civale,CHC,SP,SP,32,437.5,-93.4,1,1,,,,,,,,FA,marcel-2027
+29564,Patrick Monteverde,MIA,RP,RP,29,95.0,-205.6,1,1,,,,,,,,FA,marcel-2027
+33666,Connelly Early,WSN,SP,SP,25,453.0,-160.2,1,,11.0,-10.0,0,13.0,-12.0,0.0,4.0,Knowznothin,marcel-2027
+16647,Ryan Thompson,ARI,RP,RP,35,247.4,-40.9,1,1,,,,,,,,FA,marcel-2027
+26226,Nick Robertson,LAD,RP,RP,28,92.0,-208.3,1,1,,,,,,,,FA,marcel-2027
+30008,Evan Justice,COL,RP,RP,28,97.5,-203.3,1,1,,,,,,,,FA,marcel-2027
+22370,Raymond Burgos,BOS,RP,RP,28,130.8,-172.6,1,1,,,,,,,,FA,marcel-2027
+27585,Zac Kristofak,,RP,RP,29,96.1,-204.5,1,1,,,,,,,,FA,marcel-2027
+20038,Darren McCaughan,,RP,RP,31,77.6,-151.4,1,1,,,,,,,,FA,marcel-2027
+18318,Jacob Waguespack,DET,RP,RP,33,201.2,-73.6,1,1,,,,,,,,FA,marcel-2027
+30084,Carson Seymour,SFG,RP,RP,28,127.6,-175.5,1,1,,,,,,,,FA,marcel-2027
+20418,Josh Fleming,STL,RP,RP,31,82.4,-148.3,1,1,,,,,,,,FA,marcel-2027
+31743,David Sandlin,CHW,SP,SP,26,301.9,-323.6,1,1,,,,,,,,FA,marcel-2027
+10315,Michael Tonkin,MIN,RP,RP,37,115.4,-117.2,1,1,,,,,,,,FA,marcel-2027
+27942,John McMillon,,RP,RP,29,107.2,-194.3,1,1,,,,,,,,FA,marcel-2027
+12317,Colin Rea,CHC,SP,SP,36,525.0,-10.2,1,1,,,,,,,,FA,marcel-2027
+31853,Cooper Hjerpe,STL,RP,RP,26,128.7,-174.5,1,1,,,,,,,,FA,marcel-2027
+31843,Kumar Rocker,TEX,SP,SP,27,486.6,-69.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Seiya Prayer For My Team,marcel-2027
+18311,Carson Fulmer,SEA,RP,RP,33,98.7,-138.1,1,1,,,,,,,,FA,marcel-2027
+27783,Zach Brzykcy,MIA,RP,RP,27,74.2,-224.7,1,1,,,,,,,,FA,marcel-2027
+27581,Hayden Wesneski,HOU,SP,SP,29,389.7,-202.6,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays,marcel-2027
+15684,Miguel Castro,,RP,RP,32,81.4,-149.0,1,1,,,,,,,,FA,marcel-2027
+31280,Eduardo Rivera,BOS,RP,RP,24,116.6,-257.6,1,1,,,,,,,,FA,marcel-2027
+27453,Anthony Veneziano,TEX,RP,RP,29,102.9,-198.3,1,1,,,,,,,,FA,marcel-2027
+12828,Andrew Kittredge,BAL,RP,RP,37,313.4,-2.7,1,1,,,,,,,,FA,marcel-2027
+24590,John Rooney,TBR,RP,RP,30,92.4,-142.0,1,1,,,,,,,,FA,marcel-2027
+15369,Kevin Herget,NYM,RP,RP,36,118.0,-115.7,1,1,,,,,,,,FA,marcel-2027
+19427,Shane Bieber,TOR,SP,SP,32,357.4,-168.8,1,1,,,,,,,,FA,marcel-2027
+31610,Zach Maxwell,CIN,RP,RP,26,93.4,-207.0,1,1,,,,,,,,FA,marcel-2027
+8700,Justin Verlander,DET,SP,SP,44,304.4,-200.9,1,1,,,,,,,,FA,marcel-2027
+18864,Pedro Avila,,RP,RP,30,99.6,-137.5,1,1,,,,,,,,FA,marcel-2027
+13594,Robert Stephenson,LAA,RP,RP,34,107.0,-122.1,1,1,,,,,,,,FA,marcel-2027
+18439,Danny Young,ATL,RP,RP,33,135.2,-115.1,1,1,,,,,,,,FA,marcel-2027
+21573,Nolan Kingham,SEA,RP,RP,30,97.4,-138.9,1,1,,,,,,,,FA,marcel-2027
+30107,Christian Scott,NYM,SP,SP,28,517.6,-26.4,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Knowznothin,marcel-2027
+17490,Génesis Cabrera,,RP,RP,30,87.6,-145.1,1,1,,,,,,,,FA,marcel-2027
+24094,Ronny Henriquez,MIA,RP,RP,27,183.1,-124.4,1,1,,,,,,,,FA,marcel-2027
+14739,Paul Blackburn,NYY,SP,SP,33,479.9,-53.5,1,1,,,,,,,,FA,marcel-2027
+21850,Mason Thompson,,RP,RP,29,83.6,-216.1,1,1,,,,,,,,FA,marcel-2027
+19360,Lucas Erceg,KCR,RP,RP,32,292.6,-16.0,1,1,,,,,,,,FA,marcel-2027
+17920,Cody Ponce,TOR,RP,RP,33,109.7,-131.2,1,1,,,,,,,,FA,marcel-2027
+28489,Winston Santos,TEX,RP,RP,25,90.4,-291.1,1,1,,,,,,,,FA,marcel-2027
+18510,Josh Rogers,,RP,RP,32,87.6,-145.1,1,1,,,,,,,,FA,marcel-2027
+11828,James Paxton,,SP,SP,38,229.3,-265.8,1,1,,,,,,,,FA,marcel-2027
+19871,Tucker Davidson,PHI,RP,RP,31,98.0,-138.5,1,1,,,,,,,,FA,marcel-2027
+19588,Guillo Zuñiga,NYM,RP,RP,28,85.3,-214.5,1,1,,,,,,,,FA,marcel-2027
+31741,Mason Barnett,ATH,SP,SP,26,204.0,-458.5,1,1,,,,,,,,FA,marcel-2027
+20333,Nick Raquet,,RP,RP,31,98.2,-138.4,1,1,,,,,,,,FA,marcel-2027
+20379,Tyler Zuber,MIA,RP,RP,32,156.7,-101.6,1,1,,,,,,,,FA,marcel-2027
+15009,Kyle Finnegan,DET,RP,RP,35,321.3,1.9,1,1,,,,,,,,FA,marcel-2027
+7593,Jordan Lyles,,RP,RP,36,103.4,-124.1,1,1,,,,,,,,FA,marcel-2027
+12784,Burch Smith,DET,RP,RP,37,135.2,-105.8,1,1,,,,,,,,FA,marcel-2027
+25501,Paxton Schultz,WSN,RP,RP,29,148.9,-155.9,1,1,,,,,,,,FA,marcel-2027
+11836,Taijuan Walker,,SP,SP,34,178.1,-310.1,1,1,,,,,,,,FA,marcel-2027
+23091,Robinson Piña,,RP,RP,28,86.5,-213.4,1,1,,,,,,,,FA,marcel-2027
+9803,Miles Mikolas,,SP,SP,38,392.4,-124.8,1,1,,,,,,,,FA,marcel-2027
+21527,James McArthur,KCR,RP,RP,30,106.1,-133.4,1,1,,,,,,,,FA,marcel-2027
+21844,Braxton Garrett,CHC,RP,RP,29,94.6,-205.9,1,1,,,,,,,,FA,marcel-2027
+25178,Joe Jacques,,RP,RP,32,88.9,-144.3,1,1,,,,,,,,FA,marcel-2027
+14524,José Leclerc,,RP,RP,33,110.0,-131.0,1,1,,,,,,,,FA,marcel-2027
+17998,Pete Fairbanks,MIA,RP,RP,33,319.8,1.1,1,1,,,,,,,,FA,marcel-2027
+6895,Chase Anderson,TEX,RP,RP,39,80.3,-137.5,1,1,,,,,,,,FA,marcel-2027
+19261,Ian Hamilton,ATL,RP,RP,32,143.5,-109.9,1,1,,,,,,,,FA,marcel-2027
+31913,Hayden Harris,COL,RP,RP,28,95.0,-205.6,1,1,,,,,,,,FA,marcel-2027
+15849,Kent Emanuel,CIN,RP,RP,35,90.3,-131.7,1,1,,,,,,,,FA,marcel-2027
+25921,Casey Legumina,TBR,RP,RP,30,254.7,-39.9,1,1,,,,,,,,FA,marcel-2027
+31873,Max Rajcic,STL,RP,RP,25,113.5,-261.6,1,1,,,,,,,,FA,marcel-2027
+22191,Tobias Myers,NYM,SP,SP,28,371.5,-227.7,1,1,,,,,,,,FA,marcel-2027
+12049,Kyle Hendricks,,SP,SP,37,261.0,-238.4,1,1,,,,,,,,FA,marcel-2027
+26259,Hunter Bigge,ATH,RP,RP,29,153.7,-151.5,1,1,,,,,,,,FA,marcel-2027
+17793,Trey Wingenter,,RP,RP,33,84.8,-146.8,1,1,,,,,,,,FA,marcel-2027
+30086,Jack Anderson,MIN,RP,RP,27,137.5,-166.4,1,1,,,,,,,,FA,marcel-2027
+25241,Domingo Gonzalez,SEA,RP,RP,27,100.4,-200.6,1,1,,,,,,,,FA,marcel-2027
+10855,Chasen Shreve,,RP,RP,36,99.5,-126.4,1,1,,,,,,,,FA,marcel-2027
+27494,Clayton Beeter,WSN,RP,RP,28,259.1,-54.4,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+26136,Austin Pope,,RP,RP,28,98.2,-202.6,1,1,,,,,,,,FA,marcel-2027
+22622,Yovanny Cruz,WSN,RP,RP,27,113.6,-188.4,1,1,,,,,,,,FA,marcel-2027
+16933,Elieser Hernández,ATL,RP,RP,32,91.4,-142.7,1,1,,,,,,,,FA,marcel-2027
+33827,Woo-Suk Go,MIN,RP,RP,28,86.3,-213.6,1,1,,,,,,,,FA,marcel-2027
+19459,Jorge Alcala,,RP,RP,31,110.5,-130.7,1,1,,,,,,,,FA,marcel-2027
+1890,Matt Moore,KCR,RP,RP,38,87.9,-133.1,1,1,,,,,,,,FA,marcel-2027
+23363,Robert Garcia,TEX,RP,RP,31,213.0,-66.1,1,1,,,,,,,,FA,marcel-2027
+19403,Colin Poche,,RP,RP,33,106.5,-133.2,1,1,,,,,,,,FA,marcel-2027
+26270,Blake Walston,ARI,RP,RP,26,90.1,-210.1,1,1,,,,,,,,FA,marcel-2027
+33908,José Fermin,LAA,RP,RP,25,228.4,-114.7,1,1,,,,,,,,FA,marcel-2027
+31468,Jack Perkins,ATH,SP,SP,27,479.3,-79.2,1,1,,,,,,,,FA,marcel-2027
+23920,Brayan Bello,BOS,SP,SP,28,530.9,-8.1,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Peel A Section,marcel-2027
+26152,Jack Little,DET,RP,RP,29,97.1,-203.6,1,1,,,,,,,,FA,marcel-2027
+25590,Adam Macko,TEX,RP,RP,26,139.2,-164.8,1,1,,,,,,,,FA,marcel-2027
+16866,Reed Garrett,NYM,RP,RP,34,165.9,-88.0,1,1,,,,,,,,FA,marcel-2027
+5003,Jake Diekman,,RP,RP,40,99.1,-126.6,1,1,,,,,,,,FA,marcel-2027
+23324,Freddy Tarnok,,RP,RP,28,110.2,-191.6,1,1,,,,,,,,FA,marcel-2027
+12718,Adrian Houser,SFG,SP,SP,34,490.2,-40.3,1,1,,,,,,,,FA,marcel-2027
+30166,Marco Raya,MIN,RP,RP,24,102.3,-275.9,1,1,,,,,,,,FA,marcel-2027
+15100,Ben Heller,,RP,RP,35,86.8,-133.7,1,1,,,,,,,,FA,marcel-2027
+29754,Sam Bachman,LAA,RP,RP,27,229.1,-82.0,1,1,,,,,,,,FA,marcel-2027
+24975,Cooper Criswell,SEA,RP,RP,30,172.0,-92.0,1,1,,,,,,,,FA,marcel-2027
+18138,Ryan Helsley,BAL,RP,RP,32,240.4,-48.9,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Sweet Spot,marcel-2027
+26790,Angel Chivilli,NYY,RP,RP,24,97.9,-281.5,1,1,,,,,,,,FA,marcel-2027
+29934,Riley Martin,CHC,RP,RP,29,126.4,-176.6,1,1,,,,,,,,FA,marcel-2027
+15038,Germán Márquez,MIN,SP,SP,32,205.8,-311.5,1,1,,,,,,,,FA,marcel-2027
+30140,Ty Madden,DET,RP,RP,27,202.5,-106.5,1,1,,,,,,,,FA,marcel-2027
+19179,Kirby Snead,PHI,RP,RP,32,95.4,-140.2,1,1,,,,,,,,FA,marcel-2027
+32015,Alex Cook,TBR,RP,RP,26,107.7,-193.9,1,1,,,,,,,,FA,marcel-2027
+23460,Brandon Hughes,,RP,RP,31,62.3,-161.0,1,1,,,,,,,,FA,marcel-2027
+31701,Blade Tidwell,SFG,SP,SP,26,305.9,-318.1,1,1,,,,,,,,FA,marcel-2027
+22288,Mason Englert,TBR,RP,RP,27,166.3,-139.9,1,1,,,,,,,,FA,marcel-2027
+31760,JR Ritchie,ATL,SP,SP,24,312.3,-429.1,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Knowznothin,marcel-2027
+17496,Diego Castillo,,RP,RP,33,97.4,-138.9,1,1,,,,,,,,FA,marcel-2027
+27787,Will Klein,LAD,RP,RP,27,230.6,-80.6,1,1,,,,,,,,FA,marcel-2027
+25310,Peyton Gray,TEX,RP,RP,32,224.4,-59.0,1,1,,,,,,,,FA,marcel-2027
+25215,Yaramil Hiraldo,BAL,RP,RP,31,107.4,-132.6,1,1,,,,,,,,FA,marcel-2027
+30133,Brant Hurter,DET,RP,RP,28,232.4,-79.0,1,1,,,,,,,,FA,marcel-2027
+25703,Zak Kent,WSN,RP,RP,29,121.1,-181.5,1,1,,,,,,,,FA,marcel-2027
+26429,Cody Laweryson,MIN,RP,RP,29,146.7,-157.9,1,1,,,,,,,,FA,marcel-2027
+16233,Tejay Antone,CIN,RP,RP,33,246.8,-44.9,1,1,,,,,,,,FA,marcel-2027
+8048,Will Smith,,RP,RP,37,89.4,-132.2,1,1,,,,,,,,FA,marcel-2027
+13763,Dominic Leone,,RP,RP,35,86.5,-133.9,1,1,,,,,,,,FA,marcel-2027
+16135,Brandon Leibrandt,CIN,RP,RP,34,70.9,-142.9,1,1,,,,,,,,FA,marcel-2027
+29961,Tyler Uberstine,ATL,RP,RP,28,94.5,-206.0,1,1,,,,,,,,FA,marcel-2027
+33760,Matt Wilkinson,SFG,SP,SP,24,305.3,-442.5,1,1,,,,,,,,FA,marcel-2027
+25376,Nick Mears,KCR,RP,RP,30,200.2,-74.2,1,1,,,,,,,,FA,marcel-2027
+21858,Riley Pint,,RP,RP,29,82.0,-217.5,1,1,,,,,,,,FA,marcel-2027
+27741,Nick Davila,SEA,RP,RP,28,145.9,-158.7,1,1,,,,,,,,FA,marcel-2027
+3548,Liam Hendriks,,RP,RP,38,98.4,-127.0,1,1,,,,,,,,FA,marcel-2027
+21032,Emmanuel Clase,CLE,RP,RP,29,213.6,-96.3,1,1,,,,,,,,FA,marcel-2027
+27483,Bobby Miller,LAD,RP,RP,28,49.1,-247.8,1,1,,,,,,,,FA,marcel-2027
+27908,Noah Murdock,PIT,RP,RP,28,95.6,-205.0,1,1,,,,,,,,FA,marcel-2027
+22276,Dylan Coleman,,RP,RP,30,99.1,-137.8,1,1,,,,,,,,FA,marcel-2027
+11487,Joely Rodríguez,BOS,RP,RP,35,93.5,-129.9,1,1,,,,,,,,FA,marcel-2027
+20531,Kutter Crawford,BOS,SP,SP,31,239.5,-279.8,1,1,,,,,,,,FA,marcel-2027
+19835,Gerson Garabito,MIL,RP,RP,31,85.9,-146.1,1,1,,,,,,,,FA,marcel-2027
+19865,Charlie Barnes,LAD,RP,RP,31,88.4,-144.6,1,1,,,,,,,,FA,marcel-2027
+20369,Matt Manning,,SP,SP,29,245.6,-401.2,1,1,,,,,,,,FA,marcel-2027
+22182,Hunter Greene,CIN,SP,SP,27,441.8,-130.9,1,1,,,,,,,,FA,marcel-2027
+26482,Jayden Murray,CHC,RP,RP,30,119.5,-125.0,1,1,,,,,,,,FA,marcel-2027
+20827,Michael Petersen,MIA,RP,RP,33,321.0,1.8,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲,marcel-2027
+17780,José Alvarado,PHI,RP,RP,32,301.8,-10.3,1,1,,,,,,,,FA,marcel-2027
+11189,Vince Velasquez,KCR,RP,RP,35,113.7,-118.2,1,1,,,,,,,,FA,marcel-2027
+17732,Nabil Crismatt,,RP,RP,32,94.4,-140.8,1,1,,,,,,,,FA,marcel-2027
+14843,Michael Lorenzen,TOR,SP,SP,35,399.9,-118.4,1,1,,,,,,,,FA,marcel-2027
+13074,Yu Darvish,SDP,SP,SP,40,279.7,-222.3,1,1,,,,,,,,FA,marcel-2027
+21132,Alexis Díaz,TEX,RP,RP,30,113.6,-128.7,1,1,,,,,,,,FA,marcel-2027
+27487,Landon Knack,LAD,SP,SP,29,238.8,-410.5,1,1,,,,,,,,FA,marcel-2027
+27694,Justin Sterner,ATH,RP,RP,30,230.4,-55.2,1,1,,,,,,,,FA,marcel-2027
+30165,Ricky Tiedemann,TOR,RP,RP,24,112.0,-263.5,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Peel A Section,marcel-2027
+32056,Noah Schultz,CHW,SP,SP,23,358.6,-340.6,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Barreled Souls,marcel-2027
+16507,Dan Altavilla,,RP,RP,34,103.5,-124.1,1,1,,,,,,,,FA,marcel-2027
+26128,Amos Willingham,MIA,RP,RP,28,91.5,-208.8,1,1,,,,,,,,FA,marcel-2027
+30167,Robby Ahlstrom,TEX,RP,RP,28,158.0,-147.5,1,1,,,,,,,,FA,marcel-2027
+26349,Gavin Collyer,TEX,RP,RP,26,137.4,-166.5,1,1,,,,,,,,FA,marcel-2027
+30064,Seth Lonsway,SFG,RP,RP,28,99.5,-201.4,1,1,,,,,,,,FA,marcel-2027
+33699,Logan Evans,SEA,SP,SP,26,227.0,-426.8,1,1,,,,,,,,FA,marcel-2027
+22192,Hans Crouse,SDP,RP,RP,28,106.6,-194.9,1,1,,,,,,,,FA,marcel-2027
+2520,Lance Lynn,,SP,SP,40,247.6,-250.0,1,1,,,,,,,,FA,marcel-2027
+26030,Tyler Owens,DET,RP,RP,26,94.4,-206.1,1,1,,,,,,,,FA,marcel-2027
+26058,Easton Lucas,,RP,RP,30,84.9,-146.8,1,1,,,,,,,,FA,marcel-2027
+27472,Jared Shuster,STL,RP,RP,28,100.5,-200.5,1,1,,,,,,,,FA,marcel-2027
+31624,Brian Fitzpatrick,MIL,RP,RP,27,113.8,-188.2,1,1,,,,,,,,FA,marcel-2027
+18694,Kolby Allard,PHI,RP,RP,29,130.8,-172.6,1,1,,,,,,,,FA,marcel-2027
+23150,Osvaldo Bido,,SP,SP,31,255.4,-264.8,1,1,,,,,,,,FA,marcel-2027
+23479,Cam Sanders,BAL,RP,RP,30,168.4,-94.2,1,1,,,,,,,,FA,marcel-2027
+4676,Charlie Morton,,SP,SP,43,267.7,-232.6,1,1,,,,,,,,FA,marcel-2027
+24930,Ethan Roberts,CHC,RP,RP,29,125.2,-177.7,1,1,,,,,,,,FA,marcel-2027
+31492,Blake Adams,COL,RP,RP,26,75.6,-223.4,1,1,,,,,,,,FA,marcel-2027
+14552,José Ruiz,,RP,RP,32,91.8,-142.4,1,1,,,,,,,,FA,marcel-2027
+25377,Brady Singer,CIN,SP,SP,30,535.9,-0.8,1,1,,,,,,,,FA,marcel-2027
+26079,Beau Brieske,DET,RP,RP,29,155.0,-150.3,1,1,,,,,,,,FA,marcel-2027
+24614,Victor Vodnik,MIA,RP,RP,27,273.7,-40.9,1,1,,,,,,,,FA,marcel-2027
+19200,José Quijada,,RP,RP,31,112.2,-129.6,1,1,,,,,,,,FA,marcel-2027
+10591,Scott Alexander,KCR,RP,RP,37,97.2,-127.7,1,1,,,,,,,,FA,marcel-2027
+30142,Doug Nikhazy,CHC,RP,RP,27,97.4,-203.3,1,1,,,,,,,,FA,marcel-2027
+26285,Tommy Henry,ARI,RP,RP,29,61.1,-236.8,1,1,,,,,,,,FA,marcel-2027
+26353,Marc Church,TEX,RP,RP,26,99.5,-201.4,1,1,,,,,,,,FA,marcel-2027
+15734,Brad Keller,PHI,RP,RP,31,254.7,-39.9,1,1,,,,,,,,FA,marcel-2027
+30231,Carter Baumler,TEX,RP,RP,25,97.0,-282.7,1,1,,,,,,,,FA,marcel-2027
+16703,Julian Merryweather,MIN,RP,RP,35,106.7,-122.2,1,1,,,,,,,,FA,marcel-2027
+15068,Yency Almonte,LAD,RP,RP,33,116.5,-126.9,1,1,,,,,,,,FA,marcel-2027
+31883,Troy Taylor,SEA,RP,RP,25,86.9,-295.6,1,1,,,,,,,,FA,marcel-2027
+24737,Gus Varland,WSN,RP,RP,30,151.3,-105.0,1,1,,,,,,,,FA,marcel-2027
+26641,Wikelman González,MIA,RP,RP,25,119.8,-253.5,1,1,,,,,,,,FA,marcel-2027
+11861,Jason Adam,SDP,RP,RP,35,302.5,-9.0,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲,marcel-2027
+19225,Mitch White,,RP,RP,32,78.4,-150.9,1,1,,,,,,,,FA,marcel-2027
+17952,Tyler Jay,MIL,RP,RP,33,95.9,-139.8,1,1,,,,,,,,FA,marcel-2027
+17281,Thomas Pannone,MIL,RP,RP,33,95.1,-140.3,1,1,,,,,,,,FA,marcel-2027
+27974,Cristian Mena,ARI,RP,RP,24,89.6,-292.1,1,1,,,,,,,,FA,marcel-2027
+29318,Welinton Herrera,COL,RP,RP,23,102.9,-275.1,1,1,,,,,,,,FA,marcel-2027
+18548,Sam Hentges,SFG,RP,RP,30,217.2,-63.5,1,1,,,,,,,,FA,marcel-2027
+20408,Eli Villalobos,SDP,RP,RP,30,94.8,-140.5,1,1,,,,,,,,FA,marcel-2027
+28036,Luke Little,KCR,RP,RP,26,100.2,-200.8,1,1,,,,,,,,FA,marcel-2027
+19874,Alex Faedo,LAA,SP,SP,31,256.4,-263.9,1,1,,,,,,,,FA,marcel-2027
+21205,Connor Brogdon,CLE,RP,RP,32,115.0,-127.8,1,1,,,,,,,,FA,marcel-2027
+23631,Clayton Andrews,,RP,RP,30,90.9,-143.0,1,1,,,,,,,,FA,marcel-2027
+24968,Reese Olson,DET,SP,SP,27,327.0,-289.0,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Iron ,marcel-2027
+27779,Bryce Elder,ATL,SP,SP,28,516.8,-27.6,1,1,,,,,,,,FA,marcel-2027
+16977,Trevor Williams,TEX,SP,SP,35,358.9,-153.8,1,1,,,,,,,,FA,marcel-2027
+26257,Joey Estes,ATH,SP,SP,25,167.7,-705.5,1,1,,,,,,,,FA,marcel-2027
+29628,Alek Jacob,SDP,RP,RP,29,105.6,-195.8,1,1,,,,,,,,FA,marcel-2027
+30109,Nate Lavender,NYM,RP,RP,27,207.5,-101.9,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays,marcel-2027
+21656,Kervin Castro,NYY,RP,RP,28,127.5,-175.6,1,1,,,,,,,,FA,marcel-2027
+28393,José Rodríguez,TOR,RP,RP,25,114.8,-259.9,1,1,,,,,,,,FA,marcel-2027
+32155,John Klein,TOR,RP,RP,25,93.7,-286.9,1,1,,,,,,,,FA,marcel-2027
+11423,Jose Quintana,COL,SP,SP,38,339.9,-170.2,1,1,,,,,,,,FA,marcel-2027
+33865,Khristian Curtis,PIT,RP,RP,25,132.1,-237.8,1,1,,,,,,,,FA,marcel-2027
+13276,Matt Carasiti,,RP,RP,35,86.7,-133.8,1,1,,,,,,,,FA,marcel-2027
+5448,Jesse Chavez,,RP,RP,43,82.3,-136.3,1,1,,,,,,,,FA,marcel-2027
+16258,Aaron Bummer,,RP,RP,33,149.8,-105.9,1,1,,,,,,,,FA,marcel-2027
+16942,Luis Ortiz,,RP,RP,31,95.5,-140.1,1,1,,,,,,,,FA,marcel-2027
+30180,Travis Adams,MIN,RP,RP,27,211.9,-97.8,1,1,,,,,,,,FA,marcel-2027
+21446,Ryan Feltner,COL,SP,SP,30,412.9,-116.6,1,1,,,,,,,,FA,marcel-2027
+18519,Phil Bickford,,RP,RP,31,95.1,-140.3,1,1,,,,,,,,FA,marcel-2027
+21487,Stephen Kolek,KCR,SP,SP,30,406.2,-122.9,1,1,,,,,,,,FA,marcel-2027
+20010,Wyatt Mills,,RP,RP,32,99.7,-137.5,1,1,,,,,,,,FA,marcel-2027
+14710,Edwin Díaz,LAD,RP,RP,33,261.8,-35.4,1,,13.0,-12.0,0,15.0,-14.0,0.0,5.0,The Northsiders,marcel-2027
+19680,Sixto Sánchez,MIA,SP,SP,28,223.5,-431.6,1,1,,,,,,,,FA,marcel-2027
+33876,Rhett Lowder,CIN,SP,SP,25,408.2,-245.8,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Chin Music Choir,marcel-2027
+17304,Emmanuel Ramirez,,RP,RP,32,91.3,-142.7,1,1,,,,,,,,FA,marcel-2027
+35205,Hagen Smith,CHW,RP,RP,23,201.6,-148.9,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Seiya Prayer For My Team,marcel-2027
+31533,Victor Mederos,ATL,RP,RP,26,162.8,-143.1,1,1,,,,,,,,FA,marcel-2027
+19769,Will Vest,DET,RP,RP,32,267.8,-31.7,1,1,,,,,,,,FA,marcel-2027
+33628,Mitch Farris,LAA,RP,RP,26,196.6,-111.9,1,1,,,,,,,,FA,marcel-2027
+18815,Miguel Díaz,,RP,RP,32,99.9,-137.3,1,1,,,,,,,,FA,marcel-2027
+26410,Alek Manoah,,RP,RP,29,95.2,-205.4,1,1,,,,,,,,FA,marcel-2027
+31807,Troy Melton,DET,SP,SP,26,535.7,-1.5,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Rock the Casasbah,marcel-2027
+29271,Yilber Díaz,DET,RP,RP,26,81.2,-218.3,1,1,,,,,,,,FA,marcel-2027
+26214,Chris Murphy,CHW,RP,RP,29,180.1,-127.1,1,1,,,,,,,,FA,marcel-2027
+35324,Shinnosuke Ogasawara,,RP,RP,29,77.7,-221.5,1,1,,,,,,,,FA,marcel-2027
+13218,Michael Fulmer,NYY,RP,RP,34,124.9,-111.7,1,1,,,,,,,,FA,marcel-2027
+27910,Austin Kitchen,SEA,RP,RP,30,83.6,-147.6,1,1,,,,,,,,FA,marcel-2027
+30146,Jack Leiter,TEX,SP,SP,27,428.8,-148.8,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Iron ,marcel-2027
+27863,Jared Jones,PIT,SP,SP,25,516.7,-38.4,1,,10.0,-9.0,0,12.0,-11.0,0.0,4.0,Seiya Prayer For My Team,marcel-2027
+26215,Jackson Rutledge,,RP,RP,28,87.1,-212.8,1,1,,,,,,,,FA,marcel-2027
+11760,Drew Smyly,,RP,RP,38,93.4,-129.9,1,1,,,,,,,,FA,marcel-2027
+27568,CJ Van Eyk,TOR,RP,RP,28,90.8,-209.4,1,1,,,,,,,,FA,marcel-2027
+26252,Erik Miller,BOS,RP,RP,29,299.7,-17.0,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,The Northsiders,marcel-2027
+20132,Adam Oller,MIA,SP,SP,32,218.7,-299.3,1,1,,,,,,,,FA,marcel-2027
+19278,Vladimir Gutierrez,,RP,RP,31,95.5,-140.1,1,1,,,,,,,,FA,marcel-2027
+20045,Sean Guenther,DET,RP,RP,31,125.0,-121.5,1,1,,,,,,,,FA,marcel-2027
+16256,Kyle Freeland,COL,SP,SP,34,426.7,-95.2,1,1,,,,,,,,FA,marcel-2027
+21224,Bailey Ober,MIN,SP,SP,31,528.6,-7.7,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Sweet Spot,marcel-2027
+14986,Giovanny Gallegos,,RP,RP,35,82.5,-136.2,1,1,,,,,,,,FA,marcel-2027
+19891,Ryder Ryan,LAD,RP,RP,32,95.8,-139.9,1,1,,,,,,,,FA,marcel-2027
+33826,Yuki Matsui,SDP,RP,RP,31,290.0,-17.7,1,1,,,,,,,,FA,marcel-2027
+6175,Albert Suárez,BAL,SP,SP,37,378.3,-137.0,1,1,,,,,,,,FA,marcel-2027
+16427,Scott Blewett,ATH,RP,RP,31,180.0,-86.9,1,1,,,,,,,,FA,marcel-2027
+35309,Dylan Ross,NYM,RP,RP,26,101.4,-199.7,1,1,,,,,,,,FA,marcel-2027
+18347,Brandon Waddell,,RP,RP,33,105.0,-134.1,1,1,,,,,,,,FA,marcel-2027
+30003,Mitch Bratt,ARI,SP,SP,23,284.6,-482.1,1,1,,,,,,,,FA,marcel-2027
+29530,Fraser Ellard,,RP,RP,29,112.0,-189.9,1,1,,,,,,,,FA,marcel-2027
+17556,Jimmy Herget,COL,RP,RP,33,260.6,-36.2,1,1,,,,,,,,FA,marcel-2027
+33043,Brendan Beck,NYY,RP,RP,28,77.0,-222.1,1,1,,,,,,,,FA,marcel-2027
+27889,J.T. Ginn,ATH,SP,SP,28,538.9,2.9,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Chin Music Choir,marcel-2027
+31312,Colton Gordon,MIL,SP,SP,28,171.8,-502.8,1,1,,,,,,,,FA,marcel-2027
+6632,Carlos Carrasco,,SP,SP,40,212.4,-280.4,1,1,,,,,,,,FA,marcel-2027
+24986,Colin Selby,BAL,RP,RP,29,105.5,-195.9,1,1,,,,,,,,FA,marcel-2027
+26190,Blair Henley,,RP,RP,30,87.7,-145.0,1,1,,,,,,,,FA,marcel-2027
+31738,Josh White,MIA,RP,RP,26,76.8,-222.3,1,1,,,,,,,,FA,marcel-2027
+30206,Christian Montes De Oca,,RP,RP,27,103.8,-197.4,1,1,,,,,,,,FA,marcel-2027
+24995,Evan Sisk,PIT,RP,RP,30,228.9,-56.1,1,1,,,,,,,,FA,marcel-2027
+16350,Ryan Borucki,CLE,RP,RP,33,157.1,-101.3,1,1,,,,,,,,FA,marcel-2027
+31815,Cade Gibson,MIA,RP,RP,29,235.7,-75.9,1,1,,,,,,,,FA,marcel-2027
+26020,Seth Johnson,ATH,RP,RP,28,137.7,-166.2,1,1,,,,,,,,FA,marcel-2027
+22207,DL Hall,MIL,RP,RP,28,269.8,-44.5,1,1,,,,,,,,FA,marcel-2027
+20629,Tyler Phillips,MIA,SP,SP,29,513.6,-32.0,1,1,,,,,,,,FA,marcel-2027
+12863,Matt Barnes,,RP,RP,37,97.0,-127.8,1,1,,,,,,,,FA,marcel-2027
+16990,Tanner Banks,PHI,RP,RP,35,204.5,-65.7,1,1,,,,,,,,FA,marcel-2027
+24248,Eddy Yean,WSN,RP,RP,26,127.1,-176.0,1,1,,,,,,,,FA,marcel-2027
+22224,Jonathan Heasley,TBR,RP,RP,30,69.8,-156.3,1,1,,,,,,,,FA,marcel-2027
+33980,Jonathan Pintaro,NYM,RP,RP,29,151.4,-153.6,1,1,,,,,,,,FA,marcel-2027
+27590,Jake Eder,,RP,RP,28,105.4,-196.0,1,1,,,,,,,,FA,marcel-2027
+33502,Sean Sullivan,COL,SP,SP,24,170.2,-700.8,1,1,,,,,,,,FA,marcel-2027
+5615,Ryan Brasier,,RP,RP,39,129.0,-109.3,1,1,,,,,,,,FA,marcel-2027
+33603,Mark Manfredi,COL,RP,RP,27,134.6,-169.1,1,1,,,,,,,,FA,marcel-2027
+23809,Ray Kerr,ATL,RP,RP,32,134.2,-115.7,1,1,,,,,,,,FA,marcel-2027
+20515,Kyle Nelson,,RP,RP,30,92.2,-142.2,1,1,,,,,,,,FA,marcel-2027
+12022,Matt Andriese,,RP,RP,37,93.5,-129.9,1,1,,,,,,,,FA,marcel-2027
+31696,Cameron Weston,NYM,RP,RP,26,100.6,-200.4,1,1,,,,,,,,FA,marcel-2027
+31508,Caden Dana,LAA,RP,RP,23,59.6,-330.5,1,1,,,,,,,,FA,marcel-2027
+16561,Austin Gomber,DET,SP,SP,33,174.5,-340.9,1,1,,,,,,,,FA,marcel-2027
+17759,Angel Perdomo,,RP,RP,33,98.2,-138.4,1,1,,,,,,,,FA,marcel-2027
+22387,Josh Winckowski,TOR,RP,RP,29,95.3,-205.3,1,1,,,,,,,,FA,marcel-2027
+23563,Matt Seelinger,NYM,RP,RP,32,81.3,-149.0,1,1,,,,,,,,FA,marcel-2027
+30160,Richard Fitts,STL,SP,SP,27,225.8,-428.4,1,1,,,,,,,,FA,marcel-2027
+10058,Tyler Matzek,,RP,RP,36,87.9,-133.1,1,1,,,,,,,,FA,marcel-2027
+22872,Yoendrys Gómez,MIN,RP,RP,27,267.6,-46.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Twin Pines 🌲🌲,marcel-2027
+13528,Matt Bowman,MIN,RP,RP,36,91.9,-130.8,1,1,,,,,,,,FA,marcel-2027
+19899,Clarke Schmidt,NYY,SP,SP,31,326.9,-197.5,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Barreled Souls,marcel-2027
+30128,Eric Cerantola,SFG,RP,RP,27,81.5,-218.0,1,1,,,,,,,,FA,marcel-2027
+12304,Chris Bassitt,BAL,SP,SP,38,482.5,-46.9,1,1,,,,,,,,FA,marcel-2027
+21290,Lucas Gilbreath,COL,RP,RP,31,78.1,-151.0,1,1,,,,,,,,FA,marcel-2027
+25386,Jhony Brito,SDP,RP,RP,29,111.5,-190.4,1,1,,,,,,,,FA,marcel-2027
+13942,Brent Suter,ATL,RP,RP,37,306.2,-6.9,1,1,,,,,,,,FA,marcel-2027
+30412,Jose Cabrera,ARI,SP,SP,25,262.1,-525.1,1,1,,,,,,,,FA,marcel-2027
+20666,Félix Bautista,BAL,RP,RP,32,170.0,-93.2,1,1,,,,,,,,FA,marcel-2027
+24914,Lazaro Estrada,TOR,RP,RP,28,109.4,-192.3,1,1,,,,,,,,FA,marcel-2027
+16814,Tim Hill,NYY,RP,RP,37,242.6,-43.7,1,1,,,,,,,,FA,marcel-2027
+24710,Luis Curvelo,TEX,RP,RP,26,86.2,-213.7,1,1,,,,,,,,FA,marcel-2027
+6984,Luis García,,RP,RP,40,173.0,-83.9,1,1,,,,,,,,FA,marcel-2027
+11426,Drew Pomeranz,,RP,RP,38,191.7,-73.1,1,1,,,,,,,,FA,marcel-2027
+21318,Tylor Megill,NYM,SP,SP,31,318.3,-205.6,1,1,,,,,,,,FA,marcel-2027
+17897,Garrett Cleavinger,TBR,RP,RP,33,301.0,-10.8,1,1,,,,,,,,FA,marcel-2027
+31872,Cade Horton,CHC,SP,SP,25,357.6,-342.5,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Iron ,marcel-2027
+19618,Jordan Hicks,CHW,SP,SP,30,374.6,-152.6,1,1,,,,,,,,FA,marcel-2027
+31687,Shane Smith,CHW,SP,SP,27,333.1,-280.6,1,1,,,,,,,,FA,marcel-2027
+13394,Dylan Floro,,RP,RP,36,110.3,-120.2,1,1,,,,,,,,FA,marcel-2027
+19976,Tyson Miller,,RP,RP,31,123.0,-122.8,1,1,,,,,,,,FA,marcel-2027
+35456,Trey Yesavage,TOR,SP,SP,23,512.2,-47.0,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Chin Music Choir,marcel-2027
+16201,Justin Anderson,,RP,RP,34,100.0,-126.1,1,1,,,,,,,,FA,marcel-2027
+20375,Greg Weissert,BOS,RP,RP,32,301.4,-10.5,1,1,,,,,,,,FA,marcel-2027
+33785,Josh Ekness,MIA,RP,RP,25,153.8,-210.1,1,1,,,,,,,,FA,marcel-2027
+33903,Brody Hopkins,TBR,RP,RP,25,99.7,-279.2,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Knowznothin,marcel-2027
+13896,Chris Flexen,,SP,SP,32,215.9,-302.0,1,1,,,,,,,,FA,marcel-2027
+23394,PJ Poulin,WSN,SP,SP,30,392.9,-135.4,1,1,,,,,,,,FA,marcel-2027
+25756,Matt Brash,SEA,RP,RP,29,229.5,-81.6,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Iron ,marcel-2027
+31920,Tyler Schweitzer,CHW,RP,RP,26,172.4,-134.2,1,1,,,,,,,,FA,marcel-2027
+18674,Jake Woodford,TBR,RP,RP,30,130.4,-118.1,1,1,,,,,,,,FA,marcel-2027
+16400,Reynaldo López,ATL,SP,SP,33,456.8,-75.3,1,1,,,,,,,,FA,marcel-2027
+19330,Matt Festa,CLE,RP,RP,34,320.7,1.5,1,1,,,,,,,,FA,marcel-2027
+21546,Justin Hagenman,NYM,RP,RP,30,113.8,-128.6,1,1,,,,,,,,FA,marcel-2027
+19361,Corbin Burnes,ARI,SP,SP,32,322.4,-201.8,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Rock the Casasbah,marcel-2027
+29887,Tanner McDougal,CHW,RP,RP,24,87.4,-294.9,1,1,,,,,,,,FA,marcel-2027
+18403,Enyel De Los Santos,HOU,RP,RP,31,282.7,-22.3,1,1,,,,,,,,FA,marcel-2027
+29608,Joe Boyle,TBR,SP,SP,27,328.0,-287.6,1,1,,,,,,,,FA,marcel-2027
+27500,Slade Cecconi,CLE,SP,SP,28,439.3,-134.3,1,1,,,,,,,,FA,marcel-2027
+19343,A.J. Puk,ARI,RP,RP,32,138.0,-113.3,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+29833,Nick Nastrini,,SP,SP,27,171.9,-502.7,1,1,,,,,,,,FA,marcel-2027
+32026,Drew Sommers,DET,RP,RP,26,231.7,-79.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Barreled Souls,marcel-2027
+22810,Roansy Contreras,,RP,RP,27,82.1,-217.4,1,1,,,,,,,,FA,marcel-2027
+21846,Cole Ragans,KCR,SP,SP,29,421.9,-158.3,1,,10.0,-9.0,0,12.0,-11.0,0.0,4.0,Knowznothin,marcel-2027
+13543,Blake Snell,LAD,SP,SP,34,523.4,-11.6,1,,22.0,-21.0,0,24.0,-23.0,0.0,10.0,The Northsiders,marcel-2027
+19264,Thomas Hatch,,RP,RP,32,77.6,-151.4,1,1,,,,,,,,FA,marcel-2027
+27597,Cody Bradford,TEX,SP,SP,29,329.8,-285.2,1,1,,,,,,,,FA,marcel-2027
+18413,José Urquidy,PHI,RP,RP,32,156.8,-101.5,1,1,,,,,,,,FA,marcel-2027
+21504,Jake Irvin,WSN,SP,SP,30,406.0,-123.1,1,1,,,,,,,,FA,marcel-2027
+25550,Matt Waldron,WSN,SP,SP,30,287.8,-234.3,1,1,,,,,,,,FA,marcel-2027
+14542,Carlos Estévez,KCR,RP,RP,34,201.2,-67.6,1,1,,,,,,,,FA,marcel-2027
+26419,Bradley Blalock,MIA,SP,SP,26,96.9,-606.0,1,1,,,,,,,,FA,marcel-2027
+13431,Marcus Stroman,,SP,SP,36,217.4,-276.1,1,1,,,,,,,,FA,marcel-2027
+22210,Jeremiah Estrada,SDP,RP,RP,28,305.9,-11.2,1,1,,,,,,,,FA,marcel-2027
+12760,Rafael Montero,,RP,RP,36,127.0,-110.5,1,1,,,,,,,,FA,marcel-2027
+25174,Penn Murfee,,RP,RP,33,88.0,-144.8,1,1,,,,,,,,FA,marcel-2027
+29629,Matt Svanson,STL,RP,RP,28,243.8,-68.5,1,1,,,,,,,,FA,marcel-2027
+14332,Joel Payamps,ATL,RP,RP,33,149.6,-106.0,1,1,,,,,,,,FA,marcel-2027
+23301,Janson Junk,MIA,SP,SP,31,536.8,0.0,1,1,,,,,,,,FA,marcel-2027
+23974,Randy Rodríguez,SFG,RP,RP,27,165.5,-140.6,1,1,,,,,,,,FA,marcel-2027
+12777,John Brebbia,BOS,RP,RP,37,101.4,-125.3,1,1,,,,,,,,FA,marcel-2027
+22253,Sean Reynolds,,RP,RP,29,109.7,-192.0,1,1,,,,,,,,FA,marcel-2027
+17871,Ian Gibaut,,RP,RP,33,104.5,-134.4,1,1,,,,,,,,FA,marcel-2027
+24993,Kody Funderburk,MIN,RP,RP,30,259.2,-37.1,1,1,,,,,,,,FA,marcel-2027
+23488,Ron Marinaccio,MIN,RP,RP,31,178.5,-87.9,1,1,,,,,,,,FA,marcel-2027
+25873,Connor Thomas,KCR,RP,RP,29,86.2,-213.7,1,1,,,,,,,,FA,marcel-2027
+17888,Tayler Saucedo,LAA,RP,RP,34,180.9,-79.3,1,1,,,,,,,,FA,marcel-2027
+17192,Jalen Beeks,TEX,RP,RP,33,197.9,-75.7,1,1,,,,,,,,FA,marcel-2027
+22304,Brenan Hanifee,DET,RP,RP,29,176.3,-130.6,1,1,,,,,,,,FA,marcel-2027
+20151,James Karinchak,ATL,RP,RP,31,127.8,-119.8,1,1,,,,,,,,FA,marcel-2027
+31615,William Kempner,MIA,RP,RP,26,133.6,-170.0,1,1,,,,,,,,FA,marcel-2027
+15130,Drew Anderson,DET,SP,SP,33,505.0,-29.9,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Bloom's Onions,marcel-2027
+19337,Richard Lovelady,WSN,RP,RP,31,166.6,-95.3,1,1,,,,,,,,FA,marcel-2027
+27498,Spencer Strider,ATL,SP,SP,28,325.6,-290.9,1,,15.0,-14.0,0,17.0,-16.0,0.0,6.0,Providence Grays,marcel-2027
+18152,Anthony Misiewicz,CIN,RP,RP,32,86.7,-145.6,1,1,,,,,,,,FA,marcel-2027
+13758,Tyler Duffey,,RP,RP,36,101.4,-125.3,1,1,,,,,,,,FA,marcel-2027
+16502,Ryan Yarbrough,NYY,RP,RP,35,259.0,-34.2,1,1,,,,,,,,FA,marcel-2027
+23443,Tom Cosgrove,WSN,RP,RP,31,116.6,-126.8,1,1,,,,,,,,FA,marcel-2027
+20018,Parker Dunshee,,RP,RP,32,84.1,-147.3,1,1,,,,,,,,FA,marcel-2027
+17859,Adbert Alzolay,,RP,RP,32,83.4,-147.7,1,1,,,,,,,,FA,marcel-2027
+9174,Casey Kelly,ARI,RP,RP,37,100.0,-126.1,1,1,,,,,,,,FA,marcel-2027
+20231,Zach Logue,,RP,RP,31,91.8,-142.4,1,1,,,,,,,,FA,marcel-2027
+32227,Luis Morales,ATH,SP,SP,24,182.1,-678.0,1,1,,,,,,,,FA,marcel-2027
+10078,Caleb Thielbar,CHC,RP,RP,40,290.3,-16.1,1,1,,,,,,,,FA,marcel-2027
+16466,Brent Honeywell,SDP,RP,RP,32,97.7,-138.7,1,1,,,,,,,,FA,marcel-2027
+27144,Hancel Rincon,STL,RP,RP,25,81.7,-302.2,1,1,,,,,,,,FA,marcel-2027
+13801,Austin Adams,,RP,RP,36,114.3,-117.8,1,1,,,,,,,,FA,marcel-2027
+17735,Tyler Alexander,TEX,SP,SP,32,463.8,-68.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+25911,Yennier Cano,BAL,RP,RP,33,318.9,0.5,1,1,,,,,,,,FA,marcel-2027
+19926,Tony Santillan,CIN,RP,RP,30,268.9,-31.0,1,1,,,,,,,,FA,marcel-2027
+17701,Jose Cuas,KCR,RP,RP,33,140.6,-111.7,1,1,,,,,,,,FA,marcel-2027
+27695,Brian Van Belle,TBR,RP,RP,30,90.0,-143.6,1,1,,,,,,,,FA,marcel-2027
+23293,Codi Heuer,BAL,RP,RP,30,102.6,-135.6,1,1,,,,,,,,FA,marcel-2027
+26318,Brendan Cellucci,TOR,RP,RP,29,127.6,-175.5,1,1,,,,,,,,FA,marcel-2027
+21955,Yerry Rodríguez,NYY,RP,RP,29,64.5,-233.7,1,1,,,,,,,,FA,marcel-2027
+21951,Joel Peguero,SFG,RP,RP,30,147.2,-107.6,1,1,,,,,,,,FA,marcel-2027
+23223,Michael Mercado,PHI,RP,RP,28,41.3,-255.0,1,1,,,,,,,,FA,marcel-2027
+17085,Pablo López,MIN,SP,SP,31,318.9,-205.0,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Iron ,marcel-2027
+30002,Grant Holman,PHI,RP,RP,27,98.2,-202.6,1,1,,,,,,,,FA,marcel-2027
+31989,Thomas Harrington,PIT,RP,RP,25,66.8,-321.3,1,1,,,,,,,,FA,marcel-2027
+23899,Valente Bellozo,COL,SP,SP,27,191.4,-475.8,1,1,,,,,,,,FA,marcel-2027
+23988,Wilkin Ramos,SFG,RP,RP,26,87.3,-212.6,1,1,,,,,,,,FA,marcel-2027
+19291,Zac Gallen,ARI,SP,SP,31,477.7,-55.6,1,1,,,,,,,,FA,marcel-2027
+26389,DJ Herz,WSN,SP,SP,26,274.7,-361.1,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Providence Grays,marcel-2027
+11691,Tyron Guerrero,BOS,RP,RP,36,261.0,-33.0,1,1,,,,,,,,FA,marcel-2027
+21267,Jake Bird,WSN,RP,RP,31,195.0,-77.5,1,1,,,,,,,,FA,marcel-2027
+25620,Luis Mey,CIN,RP,RP,26,177.9,-129.2,1,1,,,,,,,,FA,marcel-2027
+14932,Ben Lively,CLE,SP,SP,35,250.1,-247.9,1,1,,,,,,,,FA,marcel-2027
+19524,Alan Rangel,PHI,RP,RP,29,138.2,-165.8,1,1,,,,,,,,FA,marcel-2027
+29521,Ryan Loutos,SEA,RP,RP,28,62.9,-235.1,1,1,,,,,,,,FA,marcel-2027
+24933,Andrew Wantz,CHC,RP,RP,31,82.1,-148.5,1,1,,,,,,,,FA,marcel-2027
+27589,Logan Allen,CLE,SP,SP,28,263.0,-377.2,1,1,,,,,,,,FA,marcel-2027
+18384,Scott Effross,SEA,RP,RP,33,89.5,-143.9,1,1,,,,,,,,FA,marcel-2027
+19362,Keegan Akin,BAL,RP,RP,32,207.2,-69.8,1,1,,,,,,,,FA,marcel-2027
+16162,Brandon Woodruff,MIL,SP,SP,34,487.7,-42.4,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Rock the Casasbah,marcel-2027
+23455,Hunter Stratton,SDP,RP,RP,30,116.4,-126.9,1,1,,,,,,,,FA,marcel-2027
+11804,Héctor Neris,,RP,RP,38,121.8,-113.5,1,1,,,,,,,,FA,marcel-2027
+26048,Sawyer Gipson-Long,DET,RP,RP,29,89.2,-210.9,1,1,,,,,,,,FA,marcel-2027
+15043,Lou Trivino III,PHI,RP,RP,35,111.3,-119.6,1,1,,,,,,,,FA,marcel-2027
+11589,José Ureña,,SP,SP,35,235.3,-260.6,1,1,,,,,,,,FA,marcel-2027
+12575,Nick Ramirez,,RP,RP,37,92.6,-130.4,1,1,,,,,,,,FA,marcel-2027
+31878,Trevor Martin,LAA,RP,RP,26,83.7,-216.0,1,1,,,,,,,,FA,marcel-2027
+27570,Cole Henry,WSN,RP,RP,27,122.5,-180.2,1,1,,,,,,,,FA,marcel-2027
+26056,Brandon Walter,HOU,SP,SP,30,290.5,-231.8,1,1,,,,,,,,FA,marcel-2027
+31936,Samy Natera Jr.,LAA,RP,RP,27,239.0,-72.9,1,1,,,,,,,,FA,marcel-2027
+30179,Pierson Ohl,COL,RP,RP,27,98.1,-202.7,1,1,,,,,,,,FA,marcel-2027
+21345,Bennett Sousa,HOU,RP,RP,32,232.5,-53.9,1,1,,,,,,,,FA,marcel-2027
+23381,Nolan Hoffman,KCR,RP,RP,29,136.4,-167.4,1,1,,,,,,,,FA,marcel-2027
+27517,Jared Koenig,MIL,RP,RP,33,181.1,-86.2,1,1,,,,,,,,FA,marcel-2027
+21420,Yerry De los Santos,NYY,RP,RP,29,163.3,-142.6,1,1,,,,,,,,FA,marcel-2027
+18333,Alex Young,,RP,RP,33,97.1,-139.1,1,1,,,,,,,,FA,marcel-2027
+21574,Brendon Little,TOR,RP,RP,30,228.8,-56.2,1,1,,,,,,,,FA,marcel-2027
+20367,Brusdar Graterol,LAD,RP,RP,28,106.8,-194.7,1,1,,,,,,,,FA,marcel-2027
+30195,Franco Aleman,CLE,RP,RP,27,131.2,-172.2,1,1,,,,,,,,FA,marcel-2027
+31751,Garrett McDaniels,LAD,RP,RP,27,81.8,-217.7,1,1,,,,,,,,FA,marcel-2027
+26952,Anthony Molina,SFG,RP,RP,25,140.9,-226.5,1,1,,,,,,,,FA,marcel-2027
+31571,Paul Gervase,LAD,RP,RP,27,102.9,-198.3,1,1,,,,,,,,FA,marcel-2027
+23590,Ben Brown,CHC,SP,SP,27,519.5,-23.8,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Bloom's Onions,marcel-2027
+15474,Lucas Giolito,SDP,SP,SP,32,337.5,-187.5,1,1,,,,,,,,FA,marcel-2027
+24607,Jonathan Bowlan,PHI,RP,RP,30,284.3,-21.3,1,1,,,,,,,,FA,marcel-2027
+23735,Luis Garcia,NYY,RP,RP,30,100.6,-136.9,1,1,,,,,,,,FA,marcel-2027
+30944,Luis De León,BAL,RP,RP,24,120.1,-253.1,1,1,,,,,,,,FA,marcel-2027
+20349,Zack Kelly,BOS,RP,RP,32,158.5,-100.4,1,1,,,,,,,,FA,marcel-2027
+22284,Matt Sauer,ATH,RP,RP,28,76.0,-223.1,1,1,,,,,,,,FA,marcel-2027
+22713,Carlos Hernández,CLE,RP,RP,30,113.3,-128.9,1,1,,,,,,,,FA,marcel-2027
+16074,Nick Burdi,,RP,RP,34,106.8,-122.2,1,1,,,,,,,,FA,marcel-2027
+31318,Gunnar Hoglund,ATH,SP,SP,27,168.9,-506.8,1,1,,,,,,,,FA,marcel-2027
+13435,Pierce Johnson,CIN,RP,RP,36,257.6,-35.0,1,1,,,,,,,,FA,marcel-2027
+19454,Michael Rucker,SEA,RP,RP,33,182.6,-85.3,1,1,,,,,,,,FA,marcel-2027
+16929,Touki Toussaint,,RP,RP,31,79.4,-150.2,1,1,,,,,,,,FA,marcel-2027
+13767,JT Chargois,,RP,RP,36,97.7,-127.4,1,1,,,,,,,,FA,marcel-2027
+17117,Austin Davis,,RP,RP,34,97.2,-127.7,1,1,,,,,,,,FA,marcel-2027
+16727,Brock Stewart,LAD,RP,RP,35,233.5,-48.9,1,1,,,,,,,,FA,marcel-2027
+17149,Domingo Germán,,RP,RP,34,78.3,-138.7,1,1,,,,,,,,FA,marcel-2027
+19320,Joey Lucchesi,,RP,RP,34,114.0,-118.0,1,1,,,,,,,,FA,marcel-2027
+27819,Brandon Young,BAL,SP,SP,28,476.1,-83.6,1,1,,,,,,,,FA,marcel-2027
+25481,Joe La Sorsa,,RP,RP,29,57.6,-240.0,1,1,,,,,,,,FA,marcel-2027
+19222,Lake Bachar,PIT,SP,SP,32,330.2,-194.4,1,1,,,,,,,,FA,marcel-2027
+30016,Joe Rock,ATH,RP,RP,26,109.7,-192.0,1,1,,,,,,,,FA,marcel-2027
+30145,Dylan Smith,SFG,RP,RP,27,216.0,-94.1,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Peel A Section,marcel-2027
+25796,Anthony Nunez,BAL,RP,RP,25,273.1,-57.5,1,1,,,,,,,,FA,marcel-2027
+18341,Julian Fernández,,RP,RP,31,98.3,-138.3,1,1,,,,,,,,FA,marcel-2027
+23429,JP Sears,SDP,SP,SP,31,290.9,-231.4,1,1,,,,,,,,FA,marcel-2027
+25977,Quinn Priester,MIL,SP,SP,26,302.3,-323.0,1,1,,,,,,,,FA,marcel-2027
+22318,Jose E. Hernandez,,RP,RP,29,95.9,-204.7,1,1,,,,,,,,FA,marcel-2027
+13781,Alex Wood,,SP,SP,36,203.4,-288.2,1,1,,,,,,,,FA,marcel-2027
+31811,Elmer Rodríguez,NYY,SP,SP,23,269.5,-511.0,1,1,,,,,,,,FA,marcel-2027
+15454,Nick Pivetta,SDP,SP,SP,34,471.1,-56.8,1,,10.0,-9.0,0,12.0,-11.0,0.0,4.0,The Northsiders,marcel-2027
+24203,Luis Peralta,CHC,RP,RP,26,71.8,-226.9,1,1,,,,,,,,FA,marcel-2027
+27014,Jose Franco,CIN,RP,RP,26,113.4,-188.6,1,1,,,,,,,,FA,marcel-2027
+29922,Wyatt Olds,BOS,RP,RP,27,138.1,-165.8,1,1,,,,,,,,FA,marcel-2027
+15239,Alan Busenitz,,RP,RP,36,91.4,-131.1,1,1,,,,,,,,FA,marcel-2027
+31616,David Morgan,SDP,RP,RP,27,190.2,-117.8,1,1,,,,,,,,FA,marcel-2027
+30061,Will Dion,WSN,RP,RP,27,203.5,-105.6,1,1,,,,,,,,FA,marcel-2027
+7146,Daniel Hudson,,RP,RP,40,125.2,-111.5,1,1,,,,,,,,FA,marcel-2027
+27508,Carson Ragsdale,,RP,RP,29,89.3,-210.8,1,1,,,,,,,,FA,marcel-2027
+11752,Luke Jackson,,RP,RP,35,127.3,-110.3,1,1,,,,,,,,FA,marcel-2027
+15256,Cole Sulser,TBR,RP,RP,37,272.3,-26.5,1,1,,,,,,,,FA,marcel-2027
+20517,Nick Sandlin,DET,RP,RP,30,115.2,-127.7,1,1,,,,,,,,FA,marcel-2027
+30055,Cade Povich,BAL,SP,SP,27,307.9,-315.3,1,1,,,,,,,,FA,marcel-2027
+26463,Alex Carrillo,SFG,RP,RP,30,69.7,-156.3,1,1,,,,,,,,FA,marcel-2027
+25928,Darius Vines,CIN,RP,RP,29,75.1,-223.9,1,1,,,,,,,,FA,marcel-2027
+33248,Craig Yoho,CLE,RP,RP,27,177.1,-129.9,1,1,,,,,,,,FA,marcel-2027
+25311,Roddery Muñoz,HOU,RP,RP,27,35.2,-260.7,1,1,,,,,,,,FA,marcel-2027
+24719,Randy Vásquez,SDP,SP,SP,28,484.4,-72.2,1,1,,,,,,,,FA,marcel-2027
+27707,Mitch Spence,KCR,SP,SP,29,230.0,-422.6,1,1,,,,,,,,FA,marcel-2027
+27470,Emerson Hancock,SEA,SP,SP,28,502.2,-47.7,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Iron ,marcel-2027
+19736,Caleb Boushley,,RP,RP,33,104.8,-134.2,1,1,,,,,,,,FA,marcel-2027
+25651,Ty Adcock,SDP,RP,RP,30,75.6,-152.6,1,1,,,,,,,,FA,marcel-2027
+31884,Logan VanWey,HOU,RP,RP,28,114.3,-187.8,1,1,,,,,,,,FA,marcel-2027
+26304,Bryan Hoeing,SDP,RP,RP,30,114.0,-128.5,1,1,,,,,,,,FA,marcel-2027
+23875,Omar Cruz,SDP,RP,RP,28,100.0,-200.9,1,1,,,,,,,,FA,marcel-2027
+19883,Alex Lange,KCR,RP,RP,31,214.6,-65.1,1,1,,,,,,,,FA,marcel-2027
+27861,Nick Frasso,COL,RP,RP,28,123.0,-179.8,1,1,,,,,,,,FA,marcel-2027
+24452,Luinder Avila,KCR,SP,SP,25,381.5,-296.9,1,1,,,,,,,,FA,marcel-2027
+29863,Ryan Bergert,KCR,SP,SP,27,302.5,-322.8,1,1,,,,,,,,FA,marcel-2027
+27669,Tanner Gordon,COL,SP,SP,29,299.5,-326.9,1,1,,,,,,,,FA,marcel-2027
+22915,Carlos Vargas,SEA,RP,RP,27,158.3,-147.2,1,1,,,,,,,,FA,marcel-2027
+28901,Wilber Dotel,PIT,RP,RP,24,206.2,-143.1,1,1,,,,,,,,FA,marcel-2027
+13449,Taylor Rogers,MIN,RP,RP,36,261.5,-32.7,1,1,,,,,,,,FA,marcel-2027
+19647,Matt Foster,,RP,RP,32,94.8,-140.5,1,1,,,,,,,,FA,marcel-2027
+31612,Carson Palmquist,WSN,SP,SP,26,153.1,-528.6,1,1,,,,,,,,FA,marcel-2027
+22187,Ryan Miller,COL,RP,RP,31,91.5,-142.6,1,1,,,,,,,,FA,marcel-2027
+19867,Griffin Canning,SDP,SP,SP,31,375.2,-152.1,1,1,,,,,,,,FA,marcel-2027
+24458,Carlos Duran,KCR,RP,RP,25,85.7,-297.1,1,1,,,,,,,,FA,marcel-2027
+15007,Yacksel Ríos,,RP,RP,34,109.7,-120.5,1,1,,,,,,,,FA,marcel-2027
+33482,Chase Dollander,COL,SP,SP,25,291.6,-468.7,1,1,,,,,,,,FA,marcel-2027
+27792,Gavin Stone,LAD,SP,SP,28,253.5,-390.3,1,1,,,,,,,,FA,marcel-2027
+6562,Alex Cobb,,RP,RP,39,103.5,-124.1,1,1,,,,,,,,FA,marcel-2027
+24580,Josiah Gray,WSN,RP,RP,29,92.1,-208.2,1,1,,,,,,,,FA,marcel-2027
+21453,Konnor Pilkington,,RP,RP,29,99.0,-201.9,1,1,,,,,,,,FA,marcel-2027
+8246,Paolo Espino,,RP,RP,40,76.2,-139.9,1,1,,,,,,,,FA,marcel-2027
+31994,Austin Peterson,CLE,RP,RP,27,109.1,-192.6,1,1,,,,,,,,FA,marcel-2027
+30170,Chase Petty,CIN,RP,RP,24,94.5,-285.9,1,1,,,,,,,,FA,marcel-2027
+29574,Chase Lee,TOR,RP,RP,28,107.5,-194.0,1,1,,,,,,,,FA,marcel-2027
+24937,Austin Warren,NYM,RP,RP,31,207.3,-69.7,1,1,,,,,,,,FA,marcel-2027
+32070,Kohl Drake,ARI,SP,SP,26,215.9,-442.1,1,1,,,,,,,,FA,marcel-2027
+33828,Naoyuki Uwasawa,,RP,RP,33,101.7,-136.2,1,1,,,,,,,,FA,marcel-2027
+21170,Dany Jiménez,,RP,RP,33,87.1,-145.4,1,1,,,,,,,,FA,marcel-2027
+14916,Jon Gray,,SP,SP,35,242.5,-254.4,1,1,,,,,,,,FA,marcel-2027
+22533,Michel Otañez,TEX,RP,RP,29,109.9,-191.8,1,1,,,,,,,,FA,marcel-2027
+29928,Dylan Dodd,ATL,RP,RP,29,275.4,-39.3,1,1,,,,,,,,FA,marcel-2027
+17186,Dinelson Lamet,,RP,RP,34,99.0,-126.7,1,1,,,,,,,,FA,marcel-2027
+19742,Anthony Bender,MIA,RP,RP,32,292.5,-16.1,1,1,,,,,,,,FA,marcel-2027
+19349,Caleb Ferguson,,RP,RP,30,223.5,-59.5,1,1,,,,,,,,FA,marcel-2027
+21997,Luis Frías,,RP,RP,29,80.7,-218.7,1,1,,,,,,,,FA,marcel-2027
+20298,Jhonathan Díaz,SEA,RP,RP,30,86.0,-146.1,1,1,,,,,,,,FA,marcel-2027
+21229,Daniel Robert,PHI,RP,RP,32,97.4,-138.9,1,1,,,,,,,,FA,marcel-2027
+15823,Zack Littell,,SP,SP,31,439.6,-91.5,1,1,,,,,,,,FA,marcel-2027
+17479,Jack Flaherty,DET,SP,SP,31,539.7,2.7,1,,13.0,-12.0,0,15.0,-14.0,0.0,5.0,Knowznothin,marcel-2027
+20061,Kaleb Ort,LAA,RP,RP,35,114.0,-118.0,1,1,,,,,,,,FA,marcel-2027
+24862,Ryan Fernandez,STL,RP,RP,29,178.5,-128.6,1,1,,,,,,,,FA,marcel-2027
+16061,Cam Booser,TBR,RP,RP,35,238.4,-46.1,1,1,,,,,,,,FA,marcel-2027
+31501,Michael Darrell-Hicks,PIT,RP,RP,29,97.6,-203.2,1,1,,,,,,,,FA,marcel-2027
+19784,Justin Garza,NYM,RP,RP,33,95.9,-139.8,1,1,,,,,,,,FA,marcel-2027
+23237,Juan Mejia,COL,RP,RP,26,292.4,-23.7,1,1,,,,,,,,FA,marcel-2027
+31972,Brad Lord,WSN,SP,SP,27,479.7,-78.7,1,1,,,,,,,,FA,marcel-2027
+15488,Antonio Senzatela,MIL,SP,SP,32,323.5,-200.7,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Knowznothin,marcel-2027
+26440,Ryan Gusto,MIA,SP,SP,28,381.4,-214.1,1,1,,,,,,,,FA,marcel-2027
+15047,Austin Voth,,RP,RP,35,111.6,-119.4,1,1,,,,,,,,FA,marcel-2027
+10123,Kyle Gibson,,SP,SP,39,205.0,-286.8,1,1,,,,,,,,FA,marcel-2027
+16754,Vinny Nittoli,,RP,RP,36,103.5,-124.1,1,1,,,,,,,,FA,marcel-2027
+17734,Evan Phillips,LAD,RP,RP,32,206.9,-70.0,1,1,,,,,,,,FA,marcel-2027
+30085,Ben Casparius,LAD,RP,RP,28,154.6,-150.6,1,1,,,,,,,,FA,marcel-2027
+27477,Bryce Jarvis,ARI,RP,RP,29,94.2,-206.3,1,1,,,,,,,,FA,marcel-2027
+27646,Luis Ortiz,CLE,SP,SP,28,293.3,-335.4,1,1,,,,,,,,FA,marcel-2027
+19316,Eric Lauer,LAD,SP,SP,32,420.8,-109.2,1,1,,,,,,,,FA,marcel-2027
+27765,Yosver Zulueta,BAL,RP,RP,29,98.9,-202.0,1,1,,,,,,,,FA,marcel-2027
+21241,Jonathan Bermúdez,,RP,RP,31,82.3,-148.4,1,1,,,,,,,,FA,marcel-2027
+27636,Mitchell Parker,WSN,SP,SP,27,326.6,-289.6,1,1,,,,,,,,FA,marcel-2027
+9073,Kirby Yates,PIT,RP,RP,40,301.0,-9.9,1,1,,,,,,,,FA,marcel-2027
+31959,Jake Bennett,BOS,SP,SP,26,525.8,-15.2,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Knowznothin,marcel-2027
+31865,Peyton Pallette,CHW,RP,RP,26,130.5,-172.8,1,1,,,,,,,,FA,marcel-2027
+22200,Ryan Rolison,CHC,RP,RP,29,215.7,-94.3,1,1,,,,,,,,FA,marcel-2027
+27666,Zach McCambley,CIN,RP,RP,28,109.1,-192.6,1,1,,,,,,,,FA,marcel-2027
+13361,Steven Matz,TBR,SP,SP,36,445.4,-79.0,1,1,,,,,,,,FA,marcel-2027
+21324,Parker Mushinski,COL,RP,RP,31,100.3,-137.1,1,1,,,,,,,,FA,marcel-2027
+7836,Hunter Strickland,,RP,RP,38,117.0,-116.3,1,1,,,,,,,,FA,marcel-2027
+13652,Tayler Scott,,RP,RP,35,104.2,-123.7,1,1,,,,,,,,FA,marcel-2027
+23592,Brett de Geus,,RP,RP,29,92.2,-208.1,1,1,,,,,,,,FA,marcel-2027
+25645,Declan Cronin,TEX,RP,RP,29,114.4,-187.7,1,1,,,,,,,,FA,marcel-2027
+12095,Yimi García,TOR,RP,RP,36,148.0,-98.4,1,1,,,,,,,,FA,marcel-2027
+16122,Jordan Romano,COL,RP,RP,34,218.4,-57.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Sweet Spot,marcel-2027
+35321,Tomoyuki Sugano,COL,SP,SP,37,408.9,-110.6,1,1,,,,,,,,FA,marcel-2027
+25667,Nick Avila,,RP,RP,29,91.9,-208.4,1,1,,,,,,,,FA,marcel-2027
+15890,Luis Severino,ATH,SP,SP,33,429.3,-101.2,1,1,,,,,,,,FA,marcel-2027
+24602,Drew Rom,ATH,RP,RP,27,142.2,-162.1,1,1,,,,,,,,FA,marcel-2027
+23221,Michael Grove,ATL,RP,RP,30,111.3,-130.2,1,1,,,,,,,,FA,marcel-2027
+20638,Luis F. Castillo,,RP,RP,32,89.7,-143.7,1,1,,,,,,,,FA,marcel-2027
+16511,Jordan Montgomery,TEX,SP,SP,34,251.3,-246.8,1,1,,,,,,,,FA,marcel-2027
+19409,Dane Dunning,SEA,SP,SP,32,208.9,-308.6,1,1,,,,,,,,FA,marcel-2027
+6797,Julio Teheran,,RP,RP,36,90.2,-131.8,1,1,,,,,,,,FA,marcel-2027
+31676,Carson Whisenhunt,SFG,SP,SP,26,211.1,-448.7,1,1,,,,,,,,FA,marcel-2027
+13761,Chris Stratton,,RP,RP,36,93.9,-129.6,1,1,,,,,,,,FA,marcel-2027
+14375,Amir Garrett,,RP,RP,35,99.1,-126.6,1,1,,,,,,,,FA,marcel-2027
+33174,Hunter Barco,PIT,RP,RP,26,97.0,-203.7,1,1,,,,,,,,FA,marcel-2027
+21045,Seth Martinez,BOS,RP,RP,32,90.5,-143.2,1,1,,,,,,,,FA,marcel-2027
+37124,Tatsuya Imai,HOU,SP,SP,29,424.6,-154.6,1,1,,,,,,,,FA,marcel-2027
+21922,Sauryn Lao,,RP,RP,27,91.7,-208.6,1,1,,,,,,,,FA,marcel-2027
+11176,David Buchanan,,RP,RP,38,100.0,-126.1,1,1,,,,,,,,FA,marcel-2027
+17606,Cristian Javier,HOU,SP,SP,30,366.9,-159.9,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Barreled Souls,marcel-2027
+16835,Brennan Bernardino,COL,RP,RP,35,309.3,-5.1,1,1,,,,,,,,FA,marcel-2027
+24606,Josh Winder,PHI,RP,RP,30,106.0,-133.5,1,1,,,,,,,,FA,marcel-2027
+20276,Deivi García,,RP,RP,28,88.9,-211.2,1,1,,,,,,,,FA,marcel-2027
+11674,Jameson Taillon,TOR,SP,SP,35,403.2,-115.5,1,1,,,,,,,,FA,marcel-2027
+31827,Zebby Matthews,MIN,SP,SP,27,453.7,-114.5,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Seiya Prayer For My Team,marcel-2027
+26097,Bradley Hanner,NYY,RP,RP,28,73.9,-225.0,1,1,,,,,,,,FA,marcel-2027
+19753,Jonathan Loáisiga,ARI,RP,RP,32,292.7,-16.0,1,1,,,,,,,,FA,marcel-2027
+33891,Zac Thornton,NYM,SP,SP,25,378.5,-302.6,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Peel A Section,marcel-2027
+33027,Luis Gastelum,STL,RP,RP,25,165.4,-195.2,1,1,,,,,,,,FA,marcel-2027
+22176,Easton McGee,KCR,RP,RP,29,105.0,-196.3,1,1,,,,,,,,FA,marcel-2027
+20099,Chris Paddack,TEX,SP,SP,31,322.5,-201.7,1,1,,,,,,,,FA,marcel-2027
+20353,Steven Wilson,TBR,RP,RP,32,119.3,-125.1,1,1,,,,,,,,FA,marcel-2027
+31761,Owen Murphy,ATL,RP,RP,23,82.8,-300.8,1,1,,,,,,,,FA,marcel-2027
+33026,Yunior Tur,ATH,RP,RP,27,59.0,-238.7,1,1,,,,,,,,FA,marcel-2027
+24977,Shawn Dubin,,RP,RP,31,108.7,-131.8,1,1,,,,,,,,FA,marcel-2027
+31184,Luis Guerrero,TBR,RP,RP,26,118.5,-183.9,1,1,,,,,,,,FA,marcel-2027
+14309,Frankie Montas,,SP,SP,34,222.1,-272.1,1,1,,,,,,,,FA,marcel-2027
+24621,Ryan Weiss,HOU,RP,RP,30,81.6,-148.8,1,1,,,,,,,,FA,marcel-2027
+20020,John Schreiber,NYY,RP,RP,33,318.1,0.0,1,1,,,,,,,,FA,marcel-2027
+18297,Tyler Kinley,DET,RP,RP,36,303.7,-8.3,1,1,,,,,,,,FA,marcel-2027
+21584,Tristan Beck,SFG,RP,RP,31,156.5,-101.7,1,1,,,,,,,,FA,marcel-2027
+21741,Javier Assad,CHC,SP,SP,29,399.1,-189.7,1,1,,,,,,,,FA,marcel-2027
+26221,Ryan Pepiot,TBR,SP,SP,29,336.6,-275.8,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Iron ,marcel-2027
+26203,Andrew Saalfrank,ARI,RP,RP,29,132.9,-170.6,1,1,,,,,,,,FA,marcel-2027
+33794,Trey Gibson,BAL,SP,SP,25,196.8,-649.9,1,1,,,,,,,,FA,marcel-2027
+29891,James Meeker,,RP,RP,32,97.2,-139.0,1,1,,,,,,,,FA,marcel-2027
+26247,Orlando Ribalta,WSN,RP,RP,29,201.2,-107.7,1,1,,,,,,,,FA,marcel-2027
+23617,Josh Walker,BAL,RP,RP,32,187.9,-81.9,1,1,,,,,,,,FA,marcel-2027
+12988,Andrew Chafin,,RP,RP,37,133.5,-106.7,1,1,,,,,,,,FA,marcel-2027
+23252,Spencer Howard,,RP,RP,30,74.8,-153.1,1,1,,,,,,,,FA,marcel-2027
+10061,Brooks Raley,PHI,RP,RP,39,310.3,-4.5,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,The Northsiders,marcel-2027
+1247,Adam Ottavino,,RP,RP,41,117.1,-116.2,1,1,,,,,,,,FA,marcel-2027
+20206,Mike Baumann,,RP,RP,31,90.7,-143.1,1,1,,,,,,,,FA,marcel-2027
+31900,Adam Mazur,MIA,SP,SP,26,186.6,-482.4,1,1,,,,,,,,FA,marcel-2027
+27812,Dugan Darnell,,RP,RP,30,95.7,-140.0,1,1,,,,,,,,FA,marcel-2027
+11384,Tommy Kahnle,,RP,RP,37,167.7,-87.0,1,1,,,,,,,,FA,marcel-2027
+20385,Isaac Mattson,PIT,RP,RP,31,237.9,-50.5,1,1,,,,,,,,FA,marcel-2027
+30074,Chase Silseth,TEX,RP,RP,27,262.2,-51.5,1,1,,,,,,,,FA,marcel-2027
+19453,Shaun Anderson,LAA,RP,RP,32,72.2,-154.8,1,1,,,,,,,,FA,marcel-2027
+25474,Nathan Wiles,,RP,RP,28,94.5,-206.0,1,1,,,,,,,,FA,marcel-2027
+29615,Kyle Backhus,PHI,RP,RP,29,152.6,-152.5,1,1,,,,,,,,FA,marcel-2027
+15855,Wander Suero,ATH,RP,RP,35,77.3,-139.2,1,1,,,,,,,,FA,marcel-2027
+27999,Emiliano Teodo,TEX,RP,RP,26,94.8,-205.7,1,1,,,,,,,,FA,marcel-2027
+19911,José Suarez,,RP,RP,29,222.3,-88.3,1,1,,,,,,,,FA,marcel-2027
+19345,Daulton Jefferies,PIT,RP,RP,31,76.4,-152.1,1,1,,,,,,,,FA,marcel-2027
+16408,Victor González,,RP,RP,31,96.4,-139.5,1,1,,,,,,,,FA,marcel-2027
+15761,Joe Jiménez,ATL,RP,RP,32,149.9,-105.9,1,1,,,,,,,,FA,marcel-2027
+30334,Cesar Perdomo,SFG,RP,RP,25,114.8,-259.9,1,1,,,,,,,,FA,marcel-2027
+27608,Jeff Criswell,COL,RP,RP,28,85.0,-214.8,1,1,,,,,,,,FA,marcel-2027
+33515,Ethan Pecko,HOU,RP,RP,24,139.0,-229.0,1,1,,,,,,,,FA,marcel-2027
+14420,Jackson Stephens,,RP,RP,33,90.8,-143.1,1,1,,,,,,,,FA,marcel-2027
+26034,Anthony Maldonado,,RP,RP,29,79.6,-219.7,1,1,,,,,,,,FA,marcel-2027
+32157,Jonah Tong,NYM,SP,SP,24,150.4,-738.6,1,1,,,,,,,,FA,marcel-2027
+14857,Joe Mantiply,TOR,RP,RP,36,169.1,-86.2,1,1,,,,,,,,FA,marcel-2027
+30105,Mike Vasil,CHW,RP,RP,27,147.3,-157.4,1,1,,,,,,,,FA,marcel-2027
+14510,Thyago Vieira,,RP,RP,34,78.0,-138.8,1,1,,,,,,,,FA,marcel-2027
+19274,Jacob Webb,CHC,RP,RP,33,324.1,3.8,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,The Northsiders,marcel-2027
+33850,Brandon Sproat,MIL,SP,SP,26,390.9,-201.0,1,1,,,,,,,,FA,marcel-2027
+25804,Randy Wynne,,RP,RP,34,98.3,-127.1,1,1,,,,,,,,FA,marcel-2027
+12880,Tyler Anderson,LAA,SP,SP,37,246.7,-250.8,1,1,,,,,,,,FA,marcel-2027
+22362,Julian Garcia,CIN,RP,RP,32,212.6,-66.4,1,1,,,,,,,,FA,marcel-2027
+12791,Michael Kelly,,RP,RP,34,122.2,-113.3,1,1,,,,,,,,FA,marcel-2027
+26104,Jack Ralston,MIA,RP,RP,29,129.1,-174.1,1,1,,,,,,,,FA,marcel-2027
+25957,Josh Simpson,SEA,RP,RP,29,81.5,-218.0,1,1,,,,,,,,FA,marcel-2027
+22925,Joan Adon,,RP,RP,28,86.6,-213.3,1,1,,,,,,,,FA,marcel-2027
+20462,Bryan Sammons,,RP,RP,32,89.8,-143.7,1,1,,,,,,,,FA,marcel-2027
+25839,Luis Contreras,,RP,RP,31,100.1,-137.2,1,1,,,,,,,,FA,marcel-2027
+18555,Logan Allen,,RP,RP,30,91.3,-142.7,1,1,,,,,,,,FA,marcel-2027
+30161,Carlos Rodriguez,MIL,RP,RP,25,93.8,-286.8,1,1,,,,,,,,FA,marcel-2027
+29000,Antwone Kelly,PIT,RP,RP,23,109.1,-267.2,1,1,,,,,,,,FA,marcel-2027
+14361,Ty Blach,,RP,RP,36,58.6,-150.0,1,1,,,,,,,,FA,marcel-2027
+29423,Kendry Rojas,MIN,RP,RP,24,164.8,-196.0,1,1,,,,,,,,FA,marcel-2027
+17381,Matt Gage,SFG,RP,RP,34,157.5,-92.9,1,1,,,,,,,,FA,marcel-2027
+24604,Austin Cox,ATL,RP,RP,30,66.0,-158.7,1,1,,,,,,,,FA,marcel-2027
+14814,Buck Farmer,,RP,RP,36,102.8,-124.5,1,1,,,,,,,,FA,marcel-2027
+16300,Jesus Tinoco,MIA,RP,RP,32,135.8,-114.7,1,1,,,,,,,,FA,marcel-2027
+25158,Jayvien Sandridge,BAL,RP,RP,28,86.2,-213.7,1,1,,,,,,,,FA,marcel-2027
+14295,Wandy Peralta,SDP,RP,RP,35,293.3,-14.3,1,1,,,,,,,,FA,marcel-2027
+20423,Ryan Walker,SFG,RP,RP,31,266.5,-32.5,1,1,,,,,,,,FA,marcel-2027
+22361,Colin Holderman,CLE,RP,RP,31,267.0,-32.2,1,1,,,,,,,,FA,marcel-2027
+25553,Nic Enright,TOR,RP,RP,30,122.5,-123.1,1,1,,,,,,,,FA,marcel-2027
+18335,Josh Staumont,,RP,RP,33,105.8,-133.6,1,1,,,,,,,,FA,marcel-2027
+20548,Bowden Francis,TOR,SP,SP,31,214.0,-303.8,1,1,,,,,,,,FA,marcel-2027
+20387,Anthony Kay,CHW,SP,SP,32,460.9,-71.4,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Chin Music Choir,marcel-2027
+28846,Alimber Santa,HOU,RP,RP,24,138.2,-230.0,1,1,,,,,,,,FA,marcel-2027
+29823,Ky Bush,CHW,RP,RP,27,78.0,-221.2,1,1,,,,,,,,FA,marcel-2027
+29114,Jedixson Paez,BOS,RP,RP,23,51.3,-341.1,1,1,,,,,,,,FA,marcel-2027
+24698,Tanner Andrews,TOR,RP,RP,31,106.8,-133.0,1,1,,,,,,,,FA,marcel-2027
+26378,Nick Lodolo,CIN,SP,SP,29,477.3,-82.0,1,,10.0,-9.0,0,12.0,-11.0,0.0,4.0,Peel A Section,marcel-2027
+17878,Dennis Santana,ARI,RP,RP,31,322.6,2.8,1,1,,,,,,,,FA,marcel-2027
+22051,John King,TEX,RP,RP,32,210.5,-67.7,1,1,,,,,,,,FA,marcel-2027
+20962,Elvin Rodríguez,,RP,RP,29,57.9,-239.7,1,1,,,,,,,,FA,marcel-2027
+19924,Bryan Hudson,CHW,RP,RP,30,320.6,1.6,1,1,,,,,,,,FA,marcel-2027
+6576,Robert Stock,NYM,SP,SP,37,139.2,-343.7,1,1,,,,,,,,FA,marcel-2027
+24581,Lyon Richardson,MIL,RP,RP,27,103.2,-198.0,1,1,,,,,,,,FA,marcel-2027
+35462,Jackson Kent,WSN,SP,SP,24,294.5,-463.2,1,1,,,,,,,,FA,marcel-2027
+19586,Forrest Whitley,,RP,RP,29,75.3,-223.7,1,1,,,,,,,,FA,marcel-2027
+31097,Yunior Marte,SFG,RP,RP,23,115.1,-259.5,1,1,,,,,,,,FA,marcel-2027
+12808,Mike Clevinger,,RP,RP,36,80.9,-137.1,1,1,,,,,,,,FA,marcel-2027
+23307,Collin Snider,CHC,RP,RP,31,121.3,-123.9,1,1,,,,,,,,FA,marcel-2027
+20633,Yusei Kikuchi,LAA,SP,SP,36,455.6,-70.2,1,1,,,,,,,,FA,marcel-2027
+20167,Kyle Muller,,RP,RP,29,94.6,-205.9,1,1,,,,,,,,FA,marcel-2027
+26227,Alec Gamboa,BOS,RP,RP,30,195.3,-77.3,1,1,,,,,,,,FA,marcel-2027
+27463,Garrett Crochet,BOS,SP,SP,28,511.2,-35.3,1,,20.0,-19.0,0,22.0,-21.0,0.0,9.0,Sweet Spot,marcel-2027
+33834,Andrew Walters,CLE,RP,RP,26,100.3,-200.7,1,1,,,,,,,,FA,marcel-2027
+14120,Lance McCullers Jr.,,SP,SP,33,274.4,-246.9,1,1,,,,,,,,FA,marcel-2027
+27681,Ken Waldichuk,WSN,RP,RP,29,83.7,-216.0,1,1,,,,,,,,FA,marcel-2027
+27926,Coleman Crow,MIL,RP,RP,26,120.2,-182.3,1,1,,,,,,,,FA,marcel-2027
+25582,Brady Basso,ATH,SP,SP,29,179.4,-492.3,1,1,,,,,,,,FA,marcel-2027
+29960,AJ Smith-Shawver,ATL,SP,SP,24,290.4,-471.0,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Bloom's Onions,marcel-2027
+17677,Jeffrey Springs,ATH,SP,SP,34,452.8,-72.6,1,1,,,,,,,,FA,marcel-2027
+21620,Jake Cousins,LAD,RP,RP,32,116.1,-127.1,1,1,,,,,,,,FA,marcel-2027
+27668,Brandon Eisert,PIT,RP,RP,29,216.0,-94.1,1,1,,,,,,,,FA,marcel-2027
+12323,Jacob Barnes,,RP,RP,37,91.6,-131.0,1,1,,,,,,,,FA,marcel-2027
+19795,Keegan Thompson,COL,RP,RP,32,131.8,-117.3,1,1,,,,,,,,FA,marcel-2027
+13799,Matt Strahm,,RP,RP,35,272.5,-26.4,1,1,,,,,,,,FA,marcel-2027
+29921,Spencer Arrighetti,TOR,SP,SP,27,413.1,-170.4,1,1,,,,,,,,FA,marcel-2027
+25625,Daniel Espino,CLE,RP,RP,26,121.9,-180.8,1,1,,,,,,,,FA,marcel-2027
+17964,Tyler Gilbert,CHW,RP,RP,33,124.8,-121.7,1,1,,,,,,,,FA,marcel-2027
+13287,Jesse Hahn,,RP,RP,37,87.4,-133.4,1,1,,,,,,,,FA,marcel-2027
+20257,Blake Weiman,LAA,RP,RP,31,129.7,-118.6,1,1,,,,,,,,FA,marcel-2027
+21310,Josh Maciejewski,,RP,RP,31,100.8,-136.8,1,1,,,,,,,,FA,marcel-2027
+20539,Edwin Uceta,TBR,RP,RP,29,183.4,-124.1,1,1,,,,,,,,FA,marcel-2027
+33838,Yariel Rodríguez,TOR,SP,SP,30,319.5,-204.5,1,1,,,,,,,,FA,marcel-2027
+21549,Jackson Kowar,BAL,RP,RP,30,93.8,-141.2,1,1,,,,,,,,FA,marcel-2027
+9323,Patrick Corbin,TOR,SP,SP,37,401.8,-116.7,1,1,,,,,,,,FA,marcel-2027
+25551,Isaiah Campbell,ARI,RP,RP,29,75.1,-223.9,1,1,,,,,,,,FA,marcel-2027
+27758,Kyle Harrison,MIL,SP,SP,25,464.0,-139.2,1,,8.0,-7.0,0,10.0,-9.0,0.0,3.0,Barreled Souls,marcel-2027
+6399,José Cisnero,,RP,RP,38,84.8,-134.9,1,1,,,,,,,,FA,marcel-2027
+17796,Dillon Tate,LAA,RP,RP,33,94.4,-140.8,1,1,,,,,,,,FA,marcel-2027
+13346,Hoby Milner,SEA,RP,RP,36,245.5,-42.0,1,1,,,,,,,,FA,marcel-2027
+15514,Kendall Graveman,,RP,RP,36,84.8,-134.9,1,1,,,,,,,,FA,marcel-2027
+23426,Max Lazar,PHI,RP,RP,28,104.3,-197.0,1,1,,,,,,,,FA,marcel-2027
+9434,Dallas Keuchel,ATH,RP,RP,39,82.6,-136.2,1,1,,,,,,,,FA,marcel-2027
+31846,Spencer Schwellenbach,ATL,SP,SP,27,360.5,-242.9,1,,18.0,-17.0,0,20.0,-19.0,0.0,8.0,Barreled Souls,marcel-2027
+31730,Jonathan Cannon,CHW,SP,SP,26,226.2,-427.9,1,1,,,,,,,,FA,marcel-2027
+18769,Cody Poteet,,RP,RP,32,96.6,-139.4,1,1,,,,,,,,FA,marcel-2027
+16318,Ricardo Pinto,,RP,RP,33,82.0,-148.6,1,1,,,,,,,,FA,marcel-2027
+19205,Jesse Scholtens,TBR,RP,RP,33,150.8,-105.3,1,1,,,,,,,,FA,marcel-2027
+15968,Brady Feigl,,RP,RP,36,87.4,-133.4,1,1,,,,,,,,FA,marcel-2027
+12272,Aaron Brooks,TBR,RP,RP,37,72.4,-142.1,1,1,,,,,,,,FA,marcel-2027
+17639,Justin Lawrence,WSN,RP,RP,32,134.5,-115.6,1,1,,,,,,,,FA,marcel-2027
+21101,Dauri Moreta,,RP,RP,31,109.5,-131.3,1,1,,,,,,,,FA,marcel-2027
+22113,Cole Winn,TEX,RP,RP,27,236.3,-75.4,1,1,,,,,,,,FA,marcel-2027
+26171,Connor Gillispie,PHI,RP,RP,29,87.1,-212.8,1,1,,,,,,,,FA,marcel-2027
+21662,Elvis Alvarado,ATH,RP,RP,28,252.0,-60.9,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Barreled Souls,marcel-2027
+21520,Hogan Harris,ATH,RP,RP,30,324.7,4.2,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Providence Grays,marcel-2027
+26213,Caleb Kilian,PHI,RP,RP,30,226.2,-57.8,1,1,,,,,,,,FA,marcel-2027
+31663,Mason Adams,COL,SP,SP,27,219.0,-437.8,1,1,,,,,,,,FA,marcel-2027
+23499,Keaton Winn,SFG,RP,RP,29,208.3,-101.2,1,1,,,,,,,,FA,marcel-2027
+23798,Randy Dobnak,KCR,SP,SP,32,383.1,-144.6,1,1,,,,,,,,FA,marcel-2027
+19879,Tanner Houck,BOS,SP,SP,31,267.1,-253.8,1,1,,,,,,,,FA,marcel-2027
+19754,Reiver Sanmartin,SFG,RP,RP,31,144.3,-109.4,1,1,,,,,,,,FA,marcel-2027
+16631,Jeff Brigham,,RP,RP,35,90.1,-131.8,1,1,,,,,,,,FA,marcel-2027
+20491,J.B. Bukauskas,MIL,RP,RP,30,104.4,-134.5,1,1,,,,,,,,FA,marcel-2027
+18000,Triston McKenzie,,SP,SP,29,161.8,-516.6,1,1,,,,,,,,FA,marcel-2027
+31635,Hayden Birdsong,SFG,SP,SP,25,250.2,-547.8,1,1,,,,,,,,FA,marcel-2027
+24282,Kai-Wei Teng,HOU,SP,SP,28,371.2,-228.1,1,1,,,,,,,,FA,marcel-2027
+16401,Yonny Chirinos,,SP,SP,33,183.9,-332.1,1,1,,,,,,,,FA,marcel-2027
+14874,Sam Moll,,RP,RP,35,249.1,-39.9,1,1,,,,,,,,FA,marcel-2027
+31261,Chris Roycroft,ATH,RP,RP,30,124.0,-122.2,1,1,,,,,,,,FA,marcel-2027
+27624,Walter Pennington,,RP,RP,29,93.1,-207.3,1,1,,,,,,,,FA,marcel-2027
+21859,Alex Speas,,RP,RP,29,92.9,-207.5,1,1,,,,,,,,FA,marcel-2027
+18498,Kenta Maeda,,SP,SP,39,204.1,-287.6,1,1,,,,,,,,FA,marcel-2027
+27536,Evan Kravetz,,RP,RP,30,99.1,-137.8,1,1,,,,,,,,FA,marcel-2027
+31461,Ben Joyce,LAA,RP,RP,26,177.8,-129.3,1,,7.0,-6.0,0,9.0,-8.0,0.0,2.0,Chin Music Choir,marcel-2027
+21537,Daniel Lynch IV,KCR,SP,SP,30,477.9,-55.4,1,1,,,,,,,,FA,marcel-2027
+20271,Daysbel Hernández,,RP,RP,30,129.7,-118.6,1,1,,,,,,,,FA,marcel-2027
+11121,Casey Lawrence,PHI,RP,RP,39,93.4,-129.9,1,1,,,,,,,,FA,marcel-2027
+27567,TJ Shook,COL,RP,RP,29,86.9,-213.0,1,1,,,,,,,,FA,marcel-2027
+12972,Joe Ross,TEX,RP,RP,34,118.2,-115.6,1,1,,,,,,,,FA,marcel-2027
+20203,Eli Morgan,NYY,RP,RP,31,112.9,-129.1,1,1,,,,,,,,FA,marcel-2027
+31809,Blake Burkhalter,ATL,RP,RP,26,98.4,-202.4,1,1,,,,,,,,FA,marcel-2027
+25480,Chase Solesky,CIN,RP,RP,29,96.7,-204.0,1,1,,,,,,,,FA,marcel-2027
+17578,JT Brubaker,SFG,RP,RP,33,261.1,-35.9,1,1,,,,,,,,FA,marcel-2027
+25648,Justin Slaten,BOS,RP,RP,29,252.5,-60.4,1,1,,,,,,,,FA,marcel-2027
+30091,Andrew Painter,PHI,SP,SP,24,385.7,-288.8,1,,6.0,-5.0,0,8.0,-7.0,0.0,2.0,Chin Music Choir,marcel-2027
+8779,Wade Miley,,RP,RP,40,78.5,-138.5,1,1,,,,,,,,FA,marcel-2027
+5097,Anthony Gose,KCR,RP,RP,36,122.8,-112.9,1,1,,,,,,,,FA,marcel-2027
+30240,Hunter Dobbins,STL,SP,SP,27,382.8,-212.1,1,1,,,,,,,,FA,marcel-2027
+30187,Mike Paredes,MIN,SP,SP,26,241.5,-406.8,1,1,,,,,,,,FA,marcel-2027
+3237,T.J. McFarland,,RP,RP,38,116.1,-116.8,1,1,,,,,,,,FA,marcel-2027
+27485,Garrett Stallings,MIL,RP,RP,29,168.1,-138.2,1,1,,,,,,,,FA,marcel-2027
+17610,Tanner Rainey,DET,RP,RP,34,102.8,-124.5,1,1,,,,,,,,FA,marcel-2027
+18064,Phil Maton,CHC,RP,RP,34,241.0,-44.6,1,1,,,,,,,,FA,marcel-2027
+30056,David Festa,MIN,SP,SP,27,259.9,-381.5,1,1,,,,,,,,FA,marcel-2027
+27474,Max Meyer,MIA,SP,SP,28,500.2,-50.4,1,,9.0,-8.0,0,11.0,-10.0,0.0,3.0,Sweet Spot,marcel-2027
+23055,Dedniel Núñez,NYM,RP,RP,31,187.0,-82.5,1,1,,,,,,,,FA,marcel-2027
+27407,Rolddy Muñoz,ATL,RP,RP,27,77.3,-221.9,1,1,,,,,,,,FA,marcel-2027
+30004,McCade Brown,COL,SP,SP,26,171.7,-503.0,1,1,,,,,,,,FA,marcel-2027
+21093,Nick Vespi,,RP,RP,31,101.0,-136.6,1,1,,,,,,,,FA,marcel-2027
+29950,Jordan Leasure,CHW,RP,RP,28,171.3,-135.3,1,1,,,,,,,,FA,marcel-2027
+26260,Drey Jameson,ARI,RP,RP,29,131.7,-171.7,1,1,,,,,,,,FA,marcel-2027
+4806,Rich Hill,,RP,RP,47,85.5,-134.5,1,1,,,,,,,,FA,marcel-2027
+28052,Brandan Bidois,MIA,RP,RP,26,85.7,-214.1,1,1,,,,,,,,FA,marcel-2027
+7005,Ryan Pressly,,RP,RP,38,137.4,-104.5,1,1,,,,,,,,FA,marcel-2027
+19531,Jason Foley,SFG,RP,RP,31,187.2,-82.4,1,1,,,,,,,,FA,marcel-2027
+27662,Christian Roa,HOU,RP,RP,28,98.2,-202.6,1,1,,,,,,,,FA,marcel-2027
+27984,Jose Corniell,TEX,RP,RP,24,61.9,-327.5,1,1,,,,,,,,FA,marcel-2027
+16094,Zach Thompson,,RP,RP,33,108.6,-131.9,1,1,,,,,,,,FA,marcel-2027
+27271,Juan Burgos,ARI,RP,RP,27,105.7,-195.7,1,1,,,,,,,,FA,marcel-2027
+9761,Joe Kelly,,RP,RP,39,106.4,-122.4,1,1,,,,,,,,FA,marcel-2027
+19962,Joey Wentz,ATL,SP,SP,29,273.1,-363.3,1,1,,,,,,,,FA,marcel-2027
+27967,Andry Lara,WSN,RP,RP,24,72.2,-314.4,1,1,,,,,,,,FA,marcel-2027
+14527,Jorge López,,RP,RP,34,127.1,-110.4,1,1,,,,,,,,FA,marcel-2027
+13607,Carl Edwards Jr.,DET,RP,RP,35,115.9,-116.9,1,1,,,,,,,,FA,marcel-2027
+14416,Yunior Marte,,RP,RP,32,73.9,-153.7,1,1,,,,,,,,FA,marcel-2027
+11847,Chris Martin,,RP,RP,41,166.5,-87.7,1,1,,,,,,,,FA,marcel-2027
+31553,Mason Fluharty,TOR,RP,RP,25,317.1,-1.3,1,1,,,,,,,,FA,marcel-2027
+27775,Kyle Nicolas,WSN,RP,RP,28,124.2,-178.7,1,1,,,,,,,,FA,marcel-2027
+27793,Braxton Roxby,SFG,RP,RP,28,99.2,-201.7,1,1,,,,,,,,FA,marcel-2027
+27756,Mick Abel,MIN,SP,SP,25,281.1,-488.8,1,1,,,,,,,,FA,marcel-2027
+12056,Scott McGough,,RP,RP,37,75.8,-140.1,1,1,,,,,,,,FA,marcel-2027
+30094,Jordan Wicks,CHC,RP,RP,27,95.2,-205.4,1,1,,,,,,,,FA,marcel-2027
+19884,Corbin Martin,CHC,RP,RP,31,91.6,-142.6,1,1,,,,,,,,FA,marcel-2027
+15094,Rob Zastryzny,MIL,RP,RP,35,114.3,-117.8,1,1,,,,,,,,FA,marcel-2027
+17425,Erick Fedde,CHW,SP,SP,34,505.3,-27.2,1,1,,,,,,,,FA,marcel-2027
+33168,Jake Bloss,TOR,RP,RP,26,74.6,-224.4,1,1,,,,,,,,FA,marcel-2027
+29542,Andre Granillo,DET,RP,RP,27,91.8,-208.5,1,1,,,,,,,,FA,marcel-2027
+33527,Hurston Waldrep,ATL,SP,SP,25,124.2,-788.7,1,1,,,,,,,,FA,marcel-2027
+7432,Jay Jackson,,RP,RP,39,86.0,-134.2,1,1,,,,,,,,FA,marcel-2027
+16269,John Means,KCR,RP,RP,34,104.8,-123.3,1,1,,,,,,,,FA,marcel-2027
+33214,Trent Harris,SFG,RP,RP,28,201.1,-107.8,1,1,,,,,,,,FA,marcel-2027
+25368,Zach Penrod,,RP,RP,30,99.5,-137.6,1,1,,,,,,,,FA,marcel-2027
+31893,Robby Snelling,MIA,RP,RP,23,91.6,-289.6,1,,12.0,-11.0,0,14.0,-13.0,0.0,5.0,Barreled Souls,marcel-2027
+27853,Ryan Watson,LAA,RP,RP,29,273.1,-41.5,1,1,,,,,,,,FA,marcel-2027
+15288,Adam Cimber,,RP,RP,36,104.7,-123.4,1,1,,,,,,,,FA,marcel-2027
+6902,Martín Pérez,ATL,SP,SP,36,535.2,-1.4,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Knowznothin,marcel-2027
+30171,Mason Black,KCR,RP,RP,27,96.6,-204.1,1,1,,,,,,,,FA,marcel-2027
+31870,Matt Pushard,MIA,RP,RP,29,115.0,-187.1,1,1,,,,,,,,FA,marcel-2027
+15467,Marco Gonzales,,RP,RP,35,97.3,-127.7,1,1,,,,,,,,FA,marcel-2027
+35325,Ryan Johnson,LAA,SP,SP,24,316.1,-421.9,1,1,,,,,,,,FA,marcel-2027
+25139,Tim Herrin,CLE,RP,RP,30,299.6,-11.6,1,1,,,,,,,,FA,marcel-2027
+6893,Johnny Cueto,,RP,RP,41,81.6,-136.7,1,1,,,,,,,,FA,marcel-2027
+6655,Craig Kimbrel,KCR,RP,RP,39,246.4,-41.5,1,1,,,,,,,,FA,marcel-2027
+27814,Shane Drohan,MIL,SP,SP,28,527.7,-12.5,1,,1.0,0.0,0,3.0,-2.0,0.0,-1.0,Peel A Section,marcel-2027
+27552,Graham Ashcraft,CIN,RP,RP,29,226.4,-84.5,1,1,,,,,,,,FA,marcel-2027
+4301,Justin Wilson,,RP,RP,39,142.3,-101.6,1,1,,,,,,,,FA,marcel-2027
+27902,Jefry Yan,NYM,RP,RP,30,140.0,-112.1,1,1,,,,,,,,FA,marcel-2027
+13293,Danny Coulombe,,RP,RP,37,220.6,-56.4,1,1,,,,,,,,FA,marcel-2027
+26448,Trevor McDonald,SFG,SP,SP,26,400.1,-188.3,1,1,,,,,,,,FA,marcel-2027
+31967,Drew Thorpe,CHW,SP,SP,26,212.6,-446.6,1,,3.0,-2.0,0,5.0,-4.0,0.0,0.0,Chin Music Choir,marcel-2027
+31773,Alex McFarlane,PHI,RP,RP,26,165.1,-141.0,1,1,,,,,,,,FA,marcel-2027
+12857,Shawn Armstrong,CLE,RP,RP,36,257.9,-34.8,1,1,,,,,,,,FA,marcel-2027
+19558,Geoff Hartlieb,ATH,RP,RP,33,133.2,-116.4,1,1,,,,,,,,FA,marcel-2027
+8110,Bryan Shaw,,RP,RP,39,88.8,-132.6,1,1,,,,,,,,FA,marcel-2027
+22461,Logan Gillaspie,SDP,RP,RP,30,86.8,-145.6,1,1,,,,,,,,FA,marcel-2027
+20160,Nate Pearson,KCR,RP,RP,30,210.0,-68.0,1,1,,,,,,,,FA,marcel-2027
+15423,Andrew Heaney,,SP,SP,36,247.5,-250.1,1,1,,,,,,,,FA,marcel-2027
+30158,Chad Dallas,TOR,RP,RP,27,125.9,-177.1,1,1,,,,,,,,FA,marcel-2027
+31942,Cameron Foster,BAL,RP,RP,28,90.7,-209.5,1,1,,,,,,,,FA,marcel-2027
+27583,Garrett Acton,MIN,RP,RP,29,119.8,-182.7,1,1,,,,,,,,FA,marcel-2027
+17594,Mitch Keller,PIT,SP,SP,31,526.4,-9.8,1,1,,,,,,,,FA,marcel-2027
+21894,Gregory Santos,,RP,RP,27,104.6,-196.7,1,1,,,,,,,,FA,marcel-2027
+30153,Dom Hamel,NYY,RP,RP,28,92.9,-207.5,1,1,,,,,,,,FA,marcel-2027
+17948,Trent Thornton,CHC,RP,RP,33,227.7,-56.9,1,1,,,,,,,,FA,marcel-2027
+29036,Miguel Ullola,HOU,RP,RP,25,126.4,-245.1,1,1,,,,,,,,FA,marcel-2027
+16128,John Curtiss,,RP,RP,34,114.6,-117.7,1,1,,,,,,,,FA,marcel-2027
+19447,Patrick Sandoval,BOS,SP,SP,30,355.6,-170.5,1,1,,,,,,,,FA,marcel-2027
+23779,Justin Bruihl,STL,RP,RP,30,273.5,-28.1,1,1,,,,,,,,FA,marcel-2027
+29640,Hayden Juenger,ATH,RP,RP,26,110.4,-191.4,1,1,,,,,,,,FA,marcel-2027
+20198,Ben Bowden,ATH,RP,RP,32,89.3,-144.0,1,1,,,,,,,,FA,marcel-2027
+22932,Prelander Berroa,CHW,RP,RP,27,102.2,-198.9,1,1,,,,,,,,FA,marcel-2027
+13133,Derek Law,ARI,RP,RP,36,141.7,-102.0,1,1,,,,,,,,FA,marcel-2027
+21623,Grant Wolfram,BAL,RP,RP,30,266.6,-32.4,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Providence Grays,marcel-2027
+21461,Cole Sands,MIN,RP,RP,29,189.7,-118.3,1,1,,,,,,,,FA,marcel-2027
+30203,Jackson Jobe,DET,SP,SP,24,311.3,-431.0,1,,4.0,-3.0,0,6.0,-5.0,0.0,1.0,Seiya Prayer For My Team,marcel-2027
+27514,Kyle Hurt,LAD,RP,RP,29,235.0,-76.6,1,1,,,,,,,,FA,marcel-2027
+19614,Cionel Pérez,NYM,RP,RP,31,204.1,-71.7,1,1,,,,,,,,FA,marcel-2027
+19244,Cole Irvin,LAD,SP,SP,33,205.1,-312.1,1,1,,,,,,,,FA,marcel-2027
+22092,Kyle Tyler,,SP,SP,30,221.4,-296.8,1,1,,,,,,,,FA,marcel-2027
+12997,Colten Brewer,,RP,RP,34,102.0,-124.9,1,1,,,,,,,,FA,marcel-2027
+17536,Ryan Burr,TOR,RP,RP,33,112.5,-129.4,1,1,,,,,,,,FA,marcel-2027
+19315,Matt Krook,WSN,RP,RP,32,91.2,-142.8,1,1,,,,,,,,FA,marcel-2027
+26443,Sam Aldegheri,LAA,SP,SP,25,108.1,-819.5,1,1,,,,,,,,FA,marcel-2027
+33851,Quinn Mathews,STL,SP,SP,26,350.5,-256.6,1,,2.0,-1.0,0,4.0,-3.0,0.0,0.0,Peel A Section,marcel-2027
+13619,Jakob Junis,TEX,RP,RP,34,295.0,-13.4,1,1,,,,,,,,FA,marcel-2027
+17282,Michael Kopech,,RP,RP,31,135.6,-114.9,1,1,,,,,,,,FA,marcel-2027
+32065,Erik Tolman,WSN,RP,RP,28,150.0,-154.9,1,1,,,,,,,,FA,marcel-2027
+18554,Enmanuel De Jesus,DET,RP,RP,30,205.7,-70.7,1,1,,,,,,,,FA,marcel-2027
+17464,Jonathan Hernández,LAD,RP,RP,30,127.6,-119.9,1,1,,,,,,,,FA,marcel-2027
+24453,Justin Martinez,ARI,RP,RP,25,186.9,-167.7,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Chin Music Choir,marcel-2027
+19646,Kyle Hart,SDP,SP,SP,34,273.5,-227.6,1,1,,,,,,,,FA,marcel-2027
+15507,Hunter Harvey,CHC,RP,RP,32,146.0,-108.3,1,1,,,,,,,,FA,marcel-2027
+31953,Riley Cornelio,WSN,RP,RP,27,176.7,-130.3,1,1,,,,,,,,FA,marcel-2027
+33664,Andrew Sears,DET,RP,RP,24,112.7,-262.6,1,1,,,,,,,,FA,marcel-2027
+19666,Jason Alexander,HOU,SP,SP,34,245.2,-252.1,1,1,,,,,,,,FA,marcel-2027
+27688,Jack Kochanowicz,LAA,SP,SP,26,257.5,-384.8,1,1,,,,,,,,FA,marcel-2027
+10197,Shelby Miller,CHC,RP,RP,36,150.3,-97.0,1,1,,,,,,,,FA,marcel-2027
+19481,Tyler Ferguson,CHC,RP,RP,33,196.6,-76.5,1,1,,,,,,,,FA,marcel-2027
+25942,Andrew Nardi,MIA,RP,RP,28,175.9,-131.0,1,1,,,,,,,,FA,marcel-2027
+28040,Eiberson Castellano,COL,RP,RP,26,106.9,-194.6,1,1,,,,,,,,FA,marcel-2027
+26406,Ben Peoples,TEX,RP,RP,26,109.8,-191.9,1,1,,,,,,,,FA,marcel-2027
+23265,Cody Bolton,HOU,RP,RP,29,119.8,-182.7,1,1,,,,,,,,FA,marcel-2027
+13932,Dietrich Enns,BAL,RP,RP,36,163.0,-89.7,1,1,,,,,,,,FA,marcel-2027
+31857,Connor Prielipp,MIN,SP,SP,26,519.6,-23.7,1,,5.0,-4.0,0,7.0,-6.0,0.0,1.0,Twin Pines 🌲🌲,marcel-2027
+13420,Matt Koch,,RP,RP,36,91.1,-131.3,1,1,,,,,,,,FA,marcel-2027
+14168,José Berríos,TOR,SP,SP,33,284.5,-237.4,1,1,,,,,,,,FA,marcel-2027
+21212,J.P. France,,RP,RP,32,92.0,-142.3,1,1,,,,,,,,FA,marcel-2027
+15551,Mark Leiter Jr.,ATH,RP,RP,36,244.0,-42.8,1,1,,,,,,,,FA,marcel-2027
+26907,Jairo Iriarte,CHW,RP,RP,25,95.4,-284.7,1,1,,,,,,,,FA,marcel-2027
+13892,Paul Sewald,TOR,RP,RP,37,280.0,-22.0,1,1,,,,,,,,FA,marcel-2027
+20153,Nick Nelson,,RP,RP,31,99.2,-137.8,1,1,,,,,,,,FA,marcel-2027
+15145,Justin Topa,NYY,RP,RP,36,171.7,-84.6,1,1,,,,,,,,FA,marcel-2027
+16207,Spencer Turnbull,,RP,RP,34,101.1,-125.5,1,1,,,,,,,,FA,marcel-2027
+22754,Gerardo Carrillo,ARI,RP,RP,28,140.0,-164.1,1,1,,,,,,,,FA,marcel-2027
+16610,J.P. Feyereisen,LAD,RP,RP,34,73.0,-141.7,1,1,,,,,,,,FA,marcel-2027
+21761,José Marte,NYM,RP,RP,31,102.2,-135.9,1,1,,,,,,,,FA,marcel-2027
+33787,Kade Morris,ATH,RP,RP,25,64.3,-324.5,1,1,,,,,,,,FA,marcel-2027
+14706,Anthony Banda,MIN,RP,RP,33,235.0,-52.3,1,1,,,,,,,,FA,marcel-2027
+30031,Julian Aguiar,CIN,RP,RP,26,74.8,-224.2,1,1,,,,,,,,FA,marcel-2027
+16587,Erik Swanson,,RP,RP,33,75.8,-152.5,1,1,,,,,,,,FA,marcel-2027
+19407,Ronel Blanco,HOU,SP,SP,33,335.6,-189.3,1,1,,,,,,,,FA,marcel-2027
+29946,Grant Hartwig,,RP,RP,29,90.1,-210.1,1,1,,,,,,,,FA,marcel-2027
+23811,Luarbert Arias,,RP,RP,26,80.3,-219.1,1,1,,,,,,,,FA,marcel-2027
+2036,Clayton Kershaw,,SP,SP,39,329.5,-179.2,1,1,,,,,,,,FA,marcel-2027
+31880,Alex Hoppe,BAL,RP,RP,28,211.3,-98.4,1,1,,,,,,,,FA,marcel-2027

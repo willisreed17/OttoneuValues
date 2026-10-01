@@ -3,16 +3,44 @@
 Ottoneu H2H points valuation tool. Keep this file short — it is auto-loaded every
 session, so anything that belongs in a doc belongs in the doc, not here.
 
+## Git: only the owner commits
+
+Never run `git commit` (or push, amend, or open a PR) in this repo, even when
+work is finished, tests pass, or a task ends. Leave changes uncommitted and say
+what changed; the owner reviews and commits. Staging with `git mv` for a
+requested move is fine.
+
+## Repo layout
+
+- `engine/` — the valuation engine: `value.py`, `backtest.py`, `marcel.py` (plus data
+  prep that never changes pricing: `next_season.py`, `zips_bed.py`, `combine_ros.py`,
+  `convert_fg_export.py`), its
+  `data/` and `out/`, and its context docs. **Run all engine commands from
+  inside `engine/`** (paths are relative to the working directory).
+- `ui/` — the web app: `app.py`, `web/`, and `UI_FUTURE_DEV.md`. Reads
+  `engine/out/` and never changes the engine.
+- `enhancements/` — planned work not yet built (`ENHANCEMENTS.md`).
+- `.claude/agents/ui-agent.md` — the UI agent (Claude Code requires it here).
+
 ## Read first
 
-1. `NEXT_STEPS.md` — the current work queue and the open question for the user.
-2. `APPROACH.md` — **required before changing valuation logic.** §6 lists 32
+1. `engine/NEXT_STEPS.md` — the current work queue and the open question for the user.
+2. `engine/APPROACH.md` — **required before changing valuation logic.** §6 lists 35
    traps that each already produced confident, wrong output. Several are
    non-obvious; every one cost a wrong answer once.
+3. `ui/UI_FUTURE_DEV.md` — roadmap for the web app: decision-support pages
+   (Rankings, Keepers, Auction, Trades, Lineup). Rankings and Keepers are built.
+4. `enhancements/ENHANCEMENTS.md` — planned, not built.
 
-`README.md` is how to run it and how to refresh each input CSV.
+**Goal:** keep the valuation engine as-is and build a web app around its output
+for dashboards that give complete insight into Ottoneu. The engine stays the
+source of truth; the web app never changes it.
 
-** After each update made, review and if necessary revise the 'Next_Steps.md' and 'Approach.md'
+`engine/README.md` is how to run it and how to refresh each input CSV.
+
+** After each update made, review and if necessary revise `engine/NEXT_STEPS.md` and `engine/APPROACH.md`
+
+## To test run the web app: `py -3.13 ui/app.py` (from the repo root)
 
 ## The valuation engine is locked
 
@@ -38,7 +66,9 @@ already set in this project:**
   --selftest`, `marcel.py --selftest`, `backtest.py --market` (watch for
   error that's monotone in price, not just its sign), and — for anything
   touching `RELIABILITY`, depth, or positional scarcity — `marcel.py
-  --league-sim` (does `value` still beat `points` beats `random`?). Record
+  --league-sim` (realistic-roster sim, rebuilt 2026-09-23; baseline is points > value >
+  random on every bed, see NEXT_STEPS Task 16, so compare against that). The `marcel.py` checks
+  default to the Steamer bed; `--zips` / `--marcel` give the other two beds. Record
   the before/after numbers in `NEXT_STEPS.md`; a change without them didn't
   happen as far as the next session is concerned.
 - **If the two-signal bar isn't cleared, log the disagreement and stop** —
@@ -51,7 +81,7 @@ reason to touch pricing logic.
 
 ## Environment
 
-Run everything with `py -3.13`. The default interpreter is Python 3.15 alpha with
+Run everything with `py -3.13`, engine commands from inside `engine/`. The default interpreter is Python 3.15 alpha with
 no pandas wheels — which is why both scripts are stdlib-only. Keep them that way.
 
 Verify health before and after changes; all three should print `selftest ok`:
@@ -64,20 +94,26 @@ py -3.13 marcel.py --selftest
 
 `marcel.py` builds the ten-season test bed from statsapi (cached in `data/mlb/`,
 gitignored). To score a pricing change:
-`py -3.13 backtest.py --dollars --backtest out/backtest_2024.csv` — the
+`py -3.13 backtest.py --dollars --backtest out/backtest_2024_steamer.csv` — the
 **by-assigned-position** table is the only view that can see a depth or
 reliability error; the price-tier table averages across positions and hides it.
 
 `keeper_npv` needs `data/aging.csv` and `data/birthdates.csv`: rerun
-`py -3.13 marcel.py --aging` after every projection refresh (the Steamer export
+`py -3.13 marcel.py --aging` (Steamer-bed measurement) after every projection refresh (the Steamer export
 must carry `xMLBAMID` — see the README recipe).
 
 ## Hard constraints
 
-- **FanGraphs and Ottoneu are behind Cloudflare and 403 every scripted client**,
-  pybaseball included. Don't try to script them, don't reach for a scraping
-  library, don't lift `cf_clearance`, don't sweep league IDs. Data is
-  bring-your-own via the browser; refresh recipes are in `README.md`.
+- **FanGraphs projections are behind Cloudflare and 403 every scripted client**,
+  pybaseball included. Don't script them, don't reach for a scraping library,
+  don't lift `cf_clearance`. Steamer is bring-your-own via the browser (recipe in
+  `engine/README.md`).
+- **Ottoneu is not blocked** (corrected 2026-09-24; this file used to say it
+  was). `/{league}/rosterexport`, `/api/league?leagueID=…&output=xml`, team pages
+  and `/averageValues?export=csv&gameType=5` all answer plain requests with no
+  login. The web app's *Update from Ottoneu* button uses exactly these. Stay
+  polite: only the user's own league, only on demand (~15 requests per update),
+  and still don't sweep league IDs.
 - `statsapi.mlb.com` and Baseball Savant *are* open to plain requests. Prefer
   them wherever they suffice.
 - Market prices calibrate, they don't validate. A model tuned to fit salaries

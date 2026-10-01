@@ -1,0 +1,20 @@
+hitters written 1900, pitchers written 1838
+FPTS recomputed from components with bt.points: hitters 1902 checked, 0 off >1%; pitchers 1838 checked, 0 off >1%
+hitters with no minpos in data/steamer_bat.csv (set to DH -> Util): 17, of which PA >= 100: 17
+  Scott Bandura (PA 512)
+  Josue De Paula (PA 504)
+  Wes Clarke (PA 468)
+  Carter Howell (PA 458)
+  Drew Vogel (PA 418)
+  Jacob Buchberger (PA 396)
+  Justin Wishkoski (PA 377)
+  Jack Dunn (PA 375)
+  Carson Jones (PA 358)
+  Emmanuel Rodriguez (PA 347)
+  Miguel Santos (PA 343)
+  Rudy Martin Jr. (PA 331)
+  Mitchell Daly (PA 320)
+  Eddy Alvarez (PA 302)
+  Myles Emmerson (PA 279)
+  Niko Goodrum (PA 259)
+  Nolan Clifford (PA 243)
